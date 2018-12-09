@@ -366,17 +366,25 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Fase1.xml</layout>
+        <layout-folder name="Capítulo 1">
+            <layout>Cap1 Fase1.xml</layout>
+        </layout-folder>
+        <layout-folder name="Capítulo 2">
+            <layout>Cap2 Fase1.xml</layout>
+        </layout-folder>
         <layout>Loja.xml</layout>
-        <layout>Fase2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Eventos Gerais">
             <event-sheet>Eventos Carros.xml</event-sheet>
         </event-folder>
-        <event-sheet>Eventos Fase1.xml</event-sheet>
+        <event-folder name="Capítulo 1">
+            <event-sheet>Eventos Cap1 Fase1.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Capítulo 2">
+            <event-sheet>Eventos Cap2 Fase1.xml</event-sheet>
+        </event-folder>
         <event-sheet>Eventos Loja.xml</event-sheet>
-        <event-sheet>Eventos fase 2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
