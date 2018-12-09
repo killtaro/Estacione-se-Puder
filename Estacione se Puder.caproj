@@ -330,7 +330,7 @@
                 <plugin id="Touch" />
             </object-type>
         </object-folder>
-        <object-folder name="Carros">
+        <object-folder name="Player">
             <object-type name="carro" sid="236195351824496">
                 <plugin id="Sprite" />
                 <behaviors>
@@ -471,52 +471,6 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado1" sid="701218169407255">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Solid" sid="885643985440430">
-                        <behavior id="solid" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="718978879906912" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.501247" original-source="C:\Projetos\Estacione-se-Puder\Animations\carroEstacionado\Default\000.png">
-                            <collision-poly>
-                                <point x="0.0746269" y="0.0498753" />
-                                <point x="0.5" y="0.00249377" />
-                                <point x="0.925373" y="0.0498753" />
-                                <point x="0.925373" y="0.498753" />
-                                <point x="0.996269" y="0.997506" />
-                                <point x="0.00373134" y="0.997506" />
-                                <point x="0.0746269" y="0.498753" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="carroEstacionado2" sid="854590272236678">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Solid" sid="982940272085833">
-                        <behavior id="solid" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703155429327295" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.501247" original-source="C:\Projetos\Estacione-se-Puder\Animations\carroEstacionado\Default\004.png">
-                            <collision-poly>
-                                <point x="0.0746269" y="0.0498753" />
-                                <point x="0.5" y="0.00249377" />
-                                <point x="0.925373" y="0.0498753" />
-                                <point x="0.925373" y="0.498753" />
-                                <point x="0.996269" y="0.997506" />
-                                <point x="0.00373134" y="0.997506" />
-                                <point x="0.0746269" y="0.498753" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
         </object-folder>
         <object-folder name="Obstáculos">
             <object-type name="parede" sid="306459936002053">
@@ -597,6 +551,367 @@
             </object-type>
             <object-type name="Text" sid="708909974305382">
                 <plugin id="Text" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Carros Estacionados">
+            <object-type name="carroEstacionado9" sid="783610894164303">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="222814619255547">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506856588331148" speed="5">
+                        <frame duration="1" hotspotX="0.720149" hotspotY="0.985037" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(4).png">
+                            <collision-poly>
+                                <point x="0" y="0.137157" />
+                                <point x="0.0858209" y="0.0523691" />
+                                <point x="0.227612" y="0" />
+                                <point x="0.787313" y="0" />
+                                <point x="0.910447" y="0.0573566" />
+                                <point x="1" y="0.135787" />
+                                <point x="1" y="0.975658" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.975658" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado8" sid="437206292026584">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="110378441744673">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186435793777405" speed="5">
+                        <frame duration="1" hotspotX="0.720149" hotspotY="0.985037" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(3).png">
+                            <collision-poly>
+                                <point x="0" y="0.134663" />
+                                <point x="0.0820895" y="0.0448878" />
+                                <point x="0.220149" y="0" />
+                                <point x="0.794776" y="0" />
+                                <point x="0.921642" y="0.0473815" />
+                                <point x="1" y="0.148256" />
+                                <point x="1" y="0.975658" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.975658" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado7" sid="493325250058739">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="932813904504041">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894779112743620" speed="5">
+                        <frame duration="1" hotspotX="0.720149" hotspotY="0.985037" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(2).png">
+                            <collision-poly>
+                                <point x="0" y="0.134663" />
+                                <point x="0.0820896" y="0.0498753" />
+                                <point x="0.220149" y="0" />
+                                <point x="0.776119" y="0" />
+                                <point x="0.91791" y="0.0448878" />
+                                <point x="1" y="0.1308" />
+                                <point x="1" y="0.975658" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.975658" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado6" sid="511876861748460">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="716862157387245">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="799278208648956" speed="5">
+                        <frame duration="1" hotspotX="0.720149" hotspotY="0.985037" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(1).png">
+                            <collision-poly>
+                                <point x="0" y="0.147132" />
+                                <point x="0.0746269" y="0.0498753" />
+                                <point x="0.19403" y="0" />
+                                <point x="0.787313" y="0" />
+                                <point x="0.929105" y="0.0473816" />
+                                <point x="1" y="0.140775" />
+                                <point x="1" y="0.975658" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.975658" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado5" sid="341518968027869">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="267495252297649">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="379011191047282" speed="5">
+                        <frame duration="1" hotspotX="0.570895" hotspotY="0.668329" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro10 Estacionado4.png">
+                            <collision-poly>
+                                <point x="0" y="0.137157" />
+                                <point x="0.0820895" y="0.0473815" />
+                                <point x="0.218284" y="0" />
+                                <point x="0.779851" y="0" />
+                                <point x="0.923507" y="0.0524016" />
+                                <point x="1" y="0.157172" />
+                                <point x="1" y="0.663472" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.663472" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado4" sid="837661886254449">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="193646494551815">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637806035120964" speed="5">
+                        <frame duration="1" hotspotX="0.570895" hotspotY="0.668329" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro10 Estacionado3.png">
+                            <collision-poly>
+                                <point x="0" y="0.142145" />
+                                <point x="0.0820895" y="0.0498753" />
+                                <point x="0.225746" y="0" />
+                                <point x="0.787313" y="0.00124687" />
+                                <point x="0.925373" y="0.0542394" />
+                                <point x="1" y="0.142145" />
+                                <point x="1" y="0.663472" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.663472" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado3" sid="652472608772661">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="212027555133222">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365704531630476" speed="5">
+                        <frame duration="1" hotspotX="0.570895" hotspotY="0.668329" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro10 Estacionado2.png">
+                            <collision-poly>
+                                <point x="0" y="0.144638" />
+                                <point x="0.0820896" y="0.0523691" />
+                                <point x="0.22388" y="0" />
+                                <point x="0.772388" y="0" />
+                                <point x="0.910448" y="0.0511873" />
+                                <point x="1" y="0.15212" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.663472" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado2" sid="854590272236678">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="982940272085833">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703155429327295" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501247" original-source="C:\Projetos\Estacione-se-Puder\Animations\carroEstacionado\Default\004.png">
+                            <collision-poly>
+                                <point x="0.0746269" y="0.0498753" />
+                                <point x="0.238806" y="0" />
+                                <point x="0.779851" y="0" />
+                                <point x="0.925373" y="0.0498753" />
+                                <point x="1" y="0.157107" />
+                                <point x="0.996269" y="0.997506" />
+                                <point x="0.00373134" y="0.997506" />
+                                <point x="0" y="0.144638" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado14" sid="462157544037012">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="447065254288814">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="474134394692071" speed="5">
+                        <frame duration="1" hotspotX="3.14925" hotspotY="4.8803" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado.png">
+                            <collision-poly>
+                                <point x="0" y="0.157107" />
+                                <point x="0.0820896" y="0.0473815" />
+                                <point x="0.238806" y="0" />
+                                <point x="0.787313" y="0" />
+                                <point x="0.921642" y="0.0548628" />
+                                <point x="1" y="0.147132" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado13" sid="778458883472458">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="169274482654106">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424968054176665" speed="5">
+                        <frame duration="1" hotspotX="1.71269" hotspotY="2.72319" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(8).png">
+                            <collision-poly>
+                                <point x="0" y="0.129676" />
+                                <point x="0.0858209" y="0.0523691" />
+                                <point x="0.212687" y="0" />
+                                <point x="0.787313" y="0" />
+                                <point x="0.91791" y="0.0573566" />
+                                <point x="1" y="0.139651" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado12" sid="219383989652479">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="278098275687946">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="562450522484159" speed="5">
+                        <frame duration="1" hotspotX="1.03731" hotspotY="1.58603" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(7).png">
+                            <collision-poly>
+                                <point x="0" y="0.139651" />
+                                <point x="0.0895522" y="0.0498753" />
+                                <point x="0.227612" y="0" />
+                                <point x="0.791045" y="0" />
+                                <point x="0.932836" y="0.0448878" />
+                                <point x="1" y="0.144638" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado11" sid="297773234692457">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="257052322237373">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="904507585550451" speed="5">
+                        <frame duration="1" hotspotX="0.720149" hotspotY="0.985037" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(6).png">
+                            <collision-poly>
+                                <point x="0" y="0.144638" />
+                                <point x="0.0820896" y="0.0473815" />
+                                <point x="0.212687" y="0" />
+                                <point x="0.776119" y="0" />
+                                <point x="0.936567" y="0.0548628" />
+                                <point x="1" y="0.140775" />
+                                <point x="1" y="0.975658" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.975658" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado10" sid="536826346282150">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="543373003717394">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663875033902350" speed="5">
+                        <frame duration="1" hotspotX="0.720149" hotspotY="0.985037" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(5).png">
+                            <collision-poly>
+                                <point x="0" y="0.127182" />
+                                <point x="0.0820895" y="0.0548628" />
+                                <point x="0.216418" y="0" />
+                                <point x="0.783582" y="0.00498753" />
+                                <point x="0.925373" y="0.0523691" />
+                                <point x="1" y="0.143269" />
+                                <point x="1" y="0.975658" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.975658" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="carroEstacionado1" sid="701218169407255">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="885643985440430">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="718978879906912" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501247" original-source="C:\Projetos\Estacione-se-Puder\Animations\carroEstacionado\Default\000.png">
+                            <collision-poly>
+                                <point x="0.0746269" y="0.0498753" />
+                                <point x="0.227612" y="0" />
+                                <point x="0.783582" y="0.00249377" />
+                                <point x="0.917911" y="0.0511221" />
+                                <point x="1" y="0.147132" />
+                                <point x="0.996269" y="0.997506" />
+                                <point x="0.00373134" y="0.997506" />
+                                <point x="0" y="0.159601" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
             </object-type>
         </object-folder>
     </object-folder>
