@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Carros</name>
+    <events>
+        <event-group description="" sid="936117090746439" title="Los Carritos">
+            <sub-events>
+                <event-block sid="500873572914656">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="966534888568281" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="509037871368287" type="carro">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="556223217879148" type="carro">
+                            <param id="0" name="Max Speed">400</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="787546486949337" type="carro">
+                            <param id="0" name="Acceleration">250</param>
+                        </action>
+                        <action behavior="Car" id="6" name="Set deceleration" sid="294592874388164" type="carro">
+                            <param id="0" name="Deceleration">350</param>
+                        </action>
+                        <action behavior="Car" id="9" name="Set steer speed" sid="540393240893067" type="carro">
+                            <param id="0" name="Steer speed">275</param>
+                        </action>
+                        <action behavior="Car" id="10" name="Set drift recover" sid="188960314380733" type="carro">
+                            <param id="0" name="Drift recover">235</param>
+                        </action>
+                        <action behavior="Car" id="11" name="Set friction" sid="126028237893982" type="carro">
+                            <param id="0" name="Friction">0.4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="597598920381389">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="432756879154278" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="774111226037698" type="carro">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="429855474819463" type="carro">
+                            <param id="0" name="Max Speed">300</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="455805047198393" type="carro">
+                            <param id="0" name="Acceleration">150</param>
+                        </action>
+                        <action behavior="Car" id="6" name="Set deceleration" sid="583862312643249" type="carro">
+                            <param id="0" name="Deceleration">400</param>
+                        </action>
+                        <action behavior="Car" id="9" name="Set steer speed" sid="880765825266341" type="carro">
+                            <param id="0" name="Steer speed">225</param>
+                        </action>
+                        <action behavior="Car" id="10" name="Set drift recover" sid="334780696797933" type="carro">
+                            <param id="0" name="Drift recover">185</param>
+                        </action>
+                        <action behavior="Car" id="11" name="Set friction" sid="276794776366529" type="carro">
+                            <param id="0" name="Friction">0.2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="553900333500111">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="694601593523619" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="769233157213398" type="carro">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="745638155251215" type="carro">
+                            <param id="0" name="Max Speed">550</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="678848588008583" type="carro">
+                            <param id="0" name="Acceleration">320</param>
+                        </action>
+                        <action behavior="Car" id="6" name="Set deceleration" sid="814080910736416" type="carro">
+                            <param id="0" name="Deceleration">420</param>
+                        </action>
+                        <action behavior="Car" id="9" name="Set steer speed" sid="586197964939467" type="carro">
+                            <param id="0" name="Steer speed">200</param>
+                        </action>
+                        <action behavior="Car" id="10" name="Set drift recover" sid="506124657375184" type="carro">
+                            <param id="0" name="Drift recover">150</param>
+                        </action>
+                        <action behavior="Car" id="11" name="Set friction" sid="249869421962876" type="carro">
+                            <param id="0" name="Friction">0.6</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="413717636663158">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="606792071243506" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="507980826190812" type="carro">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="883937256235768" type="carro">
+                            <param id="0" name="Max Speed">425</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="398785555178476" type="carro">
+                            <param id="0" name="Acceleration">300</param>
+                        </action>
+                        <action behavior="Car" id="6" name="Set deceleration" sid="897266965794121" type="carro">
+                            <param id="0" name="Deceleration">360</param>
+                        </action>
+                        <action behavior="Car" id="9" name="Set steer speed" sid="663390257001774" type="carro">
+                            <param id="0" name="Steer speed">245</param>
+                        </action>
+                        <action behavior="Car" id="10" name="Set drift recover" sid="220734197827169" type="carro">
+                            <param id="0" name="Drift recover">200</param>
+                        </action>
+                        <action behavior="Car" id="11" name="Set friction" sid="893666273156664" type="carro">
+                            <param id="0" name="Friction">0.4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="678763033356868">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="585703820545495" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="651600881881170" type="carro">
+                            <param id="0" name="Frame number">4</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="644904084928478" type="carro">
+                            <param id="0" name="Max Speed">480</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="487416324607438" type="carro">
+                            <param id="0" name="Acceleration">400</param>
+                        </action>
+                        <action behavior="Car" id="6" name="Set deceleration" sid="775224784419084" type="carro">
+                            <param id="0" name="Deceleration">380</param>
+                        </action>
+                        <action behavior="Car" id="9" name="Set steer speed" sid="401036313108152" type="carro">
+                            <param id="0" name="Steer speed">295</param>
+                        </action>
+                        <action behavior="Car" id="10" name="Set drift recover" sid="465035058788093" type="carro">
+                            <param id="0" name="Drift recover">285</param>
+                        </action>
+                        <action behavior="Car" id="11" name="Set friction" sid="488772511416883" type="carro">
+                            <param id="0" name="Friction">0.4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="193924188395963">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="793512246409040" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="423333886736035" type="carro">
+                            <param id="0" name="Frame number">5</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="140730531210613" type="carro">
+                            <param id="0" name="Max Speed">480</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="886694494429090" type="carro">
+                            <param id="0" name="Acceleration">400</param>
+                        </action>
+                        <action behavior="Car" id="6" name="Set deceleration" sid="634495658377923" type="carro">
+                            <param id="0" name="Deceleration">380</param>
+                        </action>
+                        <action behavior="Car" id="9" name="Set steer speed" sid="910671762271097" type="carro">
+                            <param id="0" name="Steer speed">295</param>
+                        </action>
+                        <action behavior="Car" id="10" name="Set drift recover" sid="629994677305210" type="carro">
+                            <param id="0" name="Drift recover">285</param>
+                        </action>
+                        <action behavior="Car" id="11" name="Set friction" sid="708010921464850" type="carro">
+                            <param id="0" name="Friction">0.4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="379918541783654">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="464810429018470" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="164678238064007" type="carro">
+                            <param id="0" name="Frame number">6</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="895505705279860" type="carro">
+                            <param id="0" name="Max Speed">480</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="694146715588112" type="carro">
+                            <param id="0" name="Acceleration">400</param>
+                        </action>
+                        <action behavior="Car" id="6" name="Set deceleration" sid="127742165262141" type="carro">
+                            <param id="0" name="Deceleration">380</param>
+                        </action>
+                        <action behavior="Car" id="9" name="Set steer speed" sid="491183827964902" type="carro">
+                            <param id="0" name="Steer speed">295</param>
+                        </action>
+                        <action behavior="Car" id="10" name="Set drift recover" sid="622326699744321" type="carro">
+                            <param id="0" name="Drift recover">285</param>
+                        </action>
+                        <action behavior="Car" id="11" name="Set friction" sid="458704777597649" type="carro">
+                            <param id="0" name="Friction">0.4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="724893543305871">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="155582760821000" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="645813385042597" type="carro">
+                            <param id="0" name="Frame number">7</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="444144509586469" type="carro">
+                            <param id="0" name="Max Speed">480</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="173174213589966" type="carro">
+                            <param id="0" name="Acceleration">400</param>
+                        </action>
+                        <action behavior="Car" id="6" name="Set deceleration" sid="496170772289468" type="carro">
+                            <param id="0" name="Deceleration">380</param>
+                        </action>
+                        <action behavior="Car" id="9" name="Set steer speed" sid="707029859588107" type="carro">
+                            <param id="0" name="Steer speed">295</param>
+                        </action>
+                        <action behavior="Car" id="10" name="Set drift recover" sid="634701709104910" type="carro">
+                            <param id="0" name="Drift recover">285</param>
+                        </action>
+                        <action behavior="Car" id="11" name="Set friction" sid="237778538720218" type="carro">
+                            <param id="0" name="Friction">0.4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="217256035482067">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="876647265077931" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="734308843346077" type="carro">
+                            <param id="0" name="Frame number">8</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="383865455813468" type="carro">
+                            <param id="0" name="Max Speed">480</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="627584896459184" type="carro">
+                            <param id="0" name="Acceleration">400</param>
+                        </action>
+                        <action behavior="Car" id="6" name="Set deceleration" sid="757175989958025" type="carro">
+                            <param id="0" name="Deceleration">380</param>
+                        </action>
+                        <action behavior="Car" id="9" name="Set steer speed" sid="410840957660448" type="carro">
+                            <param id="0" name="Steer speed">295</param>
+                        </action>
+                        <action behavior="Car" id="10" name="Set drift recover" sid="880809465807901" type="carro">
+                            <param id="0" name="Drift recover">285</param>
+                        </action>
+                        <action behavior="Car" id="11" name="Set friction" sid="601826658893530" type="carro">
+                            <param id="0" name="Friction">0.4</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

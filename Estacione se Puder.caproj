@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Estacione se Puder</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>26500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Car" version="1">Car</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="glowhorizontal">Glow Horizontal</effect>
+        <effect author="Scirra" id="glowvertical">Glow Vertical</effect>
+    </used-effects>
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>800</width>
+        <height>400</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Superfícies">
+            <object-type name="asfalto" sid="523930573412658">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\asfalto.png" />
+            </object-type>
+            <object-type name="borda" sid="511064439646583">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="832999051859371">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\pixel\Downloads\Borda calçada(1).png" />
+            </object-type>
+            <object-type name="calcada" sid="167461108493864">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\pixel\Downloads\calçada2(1).png" />
+            </object-type>
+            <object-type name="grama" sid="303596449187048">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\grama.png" />
+            </object-type>
+            <object-type name="marcavaga" sid="470938837178382">
+                <plugin id="TiledBg" />
+                <texture />
+            </object-type>
+        </object-folder>
+        <object-type name="parede" sid="306459936002053">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\pixel\Downloads\Parede1(1).png" />
+        </object-type>
+        <object-type name="carro" sid="236195351824496">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Car" sid="132543584272972">
+                    <behavior id="Car" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="343495674925350">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="256347100117144">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="539104986536067" speed="5">
+                    <frame duration="1" hotspotX="0.439636" hotspotY="-0.00373134" original-source="C:\Users\pixel\Downloads\Carro.png">
+                        <image-point name="Imagepoint 1" x="0.455581" y="-0.00373134" />
+                        <image-point name="Imagepoint 2" x="0.542141" y="-0.00373134" />
+                        <collision-poly>
+                            <point x="0.350797" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="0.348519" y="0.00373137" />
+                            <point x="0.824601" y="0.00373137" />
+                            <point x="0.952164" y="0.149254" />
+                            <point x="1" y="0.30737" />
+                            <point x="1" y="0.704291" />
+                            <point x="0.953303" y="0.860075" />
+                            <point x="0.813212" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.370874" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Carro2.png">
+                        <collision-poly>
+                            <point x="0.850485" y="0.003268" />
+                            <point x="0.959223" y="0.117647" />
+                            <point x="1" y="0.256536" />
+                            <point x="1" y="0.758579" />
+                            <point x="0.955339" y="0.875" />
+                            <point x="0.850485" y="0.996732" />
+                            <point x="0.370874" y="0.996732" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="0.370874" y="0.003268" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.480084" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Carro3.png">
+                        <collision-poly>
+                            <point x="1" y="0.317164" />
+                            <point x="1" y="0.544776" />
+                            <point x="1" y="0.705224" />
+                            <point x="0.828092" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.00209641" y="0.5" />
+                            <point x="0" y="0" />
+                            <point x="0.830189" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Carro4.png">
+                        <collision-poly>
+                            <point x="0.792135" y="0" />
+                            <point x="0.962547" y="0.104478" />
+                            <point x="1" y="0.309701" />
+                            <point x="1" y="0.714552" />
+                            <point x="0.945693" y="0.910448" />
+                            <point x="0.775281" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0.00373143" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.44466" hotspotY="0.570895" original-source="C:\Users\pixel\Downloads\Carro5.png">
+                        <collision-poly>
+                            <point x="0.951456" y="0.115672" />
+                            <point x="1" y="0.294776" />
+                            <point x="1" y="0.705224" />
+                            <point x="0.945631" y="0.891791" />
+                            <point x="0.848543" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="0.842718" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.423387" hotspotY="0.570895" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro6.png">
+                        <collision-poly>
+                            <point x="0.885081" y="0" />
+                            <point x="0.94254" y="0.123134" />
+                            <point x="1" y="0.231343" />
+                            <point x="1" y="0.783582" />
+                            <point x="0.939516" y="0.880597" />
+                            <point x="0.883064" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.00201613" y="0.570895" />
+                            <point x="0" y="0" />
+                            <point x="0.274194" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.464419" hotspotY="0.570895" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro7.png">
+                        <collision-poly>
+                            <point x="0.853933" y="0.00373134" />
+                            <point x="0.949438" y="0.106343" />
+                            <point x="1" y="0.291045" />
+                            <point x="1" y="0.699626" />
+                            <point x="0.955056" y="0.895522" />
+                            <point x="0.842697" y="1" />
+                            <point x="0.11236" y="0.99347" />
+                            <point x="0.0580525" y="0.889925" />
+                            <point x="0" y="0.772388" />
+                            <point x="0" y="0.235075" />
+                            <point x="0.0524345" y="0.108209" />
+                            <point x="0.117978" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.428839" hotspotY="0.470769" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro8.png">
+                        <collision-poly>
+                            <point x="1" y="0.175385" />
+                            <point x="1" y="0.501538" />
+                            <point x="1" y="0.821539" />
+                            <point x="0.883895" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="0.882022" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.387479" hotspotY="0.570895" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro9.png">
+                        <collision-poly>
+                            <point x="0.967851" y="0.0858209" />
+                            <point x="1" y="0.238806" />
+                            <point x="1" y="0.772388" />
+                            <point x="0.967851" y="0.921642" />
+                            <point x="0.898477" y="1" />
+                            <point x="0.069374" y="1" />
+                            <point x="0" y="0.839552" />
+                            <point x="0" y="0.145522" />
+                            <point x="0.0744501" y="0" />
+                            <point x="0.900169" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="644089788571661">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Text" sid="708909974305382">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="casa" sid="135956572853002">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="373421285572068">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775609493402839" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifício6.png">
+                        <collision-poly>
+                            <point x="0" y="0.527344" />
+                            <point x="1" y="0.53125" />
+                            <point x="1" y="0.523438" />
+                            <point x="1" y="0.939286" />
+                            <point x="0.573661" y="0.944643" />
+                            <point x="0.574219" y="1" />
+                            <point x="0.429688" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.503571" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="carroEstacionado" sid="417732335424363">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="421708301862801">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="632339962327524" speed="5">
+                    <frame duration="1" hotspotX="0.570895" hotspotY="0.665835" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro10 Estacionado.png">
+                        <collision-poly>
+                            <point x="0" y="0.147132" />
+                            <point x="0.085821" y="0.0498753" />
+                            <point x="0.233209" y="0" />
+                            <point x="0.791978" y="0" />
+                            <point x="0.91791" y="0.053616" />
+                            <point x="0.996269" y="0.144638" />
+                            <point x="0.996269" y="0.665835" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.00373134" y="0.665835" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.570895" hotspotY="0.665835" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro10 Estacionado2.png">
+                        <collision-poly>
+                            <point x="0.0746269" y="0.0972569" />
+                            <point x="0.570895" y="0.00249378" />
+                            <point x="0.996269" y="0.144638" />
+                            <point x="0.996269" y="0.665835" />
+                            <point x="0.712687" y="0.997506" />
+                            <point x="0.429104" y="0.997506" />
+                            <point x="0.00373134" y="0.665835" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.570895" hotspotY="0.665835" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro10 Estacionado3.png">
+                        <collision-poly>
+                            <point x="0.0746269" y="0.0972569" />
+                            <point x="0.570895" y="0.00249378" />
+                            <point x="0.996269" y="0.144638" />
+                            <point x="0.996269" y="0.665835" />
+                            <point x="0.712687" y="0.997506" />
+                            <point x="0.429104" y="0.997506" />
+                            <point x="0.00373134" y="0.665835" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.570895" hotspotY="0.665835" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro10 Estacionado4.png">
+                        <collision-poly>
+                            <point x="0.0746269" y="0.0972569" />
+                            <point x="0.570895" y="0.00249378" />
+                            <point x="0.996269" y="0.144638" />
+                            <point x="0.996269" y="0.665835" />
+                            <point x="0.712687" y="0.997506" />
+                            <point x="0.429104" y="0.997506" />
+                            <point x="0.00373134" y="0.665835" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.570895" hotspotY="0.665835" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro10 Estacionado5.png">
+                        <collision-poly>
+                            <point x="0.0746269" y="0.0972569" />
+                            <point x="0.570895" y="0.00249378" />
+                            <point x="0.996269" y="0.144638" />
+                            <point x="0.996269" y="0.665835" />
+                            <point x="0.712687" y="0.997506" />
+                            <point x="0.429104" y="0.997506" />
+                            <point x="0.00373134" y="0.665835" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="edificio2" sid="597862566595702">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663672587260964" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifício15.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backgroundLoja" sid="536910288948776">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="919423397296078" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="infoCarro" sid="401895682396351">
+            <plugin id="Text" />
+            <effects>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                </effect-type>
+                <effect-type name="GlowVertical">
+                    <effect id="glowvertical" />
+                </effect-type>
+            </effects>
+        </object-type>
+        <object-type name="seta" sid="582862715921041">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="id" sid="865198834810730" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Touch" sid="677633756870191">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Mouse" sid="852929394867428">
+            <plugin id="Mouse" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Fase1.xml</layout>
+        <layout>Loja.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-folder name="Eventos Gerais">
+            <event-sheet>Eventos Carros.xml</event-sheet>
+        </event-folder>
+        <event-sheet>Eventos Fase1.xml</event-sheet>
+        <event-sheet>Eventos Loja.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="2" />
+        <global-instance type="Touch" uid="74">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="75" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
