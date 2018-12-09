@@ -368,6 +368,7 @@
     <layout-folder>
         <layout>Fase1.xml</layout>
         <layout>Loja.xml</layout>
+        <layout>Fase2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Eventos Gerais">
@@ -375,6 +376,7 @@
         </event-folder>
         <event-sheet>Eventos Fase1.xml</event-sheet>
         <event-sheet>Eventos Loja.xml</event-sheet>
+        <event-sheet>Eventos fase 2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
