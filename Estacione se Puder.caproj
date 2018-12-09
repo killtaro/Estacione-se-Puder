@@ -52,11 +52,11 @@
     </configuration-settings>
     <object-folder>
         <object-folder name="Superfícies">
-            <object-type name="asfalto" sid="523930573412658">
+            <object-type name="asfalto1" sid="523930573412658">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\asfalto.png" />
             </object-type>
-            <object-type name="borda" sid="511064439646583">
+            <object-type name="bordaCalcada1" sid="511064439646583">
                 <plugin id="TiledBg" />
                 <behaviors>
                     <behavior-type name="Solid" sid="832999051859371">
@@ -65,17 +65,41 @@
                 </behaviors>
                 <texture original-source="C:\Users\pixel\Downloads\Borda calçada(1).png" />
             </object-type>
-            <object-type name="calcada" sid="167461108493864">
+            <object-type name="calcada1" sid="167461108493864">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\calçada2(1).png" />
             </object-type>
-            <object-type name="grama" sid="303596449187048">
+            <object-type name="grama1" sid="303596449187048">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\grama.png" />
             </object-type>
-            <object-type name="marcavaga" sid="470938837178382">
+            <object-type name="marcaVaga1" sid="470938837178382">
                 <plugin id="TiledBg" />
                 <texture />
+            </object-type>
+            <object-type name="asfalto2" sid="976944734493720">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\asfalto2.png" />
+            </object-type>
+            <object-type name="grama2" sid="413971958465483">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\grama2.png" />
+            </object-type>
+            <object-type name="grama3" sid="696694170825050">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\grama3.png" />
+            </object-type>
+            <object-type name="areia1" sid="715065684876821">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\areia.png" />
+            </object-type>
+            <object-type name="terra1" sid="531258880702639">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\terra.png" />
+            </object-type>
+            <object-type name="terra2" sid="967344520405636">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\terra2.png" />
             </object-type>
         </object-folder>
         <object-folder name="Edifícios">
@@ -473,9 +497,13 @@
             </object-type>
         </object-folder>
         <object-folder name="Obstáculos">
-            <object-type name="parede" sid="306459936002053">
+            <object-type name="parede1Frente" sid="306459936002053">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Parede1(1).png" />
+            </object-type>
+            <object-type name="parede1Cima" sid="354795708772942">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\pixel\Downloads\Paredes de cima.png" />
             </object-type>
         </object-folder>
         <object-folder name="Detalhes">

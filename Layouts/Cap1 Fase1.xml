@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="asfalto" uid="76">
+                <instance type="asfalto1" uid="76">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -49,7 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="79">
+                <instance type="bordaCalcada1" uid="79">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -76,7 +76,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="80">
+                <instance type="bordaCalcada1" uid="80">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -103,7 +103,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="81">
+                <instance type="bordaCalcada1" uid="81">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -130,7 +130,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="82">
+                <instance type="bordaCalcada1" uid="82">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -157,7 +157,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="83">
+                <instance type="bordaCalcada1" uid="83">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -184,7 +184,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="84">
+                <instance type="bordaCalcada1" uid="84">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -211,7 +211,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="85">
+                <instance type="bordaCalcada1" uid="85">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -238,7 +238,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="86">
+                <instance type="bordaCalcada1" uid="86">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -265,7 +265,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="87">
+                <instance type="bordaCalcada1" uid="87">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -292,7 +292,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="90">
+                <instance type="bordaCalcada1" uid="90">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -319,7 +319,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="91">
+                <instance type="bordaCalcada1" uid="91">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -346,7 +346,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="94">
+                <instance type="marcaVaga1" uid="94">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -366,7 +366,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="95">
+                <instance type="marcaVaga1" uid="95">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -386,7 +386,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="96">
+                <instance type="marcaVaga1" uid="96">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -406,7 +406,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="97">
+                <instance type="marcaVaga1" uid="97">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -426,7 +426,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="98">
+                <instance type="marcaVaga1" uid="98">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -446,7 +446,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="88">
+                <instance type="marcaVaga1" uid="88">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -466,7 +466,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="99">
+                <instance type="marcaVaga1" uid="99">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -486,7 +486,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="100">
+                <instance type="marcaVaga1" uid="100">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -506,7 +506,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="101">
+                <instance type="marcaVaga1" uid="101">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -526,7 +526,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="102">
+                <instance type="marcaVaga1" uid="102">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -546,7 +546,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="103">
+                <instance type="marcaVaga1" uid="103">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -566,7 +566,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="104">
+                <instance type="marcaVaga1" uid="104">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -586,7 +586,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="105">
+                <instance type="marcaVaga1" uid="105">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -606,7 +606,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="106">
+                <instance type="marcaVaga1" uid="106">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -626,7 +626,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="107">
+                <instance type="marcaVaga1" uid="107">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -646,7 +646,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="108">
+                <instance type="marcaVaga1" uid="108">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -666,7 +666,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="109">
+                <instance type="marcaVaga1" uid="109">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -686,7 +686,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="110">
+                <instance type="marcaVaga1" uid="110">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -706,7 +706,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="92">
+                <instance type="bordaCalcada1" uid="92">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -733,7 +733,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="93">
+                <instance type="bordaCalcada1" uid="93">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -760,7 +760,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="111">
+                <instance type="bordaCalcada1" uid="111">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -787,7 +787,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="112">
+                <instance type="bordaCalcada1" uid="112">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -814,7 +814,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="113">
+                <instance type="marcaVaga1" uid="113">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -834,7 +834,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="114">
+                <instance type="marcaVaga1" uid="114">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -854,7 +854,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="115">
+                <instance type="marcaVaga1" uid="115">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -874,7 +874,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="116">
+                <instance type="marcaVaga1" uid="116">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -894,7 +894,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="117">
+                <instance type="marcaVaga1" uid="117">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -914,7 +914,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="118">
+                <instance type="marcaVaga1" uid="118">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -934,7 +934,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="119">
+                <instance type="marcaVaga1" uid="119">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -954,7 +954,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="120">
+                <instance type="marcaVaga1" uid="120">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -974,7 +974,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="121">
+                <instance type="marcaVaga1" uid="121">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -994,7 +994,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="122">
+                <instance type="marcaVaga1" uid="122">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1014,7 +1014,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="123">
+                <instance type="marcaVaga1" uid="123">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1034,7 +1034,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="124">
+                <instance type="marcaVaga1" uid="124">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1054,7 +1054,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="125">
+                <instance type="marcaVaga1" uid="125">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1074,7 +1074,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="126">
+                <instance type="marcaVaga1" uid="126">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1094,7 +1094,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="127">
+                <instance type="marcaVaga1" uid="127">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1114,7 +1114,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="128">
+                <instance type="marcaVaga1" uid="128">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1134,7 +1134,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="129">
+                <instance type="marcaVaga1" uid="129">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1154,7 +1154,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="130">
+                <instance type="marcaVaga1" uid="130">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1174,7 +1174,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="131">
+                <instance type="marcaVaga1" uid="131">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1194,7 +1194,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="132">
+                <instance type="bordaCalcada1" uid="132">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1221,7 +1221,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="133">
+                <instance type="marcaVaga1" uid="133">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1241,7 +1241,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="134">
+                <instance type="marcaVaga1" uid="134">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1261,7 +1261,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="135">
+                <instance type="marcaVaga1" uid="135">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1281,7 +1281,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="136">
+                <instance type="marcaVaga1" uid="136">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1301,7 +1301,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="137">
+                <instance type="marcaVaga1" uid="137">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1321,7 +1321,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="138">
+                <instance type="marcaVaga1" uid="138">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1341,7 +1341,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="139">
+                <instance type="marcaVaga1" uid="139">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1361,7 +1361,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="140">
+                <instance type="marcaVaga1" uid="140">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1381,7 +1381,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="141">
+                <instance type="marcaVaga1" uid="141">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1401,7 +1401,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="142">
+                <instance type="bordaCalcada1" uid="142">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1428,7 +1428,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="143">
+                <instance type="marcaVaga1" uid="143">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1448,7 +1448,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="144">
+                <instance type="marcaVaga1" uid="144">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1468,7 +1468,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="145">
+                <instance type="marcaVaga1" uid="145">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1488,7 +1488,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="146">
+                <instance type="marcaVaga1" uid="146">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1508,7 +1508,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="147">
+                <instance type="marcaVaga1" uid="147">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1528,7 +1528,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="148">
+                <instance type="marcaVaga1" uid="148">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1548,7 +1548,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="149">
+                <instance type="marcaVaga1" uid="149">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1568,7 +1568,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcavaga" uid="150">
+                <instance type="marcaVaga1" uid="150">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1588,7 +1588,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="151">
+                <instance type="bordaCalcada1" uid="151">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2084,7 +2084,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="171">
+                <instance type="bordaCalcada1" uid="171">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2155,7 +2155,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="borda" uid="174">
+                <instance type="bordaCalcada1" uid="174">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
