@@ -10,7 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Cap1 Fase1</layout>
+        <layout order="0">Cap1 Fase1</layout>
+        <layout active="1" order="2">Cap2 Fase1</layout>
         <event-sheet order="1">Eventos Cap1 Fase1</event-sheet>
     </open-tabs>
     <properties>
@@ -22,7 +23,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/Superfícies/" />
+        <folder expanded="0" path="object-folder/Superfícies/" />
+        <folder expanded="1" path="object-folder/Edifícios/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Capítulo 1/" />
         <folder expanded="1" path="layout-folder/Capítulo 2/" />
@@ -34,10 +36,23 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
-        <folder expanded="1" path="animation-folder/carro/" />
-        <folder expanded="1" path="animation-folder/casa/" />
-        <folder expanded="1" path="animation-folder/carroEstacionado/" />
+        <folder expanded="1" path="animation-folder/edificio6/" />
+        <folder expanded="1" path="animation-folder/edificio1/" />
         <folder expanded="1" path="animation-folder/edificio2/" />
+        <folder expanded="1" path="animation-folder/edificio3/" />
+        <folder expanded="1" path="animation-folder/edificio4/" />
+        <folder expanded="1" path="animation-folder/edificio5/" />
+        <folder expanded="1" path="animation-folder/edificio7/" />
+        <folder expanded="1" path="animation-folder/edificio8/" />
+        <folder expanded="1" path="animation-folder/edificio9/" />
+        <folder expanded="1" path="animation-folder/edificio10/" />
+        <folder expanded="1" path="animation-folder/edificio11/" />
+        <folder expanded="1" path="animation-folder/edificio12/" />
+        <folder expanded="1" path="animation-folder/edificio13/" />
+        <folder expanded="1" path="animation-folder/edificio14/" />
+        <folder expanded="1" path="animation-folder/edificio15/" />
+        <folder expanded="1" path="animation-folder/carro/" />
+        <folder expanded="1" path="animation-folder/carroEstacionado/" />
         <folder expanded="1" path="animation-folder/backgroundLoja/" />
         <folder expanded="1" path="animation-folder/setaestacionamento/" />
         <folder expanded="1" path="animation-folder/Carro_Estacionado/" />

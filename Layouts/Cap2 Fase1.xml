@@ -1365,7 +1365,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="casa" uid="10">
+                <instance type="edificio6" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1394,7 +1394,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="casa" uid="9">
+                <instance type="edificio6" uid="9">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1423,7 +1423,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="casa" uid="11">
+                <instance type="edificio6" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1452,7 +1452,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="casa" uid="12">
+                <instance type="edificio6" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1481,7 +1481,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="casa" uid="64">
+                <instance type="edificio6" uid="64">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1510,7 +1510,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="casa" uid="65">
+                <instance type="edificio6" uid="65">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1539,7 +1539,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="casa" uid="66">
+                <instance type="edificio6" uid="66">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

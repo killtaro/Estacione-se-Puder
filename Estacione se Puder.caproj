@@ -78,6 +78,237 @@
                 <texture />
             </object-type>
         </object-folder>
+        <object-folder name="Edifícios">
+            <object-type name="edificio6" sid="135956572853002">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="373421285572068">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775609493402839" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifício6.png">
+                            <collision-poly>
+                                <point x="0" y="0.527344" />
+                                <point x="1" y="0.53125" />
+                                <point x="1" y="0.523438" />
+                                <point x="1" y="0.939286" />
+                                <point x="0.573661" y="0.944643" />
+                                <point x="0.574219" y="1" />
+                                <point x="0.429688" y="1" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.503571" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio1" sid="499303724379138">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="648465789125742" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício1.png">
+                            <collision-poly>
+                                <point x="0" y="0.21875" />
+                                <point x="0.5" y="0" />
+                                <point x="1" y="0.226563" />
+                                <point x="1" y="0.5" />
+                                <point x="0.964286" y="0.96875" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0357143" y="0.96875" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio2" sid="783051408498823">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="933405720443975" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício12.png">
+                            <collision-poly>
+                                <point x="0" y="0.21875" />
+                                <point x="0.5" y="0" />
+                                <point x="1" y="0.210938" />
+                                <point x="1" y="0.5" />
+                                <point x="0.964286" y="0.96875" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0357143" y="0.96875" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio3" sid="842200720520629">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="252045264578955" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício3.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.979167" y="0.979167" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0208333" y="0.979167" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio4" sid="112029701900093">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="478146616323490" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício4.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio5" sid="414569544396241">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="736309321805776" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edíficio5.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.900568" />
+                                <point x="0.632813" y="0.909091" />
+                                <point x="0.623047" y="1" />
+                                <point x="0.5" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio7" sid="269654496241162">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="206231549896389" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício7.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.5" />
+                                <point x="0.96875" y="0.96875" />
+                                <point x="0.5" y="1" />
+                                <point x="0.03125" y="0.96875" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio8" sid="887680489141162">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="757663378273169" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício8.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.5" />
+                                <point x="0.96875" y="0.979167" />
+                                <point x="0.5" y="1" />
+                                <point x="0.03125" y="0.979167" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio9" sid="506298204893099">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="359879102971377" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício10.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio10" sid="716557729390727">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444832429516744" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício13.png">
+                            <collision-poly>
+                                <point x="0.142857" y="0.133333" />
+                                <point x="0.5" y="0" />
+                                <point x="0.857143" y="0.133333" />
+                                <point x="1" y="0.5" />
+                                <point x="0.857143" y="0.866667" />
+                                <point x="0.5" y="0.933333" />
+                                <point x="0.142857" y="0.866667" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio11" sid="814867846237913">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="876291503054413" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício14 (1).png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio12" sid="837912424765127">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="776259677873688" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício15.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio13" sid="279867979075671">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="169809812699608" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício16.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.5" y="0" />
+                                <point x="0.8" y="0.125" />
+                                <point x="1" y="0.5" />
+                                <point x="0.8" y="0.875" />
+                                <point x="0.5" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio14" sid="809688843892551">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="169270591100803" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício17.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="edificio15" sid="824973396996439">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="851292691944554" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edifício18.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.5" />
+                                <point x="0.928571" y="0.942857" />
+                                <point x="0.5" y="1" />
+                                <point x="0.0714286" y="0.942857" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="parede" sid="306459936002053">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\pixel\Downloads\Parede1(1).png" />
@@ -228,32 +459,6 @@
         <object-type name="Text" sid="708909974305382">
             <plugin id="Text" />
         </object-type>
-        <object-type name="casa" sid="135956572853002">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="373421285572068">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775609493402839" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifício6.png">
-                        <collision-poly>
-                            <point x="0" y="0.527344" />
-                            <point x="1" y="0.53125" />
-                            <point x="1" y="0.523438" />
-                            <point x="1" y="0.939286" />
-                            <point x="0.573661" y="0.944643" />
-                            <point x="0.574219" y="1" />
-                            <point x="0.429688" y="1" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0.503571" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="carroEstacionado" sid="417732335424363">
             <plugin id="Sprite" />
             <behaviors>
@@ -321,14 +526,6 @@
                             <point x="0.00373134" y="0.665835" />
                         </collision-poly>
                     </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="edificio2" sid="597862566595702">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663672587260964" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifício15.png" />
                 </animation>
             </animation-folder>
         </object-type>
