@@ -2,5 +2,8 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap1 Fase1</name>
-    <events />
+    <events>
+        <variable constant="0" name="Pontos" sid="471179457952003" static="0" type="number">0</variable>
+        <include>Eventos Carros</include>
+    </events>
 </c2eventsheet>

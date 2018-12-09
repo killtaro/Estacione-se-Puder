@@ -380,6 +380,86 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Carro_Estacionado" sid="701218169407255">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="885643985440430">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="718978879906912" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501247" original-source="C:\Projetos\Estacione-se-Puder\Animations\carroEstacionado\Default\000.png">
+                        <collision-poly>
+                            <point x="0.0746269" y="0.0498753" />
+                            <point x="0.5" y="0.00249377" />
+                            <point x="0.925373" y="0.0498753" />
+                            <point x="0.925373" y="0.498753" />
+                            <point x="0.996269" y="0.997506" />
+                            <point x="0.00373134" y="0.997506" />
+                            <point x="0.0746269" y="0.498753" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Carro_estacionado2" sid="854590272236678">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="982940272085833">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703155429327295" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501247" original-source="C:\Projetos\Estacione-se-Puder\Animations\carroEstacionado\Default\004.png">
+                        <collision-poly>
+                            <point x="0.0746269" y="0.0498753" />
+                            <point x="0.5" y="0.00249377" />
+                            <point x="0.925373" y="0.0498753" />
+                            <point x="0.925373" y="0.498753" />
+                            <point x="0.996269" y="0.997506" />
+                            <point x="0.00373134" y="0.997506" />
+                            <point x="0.0746269" y="0.498753" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="seta2andar" sid="318579058311670">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="648400677369554" speed="5">
+                    <frame duration="1" hotspotX="0.92429" hotspotY="1.41667" original-source="C:\Projetos\Estacione-se-Puder\Textures\seta-estacionamento-2esquerda.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0.916558" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.916558" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="setadireita2andar" sid="391885882825169">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732164621116011" speed="5">
+                    <frame duration="1" hotspotX="0.589905" hotspotY="0.724359" original-source="C:\Projetos\Estacione-se-Puder\Textures\seta-estacionamento-2.png">
+                        <collision-poly>
+                            <point x="0.00315462" y="0.685897" />
+                            <point x="0.586751" y="0.0897436" />
+                            <point x="0.776025" y="0.724359" />
+                            <point x="0.586751" y="0.910256" />
+                            <point x="0.0063092" y="0.75641" />
+                            <point x="0.00315462" y="0.724359" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
