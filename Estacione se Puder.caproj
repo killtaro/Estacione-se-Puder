@@ -363,6 +363,23 @@
         <object-type name="Mouse" sid="852929394867428">
             <plugin id="Mouse" />
         </object-type>
+        <object-type name="setaestacionamento" sid="906755023399065">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="272110116786490" speed="5">
+                    <frame duration="1" hotspotX="0.589905" hotspotY="0.724359" original-source="C:\Projetos\Estacione-se-Puder\Textures\seta-estacionamento.png">
+                        <collision-poly>
+                            <point x="0.00315462" y="0.685897" />
+                            <point x="0.586751" y="0.0897436" />
+                            <point x="0.776025" y="0.724359" />
+                            <point x="0.586751" y="0.910256" />
+                            <point x="0.0063092" y="0.75641" />
+                            <point x="0.00315462" y="0.724359" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
