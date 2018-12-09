@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Cap1 Fase1</layout>
-        <layout active="1" order="2">Cap2 Fase1</layout>
+        <layout active="1" order="0">Cap1 Fase1</layout>
+        <layout order="2">Cap2 Fase1</layout>
         <event-sheet order="1">Eventos Cap1 Fase1</event-sheet>
     </open-tabs>
     <properties>
@@ -24,7 +24,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/Superfícies/" />
-        <folder expanded="1" path="object-folder/Edifícios/" />
+        <folder expanded="0" path="object-folder/Edifícios/" />
+        <folder expanded="0" path="object-folder/Backgrounds/" />
+        <folder expanded="0" path="object-folder/Controles/" />
+        <folder expanded="0" path="object-folder/Carros/" />
+        <folder expanded="0" path="object-folder/Obstáculos/" />
+        <folder expanded="0" path="object-folder/Detalhes/" />
+        <folder expanded="1" path="object-folder/Textos/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Capítulo 1/" />
         <folder expanded="1" path="layout-folder/Capítulo 2/" />
@@ -51,13 +57,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/edificio13/" />
         <folder expanded="1" path="animation-folder/edificio14/" />
         <folder expanded="1" path="animation-folder/edificio15/" />
-        <folder expanded="1" path="animation-folder/carro/" />
-        <folder expanded="1" path="animation-folder/carroEstacionado/" />
         <folder expanded="1" path="animation-folder/backgroundLoja/" />
-        <folder expanded="1" path="animation-folder/setaestacionamento/" />
-        <folder expanded="1" path="animation-folder/Carro_Estacionado/" />
-        <folder expanded="1" path="animation-folder/Carro_estacionado2/" />
+        <folder expanded="1" path="animation-folder/carro/" />
+        <folder expanded="1" path="animation-folder/carroEstacionado1/" />
+        <folder expanded="1" path="animation-folder/carroEstacionado2/" />
         <folder expanded="1" path="animation-folder/seta2andar/" />
         <folder expanded="1" path="animation-folder/setadireita2andar/" />
+        <folder expanded="1" path="animation-folder/setaestacionamento/" />
     </folders-expanded>
 </c2uistate>

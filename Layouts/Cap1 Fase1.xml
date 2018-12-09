@@ -1794,7 +1794,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Carro_Estacionado" uid="158">
+                <instance type="carroEstacionado1" uid="158">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1811,11 +1811,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>511.597290039</x>
-                        <y>228.653244019</y>
+                        <x>514.91607666</x>
+                        <y>228.97492981</y>
                         <z>0</z>
-                        <width>32.362426758</width>
-                        <height>62.358184814</height>
+                        <width>39</width>
+                        <height>63</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50124687</hotspotY>
@@ -1823,7 +1823,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Carro_Estacionado" uid="159">
+                <instance type="carroEstacionado1" uid="159">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1840,11 +1840,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>638.365539551</x>
-                        <y>803.297729492</y>
+                        <x>641.684326172</x>
+                        <y>803.619506836</y>
                         <z>0</z>
-                        <width>32.362426758</width>
-                        <height>62.358184814</height>
+                        <width>39</width>
+                        <height>63</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50124687</hotspotY>
@@ -1852,7 +1852,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Carro_Estacionado" uid="162">
+                <instance type="carroEstacionado1" uid="162">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1869,11 +1869,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>418.383789063</x>
-                        <y>1025.083007813</y>
+                        <x>421.702575684</x>
+                        <y>1025.404785156</y>
                         <z>0</z>
-                        <width>32.362426758</width>
-                        <height>62.358184814</height>
+                        <width>39</width>
+                        <height>63</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50124687</hotspotY>
@@ -1881,7 +1881,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Carro_Estacionado" uid="163">
+                <instance type="carroEstacionado1" uid="163">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1898,11 +1898,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>37</x>
-                        <y>636</y>
+                        <x>40.318786621</x>
+                        <y>636.321777344</y>
                         <z>0</z>
-                        <width>32.362426758</width>
-                        <height>62.358184814</height>
+                        <width>39</width>
+                        <height>63</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50124687</hotspotY>
@@ -1910,7 +1910,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Carro_Estacionado" uid="164">
+                <instance type="carroEstacionado1" uid="164">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1927,11 +1927,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1153</x>
-                        <y>831</y>
+                        <x>1156.318847656</x>
+                        <y>831.321777344</y>
                         <z>0</z>
-                        <width>32.362426758</width>
-                        <height>62.358184814</height>
+                        <width>39</width>
+                        <height>63</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50124687</hotspotY>
@@ -1939,7 +1939,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Carro_Estacionado" uid="165">
+                <instance type="carroEstacionado1" uid="165">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1956,11 +1956,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1155</x>
-                        <y>319</y>
+                        <x>1158.318847656</x>
+                        <y>319.321746826</y>
                         <z>0</z>
-                        <width>32.362426758</width>
-                        <height>62.358184814</height>
+                        <width>39</width>
+                        <height>63</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50124687</hotspotY>
@@ -1968,7 +1968,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Carro_estacionado2" uid="166">
+                <instance type="carroEstacionado2" uid="166">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1985,11 +1985,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>639</x>
-                        <y>229</y>
+                        <x>640.818969727</x>
+                        <y>228.319290161</y>
                         <z>0</z>
-                        <width>32.361999512</width>
-                        <height>62.358001709</height>
+                        <width>36</width>
+                        <height>61</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50124687</hotspotY>
@@ -1997,7 +1997,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Carro_estacionado2" uid="167">
+                <instance type="carroEstacionado2" uid="167">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2014,11 +2014,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>582</x>
-                        <y>854</y>
+                        <x>583.818969727</x>
+                        <y>853.319396973</y>
                         <z>0</z>
-                        <width>32.361999512</width>
-                        <height>62.358001709</height>
+                        <width>36</width>
+                        <height>61</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50124687</hotspotY>
@@ -2026,7 +2026,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Carro_estacionado2" uid="168">
+                <instance type="carroEstacionado2" uid="168">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2043,11 +2043,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>793</x>
-                        <y>513</y>
+                        <x>794.818969727</x>
+                        <y>512.319396973</y>
                         <z>0</z>
-                        <width>32.361999512</width>
-                        <height>62.358001709</height>
+                        <width>36</width>
+                        <height>61</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50124687</hotspotY>
@@ -2055,7 +2055,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Carro_estacionado2" uid="169">
+                <instance type="carroEstacionado2" uid="169">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2072,11 +2072,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>34</x>
-                        <y>319</y>
+                        <x>35.818969727</x>
+                        <y>318.319335938</y>
                         <z>0</z>
-                        <width>32.361999512</width>
-                        <height>62.358001709</height>
+                        <width>36</width>
+                        <height>61</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50124687</hotspotY>

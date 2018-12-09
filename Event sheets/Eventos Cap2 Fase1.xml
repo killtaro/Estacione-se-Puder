@@ -19,9 +19,7 @@
             <conditions>
                 <condition id="-2" name="On start of layout" sid="490788748324047" type="System" />
             </conditions>
-            <actions>
-                <action id="2" name="Stop" sid="312106109480778" type="carroEstacionado" />
-            </actions>
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>
