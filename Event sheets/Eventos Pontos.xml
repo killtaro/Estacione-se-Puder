@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Pontos</name>
+    <events>
+        <event-group description="" sid="163702724781385" title="Pontos">
+            <sub-events>
+                <event-block sid="457797978856113">
+                    <conditions>
+                        <condition behavior="Car" id="1" name="Compare speed" sid="118561464860566" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Speed">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="573135725395452" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="507007459562403">
+                    <conditions>
+                        <condition behavior="Car" id="1" name="Compare speed" sid="525962711110589" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Speed">200</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="686556267209682" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">200</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="446001583216213">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="998917921534806" type="carro">
+                            <param id="0" name="Object">roadBlock</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="628070642284078" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">25</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="143944931175495" type="System">
+                            <param id="0" name="Variable">Vida</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="415355859892463">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="759504607986929" type="carro">
+                            <param id="0" name="Object">bordaCalcada1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="588659388101546" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">50</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="163984241448004" type="System">
+                            <param id="0" name="Variable">Vida</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="658352907993813">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="326363158876931" type="carro">
+                            <param id="0" name="Object">carroEstacionado1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="800542029163746" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="406656934547725" type="System">
+                            <param id="0" name="Variable">Vida</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="599311694386818">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="823488643251966" type="carro">
+                            <param id="0" name="Object">carroEstacionado10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="313515401501375" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="810461599990632" type="System">
+                            <param id="0" name="Variable">Vida</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="613657090493469">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="706576889429475" type="carro">
+                            <param id="0" name="Object">carroEstacionado6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="971119822884789" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="459545028298849" type="System">
+                            <param id="0" name="Variable">Vida</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="788309694527473">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="988902994689847" type="carro">
+                            <param id="0" name="Object">carroEstacionado9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="292799582936104" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="185103106276836" type="System">
+                            <param id="0" name="Variable">Vida</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="168270223667249">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="324941756914597" type="carro">
+                            <param id="0" name="Object">carroEstacionado2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="967202417914705" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="950638123998026" type="System">
+                            <param id="0" name="Variable">Vida</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="230103745069908">
+                    <conditions>
+                        <condition behavior="Car" id="0" name="Is moving" sid="916208305801215" type="carro" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="464422093143586" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">12</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

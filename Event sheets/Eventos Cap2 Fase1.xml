@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap2 Fase1</name>
     <events>
+        <include>Eventos Pontos</include>
         <include>Eventos Carros</include>
         <variable constant="0" name="carro" sid="395619423906324" static="0" type="number">0</variable>
         <event-block sid="587051171891545">
