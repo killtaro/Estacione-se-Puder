@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Controle Mobile</name>
+    <events>
+        <event-block sid="622723157724098">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="767760229403110" type="Touch">
+                    <param id="0" name="Object">Setadireitavira</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Car" id="7" name="Simulate control" sid="449318076307865" type="carro">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="793076862050290">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="173625532333377" type="Touch">
+                    <param id="0" name="Object">Seta_esquerda_vira</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Car" id="7" name="Simulate control" sid="360965634182942" type="carro">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="478074265643504">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="169530349625587" type="Touch">
+                    <param id="0" name="Object">Acelerador</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Car" id="7" name="Simulate control" sid="836116964739044" type="carro">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="149940626361723">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="793250557608962" type="Touch">
+                    <param id="0" name="Object">freio</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Car" id="7" name="Simulate control" sid="460645007651112" type="carro">
+                    <param id="0" name="Control">3</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

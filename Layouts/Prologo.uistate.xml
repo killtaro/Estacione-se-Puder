@@ -4,15 +4,15 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>450.652</position-x>
-        <position-y>595.405</position-y>
-        <position-z>249.163</position-z>
-        <lookat-x>450.652</lookat-x>
-        <lookat-y>595.405</lookat-y>
+        <position-x>612.994</position-x>
+        <position-y>111.591</position-y>
+        <position-z>194.872</position-z>
+        <lookat-x>612.994</lookat-x>
+        <lookat-y>111.591</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
-    <show-grid>1</show-grid>
+    <show-grid>0</show-grid>
     <snap-width>32</snap-width>
     <snap-height>32</snap-height>
     <show-collision-polys>0</show-collision-polys>
@@ -23,12 +23,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="terreo" />
+    <active-layer name="Chao" />
     <layers>
-        <layer locked="1" name="terreo" parallax-in-editor="0" visible="0" />
-        <layer locked="1" name="1andar" parallax-in-editor="0" visible="0" />
-        <layer locked="1" name="2dnar" parallax-in-editor="0" visible="0" />
-        <layer locked="0" name="Fim" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Controles" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Chao" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="Controles" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>
