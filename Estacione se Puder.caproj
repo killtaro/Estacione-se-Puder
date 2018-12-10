@@ -558,6 +558,71 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="fim_tela" sid="934777310719010">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872565444692187" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.504167" original-source="C:\Projetos\Estacione-se-Puder\Textures\Fundo-Vitoria.png">
+                            <collision-poly>
+                                <point x="0.00614754" y="0.0208333" />
+                                <point x="0.5" y="0.00416667" />
+                                <point x="0.993852" y="0.0208333" />
+                                <point x="0.991803" y="0.983333" />
+                                <point x="0.00819672" y="0.983333" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btn_continua" sid="468368903648704">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="674576248326402" speed="5">
+                        <frame duration="1" hotspotX="0.504902" hotspotY="0.675676" original-source="C:\Projetos\Estacione-se-Puder\Textures\btn-Continuar.png">
+                            <collision-poly>
+                                <point x="0.00980392" y="0.648649" />
+                                <point x="0.504902" y="0.189189" />
+                                <point x="0.955882" y="0.675676" />
+                                <point x="0.980392" y="0.594595" />
+                                <point x="0.504902" y="0.891892" />
+                                <point x="0.00980392" y="0.702703" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btn_sair" sid="446242546882659">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="906506733479087" speed="5">
+                        <frame duration="1" hotspotX="0.518868" hotspotY="0.594595" original-source="C:\Projetos\Estacione-se-Puder\Textures\btn-voltar.png">
+                            <collision-poly>
+                                <point x="0.0157233" y="0.324324" />
+                                <point x="0.518868" y="0.351351" />
+                                <point x="0.987421" y="0.621622" />
+                                <point x="0.987421" y="0.567568" />
+                                <point x="0.518868" y="0.918919" />
+                                <point x="0.0283019" y="0.756757" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="tela_pontos_d" sid="251132182716015">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="245588372259375" speed="5">
+                        <frame duration="1" hotspotX="0.528302" hotspotY="0.540541" original-source="C:\Projetos\Estacione-se-Puder\Textures\Pontos_placar.png">
+                            <collision-poly>
+                                <point x="0.528302" y="0.189189" />
+                                <point x="0.974843" y="0.540541" />
+                                <point x="0.528302" y="0.945946" />
+                                <point x="0.0125786" y="0.540541" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Textos">
             <object-type name="infoCarro" sid="401895682396351">
@@ -578,6 +643,12 @@
                 </instance-variables>
             </object-type>
             <object-type name="Text" sid="708909974305382">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Pontos" sid="820409319315124">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="tela_pontos" sid="575724588510379">
                 <plugin id="Text" />
             </object-type>
         </object-folder>
@@ -942,6 +1013,64 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-type name="roadBlock" sid="679376197831889">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="180254740223641">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="339288789037142" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.62963" original-source="C:\Projetos\Estacione-se-Puder\Textures\road-block.png">
+                        <collision-poly>
+                            <point x="0.15925" y="0.0487865" />
+                            <point x="0.84075" y="0.0487865" />
+                            <point x="0.99361" y="0.630471" />
+                            <point x="0.84075" y="1" />
+                            <point x="0.5" y="0.657653" />
+                            <point x="0.15925" y="1" />
+                            <point x="0.00638971" y="0.630471" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Final" sid="350712590619999">
+            <plugin id="Sprite" />
+            <effects>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                </effect-type>
+                <effect-type name="GlowVertical">
+                    <effect id="glowvertical" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="265179525301405" speed="5">
+                    <frame duration="1" hotspotX="0.484848" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Textures\Marcacao_final.png">
+                        <collision-poly>
+                            <point x="0.151515" y="0.15625" />
+                            <point x="0.484848" y="0.03125" />
+                            <point x="0.818182" y="0.15625" />
+                            <point x="0.969697" y="0.5" />
+                            <point x="0.818182" y="0.84375" />
+                            <point x="0.484848" y="0.96875" />
+                            <point x="0.151515" y="0.84375" />
+                            <point x="0.030303" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fundo_btn" sid="492017684983089">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769296883570272" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

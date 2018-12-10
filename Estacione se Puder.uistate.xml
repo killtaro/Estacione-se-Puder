@@ -10,10 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Cap1 Fase1</layout>
-        <layout active="1" order="2">Cap2 Fase1</layout>
+        <layout active="1" order="0">Cap1 Fase1</layout>
         <event-sheet order="1">Eventos Cap1 Fase1</event-sheet>
-        <event-sheet order="3">Eventos Cap2 Fase1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,7 +27,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Backgrounds/" />
         <folder expanded="0" path="object-folder/Controles/" />
         <folder expanded="0" path="object-folder/Player/" />
-        <folder expanded="1" path="object-folder/Obstáculos/" />
+        <folder expanded="0" path="object-folder/Obstáculos/" />
         <folder expanded="0" path="object-folder/Detalhes/" />
         <folder expanded="0" path="object-folder/Textos/" />
         <folder expanded="0" path="object-folder/Carros Estacionados/" />
@@ -64,6 +62,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/seta2andar/" />
         <folder expanded="1" path="animation-folder/setadireita2andar/" />
         <folder expanded="1" path="animation-folder/setaestacionamento/" />
+        <folder expanded="1" path="animation-folder/fim_tela/" />
+        <folder expanded="1" path="animation-folder/btn_continua/" />
+        <folder expanded="1" path="animation-folder/btn_sair/" />
+        <folder expanded="1" path="animation-folder/tela_pontos_d/" />
         <folder expanded="1" path="animation-folder/carroEstacionado9/" />
         <folder expanded="1" path="animation-folder/carroEstacionado8/" />
         <folder expanded="1" path="animation-folder/carroEstacionado7/" />
@@ -78,5 +80,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/carroEstacionado11/" />
         <folder expanded="1" path="animation-folder/carroEstacionado10/" />
         <folder expanded="1" path="animation-folder/carroEstacionado1/" />
+        <folder expanded="1" path="animation-folder/roadBlock/" />
+        <folder expanded="1" path="animation-folder/Final/" />
+        <folder expanded="1" path="animation-folder/fundo_btn/" />
     </folders-expanded>
 </c2uistate>
