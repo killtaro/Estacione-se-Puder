@@ -197,8 +197,8 @@
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="736309321805776" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Estacione\Edifícios\Edíficio5.png">
                             <collision-poly>
-                                <point x="0" y="0" />
-                                <point x="1" y="0" />
+                                <point x="0" y="0.525568" />
+                                <point x="1" y="0.539773" />
                                 <point x="1" y="0.900568" />
                                 <point x="0.632813" y="0.909091" />
                                 <point x="0.623047" y="1" />
@@ -357,7 +357,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="724248943137833" speed="5">
-                        <frame duration="1" hotspotX="0.51773" hotspotY="0.526316" original-source="C:\Projetos\Estacione-se-Puder\Textures\seta-esquerda-controle.png">
+                        <frame duration="1" hotspotX="0.51773" hotspotY="0.526316" original-source="C:\Users\pixel\Downloads\New Piskel(2).png">
                             <collision-poly>
                                 <point x="0.0851064" y="0.4" />
                                 <point x="0.51773" y="0.242105" />
@@ -1158,29 +1158,33 @@
         <layout-folder name="Capítulo 1">
             <layout>Cap1 Fase1.xml</layout>
             <layout>Cap1 Fase2.xml</layout>
-            <layout>Prologo.xml</layout>
         </layout-folder>
         <layout-folder name="Capítulo 2">
             <layout>Cap2 Fase1.xml</layout>
             <layout>Cap2 Fase2.xml</layout>
         </layout-folder>
-        <layout>Loja.xml</layout>
+        <layout-folder name="Pré-fases">
+            <layout>Loja.xml</layout>
+            <layout>Prologo.xml</layout>
+        </layout-folder>
     </layout-folder>
     <event-folder>
         <event-folder name="Eventos Gerais">
             <event-sheet>Eventos Carros.xml</event-sheet>
             <event-sheet>Eventos Pontos.xml</event-sheet>
             <event-sheet>Eventos Controle Mobile.xml</event-sheet>
-            <event-sheet>Eventos Loja.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 1">
             <event-sheet>Eventos Cap1 Fase1.xml</event-sheet>
             <event-sheet>Eventos Cap1 Fase2.xml</event-sheet>
-            <event-sheet>Eventos Prologo.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 2">
             <event-sheet>Eventos Cap2 Fase1.xml</event-sheet>
             <event-sheet>Eventos Cap2 Fase2.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Pré-fases">
+            <event-sheet>Eventos Loja.xml</event-sheet>
+            <event-sheet>Eventos Prologo.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>

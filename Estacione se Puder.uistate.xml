@@ -10,13 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Cap1 Fase1</layout>
-        <layout order="1">Cap1 Fase2</layout>
-        <layout order="5">Prologo</layout>
-        <event-sheet order="2">Eventos Cap1 Fase2</event-sheet>
-        <event-sheet order="3">Eventos Pontos</event-sheet>
-        <event-sheet order="4">Eventos Cap1 Fase1</event-sheet>
-        <event-sheet active="1" order="6">Eventos Prologo</event-sheet>
+        <layout active="1" order="0">Cap2 Fase2</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -27,22 +21,24 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/Superfícies/" />
-        <folder expanded="0" path="object-folder/Edifícios/" />
+        <folder expanded="0" path="object-folder/Superfícies/" />
+        <folder expanded="1" path="object-folder/Edifícios/" />
         <folder expanded="0" path="object-folder/Backgrounds/" />
-        <folder expanded="0" path="object-folder/Controles/" />
+        <folder expanded="1" path="object-folder/Controles/" />
         <folder expanded="1" path="object-folder/Player/" />
         <folder expanded="0" path="object-folder/Obstáculos/" />
-        <folder expanded="1" path="object-folder/Detalhes/" />
+        <folder expanded="0" path="object-folder/Detalhes/" />
         <folder expanded="0" path="object-folder/Textos/" />
         <folder expanded="0" path="object-folder/Carros Estacionados/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Capítulo 1/" />
         <folder expanded="1" path="layout-folder/Capítulo 2/" />
+        <folder expanded="1" path="layout-folder/Pré-fases/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="event-folder/Eventos Gerais/" />
         <folder expanded="1" path="event-folder/Capítulo 1/" />
         <folder expanded="1" path="event-folder/Capítulo 2/" />
+        <folder expanded="1" path="event-folder/Pré-fases/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
