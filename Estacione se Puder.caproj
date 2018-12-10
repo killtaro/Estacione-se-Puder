@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Estacione se Puder</name>
-    <description></description>
-    <version>1.0.0.0</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website>http://</author-website>
-    <app-id>com.mycompany.myapp</app-id>
+    <description>Jogos de estacionar</description>
+    <version>1.0A</version>
+    <author>HitKillStudios</author>
+    <author-email>zh.dubeslando@gmail.com</author-email>
+    <author-website>www.google.com</author-website>
+    <app-id>br.hitkillstudios.com</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>26500</saved-with-version>
     <used-plugins>
@@ -966,7 +966,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424968054176665" speed="5">
-                        <frame duration="1" hotspotX="1.71269" hotspotY="2.72319" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(8).png">
+                        <frame duration="1" hotspotX="0.481343" hotspotY="0.586035" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(8).png">
                             <collision-poly>
                                 <point x="0" y="0.129676" />
                                 <point x="0.0858209" y="0.0523691" />
@@ -992,7 +992,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="562450522484159" speed="5">
-                        <frame duration="1" hotspotX="1.03731" hotspotY="1.58603" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(7).png">
+                        <frame duration="1" hotspotX="0.485075" hotspotY="0.591022" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(7).png">
                             <collision-poly>
                                 <point x="0" y="0.139651" />
                                 <point x="0.0895522" y="0.0498753" />
@@ -1158,6 +1158,7 @@
         <layout-folder name="Capítulo 1">
             <layout>Cap1 Fase1.xml</layout>
             <layout>Cap1 Fase2.xml</layout>
+            <layout>Cap1 Fase3 Bugged tem q arrumar.xml</layout>
         </layout-folder>
         <layout-folder name="Capítulo 2">
             <layout>Cap2 Fase1.xml</layout>
@@ -1177,6 +1178,7 @@
         <event-folder name="Capítulo 1">
             <event-sheet>Eventos Cap1 Fase1.xml</event-sheet>
             <event-sheet>Eventos Cap1 Fase2.xml</event-sheet>
+            <event-sheet>Eventos Cap1 Fase3.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 2">
             <event-sheet>Eventos Cap2 Fase1.xml</event-sheet>

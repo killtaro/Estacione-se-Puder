@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Cap1 Fase3</name>
+    <events>
+        <include>Eventos Controle Mobile</include>
+        <include>Eventos Carros</include>
+        <include>Eventos Pontos</include>
+        <event-block sid="404407507192478">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="603459112512110" type="carro">
+                    <param id="0" name="Object">Final</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="155680376744522" type="Pontos">
+                    <param id="0" name="Text">Pontos</param>
+                </action>
+                <action id="-9" name="Destroy" sid="171988059660491" type="carro" />
+                <action id="-4" name="Set layer visible" sid="331719601761611" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="753490251223290">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="357223486001675" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="359937033247565" type="System">
+                    <param id="0" name="Layer">2</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
