@@ -1160,6 +1160,36 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="buraco1" sid="183161288683456">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="548013945265326">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="802696203396495" speed="5">
+                    <frame duration="1" hotspotX="0.565789" hotspotY="0.457317" original-source="C:\Users\pixel\Downloads\Buraco1(1).png">
+                        <collision-poly>
+                            <point x="0.387036" y="0.275783" />
+                            <point x="0.523369" y="0" />
+                            <point x="0.717524" y="0.335436" />
+                            <point x="1" y="0.434936" />
+                            <point x="0.738154" y="0.608241" />
+                            <point x="0.914816" y="0.872621" />
+                            <point x="0.584937" y="0.980245" />
+                            <point x="0.408617" y="0.874383" />
+                            <point x="0.113763" y="0.942038" />
+                            <point x="0.208321" y="0.717221" />
+                            <point x="0.00825217" y="0.539282" />
+                            <point x="0.0230263" y="0.434883" />
+                            <point x="0.22473" y="0.462252" />
+                            <point x="0.061283" y="0.0775061" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1172,6 +1202,7 @@
         <layout-folder name="Capítulo 2">
             <layout>Cap2 Fase1.xml</layout>
             <layout>Cap2 Fase2.xml</layout>
+            <layout>Cap2 Fase3.xml</layout>
         </layout-folder>
         <layout-folder name="Pré-fases">
             <layout>Loja.xml</layout>
@@ -1193,6 +1224,7 @@
         <event-folder name="Capítulo 2">
             <event-sheet>Eventos Cap2 Fase1.xml</event-sheet>
             <event-sheet>Eventos Cap2 Fase2.xml</event-sheet>
+            <event-sheet>Eventos Cap2 Fase3.xml</event-sheet>
         </event-folder>
         <event-folder name="Pré-fases">
             <event-sheet>Eventos Loja.xml</event-sheet>
