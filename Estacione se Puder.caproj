@@ -1152,13 +1152,22 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Renderiza_controle" sid="683361431227565">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="611968859034242" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout-folder name="Capítulo 1">
             <layout>Cap1 Fase1.xml</layout>
             <layout>Cap1 Fase2.xml</layout>
-            <layout>Cap1 Fase3 Bugged tem q arrumar.xml</layout>
+            <layout>Cap1 Fase3.xml</layout>
+            <layout>Cap1 Fase4 Fase nao concluida favor n executar.xml</layout>
         </layout-folder>
         <layout-folder name="Capítulo 2">
             <layout>Cap2 Fase1.xml</layout>
@@ -1179,6 +1188,7 @@
             <event-sheet>Eventos Cap1 Fase1.xml</event-sheet>
             <event-sheet>Eventos Cap1 Fase2.xml</event-sheet>
             <event-sheet>Eventos Cap1 Fase3.xml</event-sheet>
+            <event-sheet>Eventos Cap1 Fase4.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 2">
             <event-sheet>Eventos Cap2 Fase1.xml</event-sheet>
