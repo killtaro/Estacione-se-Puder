@@ -584,7 +584,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="648400677369554" speed="5">
-                        <frame duration="1" hotspotX="0.92429" hotspotY="1.41667" original-source="C:\Projetos\Estacione-se-Puder\Textures\seta-estacionamento-2esquerda.png">
+                        <frame duration="1" hotspotX="0.539432" hotspotY="0.525641" original-source="C:\Projetos\Estacione-se-Puder\Textures\seta-estacionamento-2esquerda.png">
                             <collision-poly>
                                 <point x="0" y="1" />
                                 <point x="0.916558" y="0" />
@@ -735,7 +735,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506856588331148" speed="5">
-                        <frame duration="1" hotspotX="0.720149" hotspotY="0.985037" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(4).png">
+                        <frame duration="1" hotspotX="0.526119" hotspotY="0.453865" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(4).png">
                             <collision-poly>
                                 <point x="0" y="0.137157" />
                                 <point x="0.0858209" y="0.0523691" />
@@ -787,7 +787,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894779112743620" speed="5">
-                        <frame duration="1" hotspotX="0.720149" hotspotY="0.985037" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(2).png">
+                        <frame duration="1" hotspotX="0.485075" hotspotY="0.461347" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(2).png">
                             <collision-poly>
                                 <point x="0" y="0.134663" />
                                 <point x="0.0820896" y="0.0498753" />
@@ -1187,6 +1187,14 @@
                             <point x="0.061283" y="0.0775061" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gatilho_layer2" sid="698149732728105">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467755448878509" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>

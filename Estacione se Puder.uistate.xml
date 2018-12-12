@@ -10,10 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Cap2 Fase1</layout>
-        <layout order="1">Cap2 Fase2</layout>
-        <layout active="1" order="2">Cap2 Fase3</layout>
-        <event-sheet order="3">Eventos Cap2 Fase3</event-sheet>
+        <layout active="1" order="0">Cap1 Fase4 Fase nao concluida favor n executar</layout>
+        <layout order="1">Cap1 Fase3</layout>
+        <event-sheet order="2">Eventos Cap1 Fase4</event-sheet>
+        <event-sheet order="3">Eventos Cap1 Fase3</event-sheet>
+        <event-sheet order="4">Eventos Cap1 Fase2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -30,7 +31,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Controles/" />
         <folder expanded="1" path="object-folder/Player/" />
         <folder expanded="1" path="object-folder/Obstáculos/" />
-        <folder expanded="0" path="object-folder/Detalhes/" />
+        <folder expanded="1" path="object-folder/Detalhes/" />
         <folder expanded="0" path="object-folder/Textos/" />
         <folder expanded="1" path="object-folder/Carros Estacionados/" />
         <folder expanded="1" path="layout-folder/" />
@@ -94,5 +95,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Gatilho_layer/" />
         <folder expanded="1" path="animation-folder/Renderiza_controle/" />
         <folder expanded="1" path="animation-folder/buraco1/" />
+        <folder expanded="1" path="animation-folder/gatilho_layer2/" />
     </folders-expanded>
 </c2uistate>

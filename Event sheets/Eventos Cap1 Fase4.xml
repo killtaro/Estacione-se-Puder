@@ -2,5 +2,58 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap1 Fase4</name>
-    <events />
+    <events>
+        <include>Eventos Controle Mobile</include>
+        <include>Eventos Pontos</include>
+        <include>Eventos Carros</include>
+        <event-block sid="325883306127393">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="235442855277687" type="carro">
+                    <param id="0" name="Object">Final</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="817228918124842" type="Pontos">
+                    <param id="0" name="Text">Pontos</param>
+                </action>
+                <action id="-9" name="Destroy" sid="756702648965902" type="carro" />
+                <action id="-4" name="Set layer visible" sid="741861096911122" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="572685663863734">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="721525256699951" type="carro">
+                    <param id="0" name="Object">Gatilho_layer</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="787635832101019" type="carro">
+                    <param id="0" name="Layer">1</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="841220617252390" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="211766735285308">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="594038138384814" type="carro">
+                    <param id="0" name="Object">gatilho_layer2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="970234656413334" type="carro">
+                    <param id="0" name="Layer">2</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="421334312426669" type="System">
+                    <param id="0" name="Layer">2</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
