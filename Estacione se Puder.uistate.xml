@@ -12,6 +12,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">Cap2 Fase3</layout>
         <layout active="1" order="1">Cap2 Fase4</layout>
+        <event-sheet order="2">Eventos Cap2 Fase4</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
