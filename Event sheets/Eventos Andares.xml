@@ -587,6 +587,18 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="862318383950175">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="493925420875871" type="Final">
+                            <param id="0" name="Layer">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Set collisions enabled" sid="161535285999037" type="Final">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-block>
         <event-block sid="963022188275871">
@@ -1173,6 +1185,18 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="872788806665109">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="161596385403773" type="Final">
+                            <param id="0" name="Layer">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Set collisions enabled" sid="977974679475265" type="Final">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-block>
         <event-block sid="255212466524183">
@@ -1756,6 +1780,18 @@
                     <actions>
                         <action behavior="Solid" id="0" name="Set enabled" sid="776625117129945" type="bordaCalcada1">
                             <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="752839255163054">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="544683541020210" type="Final">
+                            <param id="0" name="Layer">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Set collisions enabled" sid="502007627586185" type="Final">
+                            <param id="0" name="Collisions">1</param>
                         </action>
                     </actions>
                 </event-block>

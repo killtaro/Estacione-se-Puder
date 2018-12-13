@@ -9,7 +9,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML5" />
     </configurations>
-    <open-tabs />
+    <open-tabs>
+        <layout active="1" order="0">Cap1 Fase4 Fase nao concluida favor n executar</layout>
+        <layout order="1">Cap1 Fase3</layout>
+    </open-tabs>
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
