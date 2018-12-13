@@ -19,6 +19,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Car" version="1">Car</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
@@ -1111,6 +1112,11 @@
         </object-type>
         <object-type name="Final" sid="350712590619999">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="246824240218498">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <effects>
                 <effect-type name="GlowHorizontal">
                     <effect id="glowhorizontal" />
@@ -1195,6 +1201,66 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467755448878509" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buraco2" sid="490907565650090">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="541295620215712">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="210824754714399" speed="5">
+                    <frame duration="1" hotspotX="0.693431" hotspotY="0.486842" original-source="C:\Users\pixel\Downloads\Buraco2(1).png">
+                        <collision-poly>
+                            <point x="0.578912" y="0" />
+                            <point x="0.722532" y="0.223684" />
+                            <point x="0.677114" y="0.403971" />
+                            <point x="1" y="0.638208" />
+                            <point x="0.811865" y="0.817646" />
+                            <point x="0.627737" y="0.828948" />
+                            <point x="0.458451" y="0.99671" />
+                            <point x="0.218646" y="0.884869" />
+                            <point x="0.265274" y="0.733553" />
+                            <point x="0.0109489" y="0.669122" />
+                            <point x="0.186131" y="0.536462" />
+                            <point x="0.171533" y="0.483536" />
+                            <point x="0" y="0.366792" />
+                            <point x="0.19708" y="0.216323" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buraco3" sid="779967973765137">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="771947266153762">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="700139097722276" speed="5">
+                    <frame duration="1" hotspotX="0.632258" hotspotY="0.47651" original-source="C:\Users\pixel\Downloads\Buraco2.png">
+                        <collision-poly>
+                            <point x="0.434264" y="0.110405" />
+                            <point x="0.638625" y="0" />
+                            <point x="0.969449" y="0.294656" />
+                            <point x="0.922581" y="0.476562" />
+                            <point x="0.993548" y="0.777062" />
+                            <point x="0.796774" y="0.969799" />
+                            <point x="0.553599" y="0.848993" />
+                            <point x="0.293255" y="1" />
+                            <point x="0.186081" y="0.922819" />
+                            <point x="0.0257912" y="0.729573" />
+                            <point x="0.187097" y="0.584175" />
+                            <point x="0" y="0.446292" />
+                            <point x="0.0235365" y="0.350687" />
+                            <point x="0.201718" y="0.191275" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
