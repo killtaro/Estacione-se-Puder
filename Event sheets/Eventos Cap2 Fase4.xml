@@ -5,5 +5,11 @@
     <events>
         <include>Eventos Pontos</include>
         <include>Eventos Carros</include>
+        <event-block sid="611319172336210">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="341478577051854" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
     </events>
 </c2eventsheet>
