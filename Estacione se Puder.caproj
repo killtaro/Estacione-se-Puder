@@ -1285,6 +1285,7 @@
             <event-sheet>Eventos Carros.xml</event-sheet>
             <event-sheet>Eventos Pontos.xml</event-sheet>
             <event-sheet>Eventos Controle Mobile.xml</event-sheet>
+            <event-sheet>Eventos Andares.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 1">
             <event-sheet>Eventos Cap1 Fase1.xml</event-sheet>
