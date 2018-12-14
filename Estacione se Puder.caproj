@@ -1276,7 +1276,9 @@
             <layout>Cap1 Fase1.xml</layout>
             <layout>Cap1 Fase2.xml</layout>
             <layout>Cap1 Fase3.xml</layout>
-            <layout>Cap1 Fase4 Fase nao concluida favor n executar.xml</layout>
+            <layout>Cap1 Fase4.xml</layout>
+            <layout>Cap1 Fase5.xml</layout>
+            <layout>Cap1 Fase6.xml</layout>
         </layout-folder>
         <layout-folder name="Capítulo 2">
             <layout>Cap2 Fase1.xml</layout>
@@ -1301,6 +1303,8 @@
             <event-sheet>Eventos Cap1 Fase2.xml</event-sheet>
             <event-sheet>Eventos Cap1 Fase3.xml</event-sheet>
             <event-sheet>Eventos Cap1 Fase4.xml</event-sheet>
+            <event-sheet>Eventos Cap1 Fase5.xml</event-sheet>
+            <event-sheet>Eventos Cap1 Fase6.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 2">
             <event-sheet>Eventos Cap2 Fase1.xml</event-sheet>

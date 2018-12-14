@@ -9,7 +9,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML5" />
     </configurations>
-    <open-tabs />
+    <open-tabs>
+        <layout order="0">Cap1 Fase1</layout>
+        <layout order="1">Cap1 Fase5</layout>
+        <layout active="1" order="4">Cap1 Fase6</layout>
+        <event-sheet order="2">Eventos Cap1 Fase5</event-sheet>
+        <event-sheet order="3">Eventos Cap1 Fase3</event-sheet>
+    </open-tabs>
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
@@ -20,14 +26,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/Superfícies/" />
-        <folder expanded="1" path="object-folder/Edifícios/" />
+        <folder expanded="0" path="object-folder/Edifícios/" />
         <folder expanded="0" path="object-folder/Backgrounds/" />
         <folder expanded="0" path="object-folder/Controles/" />
-        <folder expanded="0" path="object-folder/Player/" />
+        <folder expanded="1" path="object-folder/Player/" />
         <folder expanded="0" path="object-folder/Obstáculos/" />
-        <folder expanded="0" path="object-folder/Detalhes/" />
-        <folder expanded="1" path="object-folder/Textos/" />
-        <folder expanded="0" path="object-folder/Carros Estacionados/" />
+        <folder expanded="1" path="object-folder/Detalhes/" />
+        <folder expanded="0" path="object-folder/Textos/" />
+        <folder expanded="1" path="object-folder/Carros Estacionados/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Capítulo 1/" />
         <folder expanded="1" path="layout-folder/Capítulo 2/" />
