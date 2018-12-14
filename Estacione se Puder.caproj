@@ -1285,6 +1285,8 @@
             <layout>Cap2 Fase2.xml</layout>
             <layout>Cap2 Fase3.xml</layout>
             <layout>Cap2 Fase4.xml</layout>
+            <layout>Cap2 Fase5.xml</layout>
+            <layout>Cap2 Fase6.xml</layout>
         </layout-folder>
         <layout-folder name="Pré-fases">
             <layout>Loja.xml</layout>
@@ -1311,11 +1313,13 @@
             <event-sheet>Eventos Cap2 Fase2.xml</event-sheet>
             <event-sheet>Eventos Cap2 Fase3.xml</event-sheet>
             <event-sheet>Eventos Cap2 Fase4.xml</event-sheet>
+            <event-sheet>Eventos Cap2 Fase5.xml</event-sheet>
         </event-folder>
         <event-folder name="Pré-fases">
             <event-sheet>Eventos Loja.xml</event-sheet>
             <event-sheet>Eventos Prologo.xml</event-sheet>
         </event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
