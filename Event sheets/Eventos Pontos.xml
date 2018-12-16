@@ -44,10 +44,6 @@
                             <param id="0" name="Variable">Pontos</param>
                             <param id="1" name="Value">25</param>
                         </action>
-                        <action id="-11" name="Subtract from" sid="143944931175495" type="System">
-                            <param id="0" name="Variable">Vida</param>
-                            <param id="1" name="Value">10</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="415355859892463">
@@ -60,10 +56,6 @@
                         <action id="-11" name="Subtract from" sid="588659388101546" type="System">
                             <param id="0" name="Variable">Pontos</param>
                             <param id="1" name="Value">50</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="163984241448004" type="System">
-                            <param id="0" name="Variable">Vida</param>
-                            <param id="1" name="Value">10</param>
                         </action>
                     </actions>
                 </event-block>
@@ -78,10 +70,6 @@
                             <param id="0" name="Variable">Pontos</param>
                             <param id="1" name="Value">100</param>
                         </action>
-                        <action id="-11" name="Subtract from" sid="406656934547725" type="System">
-                            <param id="0" name="Variable">Vida</param>
-                            <param id="1" name="Value">10</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="599311694386818">
@@ -94,10 +82,6 @@
                         <action id="-11" name="Subtract from" sid="313515401501375" type="System">
                             <param id="0" name="Variable">Pontos</param>
                             <param id="1" name="Value">100</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="810461599990632" type="System">
-                            <param id="0" name="Variable">Vida</param>
-                            <param id="1" name="Value">10</param>
                         </action>
                     </actions>
                 </event-block>
@@ -112,10 +96,6 @@
                             <param id="0" name="Variable">Pontos</param>
                             <param id="1" name="Value">100</param>
                         </action>
-                        <action id="-11" name="Subtract from" sid="459545028298849" type="System">
-                            <param id="0" name="Variable">Vida</param>
-                            <param id="1" name="Value">10</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="788309694527473">
@@ -129,10 +109,6 @@
                             <param id="0" name="Variable">Pontos</param>
                             <param id="1" name="Value">100</param>
                         </action>
-                        <action id="-11" name="Subtract from" sid="185103106276836" type="System">
-                            <param id="0" name="Variable">Vida</param>
-                            <param id="1" name="Value">10</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="168270223667249">
@@ -145,10 +121,6 @@
                         <action id="-11" name="Subtract from" sid="967202417914705" type="System">
                             <param id="0" name="Variable">Pontos</param>
                             <param id="1" name="Value">100</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="950638123998026" type="System">
-                            <param id="0" name="Variable">Vida</param>
-                            <param id="1" name="Value">10</param>
                         </action>
                     </actions>
                 </event-block>

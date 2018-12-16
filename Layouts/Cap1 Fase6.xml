@@ -3417,7 +3417,7 @@
             <effects />
         </layer>
         <layer name="1andar" sid="639678075918353">
-            <initially-visible>1</initially-visible>
+            <initially-visible>0</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
             <parallax>
@@ -6222,8 +6222,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>147</x>
-                        <y>402</y>
+                        <x>678</x>
+                        <y>1206</y>
                         <z>0</z>
                         <width>45</width>
                         <height>43</height>
@@ -6562,7 +6562,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>62</x>
-                        <y>970</y>
+                        <y>794</y>
                         <z>0</z>
                         <width>31.893798828</width>
                         <height>33.645233154</height>
@@ -6590,8 +6590,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>130</x>
-                        <y>954</y>
+                        <x>789</x>
+                        <y>926</y>
                         <z>0</z>
                         <width>29.579467773</width>
                         <height>36.828704834</height>
@@ -6648,8 +6648,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1246</x>
-                        <y>605</y>
+                        <x>1211</x>
+                        <y>423</y>
                         <z>0</z>
                         <width>45</width>
                         <height>43</height>

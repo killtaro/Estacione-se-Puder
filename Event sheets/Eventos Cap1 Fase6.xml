@@ -2,5 +2,47 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap1 Fase6</name>
-    <events />
+    <events>
+        <include>Evento Dinheiro</include>
+        <include>Eventos Pontos</include>
+        <include>Eventos Controle Mobile</include>
+        <include>Eventos Carros</include>
+        <include>Eventos Andares</include>
+        <event-block sid="714737497892367">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="617345772080166" type="carro">
+                    <param id="0" name="Object">Final</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="163288637034608" type="Pontos">
+                    <param id="0" name="Text">Pontos</param>
+                </action>
+                <action id="-9" name="Destroy" sid="155026151708811" type="carro" />
+                <action id="-4" name="Set layer visible" sid="664259565631715" type="System">
+                    <param id="0" name="Layer">2</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="989213864612054">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="296786519015295" type="carro">
+                    <param id="0" name="Object">Gatilho_layer</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="637096585224573" type="carro">
+                    <param id="0" name="Layer">1</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="182006113415210" type="System">
+                    <param id="0" name="Layer">1</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-8" name="Set angle" sid="812170706962472" type="carro">
+                    <param id="0" name="Angle">carro.Angle + 180</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

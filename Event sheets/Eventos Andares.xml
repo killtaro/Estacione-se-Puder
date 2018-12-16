@@ -599,6 +599,78 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="768404372029908">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="250856970995547" type="buraco1">
+                            <param id="0" name="Layer">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="990818645446688" type="buraco1">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="559195994739091">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="949630011740329" type="buraco1">
+                            <param id="0" name="Layer">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="362999017970366" type="buraco1">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="908171544718956">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="197896069170198" type="buraco2">
+                            <param id="0" name="Layer">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="770609396618969" type="buraco2">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="443309757180620">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="836139448080135" type="buraco2">
+                            <param id="0" name="Layer">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="351810335431873" type="buraco2">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="968157089203657">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="342459406638135" type="buraco3">
+                            <param id="0" name="Layer">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="465247721806722" type="buraco3">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="374250416428328">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="541758210472494" type="buraco3">
+                            <param id="0" name="Layer">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="516447416378557" type="buraco3">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-block>
         <event-block sid="963022188275871">
@@ -1194,6 +1266,90 @@
                     <actions>
                         <action id="11" name="Set collisions enabled" sid="977974679475265" type="Final">
                             <param id="0" name="Collisions">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="555496819202668">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="147751301476888" type="Final">
+                            <param id="0" name="Layer">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Set collisions enabled" sid="953910385133066" type="Final">
+                            <param id="0" name="Collisions">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="191501722508427">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="100090715572882" type="buraco1">
+                            <param id="0" name="Layer">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="584265416285625" type="buraco1">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="527523693598178">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="524091402806634" type="buraco1">
+                            <param id="0" name="Layer">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="663279122770490" type="buraco1">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="113961304524275">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="939319388113978" type="buraco2">
+                            <param id="0" name="Layer">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="899678098675304" type="buraco2">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="429019525968952">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="767328307379524" type="buraco2">
+                            <param id="0" name="Layer">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="560680638889317" type="buraco2">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="413325697429152">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="808816443299838" type="buraco3">
+                            <param id="0" name="Layer">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="404772731094987" type="buraco3">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="698388028067953">
+                    <conditions>
+                        <condition id="-16" name="Is on layer" sid="116666537944141" type="buraco3">
+                            <param id="0" name="Layer">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="997963648504829" type="buraco3">
+                            <param id="0" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>

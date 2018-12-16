@@ -946,7 +946,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="474134394692071" speed="5">
-                        <frame duration="1" hotspotX="3.14925" hotspotY="4.8803" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado.png">
+                        <frame duration="1" hotspotX="0.511194" hotspotY="0.436409" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado.png">
                             <collision-poly>
                                 <point x="0" y="0.157107" />
                                 <point x="0.0820896" y="0.0473815" />
@@ -1279,6 +1279,10 @@
             <layout>Cap1 Fase4.xml</layout>
             <layout>Cap1 Fase5.xml</layout>
             <layout>Cap1 Fase6.xml</layout>
+            <layout>Cap1 Fase7.xml</layout>
+            <layout>Cap1 Fase8.xml</layout>
+            <layout>Cap1 Fase9.xml</layout>
+            <layout>Cap1 Fase10.xml</layout>
         </layout-folder>
         <layout-folder name="Capítulo 2">
             <layout>Cap2 Fase1.xml</layout>
@@ -1291,6 +1295,7 @@
         <layout-folder name="Pré-fases">
             <layout>Loja.xml</layout>
             <layout>Prologo.xml</layout>
+            <layout>Menu.xml</layout>
         </layout-folder>
     </layout-folder>
     <event-folder>
@@ -1299,6 +1304,7 @@
             <event-sheet>Eventos Pontos.xml</event-sheet>
             <event-sheet>Eventos Controle Mobile.xml</event-sheet>
             <event-sheet>Eventos Andares.xml</event-sheet>
+            <event-sheet>Evento Dinheiro.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 1">
             <event-sheet>Eventos Cap1 Fase1.xml</event-sheet>
@@ -1307,6 +1313,10 @@
             <event-sheet>Eventos Cap1 Fase4.xml</event-sheet>
             <event-sheet>Eventos Cap1 Fase5.xml</event-sheet>
             <event-sheet>Eventos Cap1 Fase6.xml</event-sheet>
+            <event-sheet>Eventos Cap1 Fase7.xml</event-sheet>
+            <event-sheet>Eventos Cap1 Fase8.xml</event-sheet>
+            <event-sheet>Eventos Cap1 Fase9.xml</event-sheet>
+            <event-sheet>Eventos Cap1 Fase10.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 2">
             <event-sheet>Eventos Cap2 Fase1.xml</event-sheet>
@@ -1314,12 +1324,13 @@
             <event-sheet>Eventos Cap2 Fase3.xml</event-sheet>
             <event-sheet>Eventos Cap2 Fase4.xml</event-sheet>
             <event-sheet>Eventos Cap2 Fase5.xml</event-sheet>
+            <event-sheet>Eventos Cap2 Fase6.xml</event-sheet>
         </event-folder>
         <event-folder name="Pré-fases">
             <event-sheet>Eventos Loja.xml</event-sheet>
             <event-sheet>Eventos Prologo.xml</event-sheet>
+            <event-sheet>Eventos Menu.xml</event-sheet>
         </event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
