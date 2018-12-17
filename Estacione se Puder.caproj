@@ -641,7 +641,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872565444692187" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.504167" original-source="C:\Projetos\Estacione-se-Puder\Textures\Fundo-Vitoria.png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.505338" original-source="C:\Users\pixel\Pictures\olokobicho.jpg">
                             <collision-poly>
                                 <point x="0.00614754" y="0.0208333" />
                                 <point x="0.5" y="0.00416667" />
@@ -1268,6 +1268,18 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Heyaheya" sid="953100579624433">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="infoTexto1" sid="747176540747747">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btnContinuar" sid="541236441696856">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btnBackMenu" sid="454249226781514">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
