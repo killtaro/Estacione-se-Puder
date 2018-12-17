@@ -2757,7 +2757,7 @@
                         <text>Continuar</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Coolvetica Rg,-48,400,0</font>
-                        <color>204,255,255</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -2784,7 +2784,7 @@
                         <text>Voltar ao menu</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Coolvetica Rg,-48,400,0</font>
-                        <color>255,204,204</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>

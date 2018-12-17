@@ -1303,6 +1303,7 @@
             <layout>Cap2 Fase4.xml</layout>
             <layout>Cap2 Fase5.xml</layout>
             <layout>Cap2 Fase6.xml</layout>
+            <layout>Cap2 Fase7.xml</layout>
         </layout-folder>
         <layout-folder name="Pré-fases">
             <layout>Loja.xml</layout>
@@ -1337,6 +1338,7 @@
             <event-sheet>Eventos Cap2 Fase4.xml</event-sheet>
             <event-sheet>Eventos Cap2 Fase5.xml</event-sheet>
             <event-sheet>Eventos Cap2 Fase6.xml</event-sheet>
+            <event-sheet>Eventos Cap2 Fase7.xml</event-sheet>
         </event-folder>
         <event-folder name="Pré-fases">
             <event-sheet>Eventos Loja.xml</event-sheet>
