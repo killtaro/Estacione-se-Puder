@@ -64,7 +64,7 @@
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
-                <texture original-source="C:\Users\pixel\Downloads\Borda calçada(1).png" />
+                <texture original-source="C:\Users\pixel\Downloads\Borda calçada clone(1).png" />
             </object-type>
             <object-type name="calcada1" sid="167461108493864">
                 <plugin id="TiledBg" />
@@ -1101,15 +1101,15 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="339288789037142" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.62963" original-source="C:\Projetos\Estacione-se-Puder\Textures\road-block.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.70297" original-source="C:\Users\pixel\Downloads\roadblocke(1).png">
                         <collision-poly>
-                            <point x="0.15925" y="0.0487865" />
-                            <point x="0.84075" y="0.0487865" />
-                            <point x="0.99361" y="0.630471" />
-                            <point x="0.84075" y="1" />
-                            <point x="0.5" y="0.657653" />
-                            <point x="0.15925" y="1" />
-                            <point x="0.00638971" y="0.630471" />
+                            <point x="0.116374" y="0" />
+                            <point x="0.883626" y="0" />
+                            <point x="1" y="0.706687" />
+                            <point x="0.883626" y="1" />
+                            <point x="0.5" y="0.749747" />
+                            <point x="0.116374" y="1" />
+                            <point x="0" y="0.706687" />
                         </collision-poly>
                     </frame>
                 </animation>
