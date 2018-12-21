@@ -3342,28 +3342,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="seta2andar" uid="1558">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>679</x>
-                        <y>245</y>
-                        <z>0</z>
-                        <width>88</width>
-                        <height>46.777423859</height>
-                        <depth>0</depth>
-                        <hotspotX>0.539432168</hotspotX>
-                        <hotspotY>0.525641024</hotspotY>
-                        <angle>1.468889236</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="bordaCalcada1" uid="1559">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -6979,11 +6957,11 @@
                         <x>66</x>
                         <y>345</y>
                         <z>0</z>
-                        <width>84.111236572</width>
-                        <height>55.615509033</height>
+                        <width>73.671897888</width>
+                        <height>77.276283264</height>
                         <depth>0</depth>
-                        <hotspotX>0.517730474</hotspotX>
-                        <hotspotY>0.526315808</hotspotY>
+                        <hotspotX>0.53441298</hotspotX>
+                        <hotspotY>0.560606062</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -7001,11 +6979,11 @@
                         <x>256</x>
                         <y>345</y>
                         <z>0</z>
-                        <width>85.071228027</width>
-                        <height>59.457172394</height>
+                        <width>81.444160461</width>
+                        <height>76.197540283</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.504854381</hotspotY>
+                        <hotspotX>0.510121465</hotspotX>
+                        <hotspotY>0.484848499</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

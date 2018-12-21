@@ -64,10 +64,15 @@
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
-                <texture original-source="C:\Users\pixel\Downloads\Borda calçada clone(1).png" />
+                <texture original-source="C:\Users\pixel\Downloads\Borda calçada clone(4).png" />
             </object-type>
             <object-type name="calcada1" sid="167461108493864">
                 <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="662859489384982">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
                 <texture original-source="C:\Users\pixel\Downloads\calçada2(1).png" />
             </object-type>
             <object-type name="grama1" sid="303596449187048">
@@ -101,6 +106,15 @@
             <object-type name="terra2" sid="967344520405636">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\terra2.png" />
+            </object-type>
+            <object-type name="bordaCalcada2" sid="212774137454779">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="999731105056676">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\pixel\Downloads\estacin\Textures\borda.png" />
             </object-type>
         </object-folder>
         <object-folder name="Edifícios">
@@ -363,16 +377,16 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="724248943137833" speed="5">
-                        <frame duration="1" hotspotX="0.51773" hotspotY="0.526316" original-source="C:\Users\pixel\Downloads\New Piskel(2).png">
+                        <frame duration="1" hotspotX="0.534413" hotspotY="0.560606" original-source="C:\Users\pixel\Downloads\seta.png">
                             <collision-poly>
-                                <point x="0.0851064" y="0.4" />
-                                <point x="0.51773" y="0.242105" />
-                                <point x="0.996454" y="0.263158" />
-                                <point x="0.996454" y="0.526316" />
-                                <point x="0.985816" y="0.757895" />
-                                <point x="0.51773" y="0.757895" />
-                                <point x="0.0992908" y="0.610526" />
-                                <point x="0.0177305" y="0.526316" />
+                                <point x="0" y="0.257576" />
+                                <point x="0.533091" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.563796" />
+                                <point x="1" y="1" />
+                                <point x="0.533091" y="1" />
+                                <point x="0" y="0.767942" />
+                                <point x="0" y="0.563796" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -382,15 +396,15 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="768270522750956" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.504854" original-source="C:\Projetos\Estacione-se-Puder\Textures\seta-direita-controle.png">
+                        <frame duration="1" hotspotX="0.510121" hotspotY="0.484848" original-source="C:\Users\pixel\Downloads\seta.png">
                             <collision-poly>
-                                <point x="0.00387597" y="0.330097" />
-                                <point x="0.5" y="0.00970874" />
-                                <point x="0.953488" y="0.436893" />
-                                <point x="0.996124" y="0.504854" />
-                                <point x="0.949612" y="0.563107" />
-                                <point x="0.5" y="0.990291" />
-                                <point x="0.00387597" y="0.679612" />
+                                <point x="0" y="0.064577" />
+                                <point x="0.510121" y="0" />
+                                <point x="1" y="0.347013" />
+                                <point x="1" y="0.488233" />
+                                <point x="1" y="0.652987" />
+                                <point x="0.510121" y="1" />
+                                <point x="0" y="0.911886" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -586,52 +600,18 @@
             </object-type>
         </object-folder>
         <object-folder name="Detalhes">
-            <object-type name="seta2andar" sid="318579058311670">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="648400677369554" speed="5">
-                        <frame duration="1" hotspotX="0.539432" hotspotY="0.525641" original-source="C:\Projetos\Estacione-se-Puder\Textures\seta-estacionamento-2esquerda.png">
-                            <collision-poly>
-                                <point x="0" y="1" />
-                                <point x="0.916558" y="0" />
-                                <point x="1" y="1" />
-                                <point x="0.916558" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="1" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="setadireita2andar" sid="391885882825169">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732164621116011" speed="5">
-                        <frame duration="1" hotspotX="0.589905" hotspotY="0.724359" original-source="C:\Projetos\Estacione-se-Puder\Textures\seta-estacionamento-2.png">
-                            <collision-poly>
-                                <point x="0.00315462" y="0.685897" />
-                                <point x="0.586751" y="0.0897436" />
-                                <point x="0.776025" y="0.724359" />
-                                <point x="0.586751" y="0.910256" />
-                                <point x="0.0063092" y="0.75641" />
-                                <point x="0.00315462" y="0.724359" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
             <object-type name="setaestacionamento" sid="906755023399065">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="272110116786490" speed="5">
-                        <frame duration="1" hotspotX="0.589905" hotspotY="0.724359" original-source="C:\Projetos\Estacione-se-Puder\Textures\seta-estacionamento.png">
+                        <frame duration="1" hotspotX="0.218623" hotspotY="0.606061" original-source="C:\Users\pixel\Downloads\New Piskel(8).png">
                             <collision-poly>
-                                <point x="0.00315462" y="0.685897" />
-                                <point x="0.586751" y="0.0897436" />
-                                <point x="0.776025" y="0.724359" />
-                                <point x="0.586751" y="0.910256" />
-                                <point x="0.0063092" y="0.75641" />
-                                <point x="0.00315462" y="0.724359" />
+                                <point x="0.269283" y="0" />
+                                <point x="1" y="0.605153" />
+                                <point x="0.219454" y="0.834576" />
+                                <point x="0" y="0.605153" />
+                                <point x="0.17793" y="0" />
+                                <point x="0.219454" y="0" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -1281,6 +1261,30 @@
         <object-type name="btnBackMenu" sid="454249226781514">
             <plugin id="Text" />
         </object-type>
+        <object-type name="oleo" sid="326218336345544">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="314808017629855" speed="5">
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0.473684" original-source="C:\Users\pixel\Downloads\oil.png">
+                        <collision-poly>
+                            <point x="0.25463" y="0.305263" />
+                            <point x="0.435185" y="0.197368" />
+                            <point x="0.817129" y="0.221053" />
+                            <point x="0.988426" y="0.402632" />
+                            <point x="0.981481" y="0.763157" />
+                            <point x="0.920139" y="0.918421" />
+                            <point x="0.75" y="0.994737" />
+                            <point x="0.347222" y="0.921053" />
+                            <point x="0.00578703" y="0.644737" />
+                            <point x="0.0277778" y="0.473684" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="informativo" sid="960581488022775">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1305,6 +1309,7 @@
             <layout>Cap2 Fase6.xml</layout>
             <layout>Cap2 Fase7.xml</layout>
             <layout>Cap2 Fase 8.xml</layout>
+            <layout>Cap2 Fase 9.xml</layout>
         </layout-folder>
         <layout-folder name="Pré-fases">
             <layout>Loja.xml</layout>
@@ -1347,6 +1352,7 @@
             <event-sheet>Eventos Prologo.xml</event-sheet>
             <event-sheet>Eventos Menu.xml</event-sheet>
         </event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
