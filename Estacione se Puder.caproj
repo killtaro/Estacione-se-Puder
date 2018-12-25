@@ -114,7 +114,7 @@
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
-                <texture original-source="C:\Users\pixel\Downloads\estacin\Textures\borda.png" />
+                <texture original-source="C:\Users\pixel\Downloads\Borda calçada clone(6).png" />
             </object-type>
         </object-folder>
         <object-folder name="Edifícios">
@@ -598,6 +598,140 @@
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Paredes de cima.png" />
             </object-type>
+            <object-type name="buraco1" sid="183161288683456">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="548013945265326">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="802696203396495" speed="5">
+                        <frame duration="1" hotspotX="0.565789" hotspotY="0.457317" original-source="C:\Users\pixel\Downloads\Buraco1(1).png">
+                            <collision-poly>
+                                <point x="0.387036" y="0.275783" />
+                                <point x="0.523369" y="0" />
+                                <point x="0.717524" y="0.335436" />
+                                <point x="1" y="0.434936" />
+                                <point x="0.738154" y="0.608241" />
+                                <point x="0.914816" y="0.872621" />
+                                <point x="0.584937" y="0.980245" />
+                                <point x="0.408617" y="0.874383" />
+                                <point x="0.113763" y="0.942038" />
+                                <point x="0.208321" y="0.717221" />
+                                <point x="0.00825217" y="0.539282" />
+                                <point x="0.0230263" y="0.434883" />
+                                <point x="0.22473" y="0.462252" />
+                                <point x="0.061283" y="0.0775061" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="buraco2" sid="490907565650090">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="541295620215712">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="210824754714399" speed="5">
+                        <frame duration="1" hotspotX="0.693431" hotspotY="0.486842" original-source="C:\Users\pixel\Downloads\Buraco2(1).png">
+                            <collision-poly>
+                                <point x="0.578912" y="0" />
+                                <point x="0.722532" y="0.223684" />
+                                <point x="0.677114" y="0.403971" />
+                                <point x="1" y="0.638208" />
+                                <point x="0.811865" y="0.817646" />
+                                <point x="0.627737" y="0.828948" />
+                                <point x="0.458451" y="0.99671" />
+                                <point x="0.218646" y="0.884869" />
+                                <point x="0.265274" y="0.733553" />
+                                <point x="0.0109489" y="0.669122" />
+                                <point x="0.186131" y="0.536462" />
+                                <point x="0.171533" y="0.483536" />
+                                <point x="0" y="0.366792" />
+                                <point x="0.19708" y="0.216323" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="buraco3" sid="779967973765137">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="771947266153762">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="700139097722276" speed="5">
+                        <frame duration="1" hotspotX="0.632258" hotspotY="0.47651" original-source="C:\Users\pixel\Downloads\Buraco2.png">
+                            <collision-poly>
+                                <point x="0.434264" y="0.110405" />
+                                <point x="0.638625" y="0" />
+                                <point x="0.969449" y="0.294656" />
+                                <point x="0.922581" y="0.476562" />
+                                <point x="0.993548" y="0.777062" />
+                                <point x="0.796774" y="0.969799" />
+                                <point x="0.553599" y="0.848993" />
+                                <point x="0.293255" y="1" />
+                                <point x="0.186081" y="0.922819" />
+                                <point x="0.0257912" y="0.729573" />
+                                <point x="0.187097" y="0.584175" />
+                                <point x="0" y="0.446292" />
+                                <point x="0.0235365" y="0.350687" />
+                                <point x="0.201718" y="0.191275" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="oleo" sid="326218336345544">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="314808017629855" speed="5">
+                        <frame duration="1" hotspotX="0.518519" hotspotY="0.473684" original-source="C:\Users\pixel\Downloads\oil.png">
+                            <collision-poly>
+                                <point x="0.25463" y="0.305263" />
+                                <point x="0.435185" y="0.197368" />
+                                <point x="0.817129" y="0.221053" />
+                                <point x="0.988426" y="0.402632" />
+                                <point x="0.981481" y="0.763157" />
+                                <point x="0.920139" y="0.918421" />
+                                <point x="0.75" y="0.994737" />
+                                <point x="0.347222" y="0.921053" />
+                                <point x="0.00578703" y="0.644737" />
+                                <point x="0.0277778" y="0.473684" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="roadBlock" sid="679376197831889">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="180254740223641">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="339288789037142" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.70297" original-source="C:\Users\pixel\Downloads\roadblocke(1).png">
+                            <collision-poly>
+                                <point x="0.116374" y="0" />
+                                <point x="0.883626" y="0" />
+                                <point x="1" y="0.706687" />
+                                <point x="0.883626" y="1" />
+                                <point x="0.5" y="0.749747" />
+                                <point x="0.116374" y="1" />
+                                <point x="0" y="0.706687" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Detalhes">
             <object-type name="setaestacionamento" sid="906755023399065">
@@ -1072,29 +1206,6 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-type name="roadBlock" sid="679376197831889">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="180254740223641">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="339288789037142" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.70297" original-source="C:\Users\pixel\Downloads\roadblocke(1).png">
-                        <collision-poly>
-                            <point x="0.116374" y="0" />
-                            <point x="0.883626" y="0" />
-                            <point x="1" y="0.706687" />
-                            <point x="0.883626" y="1" />
-                            <point x="0.5" y="0.749747" />
-                            <point x="0.116374" y="1" />
-                            <point x="0" y="0.706687" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Final" sid="350712590619999">
             <plugin id="Sprite" />
             <behaviors>
@@ -1151,101 +1262,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="buraco1" sid="183161288683456">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="548013945265326">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="802696203396495" speed="5">
-                    <frame duration="1" hotspotX="0.565789" hotspotY="0.457317" original-source="C:\Users\pixel\Downloads\Buraco1(1).png">
-                        <collision-poly>
-                            <point x="0.387036" y="0.275783" />
-                            <point x="0.523369" y="0" />
-                            <point x="0.717524" y="0.335436" />
-                            <point x="1" y="0.434936" />
-                            <point x="0.738154" y="0.608241" />
-                            <point x="0.914816" y="0.872621" />
-                            <point x="0.584937" y="0.980245" />
-                            <point x="0.408617" y="0.874383" />
-                            <point x="0.113763" y="0.942038" />
-                            <point x="0.208321" y="0.717221" />
-                            <point x="0.00825217" y="0.539282" />
-                            <point x="0.0230263" y="0.434883" />
-                            <point x="0.22473" y="0.462252" />
-                            <point x="0.061283" y="0.0775061" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="gatilho_layer2" sid="698149732728105">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467755448878509" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="buraco2" sid="490907565650090">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="541295620215712">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="210824754714399" speed="5">
-                    <frame duration="1" hotspotX="0.693431" hotspotY="0.486842" original-source="C:\Users\pixel\Downloads\Buraco2(1).png">
-                        <collision-poly>
-                            <point x="0.578912" y="0" />
-                            <point x="0.722532" y="0.223684" />
-                            <point x="0.677114" y="0.403971" />
-                            <point x="1" y="0.638208" />
-                            <point x="0.811865" y="0.817646" />
-                            <point x="0.627737" y="0.828948" />
-                            <point x="0.458451" y="0.99671" />
-                            <point x="0.218646" y="0.884869" />
-                            <point x="0.265274" y="0.733553" />
-                            <point x="0.0109489" y="0.669122" />
-                            <point x="0.186131" y="0.536462" />
-                            <point x="0.171533" y="0.483536" />
-                            <point x="0" y="0.366792" />
-                            <point x="0.19708" y="0.216323" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="buraco3" sid="779967973765137">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="771947266153762">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="700139097722276" speed="5">
-                    <frame duration="1" hotspotX="0.632258" hotspotY="0.47651" original-source="C:\Users\pixel\Downloads\Buraco2.png">
-                        <collision-poly>
-                            <point x="0.434264" y="0.110405" />
-                            <point x="0.638625" y="0" />
-                            <point x="0.969449" y="0.294656" />
-                            <point x="0.922581" y="0.476562" />
-                            <point x="0.993548" y="0.777062" />
-                            <point x="0.796774" y="0.969799" />
-                            <point x="0.553599" y="0.848993" />
-                            <point x="0.293255" y="1" />
-                            <point x="0.186081" y="0.922819" />
-                            <point x="0.0257912" y="0.729573" />
-                            <point x="0.187097" y="0.584175" />
-                            <point x="0" y="0.446292" />
-                            <point x="0.0235365" y="0.350687" />
-                            <point x="0.201718" y="0.191275" />
-                        </collision-poly>
-                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -1260,27 +1281,6 @@
         </object-type>
         <object-type name="btnBackMenu" sid="454249226781514">
             <plugin id="Text" />
-        </object-type>
-        <object-type name="oleo" sid="326218336345544">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="314808017629855" speed="5">
-                    <frame duration="1" hotspotX="0.518519" hotspotY="0.473684" original-source="C:\Users\pixel\Downloads\oil.png">
-                        <collision-poly>
-                            <point x="0.25463" y="0.305263" />
-                            <point x="0.435185" y="0.197368" />
-                            <point x="0.817129" y="0.221053" />
-                            <point x="0.988426" y="0.402632" />
-                            <point x="0.981481" y="0.763157" />
-                            <point x="0.920139" y="0.918421" />
-                            <point x="0.75" y="0.994737" />
-                            <point x="0.347222" y="0.921053" />
-                            <point x="0.00578703" y="0.644737" />
-                            <point x="0.0277778" y="0.473684" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
         </object-type>
         <object-type name="informativo" sid="960581488022775">
             <plugin id="Text" />
@@ -1308,8 +1308,9 @@
             <layout>Cap2 Fase5.xml</layout>
             <layout>Cap2 Fase6.xml</layout>
             <layout>Cap2 Fase7.xml</layout>
-            <layout>Cap2 Fase 8.xml</layout>
-            <layout>Cap2 Fase 9.xml</layout>
+            <layout>Cap2 Fase8.xml</layout>
+            <layout>Cap2 Fase9.xml</layout>
+            <layout>Cap2 Fase10.xml</layout>
         </layout-folder>
         <layout-folder name="Pré-fases">
             <layout>Loja.xml</layout>
@@ -1346,6 +1347,7 @@
             <event-sheet>Eventos Cap2 Fase6.xml</event-sheet>
             <event-sheet>Eventos Cap2 Fase7.xml</event-sheet>
             <event-sheet>Eventos Cap2 Fase8.xml</event-sheet>
+            <event-sheet>Eventos Cap2 Fase9.xml</event-sheet>
         </event-folder>
         <event-folder name="Pré-fases">
             <event-sheet>Eventos Loja.xml</event-sheet>
