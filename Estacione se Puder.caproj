@@ -1348,13 +1348,13 @@
             <event-sheet>Eventos Cap2 Fase7.xml</event-sheet>
             <event-sheet>Eventos Cap2 Fase8.xml</event-sheet>
             <event-sheet>Eventos Cap2 Fase9.xml</event-sheet>
+            <event-sheet>Eventos Cap2 Fase10.xml</event-sheet>
         </event-folder>
         <event-folder name="Pré-fases">
             <event-sheet>Eventos Loja.xml</event-sheet>
             <event-sheet>Eventos Prologo.xml</event-sheet>
             <event-sheet>Eventos Menu.xml</event-sheet>
         </event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />

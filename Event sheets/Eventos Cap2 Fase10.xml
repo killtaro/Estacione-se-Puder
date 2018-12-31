@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Event sheet 1</name>
-    <events />
+    <name>Eventos Cap2 Fase10</name>
+    <events>
+        <include>Eventos Carros</include>
+    </events>
 </c2eventsheet>
