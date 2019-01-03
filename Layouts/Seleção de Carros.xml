@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Loja</name>
-    <sid>396826960183110</sid>
-    <event-sheet>Eventos Loja</event-sheet>
+    <name>Seleção de Carros</name>
+    <sid>194689574800887</sid>
+    <event-sheet>Eventos Seleção de Carros</event-sheet>
     <size>
         <width>800</width>
         <height>400</height>
     </size>
     <margins>
-        <horizontal>500</horizontal>
-        <vertical>500</vertical>
+        <horizontal>800</horizontal>
+        <vertical>400</vertical>
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Fundo" sid="408530700709903">
+        <layer name="Layer 0" sid="304497033961986">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="backgroundLoja" uid="2901">
+                <instance type="backgroundLoja" uid="69">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>397</x>
-                        <y>199</y>
+                        <x>399.5</x>
+                        <y>198</y>
                         <z>0</z>
                         <width>817</width>
                         <height>418</height>
@@ -51,9 +51,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="infoCarro" uid="2903">
+                <instance type="infoCarro" uid="70">
                     <properties>
-                        <text>Carros para venda:</text>
+                        <text>Selecione seu carro:</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Rounded MT Bold,-64,400,0</font>
                         <color>255,255,255</color>
@@ -78,8 +78,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>0</x>
-                        <y>23</y>
+                        <x>-1</x>
+                        <y>22</y>
                         <z>0</z>
                         <width>799</width>
                         <height>85</height>
@@ -90,7 +90,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carro" uid="2905">
+                <instance type="carro" uid="71">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -125,8 +125,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>386</x>
-                        <y>156</y>
+                        <x>387</x>
+                        <y>188</y>
                         <z>0</z>
                         <width>168</width>
                         <height>111</height>
@@ -137,7 +137,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="seta" uid="2906">
+                <instance type="seta" uid="72">
                     <properties>
                         <text>-&gt;</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -155,8 +155,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>521</x>
-                        <y>110</y>
+                        <x>522</x>
+                        <y>142</y>
                         <z>0</z>
                         <width>95</width>
                         <height>163</height>
@@ -167,7 +167,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="seta" uid="2907">
+                <instance type="seta" uid="73">
                     <properties>
                         <text>&lt;-</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -185,101 +185,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>186</x>
-                        <y>127</y>
+                        <x>187</x>
+                        <y>159</y>
                         <z>0</z>
                         <width>80</width>
                         <height>136</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
-            <effects />
-        </layer>
-        <layer name="Botao Comprar" sid="953248160916051">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="FundoBotaoComprar" uid="2908">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>402</x>
-                        <y>338</y>
-                        <z>0</z>
-                        <width>250</width>
-                        <height>62</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Icone_moeda" uid="2909">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>314.091705322</x>
-                        <y>339.323944092</y>
-                        <z>0</z>
-                        <width>66</width>
-                        <height>55</height>
-                        <depth>0</depth>
-                        <hotspotX>0.477064222</hotspotX>
-                        <hotspotY>0.535211265</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PrecoCarro" uid="2910">
-                    <properties>
-                        <text></text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-48,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>363</x>
-                        <y>307</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>68</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

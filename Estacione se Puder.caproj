@@ -1285,6 +1285,36 @@
         <object-type name="informativo" sid="960581488022775">
             <plugin id="Text" />
         </object-type>
+        <object-type name="FundoBotaoComprar" sid="752830717163894">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="728575187586619" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Icone_moeda" sid="525747496513752">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="211717917828802" speed="5">
+                    <frame duration="1" hotspotX="0.477064" hotspotY="0.535211" original-source="C:\Projetos\Estacione-se-Puder\Textures\moedaas.png">
+                        <collision-poly>
+                            <point x="0.135321" y="0.187793" />
+                            <point x="0.474771" y="0.0164319" />
+                            <point x="0.791285" y="0.213615" />
+                            <point x="0.986239" y="0.535211" />
+                            <point x="0.752294" y="0.816901" />
+                            <point x="0.474771" y="0.946009" />
+                            <point x="0.0802752" y="0.938967" />
+                            <point x="0.0825688" y="0.535211" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PrecoCarro" sid="877173234766327">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1313,9 +1343,10 @@
             <layout>Cap2 Fase10.xml</layout>
         </layout-folder>
         <layout-folder name="Pré-fases">
-            <layout>Loja.xml</layout>
+            <layout>Seleção de Carros.xml</layout>
             <layout>Prologo.xml</layout>
             <layout>Menu.xml</layout>
+            <layout>Loja.xml</layout>
         </layout-folder>
     </layout-folder>
     <event-folder>
@@ -1351,9 +1382,10 @@
             <event-sheet>Eventos Cap2 Fase10.xml</event-sheet>
         </event-folder>
         <event-folder name="Pré-fases">
-            <event-sheet>Eventos Loja.xml</event-sheet>
+            <event-sheet>Eventos Seleção de Carros.xml</event-sheet>
             <event-sheet>Eventos Prologo.xml</event-sheet>
             <event-sheet>Eventos Menu.xml</event-sheet>
+            <event-sheet>Eventos Loja.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>
