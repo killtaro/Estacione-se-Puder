@@ -10,6 +10,7 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>26500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -1314,6 +1315,9 @@
         </object-type>
         <object-type name="PrecoCarro" sid="877173234766327">
             <plugin id="Text" />
+        </object-type>
+        <object-type global="1" name="CarrosComprados" sid="737290395242474">
+            <plugin id="Arr" />
         </object-type>
     </object-folder>
     <families />

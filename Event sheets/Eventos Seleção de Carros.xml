@@ -3,92 +3,534 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Seleção de Carros</name>
     <events>
+        <comment>Variaveis para definição da fase escolhida pelo jogador</comment>
+        <variable constant="0" name="Capitulo" sid="489380773368510" static="0" type="number">0</variable>
+        <variable constant="0" name="Fase" sid="343482288476194" static="0" type="number">0</variable>
         <include>Eventos Carros</include>
-        <event-block sid="281475300121678">
+        <event-block sid="547965324247828">
             <conditions>
-                <condition id="6" name="On object clicked" sid="844806842972621" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">seta</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="513651778767710" type="System">
-                    <param id="0" name="Variable">carro</param>
-                    <param id="1" name="Comparison">2</param>
-                    <param id="2" name="Value">8</param>
-                </condition>
-                <condition id="-7" name="Compare instance variable" sid="386975761389733" type="seta">
-                    <param id="0" name="Instance variable">id</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
+                <condition id="-2" name="On start of layout" sid="597325449440601" type="System" />
             </conditions>
             <actions>
-                <action id="-10" name="Add to" sid="180347922701187" type="System">
-                    <param id="0" name="Variable">carro</param>
-                    <param id="1" name="Value">1</param>
+                <action id="-12" name="Set group active" sid="520641321046779" type="System">
+                    <param id="0" name="Group name">&quot;EscolhaFase&quot;</param>
+                    <param id="1" name="State">0</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="790657445408774">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="659441640965059" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">seta</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="246033432831594" type="System">
-                    <param id="0" name="Variable">carro</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-                <condition id="-7" name="Compare instance variable" sid="630447806568904" type="seta">
-                    <param id="0" name="Instance variable">id</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-11" name="Subtract from" sid="731687438442747" type="System">
-                    <param id="0" name="Variable">carro</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="543227052096078">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="342805944605312" type="Keyboard">
-                    <param id="0" name="Key">39</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="775819718280570" type="System">
-                    <param id="0" name="Variable">carro</param>
-                    <param id="1" name="Comparison">2</param>
-                    <param id="2" name="Value">8</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Add to" sid="942963435130933" type="System">
-                    <param id="0" name="Variable">carro</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="631496383922035">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="548863186196634" type="Keyboard">
-                    <param id="0" name="Key">37</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="704201255254083" type="System">
-                    <param id="0" name="Variable">carro</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-11" name="Subtract from" sid="574634162445786" type="System">
-                    <param id="0" name="Variable">carro</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
+        <comment>Compara com o Array de carros comprados</comment>
+        <event-group description="" sid="778316969962517" title="CarrosCompradosSeleciona">
+            <sub-events>
+                <event-block sid="970171762716312">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="420929548960839" type="CarrosComprados">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="962131007865084" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="736622705966868">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="992401328017518" type="CarrosComprados">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="605535031255851" type="System">
+                            <param id="0" name="Layer">2</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="897788728593106">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="440554897127015" type="CarrosComprados">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="440057563289123" type="System">
+                            <param id="0" name="Layer">3</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="391038341262733">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="197198871704442" type="CarrosComprados">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="721253445354988" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="229696262514444">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="613283557836029" type="CarrosComprados">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="320941915774883" type="System">
+                            <param id="0" name="Layer">5</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="409981850176762">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="569538977258095" type="CarrosComprados">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="513824717126145" type="System">
+                            <param id="0" name="Layer">6</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="196169690011789">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="207702981648629" type="CarrosComprados">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="488486400840896" type="System">
+                            <param id="0" name="Layer">7</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="213811509077295">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="607891436522243" type="CarrosComprados">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="650063971620653" type="System">
+                            <param id="0" name="Layer">8</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <comment>Seleciona o carro e joga para variável que mostra no game o carro escolhido</comment>
+        <event-group description="" sid="698786732249512" title="SelecionaCarroFase">
+            <sub-events>
+                <event-block sid="478224541574168">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="590737595489262" type="Touch">
+                            <param id="0" name="Object">carro</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="842824583328060" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="184933184530980" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="401939236300360" type="System">
+                            <param id="0" name="Group name">&quot;EscolhaFase&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="811682734147895">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="995506492310952" type="Touch">
+                            <param id="0" name="Object">carro</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="233652647848444" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="968584186729267" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="193959728064788" type="System">
+                            <param id="0" name="Group name">&quot;EscolhaFase&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="132639955292036">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="278013691675681" type="Touch">
+                            <param id="0" name="Object">carro</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="356894025719088" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="627431001015092" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="661348887018164" type="System">
+                            <param id="0" name="Group name">&quot;EscolhaFase&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="297306364271861">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="169947870765383" type="Touch">
+                            <param id="0" name="Object">carro</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="345966946907430" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="301902617293506" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="967046083747088" type="System">
+                            <param id="0" name="Group name">&quot;EscolhaFase&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="251965467139437">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="107783420555836" type="Touch">
+                            <param id="0" name="Object">carro</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="570308184837867" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="336545598622871" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="108369862808761" type="System">
+                            <param id="0" name="Group name">&quot;EscolhaFase&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="863787620234732">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="425774539092219" type="Touch">
+                            <param id="0" name="Object">carro</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="166483881750723" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="400527393998451" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="612666617185304" type="System">
+                            <param id="0" name="Group name">&quot;EscolhaFase&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="596987344035991">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="413415013127067" type="Touch">
+                            <param id="0" name="Object">carro</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="436982714071151" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="685970349132411" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Value">6</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="349509056431955" type="System">
+                            <param id="0" name="Group name">&quot;EscolhaFase&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="341312073491907">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="673552793822939" type="Touch">
+                            <param id="0" name="Object">carro</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="915292496784888" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="886393141889154" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Value">7</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="307946564709737" type="System">
+                            <param id="0" name="Group name">&quot;EscolhaFase&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="455979699681345">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="341753498033450" type="Touch">
+                            <param id="0" name="Object">carro</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="158980532369917" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="551546667205759" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Value">8</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="990910919154547" type="System">
+                            <param id="0" name="Group name">&quot;EscolhaFase&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <comment>Vai para a fase selecionada no menu usando o carro escolhido</comment>
+        <event-group description="" sid="845842424072567" title="EscolhaFase">
+            <sub-events>
+                <event-block sid="717917960270912">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="158959196280907" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="358187149773154" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="332732409615982" type="System">
+                            <param id="0" name="Layout">Cap1 Fase1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="437980550853771">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="346171280777789" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="938694386613935" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="107396844763553" type="System">
+                            <param id="0" name="Layout">Cap1 Fase2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="350114565567476">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="887842456170865" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="504482225384736" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="163198569615972" type="System">
+                            <param id="0" name="Layout">Cap1 Fase3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="814277369598074">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="967093947456169" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="345038154695573" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="449350265337329" type="System">
+                            <param id="0" name="Layout">Cap1 Fase4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="181845343003710">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="712723410224767" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="305752477862500" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="273173760192367" type="System">
+                            <param id="0" name="Layout">Cap1 Fase5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="400573585990868">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="496645621717458" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="653721504443406" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="105225333602908" type="System">
+                            <param id="0" name="Layout">Cap1 Fase6</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="411796743639706">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="970610056814125" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="228107454033789" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="328274369881451" type="System">
+                            <param id="0" name="Layout">Cap1 Fase7</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="240730345201363">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="562486971061459" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="912634763839212" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="217226968730453" type="System">
+                            <param id="0" name="Layout">Cap1 Fase8</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="752063793209541">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="705376417847042" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="910881665649506" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="174772139600802" type="System">
+                            <param id="0" name="Layout">Cap1 Fase9</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="235610906716580">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="425081685443392" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="388356702964816" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="684979150816364" type="System">
+                            <param id="0" name="Layout">Cap1 Fase10</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

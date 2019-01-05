@@ -224,6 +224,7 @@
         <comment>Daqui pra baixo é compra de carros</comment>
         <event-group description="" sid="941661470079396" title="CompraCarros">
             <sub-events>
+                <comment>Os valores dos carros estao em branco para testes</comment>
                 <event-block sid="881512241394707">
                     <conditions>
                         <condition id="3" name="On touched object" sid="381207369878939" type="Touch">
@@ -234,11 +235,17 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="676011465920936" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="841008806255134" type="System">
-                            <param id="0" name="Variable">carro</param>
-                            <param id="1" name="Value">0</param>
+                        <action id="10" name="Insert" sid="841008806255134" type="CarrosComprados">
+                            <param id="0" name="Value">0</param>
+                            <param id="1" name="Index">0</param>
+                            <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="778048665253342" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
@@ -256,11 +263,17 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="630908455154322" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">200</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="535031732859751" type="System">
-                            <param id="0" name="Variable">carro</param>
-                            <param id="1" name="Value">1</param>
+                        <action id="10" name="Insert" sid="256194170459162" type="CarrosComprados">
+                            <param id="0" name="Value">1</param>
+                            <param id="1" name="Index">1</param>
+                            <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="434644693644704" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
@@ -278,11 +291,17 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">2</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="843860341518616" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">410</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="425284952672940" type="System">
-                            <param id="0" name="Variable">carro</param>
-                            <param id="1" name="Value">2</param>
+                        <action id="10" name="Insert" sid="419699561679601" type="CarrosComprados">
+                            <param id="0" name="Value">2</param>
+                            <param id="1" name="Index">2</param>
+                            <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="286567709225955" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
@@ -300,13 +319,159 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">3</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="477812022209919" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">560</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="743804502436841" type="System">
-                            <param id="0" name="Variable">carro</param>
-                            <param id="1" name="Value">3</param>
+                        <action id="10" name="Insert" sid="604829278513259" type="CarrosComprados">
+                            <param id="0" name="Value">3</param>
+                            <param id="1" name="Index">3</param>
+                            <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="451592906379691" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="147412020190331">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="187674779181698" type="Touch">
+                            <param id="0" name="Object">FundoBotaoComprar</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="585739269535747" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="591388835178791" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">680</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Insert" sid="356194805768099" type="CarrosComprados">
+                            <param id="0" name="Value">4</param>
+                            <param id="1" name="Index">4</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="423273797535529" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="597469486201429">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="417768687299776" type="Touch">
+                            <param id="0" name="Object">FundoBotaoComprar</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="517753935273053" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="117741847270371" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">732</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Insert" sid="463410113342057" type="CarrosComprados">
+                            <param id="0" name="Value">5</param>
+                            <param id="1" name="Index">5</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="189115510342244" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="350893968577884">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="503167843991209" type="Touch">
+                            <param id="0" name="Object">FundoBotaoComprar</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="813218617938968" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="731671686156268" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">848</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Insert" sid="952901179852874" type="CarrosComprados">
+                            <param id="0" name="Value">6</param>
+                            <param id="1" name="Index">6</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="604876562215838" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="272243531923337">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="673640936361692" type="Touch">
+                            <param id="0" name="Object">FundoBotaoComprar</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="187857878357049" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="438315063998041" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1056</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Insert" sid="940299094704670" type="CarrosComprados">
+                            <param id="0" name="Value">7</param>
+                            <param id="1" name="Index">7</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="558844120927466" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="680994651246678">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="744006326432779" type="Touch">
+                            <param id="0" name="Object">FundoBotaoComprar</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="533704633616867" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="324340210394535" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">2028</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Insert" sid="375332640294282" type="CarrosComprados">
+                            <param id="0" name="Value">8</param>
+                            <param id="1" name="Index">8</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="894353805568942" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
                             <param id="1" name="Value">0</param>
                         </action>
