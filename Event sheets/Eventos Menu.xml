@@ -2,5 +2,20 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Menu</name>
-    <events />
+    <events>
+        <include>Eventos Carros</include>
+        <event-block sid="603188239609397">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="964838979502141" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Car" id="7" name="Simulate control" sid="871698200560367" type="carro">
+                    <param id="0" name="Control">2</param>
+                </action>
+                <action behavior="Car" id="7" name="Simulate control" sid="874180813411089" type="carro">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

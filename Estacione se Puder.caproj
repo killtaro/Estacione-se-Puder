@@ -1319,6 +1319,28 @@
         <object-type global="1" name="CarrosComprados" sid="737290395242474">
             <plugin id="Arr" />
         </object-type>
+        <object-type name="titulo" sid="340188405744779">
+            <plugin id="Text" />
+            <effects>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                </effect-type>
+                <effect-type name="GlowVertical">
+                    <effect id="glowvertical" />
+                </effect-type>
+            </effects>
+        </object-type>
+        <object-type name="infoTitulo" sid="537370718230961">
+            <plugin id="Text" />
+            <effects>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                </effect-type>
+                <effect-type name="GlowVertical">
+                    <effect id="glowvertical" />
+                </effect-type>
+            </effects>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
