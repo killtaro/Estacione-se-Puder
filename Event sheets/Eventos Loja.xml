@@ -93,6 +93,7 @@
         <comment>Daqui pra baixo é preço</comment>
         <event-group description="" sid="593521497919450" title="PrecoCarros">
             <sub-events>
+                <comment>Quebro padroes de precos</comment>
                 <event-block sid="202891120031018">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="843668367796963" type="System">
@@ -474,6 +475,192 @@
                         <action id="-11" name="Subtract from" sid="894353805568942" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
                             <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <comment>Daqui pra baixo é Status</comment>
+        <event-group description="" sid="945169449283204" title="StatusCarros">
+            <sub-events>
+                <comment>Tem que mudar os status</comment>
+                <event-block sid="690500569115927">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="817867032320556" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="358467426829311" type="CavalariaText">
+                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="304374590678603" type="VelocidadeText">
+                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="475277116456804" type="FreioText">
+                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="959505422743121">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="662055491396029" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="330697087235366" type="CavalariaText">
+                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="355514364574135" type="VelocidadeText">
+                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="273915301725330" type="FreioText">
+                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="303723908177814">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="380096857188425" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="195372593783963" type="CavalariaText">
+                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="883649256901623" type="VelocidadeText">
+                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="169978224866173" type="FreioText">
+                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="958834683958272">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="534477596553265" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="438355908198132" type="CavalariaText">
+                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="256158607628832" type="VelocidadeText">
+                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="132915203404450" type="FreioText">
+                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="753839216704348">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="575213158619534" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="890308532247916" type="CavalariaText">
+                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="361947471102113" type="VelocidadeText">
+                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="230294053411975" type="FreioText">
+                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="250816590076336">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="674775387394962" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="570487746414289" type="CavalariaText">
+                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="841942022738810" type="VelocidadeText">
+                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="832783582938325" type="FreioText">
+                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="142136666618677">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="970821653286371" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="626703825345210" type="CavalariaText">
+                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="616599121483622" type="VelocidadeText">
+                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="434643822341113" type="FreioText">
+                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="419461618932088">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="627822085075937" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="800988379862270" type="CavalariaText">
+                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="753749594299166" type="VelocidadeText">
+                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="202353412910655" type="FreioText">
+                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="498969829772399">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="376637461927270" type="System">
+                            <param id="0" name="Variable">carro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="760673634371405" type="CavalariaText">
+                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="887308790068671" type="VelocidadeText">
+                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="652242098659819" type="FreioText">
+                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
                         </action>
                     </actions>
                 </event-block>

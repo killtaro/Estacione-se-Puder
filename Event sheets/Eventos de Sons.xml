@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos de Sons</name>
+    <events>
+        <comment>Eventos pré-alpha de teste sonoros</comment>
+        <event-group description="" sid="142541433693401" title="SonsMenu" />
+    </events>
+</c2eventsheet>

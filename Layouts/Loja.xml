@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>397</x>
-                        <y>199</y>
+                        <x>400</x>
+                        <y>202</y>
                         <z>0</z>
                         <width>817</width>
                         <height>418</height>
@@ -78,8 +78,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>0</x>
-                        <y>23</y>
+                        <x>2</x>
+                        <y>3</y>
                         <z>0</z>
                         <width>799</width>
                         <height>85</height>
@@ -125,11 +125,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>386</x>
-                        <y>156</y>
+                        <x>192.984069824</x>
+                        <y>153.130584717</y>
                         <z>0</z>
-                        <width>168</width>
-                        <height>111</height>
+                        <width>102</width>
+                        <height>76</height>
                         <depth>0</depth>
                         <hotspotX>0.439635545</hotspotX>
                         <hotspotY>-0.003731343</hotspotY>
@@ -155,11 +155,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>521</x>
-                        <y>110</y>
+                        <x>274</x>
+                        <y>123</y>
                         <z>0</z>
-                        <width>95</width>
-                        <height>163</height>
+                        <width>88</width>
+                        <height>145</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -185,8 +185,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>186</x>
-                        <y>127</y>
+                        <x>32</x>
+                        <y>131</y>
                         <z>0</z>
                         <width>80</width>
                         <height>136</height>
@@ -226,8 +226,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>402</x>
-                        <y>338</y>
+                        <x>213</x>
+                        <y>341</y>
                         <z>0</z>
                         <width>250</width>
                         <height>62</height>
@@ -248,8 +248,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>314.091705322</x>
-                        <y>339.323944092</y>
+                        <x>125</x>
+                        <y>343</y>
                         <z>0</z>
                         <width>66</width>
                         <height>55</height>
@@ -275,11 +275,219 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>363</x>
-                        <y>307</y>
+                        <x>174</x>
+                        <y>310</y>
                         <z>0</z>
                         <width>200</width>
                         <height>68</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Status" sid="249133907153484">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="TituloStatus" uid="2973">
+                    <properties>
+                        <text>Recursos do carro:</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-21,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>414</x>
+                        <y>108</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="CavalariaText" uid="2974">
+                    <properties>
+                        <text>Loren ipsun</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-21,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>413</x>
+                        <y>178</y>
+                        <z>0</z>
+                        <width>235</width>
+                        <height>39</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TituloStatus" uid="2975">
+                    <properties>
+                        <text>Potencia</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-21,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>413</x>
+                        <y>145</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TituloStatus" uid="2976">
+                    <properties>
+                        <text>Velocidade Final</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-21,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>413</x>
+                        <y>217</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="VelocidadeText" uid="2977">
+                    <properties>
+                        <text>Loren Ipsun</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-21,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>415</x>
+                        <y>259</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>28</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TituloStatus" uid="2978">
+                    <properties>
+                        <text>Frenagem</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-21,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>412</x>
+                        <y>297</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="FreioText" uid="2979">
+                    <properties>
+                        <text>Loren Ipsun</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Rounded MT Bold,-21,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>415</x>
+                        <y>335</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

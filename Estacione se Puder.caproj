@@ -817,6 +817,10 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="BarraVermelha" sid="993465736841789">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Projetos\Estacione-se-Puder\Textures\barra_vermelha.png" />
+            </object-type>
         </object-folder>
         <object-folder name="Textos">
             <object-type name="infoCarro" sid="401895682396351">
@@ -843,6 +847,18 @@
                 <plugin id="Text" />
             </object-type>
             <object-type name="tela_pontos" sid="575724588510379">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="TituloStatus" sid="351891846723713">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="CavalariaText" sid="250514850389574">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="VelocidadeText" sid="600535972732137">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="FreioText" sid="998719356233660">
                 <plugin id="Text" />
             </object-type>
         </object-folder>
@@ -1382,6 +1398,7 @@
             <event-sheet>Eventos Controle Mobile.xml</event-sheet>
             <event-sheet>Eventos Andares.xml</event-sheet>
             <event-sheet>Evento Dinheiro.xml</event-sheet>
+            <event-sheet>Eventos de Sons.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 1">
             <event-sheet>Eventos Cap1 Fase1.xml</event-sheet>
