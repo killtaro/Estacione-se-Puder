@@ -57,11 +57,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-1.509094238</x>
-                        <y>6.324821472</y>
+                        <x>-1.445587158</x>
+                        <y>6.324821949</y>
                         <z>0</z>
-                        <width>6</width>
-                        <height>802.12701416</height>
+                        <width>15</width>
+                        <height>802</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -109,26 +109,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2923">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>4.533336639</x>
-                        <y>7.833854675</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>82.002952576</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>-0.763955951</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="marcaVaga1" uid="2920">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -146,26 +126,6 @@
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                         <angle>-2.279452324</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="marcaVaga1" uid="2940">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>739.12512207</x>
-                        <y>68.45476532</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>91.965942383</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>-2.382620335</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -506,15 +466,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>32.160236359</x>
-                        <y>63.239463806</y>
+                        <x>31.333732605</x>
+                        <y>36.792640686</y>
                         <z>0</z>
                         <width>25</width>
                         <height>42</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50124687</hotspotY>
-                        <angle>-0.785398483</angle>
+                        <angle>-0.007385998</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -800,15 +760,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>769.205505371</x>
-                        <y>59.879333496</y>
+                        <x>766.723815918</x>
+                        <y>37.565338135</y>
                         <z>0</z>
                         <width>25</width>
                         <height>42</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50124687</hotspotY>
-                        <angle>0.802851439</angle>
+                        <angle>-0.002633062</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -1348,30 +1308,7 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="backgroundLoja" uid="2969">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>398</x>
-                        <y>201</y>
-                        <z>0</z>
-                        <width>811</width>
-                        <height>425</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
+            <instances />
             <effects />
         </layer>
         <layer name="Layer 3" sid="906923429985702">
