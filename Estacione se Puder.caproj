@@ -1337,14 +1337,6 @@
         </object-type>
         <object-type name="titulo" sid="340188405744779">
             <plugin id="Text" />
-            <effects>
-                <effect-type name="GlowHorizontal">
-                    <effect id="glowhorizontal" />
-                </effect-type>
-                <effect-type name="GlowVertical">
-                    <effect id="glowvertical" />
-                </effect-type>
-            </effects>
         </object-type>
         <object-type name="infoTitulo" sid="537370718230961">
             <plugin id="Text" />
@@ -1364,6 +1356,25 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Piso_  clone.png" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="opcJogar" sid="864155498804642">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="opcOpcoes" sid="987077092340338">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="opcSair" sid="735061618117834">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="opcLoja" sid="267677197477665">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="preto" sid="742020907170988">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="infoFase" sid="281344019317062">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
@@ -1396,7 +1407,9 @@
             <layout>Seleção de Carros.xml</layout>
             <layout>Prologo.xml</layout>
             <layout>Menu.xml</layout>
+            <layout>Menu Principal.xml</layout>
             <layout>Loja.xml</layout>
+            <layout>Seleção de Fases.xml</layout>
         </layout-folder>
     </layout-folder>
     <event-folder>
@@ -1437,6 +1450,8 @@
             <event-sheet>Eventos Prologo.xml</event-sheet>
             <event-sheet>Eventos Menu.xml</event-sheet>
             <event-sheet>Eventos Loja.xml</event-sheet>
+            <event-sheet>Eventos Menu Principal.xml</event-sheet>
+            <event-sheet>Eventos Seleção de Fases.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>

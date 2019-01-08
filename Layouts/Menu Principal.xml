@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Menu</name>
-    <sid>977417047697763</sid>
+    <name>Menu Principal</name>
+    <sid>366175455085962</sid>
     <event-sheet>Eventos Menu</event-sheet>
     <size>
         <width>800</width>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="569239358577152">
+        <layer name="Layer 0" sid="476382373102528">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="asfalto1" uid="2918">
+                <instance type="asfalto1" uid="2901">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -49,27 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2919">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-1.445587158</x>
-                        <y>6.324821949</y>
-                        <z>0</z>
-                        <width>15</width>
-                        <height>802</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="marcaVaga1" uid="2921">
+                <instance type="marcaVaga1" uid="2969">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -80,7 +60,7 @@
                         <x>794.46673584</x>
                         <y>398.740478516</y>
                         <z>0</z>
-                        <width>392.351348877</width>
+                        <width>427.185089111</width>
                         <height>6</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -89,7 +69,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2922">
+                <instance type="marcaVaga1" uid="2980">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -100,7 +80,7 @@
                         <x>-0.011260986</x>
                         <y>400.789642334</y>
                         <z>0</z>
-                        <width>396.449707031</width>
+                        <width>426.502288818</width>
                         <height>6</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -109,7 +89,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2920">
+                <instance type="marcaVaga1" uid="2981">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -129,7 +109,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2935">
+                <instance type="marcaVaga1" uid="2982">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -149,7 +129,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2941">
+                <instance type="marcaVaga1" uid="2983">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -169,7 +149,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2942">
+                <instance type="marcaVaga1" uid="2984">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -189,7 +169,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2943">
+                <instance type="marcaVaga1" uid="2985">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -209,7 +189,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2944">
+                <instance type="marcaVaga1" uid="2986">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -229,256 +209,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2931">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>677.326049805</x>
-                        <y>66.075157166</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>65.340759277</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="marcaVaga1" uid="2924">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>611.58770752</x>
-                        <y>66.075149536</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>65.340759277</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="marcaVaga1" uid="2926">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>547.954223633</x>
-                        <y>68.554977417</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>65.340759277</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="marcaVaga1" uid="2927">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>482.664642334</x>
-                        <y>66.901344299</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>65.340759277</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="marcaVaga1" uid="2928">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>403.324157715</x>
-                        <y>67.727523804</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>65.340759277</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="marcaVaga1" uid="2929">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>128.159317017</x>
-                        <y>65.248962402</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>65.340759277</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="marcaVaga1" uid="2930">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>197.33152771</x>
-                        <y>66.90133667</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>65.340759277</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="marcaVaga1" uid="2932">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>259.315155029</x>
-                        <y>65.248954773</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>65.340759277</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="marcaVaga1" uid="2933">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>324.604156494</x>
-                        <y>66.901321411</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>65.340759277</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="marcaVaga1" uid="2934">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>740.376159668</x>
-                        <y>67.734718323</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>67.167030334</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="marcaVaga1" uid="2946">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>65.471496582</x>
-                        <y>66.501907349</y>
-                        <z>0</z>
-                        <width>6</width>
-                        <height>65.340751648</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado1" uid="2947">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>31.333732605</x>
-                        <y>36.792640686</y>
-                        <z>0</z>
-                        <width>25</width>
-                        <height>42</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.50124687</hotspotY>
-                        <angle>-0.007385998</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado10" uid="2948">
+                <instance type="carroEstacionado10" uid="2999">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -507,7 +238,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2925">
+                <instance type="marcaVaga1" uid="3000">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -527,7 +258,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2936">
+                <instance type="marcaVaga1" uid="3001">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -547,7 +278,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2937">
+                <instance type="marcaVaga1" uid="3002">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -567,7 +298,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2938">
+                <instance type="marcaVaga1" uid="3003">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -587,7 +318,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2939">
+                <instance type="marcaVaga1" uid="3004">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -607,7 +338,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2945">
+                <instance type="marcaVaga1" uid="3005">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -627,7 +358,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado11" uid="2949">
+                <instance type="carroEstacionado11" uid="3006">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -656,7 +387,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado12" uid="2950">
+                <instance type="carroEstacionado12" uid="3007">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -685,7 +416,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado13" uid="2951">
+                <instance type="carroEstacionado13" uid="3008">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -714,7 +445,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado14" uid="2952">
+                <instance type="carroEstacionado14" uid="3009">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -743,36 +474,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado1" uid="2953">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>766.723815918</x>
-                        <y>37.565338135</y>
-                        <z>0</z>
-                        <width>25</width>
-                        <height>42</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.50124687</hotspotY>
-                        <angle>-0.002633062</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado10" uid="2954">
+                <instance type="carroEstacionado10" uid="3011">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -801,7 +503,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado11" uid="2955">
+                <instance type="carroEstacionado11" uid="3012">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -830,7 +532,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado12" uid="2956">
+                <instance type="carroEstacionado12" uid="3013">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -859,7 +561,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado13" uid="2957">
+                <instance type="carroEstacionado13" uid="3014">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -888,7 +590,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado14" uid="2958">
+                <instance type="carroEstacionado14" uid="3015">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -917,36 +619,27 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado2" uid="2959">
+                <instance type="marcaVaga1" uid="2987">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
+                        <hotspot>Top-left</hotspot>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>94.912231445</x>
-                        <y>35</y>
+                        <x>2.274032593</x>
+                        <y>7.731063843</y>
                         <z>0</z>
-                        <width>25</width>
-                        <height>42</height>
+                        <width>6</width>
+                        <height>65</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.50124687</hotspotY>
-                        <angle>0</angle>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>-0.763955951</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado3" uid="2960">
+                <instance type="carroEstacionado10" uid="2988">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -963,106 +656,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>159.487670898</x>
-                        <y>42.451087952</y>
-                        <z>0</z>
-                        <width>25</width>
-                        <height>42</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado4" uid="2961">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>225.720565796</x>
-                        <y>39.96723175</y>
-                        <z>0</z>
-                        <width>25</width>
-                        <height>42</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado5" uid="2962">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>290.296051025</x>
-                        <y>40.588195801</y>
-                        <z>0</z>
-                        <width>25</width>
-                        <height>42</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado6" uid="2963">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>366.047363281</x>
-                        <y>54.2486763</y>
+                        <x>48.718757629</x>
+                        <y>74.666320801</y>
                         <z>0</z>
                         <width>25</width>
                         <height>42</height>
                         <depth>0</depth>
                         <hotspotX>0.720149279</hotspotX>
                         <hotspotY>0.985037386</hotspotY>
-                        <angle>0</angle>
+                        <angle>-0.785398483</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado6" uid="2964">
+                <instance type="carroEstacionado10" uid="2940">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1079,19 +685,39 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>441.037322998</x>
-                        <y>56.111335754</y>
+                        <x>60.33001709</x>
+                        <y>20.708572388</y>
                         <z>0</z>
                         <width>25</width>
                         <height>42</height>
                         <depth>0</depth>
                         <hotspotX>0.720149279</hotspotX>
                         <hotspotY>0.985037386</hotspotY>
-                        <angle>0</angle>
+                        <angle>-0.785398483</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado5" uid="2965">
+                <instance type="marcaVaga1" uid="2989">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>750.985107422</x>
+                        <y>46.663299561</y>
+                        <z>0</z>
+                        <width>6</width>
+                        <height>65.340759277</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>-2.279452324</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carroEstacionado10" uid="2990">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1108,19 +734,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>513.684570313</x>
-                        <y>39.96723175</y>
+                        <x>761.914001465</x>
+                        <y>68.519676208</y>
                         <z>0</z>
                         <width>25</width>
                         <height>42</height>
                         <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>0</angle>
+                        <hotspotX>0.720149279</hotspotX>
+                        <hotspotY>0.985037386</hotspotY>
+                        <angle>0.802851439</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado4" uid="2966">
+                <instance type="carroEstacionado10" uid="2991">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1137,73 +763,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>577.70513916</x>
-                        <y>39.96723175</y>
+                        <x>751.667358398</x>
+                        <y>20.709091187</y>
                         <z>0</z>
                         <width>25</width>
                         <height>42</height>
                         <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado3" uid="2967">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>640.833190918</x>
-                        <y>39.967468262</y>
-                        <z>0</z>
-                        <width>25</width>
-                        <height>42</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado2" uid="2968">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>703.437011719</x>
-                        <y>35</y>
-                        <z>0</z>
-                        <width>25</width>
-                        <height>42</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.50124687</hotspotY>
-                        <angle>0</angle>
+                        <hotspotX>0.720149279</hotspotX>
+                        <hotspotY>0.985037386</hotspotY>
+                        <angle>0.802851439</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -1227,7 +795,7 @@
                 </effect-type>
             </effects>
         </layer>
-        <layer name="Layer 1" sid="516259281745011">
+        <layer name="Layer 1" sid="709809701457536">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -1243,7 +811,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="carro" uid="2970">
+                <instance type="carro" uid="3026">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1293,7 +861,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Layer 2" sid="878096017046125">
+        <layer name="Layer 2" sid="717032814584463">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -1302,16 +870,37 @@
                 <y>1</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
-            <opacity>0.3</opacity>
+            <opacity>0.4</opacity>
             <force-own-texture>0</force-own-texture>
             <global>0</global>
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="preto" uid="2996">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-13</x>
+                        <y>-56</y>
+                        <z>0</z>
+                        <width>837</width>
+                        <height>512</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
-        <layer name="Layer 3" sid="906923429985702">
+        <layer name="Layer 3" sid="748181060923679">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -1327,11 +916,11 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="titulo" uid="2971">
+                <instance type="titulo" uid="3027">
                     <properties>
                         <text>Estacione se Puder</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-96,400,0</font>
+                        <font>Long Shot,-91,400,0</font>
                         <color>255,153,0</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -1342,23 +931,104 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>67</x>
-                        <y>41</y>
+                        <x>64</x>
+                        <y>43</y>
                         <z>0</z>
                         <width>671</width>
-                        <height>359</height>
+                        <height>113</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                         <angle>0</angle>
-                        <opacity>0.899999976</opacity>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="infoTitulo" uid="2972">
+                <instance type="opcJogar" uid="2992">
                     <properties>
-                        <text>Toca aqui meu querido</text>
+                        <text>Jogar</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-37,400,0</font>
+                        <font>Long Shot,-48,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>98</x>
+                        <y>193</y>
+                        <z>0</z>
+                        <width>99</width>
+                        <height>62</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="opcOpcoes" uid="2993">
+                    <properties>
+                        <text>Opcoes</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Long Shot,-48,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>194</x>
+                        <y>256</y>
+                        <z>0</z>
+                        <width>115</width>
+                        <height>62</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="opcSair" uid="2994">
+                    <properties>
+                        <text>Sair</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Long Shot,-48,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>321</x>
+                        <y>320</y>
+                        <z>0</z>
+                        <width>66</width>
+                        <height>61</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="opcLoja" uid="2995">
+                    <properties>
+                        <text>Loja</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Long Shot,-53,400,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -1366,35 +1036,40 @@
                         <wrapping>Word</wrapping>
                         <line-height>0</line-height>
                     </properties>
-                    <effect-instances>
-                        <effect-instance type="GlowHorizontal">
-                            <parameters>
-                                <intensity>0.25</intensity>
-                            </parameters>
-                        </effect-instance>
-                        <effect-instance type="GlowVertical">
-                            <parameters>
-                                <intensity>0.25</intensity>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>97</x>
-                        <y>271</y>
+                        <x>623</x>
+                        <y>307</y>
                         <z>0</z>
-                        <width>600</width>
-                        <height>59</height>
+                        <width>109</width>
+                        <height>74</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                         <angle>0</angle>
-                        <opacity>0.600000024</opacity>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>
-            <effects />
+            <effects>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                    <effect-instance type="GlowHorizontal">
+                        <parameters>
+                            <intensity>0.5</intensity>
+                        </parameters>
+                    </effect-instance>
+                </effect-type>
+                <effect-type name="GlowVertical">
+                    <effect id="glowvertical" />
+                    <effect-instance type="GlowVertical">
+                        <parameters>
+                            <intensity>0.5</intensity>
+                        </parameters>
+                    </effect-instance>
+                </effect-type>
+            </effects>
         </layer>
     </layers>
     <nonworld-instances />

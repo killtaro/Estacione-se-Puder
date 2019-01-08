@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Menu Principal</name>
+    <events>
+        <include>Eventos Carros</include>
+        <event-block sid="425582947400595">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="723347989068739" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Car" id="7" name="Simulate control" sid="500786028730870" type="carro">
+                    <param id="0" name="Control">2</param>
+                </action>
+                <action behavior="Car" id="7" name="Simulate control" sid="551230360926423" type="carro">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="516342097188608">
+            <conditions>
+                <condition id="3" name="On touched object" sid="757110423251184" type="Touch">
+                    <param id="0" name="Object">opcLoja</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="859071523673784" type="System">
+                    <param id="0" name="Layout">Loja</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="125491715180150">
+            <conditions>
+                <condition id="3" name="On touched object" sid="347785333746638" type="Touch">
+                    <param id="0" name="Object">opcJogar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="388928725662735" type="System">
+                    <param id="0" name="Layout">Seleção de Fases</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
