@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap1 Fase4</name>
     <events>
-        <include>Evento Dinheiro</include>
         <include>Eventos Andares</include>
         <include>Eventos Controle Mobile</include>
         <include>Eventos Pontos</include>

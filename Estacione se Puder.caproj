@@ -363,6 +363,38 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="FundoStatus" sid="710619662586284">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="815067168398348" speed="5">
+                        <frame duration="1" hotspotX="0.498947" hotspotY="0.496881" original-source="C:\Projetos\Estacione-se-Puder\Textures\Quadrado.png">
+                            <collision-poly>
+                                <point x="0.00631579" y="0.010395" />
+                                <point x="0.991579" y="0.010395" />
+                                <point x="0.995789" y="0.987526" />
+                                <point x="0.00421053" y="0.985447" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="FundoDinheiroLoja" sid="515761505129922">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="649966190755276" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.491525" original-source="C:\Projetos\Estacione-se-Puder\Textures\Retangulo.png">
+                            <collision-poly>
+                                <point x="0.00512295" y="0.0225989" />
+                                <point x="0.5" y="0.00564972" />
+                                <point x="0.994877" y="0.0225989" />
+                                <point x="0.996926" y="0.971751" />
+                                <point x="0.5" y="0.99435" />
+                                <point x="0.00307377" y="0.971751" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Controles">
             <object-type name="Keyboard" sid="644089788571661">
@@ -861,6 +893,12 @@
             <object-type name="FreioText" sid="998719356233660">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="DinheiroLabel" sid="733314705381491">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="QtdDinheiroChar" sid="493020350390867">
+                <plugin id="Text" />
+            </object-type>
         </object-folder>
         <object-folder name="Carros Estacionados">
             <object-type name="carroEstacionado9" sid="783610894164303">
@@ -1223,6 +1261,160 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="CarroSelecao">
+            <object-type name="Carro1" sid="935787743010927">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="600415686649190" speed="5">
+                        <frame duration="1" hotspotX="0.500971" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\001.png">
+                            <collision-poly>
+                                <point x="0.038835" y="0.0653595" />
+                                <point x="0.499029" y="0.0653595" />
+                                <point x="0.924272" y="0.127451" />
+                                <point x="0.998058" y="0.5" />
+                                <point x="0.924272" y="0.872549" />
+                                <point x="0.499029" y="0.934641" />
+                                <point x="0.038835" y="0.934641" />
+                                <point x="0.00194175" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Carro2" sid="879633070164416">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="395438121383855" speed="5">
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\002.png">
+                            <collision-poly>
+                                <point x="0.038835" y="0.0653595" />
+                                <point x="0.499029" y="0.0653595" />
+                                <point x="0.924272" y="0.127451" />
+                                <point x="0.998058" y="0.5" />
+                                <point x="0.924272" y="0.872549" />
+                                <point x="0.499029" y="0.934641" />
+                                <point x="0.038835" y="0.934641" />
+                                <point x="0.00194175" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Carro3" sid="668035993459843">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="479820162503506" speed="5">
+                        <frame duration="1" hotspotX="0.501873" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\003.png">
+                            <collision-poly>
+                                <point x="0.038835" y="0.0653595" />
+                                <point x="0.499029" y="0.0653595" />
+                                <point x="0.924272" y="0.127451" />
+                                <point x="0.998058" y="0.5" />
+                                <point x="0.924272" y="0.872549" />
+                                <point x="0.499029" y="0.934641" />
+                                <point x="0.038835" y="0.934641" />
+                                <point x="0.00194175" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Carro4" sid="707852240202769">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="181968879144467" speed="5">
+                        <frame duration="1" hotspotX="0.500971" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\004.png">
+                            <collision-poly>
+                                <point x="0.038835" y="0.0653595" />
+                                <point x="0.499029" y="0.0653595" />
+                                <point x="0.924272" y="0.127451" />
+                                <point x="0.998058" y="0.5" />
+                                <point x="0.924272" y="0.872549" />
+                                <point x="0.499029" y="0.934641" />
+                                <point x="0.038835" y="0.934641" />
+                                <point x="0.00194175" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Carro5" sid="467492526282209">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="781685303686088" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\005.png">
+                            <collision-poly>
+                                <point x="0.038835" y="0.0653595" />
+                                <point x="0.499029" y="0.0653595" />
+                                <point x="0.924272" y="0.127451" />
+                                <point x="0.998058" y="0.5" />
+                                <point x="0.924272" y="0.872549" />
+                                <point x="0.499029" y="0.934641" />
+                                <point x="0.038835" y="0.934641" />
+                                <point x="0.00194175" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Carro6" sid="703061932234361">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="706564302612169" speed="5">
+                        <frame duration="1" hotspotX="0.501873" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\006.png">
+                            <collision-poly>
+                                <point x="0.038835" y="0.0653595" />
+                                <point x="0.499029" y="0.0653595" />
+                                <point x="0.924272" y="0.127451" />
+                                <point x="0.998058" y="0.5" />
+                                <point x="0.924272" y="0.872549" />
+                                <point x="0.499029" y="0.934641" />
+                                <point x="0.038835" y="0.934641" />
+                                <point x="0.00194175" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Carro7" sid="715193519686271">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="855353899162355" speed="5">
+                        <frame duration="1" hotspotX="0.501873" hotspotY="0.501538" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\007.png">
+                            <collision-poly>
+                                <point x="0.038835" y="0.0653595" />
+                                <point x="0.499029" y="0.0653595" />
+                                <point x="0.924272" y="0.127451" />
+                                <point x="0.998058" y="0.5" />
+                                <point x="0.924272" y="0.872549" />
+                                <point x="0.499029" y="0.934641" />
+                                <point x="0.038835" y="0.934641" />
+                                <point x="0.00194175" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Carro8" sid="935976463567009">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="630997405071664" speed="5">
+                        <frame duration="1" hotspotX="0.500846" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\008.png">
+                            <collision-poly>
+                                <point x="0.038835" y="0.0653595" />
+                                <point x="0.499029" y="0.0653595" />
+                                <point x="0.924272" y="0.127451" />
+                                <point x="0.998058" y="0.5" />
+                                <point x="0.924272" y="0.872549" />
+                                <point x="0.499029" y="0.934641" />
+                                <point x="0.038835" y="0.934641" />
+                                <point x="0.00194175" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Final" sid="350712590619999">
             <plugin id="Sprite" />
             <behaviors>
@@ -1421,7 +1613,6 @@
             <event-sheet>Eventos Pontos.xml</event-sheet>
             <event-sheet>Eventos Controle Mobile.xml</event-sheet>
             <event-sheet>Eventos Andares.xml</event-sheet>
-            <event-sheet>Evento Dinheiro.xml</event-sheet>
             <event-sheet>Eventos de Sons.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 1">

@@ -3,11 +3,23 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap1 Fase1</name>
     <events>
-        <include>Evento Dinheiro</include>
         <include>Eventos Controle Mobile</include>
         <include>Eventos Carros</include>
         <include>Eventos Pontos</include>
         <variable constant="0" name="Pontos" sid="471179457952003" static="0" type="number">0</variable>
+        <comment>Extremamente importante, desativar o grupo dinheiro no inicio da fase</comment>
+        <event-block sid="642657339746918">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="510592091143464" type="System" />
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="226858326315227" type="System">
+                    <param id="0" name="Group name">&quot;DinheiroFase&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Só ativa o grupo DinheiroFase quando chegar no fim</comment>
         <event-block sid="639379356136339">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="736023277914912" type="carro">
@@ -27,6 +39,10 @@
                     <param id="0" name="Layer">4</param>
                     <param id="1" name="Visibility">0</param>
                 </action>
+                <action id="-12" name="Set group active" sid="197786972263715" type="System">
+                    <param id="0" name="Group name">&quot;DinheiroFase&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="200112481481059">
@@ -41,5 +57,79 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="853298121448532">
+            <conditions>
+                <condition id="3" name="On touched object" sid="802170721899171" type="Touch">
+                    <param id="0" name="Object">btnBackMenu</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="262108357922707" type="System">
+                    <param id="0" name="Layout">Menu Principal</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Código do dinheiro passa a ser nos eventos de fase</comment>
+        <event-group description="" sid="405851229023787" title="DinheiroFase">
+            <sub-events>
+                <event-block sid="670790429886520">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="619619844153930" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">5000</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="785326082687520" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">10500</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="860562710160682" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Value">150</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="382992116396220">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="591028845627927" type="System" />
+                        <condition id="-14" name="Compare variable" sid="643549468730649" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">10500</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="664342998035098" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">20000</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="197770280842488" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Value">450</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="143745547548343">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="315717172858899" type="System" />
+                        <condition id="-14" name="Compare variable" sid="792108796611384" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">20000</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="436023317540015" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Value">600</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

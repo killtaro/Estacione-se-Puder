@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Menu Principal</name>
     <events>
+        <variable constant="0" name="Dinheiro_char" sid="556272596546668" static="0" type="number">0</variable>
         <include>Eventos Carros</include>
         <event-block sid="425582947400595">
             <conditions>

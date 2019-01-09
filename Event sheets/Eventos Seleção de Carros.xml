@@ -146,6 +146,7 @@
         <comment>Seleciona o carro e joga para variável que mostra no game o carro escolhido</comment>
         <event-group description="" sid="698786732249512" title="SelecionaCarroFase">
             <sub-events>
+                <comment>Grupo Anti-BUG selecionar carro sem comprar (CORRIGIDO)</comment>
                 <event-block sid="478224541574168">
                     <conditions>
                         <condition id="3" name="On touched object" sid="590737595489262" type="Touch">
@@ -170,9 +171,9 @@
                 <event-block sid="811682734147895">
                     <conditions>
                         <condition id="3" name="On touched object" sid="995506492310952" type="Touch">
-                            <param id="0" name="Object">carro</param>
+                            <param id="0" name="Object">Carro1</param>
                         </condition>
-                        <condition id="-16" name="Is on layer" sid="233652647848444" type="carro">
+                        <condition id="-9" name="Layer is visible" sid="578023148929788" type="System">
                             <param id="0" name="Layer">1</param>
                         </condition>
                     </conditions>
@@ -190,9 +191,9 @@
                 <event-block sid="132639955292036">
                     <conditions>
                         <condition id="3" name="On touched object" sid="278013691675681" type="Touch">
-                            <param id="0" name="Object">carro</param>
+                            <param id="0" name="Object">Carro2</param>
                         </condition>
-                        <condition id="-16" name="Is on layer" sid="356894025719088" type="carro">
+                        <condition id="-9" name="Layer is visible" sid="568082589780688" type="System">
                             <param id="0" name="Layer">2</param>
                         </condition>
                     </conditions>
@@ -210,9 +211,9 @@
                 <event-block sid="297306364271861">
                     <conditions>
                         <condition id="3" name="On touched object" sid="169947870765383" type="Touch">
-                            <param id="0" name="Object">carro</param>
+                            <param id="0" name="Object">Carro3</param>
                         </condition>
-                        <condition id="-16" name="Is on layer" sid="345966946907430" type="carro">
+                        <condition id="-9" name="Layer is visible" sid="550661997511681" type="System">
                             <param id="0" name="Layer">3</param>
                         </condition>
                     </conditions>
@@ -230,9 +231,9 @@
                 <event-block sid="251965467139437">
                     <conditions>
                         <condition id="3" name="On touched object" sid="107783420555836" type="Touch">
-                            <param id="0" name="Object">carro</param>
+                            <param id="0" name="Object">Carro4</param>
                         </condition>
-                        <condition id="-16" name="Is on layer" sid="570308184837867" type="carro">
+                        <condition id="-9" name="Layer is visible" sid="147072650871713" type="System">
                             <param id="0" name="Layer">4</param>
                         </condition>
                     </conditions>
@@ -250,9 +251,9 @@
                 <event-block sid="863787620234732">
                     <conditions>
                         <condition id="3" name="On touched object" sid="425774539092219" type="Touch">
-                            <param id="0" name="Object">carro</param>
+                            <param id="0" name="Object">Carro5</param>
                         </condition>
-                        <condition id="-16" name="Is on layer" sid="166483881750723" type="carro">
+                        <condition id="-9" name="Layer is visible" sid="351051422949516" type="System">
                             <param id="0" name="Layer">5</param>
                         </condition>
                     </conditions>
@@ -270,9 +271,9 @@
                 <event-block sid="596987344035991">
                     <conditions>
                         <condition id="3" name="On touched object" sid="413415013127067" type="Touch">
-                            <param id="0" name="Object">carro</param>
+                            <param id="0" name="Object">Carro6</param>
                         </condition>
-                        <condition id="-16" name="Is on layer" sid="436982714071151" type="carro">
+                        <condition id="-9" name="Layer is visible" sid="740284811975484" type="System">
                             <param id="0" name="Layer">6</param>
                         </condition>
                     </conditions>
@@ -290,9 +291,9 @@
                 <event-block sid="341312073491907">
                     <conditions>
                         <condition id="3" name="On touched object" sid="673552793822939" type="Touch">
-                            <param id="0" name="Object">carro</param>
+                            <param id="0" name="Object">Carro7</param>
                         </condition>
-                        <condition id="-16" name="Is on layer" sid="915292496784888" type="carro">
+                        <condition id="-9" name="Layer is visible" sid="431547772372344" type="System">
                             <param id="0" name="Layer">7</param>
                         </condition>
                     </conditions>
@@ -310,9 +311,9 @@
                 <event-block sid="455979699681345">
                     <conditions>
                         <condition id="3" name="On touched object" sid="341753498033450" type="Touch">
-                            <param id="0" name="Object">carro</param>
+                            <param id="0" name="Object">Carro8</param>
                         </condition>
-                        <condition id="-16" name="Is on layer" sid="158980532369917" type="carro">
+                        <condition id="-9" name="Layer is visible" sid="408014905685050" type="System">
                             <param id="0" name="Layer">8</param>
                         </condition>
                     </conditions>

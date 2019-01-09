@@ -4,6 +4,16 @@
     <name>Eventos Loja</name>
     <events>
         <include>Eventos Carros</include>
+        <event-block sid="239248802961404">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="316487824150888" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="334467833484661" type="QtdDinheiroChar">
+                    <param id="0" name="Text">Dinheiro_char</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="318382208835189">
             <conditions>
                 <condition id="6" name="On object clicked" sid="801949285303268" type="Mouse">

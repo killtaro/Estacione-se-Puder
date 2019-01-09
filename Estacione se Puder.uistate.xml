@@ -10,11 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="4">Seleção de Carros</layout>
-        <event-sheet order="0">Evento Dinheiro</event-sheet>
-        <event-sheet order="1">Eventos Pontos</event-sheet>
-        <event-sheet active="1" order="2">Eventos Seleção de Carros</event-sheet>
-        <event-sheet order="3">Eventos Loja</event-sheet>
+        <layout order="0">Loja</layout>
+        <layout order="3">Menu</layout>
+        <event-sheet order="1">Eventos Loja</event-sheet>
+        <event-sheet order="2">Eventos Pontos</event-sheet>
+        <event-sheet active="1" order="4">Eventos Cap1 Fase1</event-sheet>
+        <event-sheet order="5">Eventos Menu Principal</event-sheet>
+        <event-sheet order="6">Eventos Seleção de Carros</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -34,12 +36,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Detalhes/" />
         <folder expanded="0" path="object-folder/Textos/" />
         <folder expanded="0" path="object-folder/Carros Estacionados/" />
+        <folder expanded="0" path="object-folder/CarroSelecao/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Capítulo 1/" />
         <folder expanded="0" path="layout-folder/Capítulo 2/" />
         <folder expanded="1" path="layout-folder/Pré-fases/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="event-folder/Eventos Gerais/" />
+        <folder expanded="0" path="event-folder/Eventos Gerais/" />
         <folder expanded="0" path="event-folder/Capítulo 1/" />
         <folder expanded="0" path="event-folder/Capítulo 2/" />
         <folder expanded="1" path="event-folder/Pré-fases/" />
@@ -63,6 +66,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/edificio14/" />
         <folder expanded="1" path="animation-folder/edificio15/" />
         <folder expanded="1" path="animation-folder/backgroundLoja/" />
+        <folder expanded="1" path="animation-folder/FundoStatus/" />
+        <folder expanded="1" path="animation-folder/FundoDinheiroLoja/" />
         <folder expanded="1" path="animation-folder/Seta_esquerda_vira/" />
         <folder expanded="1" path="animation-folder/Setadireitavira/" />
         <folder expanded="1" path="animation-folder/Acelerador/" />
@@ -92,6 +97,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/carroEstacionado11/" />
         <folder expanded="1" path="animation-folder/carroEstacionado10/" />
         <folder expanded="1" path="animation-folder/carroEstacionado1/" />
+        <folder expanded="1" path="animation-folder/Carro1/" />
+        <folder expanded="1" path="animation-folder/Carro2/" />
+        <folder expanded="1" path="animation-folder/Carro3/" />
+        <folder expanded="1" path="animation-folder/Carro4/" />
+        <folder expanded="1" path="animation-folder/Carro5/" />
+        <folder expanded="1" path="animation-folder/Carro6/" />
+        <folder expanded="1" path="animation-folder/Carro7/" />
+        <folder expanded="1" path="animation-folder/Carro8/" />
         <folder expanded="1" path="animation-folder/Final/" />
         <folder expanded="1" path="animation-folder/fundo_btn/" />
         <folder expanded="1" path="animation-folder/Gatilho_layer/" />
