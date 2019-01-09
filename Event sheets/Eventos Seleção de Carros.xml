@@ -172,9 +172,8 @@
                         <condition id="3" name="On touched object" sid="995506492310952" type="Touch">
                             <param id="0" name="Object">carro</param>
                         </condition>
-                        <condition id="3" name="Compare frame" sid="233652647848444" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Number">1</param>
+                        <condition id="-16" name="Is on layer" sid="233652647848444" type="carro">
+                            <param id="0" name="Layer">1</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -193,9 +192,8 @@
                         <condition id="3" name="On touched object" sid="278013691675681" type="Touch">
                             <param id="0" name="Object">carro</param>
                         </condition>
-                        <condition id="3" name="Compare frame" sid="356894025719088" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Number">2</param>
+                        <condition id="-16" name="Is on layer" sid="356894025719088" type="carro">
+                            <param id="0" name="Layer">2</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -214,9 +212,8 @@
                         <condition id="3" name="On touched object" sid="169947870765383" type="Touch">
                             <param id="0" name="Object">carro</param>
                         </condition>
-                        <condition id="3" name="Compare frame" sid="345966946907430" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Number">3</param>
+                        <condition id="-16" name="Is on layer" sid="345966946907430" type="carro">
+                            <param id="0" name="Layer">3</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -235,9 +232,8 @@
                         <condition id="3" name="On touched object" sid="107783420555836" type="Touch">
                             <param id="0" name="Object">carro</param>
                         </condition>
-                        <condition id="3" name="Compare frame" sid="570308184837867" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Number">4</param>
+                        <condition id="-16" name="Is on layer" sid="570308184837867" type="carro">
+                            <param id="0" name="Layer">4</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -256,9 +252,8 @@
                         <condition id="3" name="On touched object" sid="425774539092219" type="Touch">
                             <param id="0" name="Object">carro</param>
                         </condition>
-                        <condition id="3" name="Compare frame" sid="166483881750723" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Number">5</param>
+                        <condition id="-16" name="Is on layer" sid="166483881750723" type="carro">
+                            <param id="0" name="Layer">5</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -277,9 +272,8 @@
                         <condition id="3" name="On touched object" sid="413415013127067" type="Touch">
                             <param id="0" name="Object">carro</param>
                         </condition>
-                        <condition id="3" name="Compare frame" sid="436982714071151" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Number">6</param>
+                        <condition id="-16" name="Is on layer" sid="436982714071151" type="carro">
+                            <param id="0" name="Layer">6</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -298,9 +292,8 @@
                         <condition id="3" name="On touched object" sid="673552793822939" type="Touch">
                             <param id="0" name="Object">carro</param>
                         </condition>
-                        <condition id="3" name="Compare frame" sid="915292496784888" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Number">7</param>
+                        <condition id="-16" name="Is on layer" sid="915292496784888" type="carro">
+                            <param id="0" name="Layer">7</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -319,9 +312,8 @@
                         <condition id="3" name="On touched object" sid="341753498033450" type="Touch">
                             <param id="0" name="Object">carro</param>
                         </condition>
-                        <condition id="3" name="Compare frame" sid="158980532369917" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Number">8</param>
+                        <condition id="-16" name="Is on layer" sid="158980532369917" type="carro">
+                            <param id="0" name="Layer">8</param>
                         </condition>
                     </conditions>
                     <actions>

@@ -1376,6 +1376,9 @@
         <object-type name="infoFase" sid="281344019317062">
             <plugin id="Text" />
         </object-type>
+        <object-type name="opcVoltar" sid="391585289363047">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

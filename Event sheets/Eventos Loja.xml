@@ -267,7 +267,7 @@
                         <condition id="-14" name="Compare variable" sid="630908455154322" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
                             <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">200</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -666,5 +666,22 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <comment>Coloquei o botão voltar na loja :D</comment>
+        <event-block sid="674627810331832">
+            <conditions>
+                <condition id="3" name="On touched object" sid="881965906561843" type="Touch">
+                    <param id="0" name="Object">opcVoltar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="793767551179099" type="System">
+                    <param id="0" name="Layout">Menu Principal</param>
+                </action>
+                <action id="-9" name="Set value" sid="621572646812920" type="System">
+                    <param id="0" name="Variable">carro</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
