@@ -19,6 +19,48 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="618532077123406">
+                    <conditions>
+                        <condition behavior="Car" id="1" name="Compare speed" sid="232273145127628" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Speed">50</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="912266157072840" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">50</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="518538135654357">
+                    <conditions>
+                        <condition behavior="Car" id="1" name="Compare speed" sid="610480776198163" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Speed">75</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="306098529970151" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">75</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="687955376847022">
+                    <conditions>
+                        <condition behavior="Car" id="1" name="Compare speed" sid="967242179808668" type="carro">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Speed">90</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="938816609581221" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Value">90</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="507007459562403">
                     <conditions>
                         <condition behavior="Car" id="1" name="Compare speed" sid="525962711110589" type="carro">
@@ -124,14 +166,14 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="230103745069908">
+                <event-block sid="376447381126053">
                     <conditions>
-                        <condition behavior="Car" id="0" name="Is moving" sid="916208305801215" type="carro" />
+                        <condition behavior="Car" id="0" name="Is moving" sid="447455899935491" type="carro" />
                     </conditions>
                     <actions>
-                        <action id="-10" name="Add to" sid="464422093143586" type="System">
+                        <action id="-10" name="Add to" sid="981509343738446" type="System">
                             <param id="0" name="Variable">Pontos</param>
-                            <param id="1" name="Value">12</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
