@@ -1567,6 +1567,14 @@
         </object-type>
         <object-type name="infoFase" sid="281344019317062">
             <plugin id="Text" />
+            <effects>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                </effect-type>
+                <effect-type name="GlowVertical">
+                    <effect id="glowvertical" />
+                </effect-type>
+            </effects>
         </object-type>
         <object-type name="opcVoltar" sid="391585289363047">
             <plugin id="Text" />
