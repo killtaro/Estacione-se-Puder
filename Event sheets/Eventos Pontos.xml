@@ -179,5 +179,73 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <comment>Grupo responsavél pelos status do personagem</comment>
+        <event-group description="" sid="941511558561001" title="ArmazenamentoDePontos">
+            <sub-events>
+                <event-block sid="894459006625400">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="592144213854484" type="Touch">
+                            <param id="0" name="Object">btnContinuar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Insert" sid="946548546025025" type="CarrosComprados">
+                            <param id="0" name="Value">Pontos</param>
+                            <param id="1" name="Index">1</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="879219197818558">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="768227377733612" type="Touch">
+                            <param id="0" name="Object">btnBackMenu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Insert" sid="484063370031783" type="CarrosComprados">
+                            <param id="0" name="Value">Pontos</param>
+                            <param id="1" name="Index">1</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <comment>Controle de dinheiro</comment>
+        <event-group description="" sid="514475578801770" title="ControleDinheiro">
+            <sub-events>
+                <event-block sid="275718902213820">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="107723306015415" type="CarrosComprados">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1000</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="789079503890685" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Value">150</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="894492801712534">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="841170558084905" type="CarrosComprados">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3000</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="978970244044129" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Value">350</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

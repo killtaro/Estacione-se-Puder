@@ -523,6 +523,197 @@
                         </action>
                     </actions>
                 </event-block>
+                <comment>Capitulo rua</comment>
+                <event-block sid="913592002259445">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="553636713687602" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="339469800182962" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="806989438758442" type="System">
+                            <param id="0" name="Layout">Cap2 Fase1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="294809976692818">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="899136027713924" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="407547372586175" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="793710013467903" type="System">
+                            <param id="0" name="Layout">Cap2 Fase2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="324117330443388">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="727551758911876" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="472534901450235" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="694909436071414" type="System">
+                            <param id="0" name="Layout">Cap2 Fase3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="793876846722851">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="920083099286855" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="384855925813088" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="571926337655348" type="System">
+                            <param id="0" name="Layout">Cap2 Fase4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="236013453242172">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="926498178058304" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="640961991824811" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="738761694884209" type="System">
+                            <param id="0" name="Layout">Cap2 Fase5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="341073834199215">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="449952501122321" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="537135172541341" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="566377387732616" type="System">
+                            <param id="0" name="Layout">Cap2 Fase6</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="171871412568455">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="362448732218880" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="189918491531272" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="274728514771419" type="System">
+                            <param id="0" name="Layout">Cap2 Fase7</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="785348564833154">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="972159471480429" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="748796896230746" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="740752334739433" type="System">
+                            <param id="0" name="Layout">Cap2 Fase8</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="873399715022252">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="478116508941128" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="936044993654189" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="407069251532729" type="System">
+                            <param id="0" name="Layout">Cap2 Fase9</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="138318580873629">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="940581713552787" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="876464840819675" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="375683805067364" type="System">
+                            <param id="0" name="Layout">Cap2 Fase10</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
     </events>
