@@ -11,6 +11,7 @@
     <saved-with-version>26500</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -1580,6 +1581,12 @@
         <object-type name="opcVoltar" sid="391585289363047">
             <plugin id="Text" />
         </object-type>
+        <object-type global="1" name="StatusPlayer" sid="775965224716583">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Musicas" sid="875163646192660">
+            <plugin id="Audio" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1665,8 +1672,26 @@
             </properties>
         </global-instance>
         <global-instance type="Mouse" uid="75" />
+        <global-instance type="Musicas" uid="3051">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <sound-folder name="Musicas">
+            <file name="MusicaIntro.ogg" />
+        </sound-folder>
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">

@@ -4,6 +4,27 @@
     <name>Eventos de Sons</name>
     <events>
         <comment>Eventos pré-alpha de teste sonoros</comment>
-        <event-group description="" sid="142541433693401" title="SonsMenu" />
+        <event-group description="" sid="142541433693401" title="SonsMenu">
+            <sub-events>
+                <event-block sid="200316899872291">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="555263095936763" type="System">
+                            <param id="0" name="Variable">MenuSim</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="643696757750674" type="Musicas">
+                            <param id="0" name="Audio file">MusicaIntro</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="918742503688541" title="CarregaSons" />
     </events>
 </c2eventsheet>

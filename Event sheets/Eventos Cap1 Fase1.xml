@@ -53,6 +53,5 @@
                 </action>
             </actions>
         </event-block>
-        <comment>Código do dinheiro passa a ser nos eventos de fase</comment>
     </events>
 </c2eventsheet>

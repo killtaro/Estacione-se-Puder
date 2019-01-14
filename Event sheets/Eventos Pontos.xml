@@ -189,10 +189,13 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="946548546025025" type="CarrosComprados">
-                            <param id="0" name="Value">Pontos</param>
-                            <param id="1" name="Index">1</param>
-                            <param id="2" name="Axis">0</param>
+                        <action id="-10" name="Add to" sid="916461203601006" type="System">
+                            <param id="0" name="Variable">PontosPersonagem</param>
+                            <param id="1" name="Value">Pontos</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="162470067792751" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Value">DinheiroGanho</param>
                         </action>
                     </actions>
                 </event-block>
@@ -203,10 +206,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="484063370031783" type="CarrosComprados">
-                            <param id="0" name="Value">Pontos</param>
-                            <param id="1" name="Index">1</param>
-                            <param id="2" name="Axis">0</param>
+                        <action id="-10" name="Add to" sid="700021936647364" type="System">
+                            <param id="0" name="Variable">PontosPersonagem</param>
+                            <param id="1" name="Value">Pontos</param>
                         </action>
                     </actions>
                 </event-block>
@@ -215,36 +217,67 @@
         <comment>Controle de dinheiro</comment>
         <event-group description="" sid="514475578801770" title="ControleDinheiro">
             <sub-events>
-                <event-block sid="275718902213820">
+                <event-block sid="184438075094121">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="107723306015415" type="CarrosComprados">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Comparison">0</param>
+                        <condition id="-14" name="Compare variable" sid="275229134447797" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">500</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="581344735225150" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Comparison">2</param>
                             <param id="2" name="Value">1000</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Add to" sid="789079503890685" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                        <action id="-9" name="Set value" sid="538210904789303" type="System">
+                            <param id="0" name="Variable">DinheiroGanho</param>
                             <param id="1" name="Value">150</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="894492801712534">
+                <event-block sid="464362062856234">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="841170558084905" type="CarrosComprados">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">3000</param>
+                        <condition id="-14" name="Compare variable" sid="340243163980593" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1000</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="837748933393186" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">2000</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Add to" sid="978970244044129" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
-                            <param id="1" name="Value">350</param>
+                        <action id="-9" name="Set value" sid="862436264184456" type="System">
+                            <param id="0" name="Variable">DinheiroGanho</param>
+                            <param id="1" name="Value">300</param>
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="555049637086258">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="143465350488225" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">3000</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="774693114218343" type="System">
+                            <param id="0" name="Variable">Pontos</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">4000</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="527382011039159" type="System">
+                            <param id="0" name="Variable">DinheiroGanho</param>
+                            <param id="1" name="Value">480</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Soma o valor ao status do player</comment>
             </sub-events>
         </event-group>
     </events>
