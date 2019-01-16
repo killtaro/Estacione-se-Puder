@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Menu</name>
     <events>
+        <variable constant="0" name="FaseSim" sid="183138513581470" static="0" type="number">0</variable>
         <variable constant="0" name="MenuSim" sid="655897077433304" static="0" type="number">0</variable>
         <include>Eventos de Sons</include>
         <variable constant="0" name="DinheiroGanho" sid="773059741080730" static="0" type="number">0</variable>

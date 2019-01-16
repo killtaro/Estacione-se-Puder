@@ -23,16 +23,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="222367422271478" type="System">
-                            <param id="0" name="Variable">Capitulo</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="632385528686000" type="System">
-                            <param id="0" name="Variable">Fase</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
                         <action id="-2" name="Go to layout" sid="757733142608040" type="System">
-                            <param id="0" name="Layout">Seleção de Carros</param>
+                            <param id="0" name="Layout">SelectFaseEstaciona</param>
                         </action>
                     </actions>
                 </event-block>
@@ -57,16 +49,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="149106039411577" type="System">
-                            <param id="0" name="Variable">Capitulo</param>
-                            <param id="1" name="Value">2</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="108224430183428" type="System">
-                            <param id="0" name="Variable">Fase</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
                         <action id="-2" name="Go to layout" sid="120552346162732" type="System">
-                            <param id="0" name="Layout">Seleção de Carros</param>
+                            <param id="0" name="Layout">SelectFaseRua</param>
                         </action>
                     </actions>
                 </event-block>

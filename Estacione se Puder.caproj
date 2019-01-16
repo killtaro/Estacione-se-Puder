@@ -984,6 +984,59 @@
                         </animation>
                     </animation-folder>
                 </object-type>
+                <object-type name="oito" sid="932805944989681">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="594618171069137" speed="5">
+                            <frame duration="1" hotspotX="0.410138" hotspotY="0.586538" original-source="C:\Projetos\Estacione-se-Puder\Textures\Numeros\8.png">
+                                <collision-poly>
+                                    <point x="0.00460829" y="0.417308" />
+                                    <point x="0.410138" y="0.00384615" />
+                                    <point x="0.995392" y="0.342308" />
+                                    <point x="0.995392" y="0.830769" />
+                                    <point x="0.410138" y="0.998077" />
+                                    <point x="0.00460829" y="0.755769" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="nove" sid="133558601680781">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="638069904780783" speed="5">
+                            <frame duration="1" hotspotX="0.410138" hotspotY="0.586538" original-source="C:\Projetos\Estacione-se-Puder\Textures\Numeros\9.png">
+                                <collision-poly>
+                                    <point x="0.00460829" y="0.417308" />
+                                    <point x="0.410138" y="0.00384615" />
+                                    <point x="0.995392" y="0.342308" />
+                                    <point x="0.995392" y="0.830769" />
+                                    <point x="0.410138" y="0.998077" />
+                                    <point x="0.00460829" y="0.755769" />
+                                    <point x="0.672811" y="0.586538" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="dez" sid="987294754119987">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="777189062960129" speed="5">
+                            <frame duration="1" hotspotX="0.275401" hotspotY="0.586538" original-source="C:\Projetos\Estacione-se-Puder\Textures\Numeros\10.png">
+                                <collision-poly>
+                                    <point x="0.114973" y="0.471154" />
+                                    <point x="0.275401" y="0.00384615" />
+                                    <point x="0.997326" y="0.0673077" />
+                                    <point x="0.997326" y="0.586538" />
+                                    <point x="0.847594" y="0.998077" />
+                                    <point x="0.275401" y="0.998077" />
+                                    <point x="0.114973" y="0.701923" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-type name="infoCarro" sid="401895682396351">
                 <plugin id="Text" />
@@ -1027,6 +1080,9 @@
                 <plugin id="Text" />
             </object-type>
             <object-type name="QtdDinheiroChar" sid="493020350390867">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Loadin" sid="909950729233795">
                 <plugin id="Text" />
             </object-type>
         </object-folder>
@@ -1544,6 +1600,40 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Carro9" sid="623127319008521">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Car" sid="790848440180716">
+                        <behavior id="Car" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="933123156689277" speed="5">
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\002.png">
+                            <collision-poly>
+                                <point x="0.038835" y="0.0653595" />
+                                <point x="0.499029" y="0.0653595" />
+                                <point x="0.924272" y="0.127451" />
+                                <point x="0.998058" y="0.5" />
+                                <point x="0.924272" y="0.872549" />
+                                <point x="0.499029" y="0.934641" />
+                                <point x="0.038835" y="0.934641" />
+                                <point x="0.00194175" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Gatilhos">
+            <object-type name="ResetaBarra" sid="888437124403911">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="104898208866422" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Final" sid="350712590619999">
             <plugin id="Sprite" />
@@ -1715,6 +1805,12 @@
         <object-type name="Musicas" sid="875163646192660">
             <plugin id="Audio" />
         </object-type>
+        <object-type global="1" name="FasesRua" sid="485392884781207">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type global="1" name="FasesEstaciona" sid="380256465452725">
+            <plugin id="Arr" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1749,7 +1845,9 @@
             <layout>Menu Principal.xml</layout>
             <layout>Loja.xml</layout>
             <layout>Seleção de Fases.xml</layout>
-            <layout>Seleção Detalhada.xml</layout>
+            <layout>SelectFaseRua.xml</layout>
+            <layout>SelectFaseEstaciona.xml</layout>
+            <layout>Loading.xml</layout>
         </layout-folder>
     </layout-folder>
     <event-folder>
@@ -1791,7 +1889,9 @@
             <event-sheet>Eventos Loja.xml</event-sheet>
             <event-sheet>Eventos Menu Principal.xml</event-sheet>
             <event-sheet>Eventos Seleção de Fases.xml</event-sheet>
-            <event-sheet>Seleção detalhada.xml</event-sheet>
+            <event-sheet>SelectFaseRua.xml</event-sheet>
+            <event-sheet>SelectFaseEstaciona.xml</event-sheet>
+            <event-sheet>Loading.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>

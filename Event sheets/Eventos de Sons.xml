@@ -15,10 +15,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="643696757750674" type="Musicas">
+                        <action id="0" name="Play" sid="704041316993589" type="Musicas">
                             <param id="0" name="Audio file">MusicaIntro</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-2</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
