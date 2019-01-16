@@ -857,6 +857,134 @@
             </object-type>
         </object-folder>
         <object-folder name="Textos">
+            <object-folder name="Números Separados">
+                <object-type name="um" sid="832798156217395">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="399787088415154" speed="5">
+                            <frame duration="1" hotspotX="0.865546" hotspotY="0.586538" original-source="C:\Projetos\Estacione-se-Puder\Textures\Numeros\1.png">
+                                <collision-poly>
+                                    <point x="0.361345" y="0.471154" />
+                                    <point x="0.865546" y="0.00384615" />
+                                    <point x="0.991597" y="0.615385" />
+                                    <point x="0.865546" y="0.998077" />
+                                    <point x="0.361345" y="0.701923" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="dois" sid="903223527992128">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="601116774826287" speed="5">
+                            <frame duration="1" hotspotX="0.410138" hotspotY="0.586538" original-source="C:\Projetos\Estacione-se-Puder\Textures\Numeros\2.png">
+                                <collision-poly>
+                                    <point x="0.248848" y="0.519231" />
+                                    <point x="0.410138" y="0.00384615" />
+                                    <point x="0.995392" y="0.342308" />
+                                    <point x="0.617512" y="0.586538" />
+                                    <point x="0.488479" y="0.619231" />
+                                    <point x="0.410138" y="0.998077" />
+                                    <point x="0.00460829" y="0.755769" />
+                                    <point x="0.00460829" y="0.586538" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="tres" sid="595518597652048">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746031763881831" speed="5">
+                            <frame duration="1" hotspotX="0.410138" hotspotY="0.586538" original-source="C:\Projetos\Estacione-se-Puder\Textures\Numeros\3.png">
+                                <collision-poly>
+                                    <point x="0.645161" y="0.684615" />
+                                    <point x="0.410138" y="0.00384615" />
+                                    <point x="0.995392" y="0.342308" />
+                                    <point x="0.995392" y="0.830769" />
+                                    <point x="0.410138" y="0.998077" />
+                                    <point x="0.00460829" y="0.755769" />
+                                    <point x="0.672811" y="0.586538" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="quatro" sid="262195897463699">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="720989212496368" speed="5">
+                            <frame duration="1" hotspotX="0.37395" hotspotY="0.586538" original-source="C:\Projetos\Estacione-se-Puder\Textures\Numeros\4.png">
+                                <collision-poly>
+                                    <point x="0.00420168" y="0.417308" />
+                                    <point x="0.37395" y="0.365385" />
+                                    <point x="0.907563" y="0.342308" />
+                                    <point x="0.991597" y="0.586538" />
+                                    <point x="0.903361" y="0.828846" />
+                                    <point x="0.37395" y="0.525" />
+                                    <point x="0.609244" y="0.586538" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="cinco" sid="346209362548718">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="237831966612243" speed="5">
+                            <frame duration="1" hotspotX="0.410138" hotspotY="0.587669" original-source="C:\Projetos\Estacione-se-Puder\Textures\Numeros\5.png">
+                                <collision-poly>
+                                    <point x="0.00460829" y="0.418112" />
+                                    <point x="0.410138" y="0.00385356" />
+                                    <point x="0.746544" y="0.447013" />
+                                    <point x="0.995392" y="0.587669" />
+                                    <point x="0.995392" y="0.83237" />
+                                    <point x="0.410138" y="0.998073" />
+                                    <point x="0.00460829" y="0.757225" />
+                                    <point x="0.677419" y="0.587669" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="seis" sid="375865405722067">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="810954899804900" speed="5">
+                            <frame duration="1" hotspotX="0.410138" hotspotY="0.586538" original-source="C:\Projetos\Estacione-se-Puder\Textures\Numeros\6.png">
+                                <collision-poly>
+                                    <point x="0.00460829" y="0.417308" />
+                                    <point x="0.410138" y="0.00384615" />
+                                    <point x="0.746544" y="0.446154" />
+                                    <point x="0.995392" y="0.586538" />
+                                    <point x="0.995392" y="0.830769" />
+                                    <point x="0.410138" y="0.998077" />
+                                    <point x="0.00460829" y="0.755769" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Sete" sid="318503055588253">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775284964353715" speed="5">
+                            <frame duration="1" hotspotX="0.410138" hotspotY="0.586538" original-source="C:\Projetos\Estacione-se-Puder\Textures\Numeros\7.png">
+                                <collision-poly>
+                                    <point x="0.248848" y="0.519231" />
+                                    <point x="0.410138" y="0.00384615" />
+                                    <point x="0.995392" y="0.342308" />
+                                    <point x="0.617512" y="0.586538" />
+                                    <point x="0.410138" y="0.638462" />
+                                    <point x="0.00460829" y="0.755769" />
+                                    <point x="0.00460829" y="0.586538" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
             <object-type name="infoCarro" sid="401895682396351">
                 <plugin id="Text" />
                 <effects>
@@ -1621,6 +1749,7 @@
             <layout>Menu Principal.xml</layout>
             <layout>Loja.xml</layout>
             <layout>Seleção de Fases.xml</layout>
+            <layout>Seleção Detalhada.xml</layout>
         </layout-folder>
     </layout-folder>
     <event-folder>
@@ -1662,6 +1791,7 @@
             <event-sheet>Eventos Loja.xml</event-sheet>
             <event-sheet>Eventos Menu Principal.xml</event-sheet>
             <event-sheet>Eventos Seleção de Fases.xml</event-sheet>
+            <event-sheet>Seleção detalhada.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>
