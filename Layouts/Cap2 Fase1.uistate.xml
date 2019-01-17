@@ -4,10 +4,10 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>507.852</position-x>
+        <position-x>501.669</position-x>
         <position-y>360</position-y>
         <position-z>212.587</position-z>
-        <lookat-x>507.852</lookat-x>
+        <lookat-x>501.669</lookat-x>
         <lookat-y>360</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
@@ -23,14 +23,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="Fim" />
+    <active-layer name="Controles" />
     <layers>
         <layer locked="0" name="base" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="calcada" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="borda" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="player" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Layer 0" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="controles" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="pontos" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Fim" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Controles" parallax-in-editor="0" visible="1" />

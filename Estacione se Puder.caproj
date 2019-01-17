@@ -1811,6 +1811,9 @@
         <object-type global="1" name="FasesEstaciona" sid="380256465452725">
             <plugin id="Arr" />
         </object-type>
+        <object-type global="1" name="Configuracoes" sid="755012639919032">
+            <plugin id="Arr" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1857,6 +1860,7 @@
             <event-sheet>Eventos Controle Mobile.xml</event-sheet>
             <event-sheet>Eventos Andares.xml</event-sheet>
             <event-sheet>Eventos de Sons.xml</event-sheet>
+            <event-sheet>Eventos Configurações.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 1">
             <event-sheet>Eventos Cap1 Fase1.xml</event-sheet>
