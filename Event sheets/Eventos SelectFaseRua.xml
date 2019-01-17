@@ -1,166 +1,166 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>SelectFaseEstaciona</name>
+    <name>Eventos SelectFaseRua</name>
     <events>
-        <event-block sid="341994060744909">
+        <event-block sid="697543315399616">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="926292793031305" type="System" />
+                <condition id="-2" name="On start of layout" sid="197453868595810" type="System" />
             </conditions>
             <actions>
-                <action id="-12" name="Set group active" sid="311291111315700" type="System">
+                <action id="-12" name="Set group active" sid="214240682760996" type="System">
                     <param id="0" name="Group name">&quot;SelecionaFase&quot;</param>
                     <param id="1" name="State">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-group description="" sid="261704421424207" title="FaseCompletas2">
+        <event-group description="" sid="776793456988314" title="FaseCompletas">
             <sub-events>
-                <event-block sid="733072197606715">
+                <event-block sid="677245107287443">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="260108903428214" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="808378193740971" type="FasesRua">
                             <param id="0" name="X">1</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="726241362410139" type="System">
+                        <action id="-4" name="Set layer visible" sid="810258631794580" type="System">
                             <param id="0" name="Layer">1</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="206010512129424">
+                <event-block sid="450905920589903">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="880293104462312" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="967121979071783" type="FasesRua">
                             <param id="0" name="X">2</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">2</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="935239971124804" type="System">
+                        <action id="-4" name="Set layer visible" sid="236204221418580" type="System">
                             <param id="0" name="Layer">2</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="845275021561803">
+                <event-block sid="250870898617067">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="936751094983712" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="658828005394493" type="FasesRua">
                             <param id="0" name="X">3</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">3</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="341163793410931" type="System">
+                        <action id="-4" name="Set layer visible" sid="354881944836082" type="System">
                             <param id="0" name="Layer">3</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="100011414264484">
+                <event-block sid="873471904688253">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="333110650460079" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="128896376587959" type="FasesRua">
                             <param id="0" name="X">4</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">4</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="279040214208601" type="System">
+                        <action id="-4" name="Set layer visible" sid="529490752692333" type="System">
                             <param id="0" name="Layer">4</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="994610340354447">
+                <event-block sid="240182488325568">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="428699231525541" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="746291164263429" type="FasesRua">
                             <param id="0" name="X">5</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">5</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="431520963939676" type="System">
+                        <action id="-4" name="Set layer visible" sid="679026974947739" type="System">
                             <param id="0" name="Layer">5</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="805676157143247">
+                <event-block sid="482750060572505">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="619983472799208" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="560491012544123" type="FasesRua">
                             <param id="0" name="X">6</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">6</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="859741871087766" type="System">
+                        <action id="-4" name="Set layer visible" sid="360999787445812" type="System">
                             <param id="0" name="Layer">6</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="676854822154564">
+                <event-block sid="128698964696251">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="771749764058534" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="643221656971308" type="FasesRua">
                             <param id="0" name="X">7</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">7</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="653022632011861" type="System">
+                        <action id="-4" name="Set layer visible" sid="855763998392909" type="System">
                             <param id="0" name="Layer">7</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="800028800858785">
+                <event-block sid="704278224451256">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="748382087569052" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="963452410797931" type="FasesRua">
                             <param id="0" name="X">8</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">8</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="565661955756439" type="System">
+                        <action id="-4" name="Set layer visible" sid="698177429605537" type="System">
                             <param id="0" name="Layer">8</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="699455797615841">
+                <event-block sid="676021923642641">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="693063237623635" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="278770516952198" type="FasesRua">
                             <param id="0" name="X">9</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">9</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="327804520344246" type="System">
+                        <action id="-4" name="Set layer visible" sid="944962955317692" type="System">
                             <param id="0" name="Layer">9</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="745835445679828">
+                <event-block sid="630019395888786">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="654488002024794" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="701200148582070" type="FasesRua">
                             <param id="0" name="X">10</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">10</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="515338983627853" type="System">
+                        <action id="-4" name="Set layer visible" sid="851635785256804" type="System">
                             <param id="0" name="Layer">10</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
@@ -168,240 +168,240 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="237084494866929" title="SelecionaFase2">
+        <event-group description="" sid="926582977206615" title="SelecionaFase">
             <sub-events>
-                <event-block sid="904032836642651">
+                <event-block sid="776660302956258">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="600132961176323" type="Touch">
+                        <condition id="3" name="On touched object" sid="710508241180443" type="Touch">
                             <param id="0" name="Object">um</param>
                         </condition>
-                        <condition id="-9" name="Layer is visible" sid="802733186384416" type="System">
+                        <condition id="-9" name="Layer is visible" sid="326114019082013" type="System">
                             <param id="0" name="Layer">1</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="465480898838955" type="System">
+                        <action id="-9" name="Set value" sid="185319036895522" type="System">
                             <param id="0" name="Variable">Capitulo</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-9" name="Set value" sid="279897638000073" type="System">
+                        <action id="-9" name="Set value" sid="940264009767366" type="System">
                             <param id="0" name="Variable">Fase</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="702823915105805" type="System">
+                        <action id="-2" name="Go to layout" sid="536973693994921" type="System">
                             <param id="0" name="Layout">Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="814923640143982">
+                <event-block sid="313605093950191">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="889119613854660" type="Touch">
+                        <condition id="3" name="On touched object" sid="208208316687804" type="Touch">
                             <param id="0" name="Object">dois</param>
                         </condition>
-                        <condition id="-9" name="Layer is visible" sid="234164009952031" type="System">
+                        <condition id="-9" name="Layer is visible" sid="909157609048531" type="System">
                             <param id="0" name="Layer">2</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="175020093501818" type="System">
+                        <action id="-9" name="Set value" sid="955340077635988" type="System">
                             <param id="0" name="Variable">Capitulo</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-9" name="Set value" sid="286578051812428" type="System">
+                        <action id="-9" name="Set value" sid="154547812365702" type="System">
                             <param id="0" name="Variable">Fase</param>
                             <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="986590344578791" type="System">
+                        <action id="-2" name="Go to layout" sid="832975602998905" type="System">
                             <param id="0" name="Layout">Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="922106162890393">
+                <event-block sid="972276044666678">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="900140943357247" type="Touch">
+                        <condition id="3" name="On touched object" sid="615600060071009" type="Touch">
                             <param id="0" name="Object">tres</param>
                         </condition>
-                        <condition id="-9" name="Layer is visible" sid="499187045727725" type="System">
+                        <condition id="-9" name="Layer is visible" sid="670767383905296" type="System">
                             <param id="0" name="Layer">3</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="799563731414535" type="System">
+                        <action id="-9" name="Set value" sid="416072186947902" type="System">
                             <param id="0" name="Variable">Capitulo</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-9" name="Set value" sid="702293048553334" type="System">
+                        <action id="-9" name="Set value" sid="447497676915645" type="System">
                             <param id="0" name="Variable">Fase</param>
                             <param id="1" name="Value">3</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="610443694497304" type="System">
+                        <action id="-2" name="Go to layout" sid="572256594078271" type="System">
                             <param id="0" name="Layout">Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="972422271888098">
+                <event-block sid="745689836667502">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="983915755711917" type="Touch">
+                        <condition id="3" name="On touched object" sid="673342185486705" type="Touch">
                             <param id="0" name="Object">quatro</param>
                         </condition>
-                        <condition id="-9" name="Layer is visible" sid="907761279810630" type="System">
+                        <condition id="-9" name="Layer is visible" sid="250807912328078" type="System">
                             <param id="0" name="Layer">4</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="866365103382566" type="System">
+                        <action id="-9" name="Set value" sid="772521630378533" type="System">
                             <param id="0" name="Variable">Capitulo</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-9" name="Set value" sid="431969204453977" type="System">
+                        <action id="-9" name="Set value" sid="170230244531889" type="System">
                             <param id="0" name="Variable">Fase</param>
                             <param id="1" name="Value">4</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="467578872147558" type="System">
+                        <action id="-2" name="Go to layout" sid="156772213530855" type="System">
                             <param id="0" name="Layout">Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="855820665992816">
+                <event-block sid="188856800751489">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="477694676004156" type="Touch">
+                        <condition id="3" name="On touched object" sid="119634808674657" type="Touch">
                             <param id="0" name="Object">cinco</param>
                         </condition>
-                        <condition id="-9" name="Layer is visible" sid="851664536172527" type="System">
+                        <condition id="-9" name="Layer is visible" sid="461826740817566" type="System">
                             <param id="0" name="Layer">5</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="766649162016529" type="System">
+                        <action id="-9" name="Set value" sid="112200037618023" type="System">
                             <param id="0" name="Variable">Capitulo</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-9" name="Set value" sid="986814582124473" type="System">
+                        <action id="-9" name="Set value" sid="545501382969909" type="System">
                             <param id="0" name="Variable">Fase</param>
                             <param id="1" name="Value">5</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="153742723530995" type="System">
+                        <action id="-2" name="Go to layout" sid="981471070198276" type="System">
                             <param id="0" name="Layout">Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="431024020659907">
+                <event-block sid="494200800725454">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="245512502197549" type="Touch">
+                        <condition id="3" name="On touched object" sid="720361550125866" type="Touch">
                             <param id="0" name="Object">seis</param>
                         </condition>
-                        <condition id="-9" name="Layer is visible" sid="169969402897018" type="System">
+                        <condition id="-9" name="Layer is visible" sid="382799432043521" type="System">
                             <param id="0" name="Layer">6</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="187791859651524" type="System">
+                        <action id="-9" name="Set value" sid="973035621680058" type="System">
                             <param id="0" name="Variable">Capitulo</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-9" name="Set value" sid="131315332027218" type="System">
+                        <action id="-9" name="Set value" sid="210336293901689" type="System">
                             <param id="0" name="Variable">Fase</param>
                             <param id="1" name="Value">6</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="108803606614368" type="System">
+                        <action id="-2" name="Go to layout" sid="710671046400218" type="System">
                             <param id="0" name="Layout">Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="891097374291235">
+                <event-block sid="640360283180621">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="472622377598401" type="Touch">
+                        <condition id="3" name="On touched object" sid="117567552780009" type="Touch">
                             <param id="0" name="Object">Sete</param>
                         </condition>
-                        <condition id="-9" name="Layer is visible" sid="657949269307086" type="System">
+                        <condition id="-9" name="Layer is visible" sid="317474940018709" type="System">
                             <param id="0" name="Layer">7</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="431868261164896" type="System">
+                        <action id="-9" name="Set value" sid="566435065522516" type="System">
                             <param id="0" name="Variable">Capitulo</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-9" name="Set value" sid="579265722427166" type="System">
+                        <action id="-9" name="Set value" sid="394553400605216" type="System">
                             <param id="0" name="Variable">Fase</param>
                             <param id="1" name="Value">7</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="683355426799624" type="System">
+                        <action id="-2" name="Go to layout" sid="977005720150408" type="System">
                             <param id="0" name="Layout">Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="427127480400225">
+                <event-block sid="742062197322507">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="485310604019395" type="Touch">
+                        <condition id="3" name="On touched object" sid="910679109787634" type="Touch">
                             <param id="0" name="Object">oito</param>
                         </condition>
-                        <condition id="-9" name="Layer is visible" sid="242882460514432" type="System">
+                        <condition id="-9" name="Layer is visible" sid="718936771125449" type="System">
                             <param id="0" name="Layer">8</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="984716165336382" type="System">
+                        <action id="-9" name="Set value" sid="490716294164425" type="System">
                             <param id="0" name="Variable">Capitulo</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-9" name="Set value" sid="978634298779778" type="System">
+                        <action id="-9" name="Set value" sid="575229881908171" type="System">
                             <param id="0" name="Variable">Fase</param>
                             <param id="1" name="Value">8</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="358047083434698" type="System">
+                        <action id="-2" name="Go to layout" sid="771702501910651" type="System">
                             <param id="0" name="Layout">Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="181440074700304">
+                <event-block sid="646352774006902">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="266148172294160" type="Touch">
+                        <condition id="3" name="On touched object" sid="606279725966907" type="Touch">
                             <param id="0" name="Object">nove</param>
                         </condition>
-                        <condition id="-9" name="Layer is visible" sid="934287925787391" type="System">
+                        <condition id="-9" name="Layer is visible" sid="988203290183185" type="System">
                             <param id="0" name="Layer">9</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="861101969365477" type="System">
+                        <action id="-9" name="Set value" sid="370538276829450" type="System">
                             <param id="0" name="Variable">Capitulo</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-9" name="Set value" sid="348241381058325" type="System">
+                        <action id="-9" name="Set value" sid="587351121147481" type="System">
                             <param id="0" name="Variable">Fase</param>
                             <param id="1" name="Value">9</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="991100328079526" type="System">
+                        <action id="-2" name="Go to layout" sid="198481101484048" type="System">
                             <param id="0" name="Layout">Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="547486977462213">
+                <event-block sid="412545216976130">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="510045849619668" type="Touch">
+                        <condition id="3" name="On touched object" sid="275586553588366" type="Touch">
                             <param id="0" name="Object">dez</param>
                         </condition>
-                        <condition id="-9" name="Layer is visible" sid="414932492182912" type="System">
+                        <condition id="-9" name="Layer is visible" sid="632653588038010" type="System">
                             <param id="0" name="Layer">10</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="262734117912630" type="System">
+                        <action id="-9" name="Set value" sid="950941511232712" type="System">
                             <param id="0" name="Variable">Capitulo</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-9" name="Set value" sid="405890316326259" type="System">
+                        <action id="-9" name="Set value" sid="567174605182666" type="System">
                             <param id="0" name="Variable">Fase</param>
                             <param id="1" name="Value">10</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="193709521336844" type="System">
+                        <action id="-2" name="Go to layout" sid="630826460391457" type="System">
                             <param id="0" name="Layout">Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
-        <comment>Movimentação do Carrinho na tela</comment>
+        <comment>Compara as fases completas</comment>
     </events>
 </c2eventsheet>

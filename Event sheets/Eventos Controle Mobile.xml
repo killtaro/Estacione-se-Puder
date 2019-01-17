@@ -51,5 +51,53 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="219531625078793">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="230083470526267" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="996394904481490" type="System">
+                    <param id="0" name="Object to create">Seta_esquerda_vira</param>
+                    <param id="1" name="Layer">&quot;Controles&quot;</param>
+                    <param id="2" name="X">68</param>
+                    <param id="3" name="Y">343</param>
+                </action>
+                <action id="-3" name="Create object" sid="634004006611064" type="System">
+                    <param id="0" name="Object to create">Setadireitavira</param>
+                    <param id="1" name="Layer">&quot;Controles&quot;</param>
+                    <param id="2" name="X">234</param>
+                    <param id="3" name="Y">336</param>
+                </action>
+                <action id="-3" name="Create object" sid="181878531422263" type="System">
+                    <param id="0" name="Object to create">freio</param>
+                    <param id="1" name="Layer">&quot;Controles&quot;</param>
+                    <param id="2" name="X">615</param>
+                    <param id="3" name="Y">332</param>
+                </action>
+                <action id="-3" name="Create object" sid="128398687974401" type="System">
+                    <param id="0" name="Object to create">Acelerador</param>
+                    <param id="1" name="Layer">&quot;Controles&quot;</param>
+                    <param id="2" name="X">740</param>
+                    <param id="3" name="Y">327</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="188521981331976" type="Seta_esquerda_vira">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="563049826238968" type="Setadireitavira">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="950877089327771" type="freio">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="544220186813637" type="Acelerador">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-33" name="Set layer parallax" sid="355795851733406" type="System">
+                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                    <param id="1" name="Parallax X">0</param>
+                    <param id="2" name="Parallax Y">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

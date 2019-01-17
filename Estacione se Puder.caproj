@@ -1889,9 +1889,9 @@
             <event-sheet>Eventos Loja.xml</event-sheet>
             <event-sheet>Eventos Menu Principal.xml</event-sheet>
             <event-sheet>Eventos Seleção de Fases.xml</event-sheet>
-            <event-sheet>SelectFaseRua.xml</event-sheet>
-            <event-sheet>SelectFaseEstaciona.xml</event-sheet>
-            <event-sheet>Loading.xml</event-sheet>
+            <event-sheet>Eventos SelectFaseRua.xml</event-sheet>
+            <event-sheet>Eventos SelectFaseEstaciona.xml</event-sheet>
+            <event-sheet>Eventos Loading.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>

@@ -2,5 +2,8 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap2 Fase6</name>
-    <events />
+    <events>
+        <include>Eventos Carros</include>
+        <include>Eventos Controle Mobile</include>
+    </events>
 </c2eventsheet>

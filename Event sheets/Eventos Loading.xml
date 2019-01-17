@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Loading</name>
+    <name>Eventos Loading</name>
     <events>
         <include>Eventos Carros</include>
         <event-group description="" sid="688964948775200" title="CarroBarraLoading">

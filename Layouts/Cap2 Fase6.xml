@@ -2164,26 +2164,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2277">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>66.23727417</x>
-                        <y>828.711120605</y>
-                        <z>0</z>
-                        <width>344.63494873</width>
-                        <height>4.193283081</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
             <effects />
         </layer>
@@ -2238,25 +2218,288 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
-            <effects />
-        </layer>
-        <layer name="buraco" sid="236275020269678">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="carroEstacionado4" uid="2299">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>120</x>
+                        <y>675.80847168</y>
+                        <z>0</z>
+                        <width>30.41204834</width>
+                        <height>49.202407837</height>
+                        <depth>0</depth>
+                        <hotspotX>0.570895493</hotspotX>
+                        <hotspotY>0.668329179</hotspotY>
+                        <angle>-1.57079649</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carroEstacionado4" uid="2300">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>120</x>
+                        <y>734.08972168</y>
+                        <z>0</z>
+                        <width>30.41204834</width>
+                        <height>49.202407837</height>
+                        <depth>0</depth>
+                        <hotspotX>0.570895493</hotspotX>
+                        <hotspotY>0.668329179</hotspotY>
+                        <angle>-1.57079649</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carroEstacionado4" uid="2301">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>120</x>
+                        <y>794.320556641</y>
+                        <z>0</z>
+                        <width>30.41204834</width>
+                        <height>49.202407837</height>
+                        <depth>0</depth>
+                        <hotspotX>0.570895493</hotspotX>
+                        <hotspotY>0.668329179</hotspotY>
+                        <angle>-1.57079649</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carroEstacionado4" uid="2302">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>120</x>
+                        <y>628.534790039</y>
+                        <z>0</z>
+                        <width>30.41204834</width>
+                        <height>49.202407837</height>
+                        <depth>0</depth>
+                        <hotspotX>0.570895493</hotspotX>
+                        <hotspotY>0.668329179</hotspotY>
+                        <angle>-1.57079649</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carroEstacionado4" uid="2303">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>120</x>
+                        <y>568.926086426</y>
+                        <z>0</z>
+                        <width>30.41204834</width>
+                        <height>49.202407837</height>
+                        <depth>0</depth>
+                        <hotspotX>0.570895493</hotspotX>
+                        <hotspotY>0.668329179</hotspotY>
+                        <angle>-1.57079649</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carroEstacionado4" uid="2304">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>120</x>
+                        <y>511.180023193</y>
+                        <z>0</z>
+                        <width>30.41204834</width>
+                        <height>49.202407837</height>
+                        <depth>0</depth>
+                        <hotspotX>0.570895493</hotspotX>
+                        <hotspotY>0.668329179</hotspotY>
+                        <angle>-1.57079649</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carroEstacionado4" uid="2305">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>424.975891113</x>
+                        <y>613.630981445</y>
+                        <z>0</z>
+                        <width>30.41204834</width>
+                        <height>49.202407837</height>
+                        <depth>0</depth>
+                        <hotspotX>0.570895493</hotspotX>
+                        <hotspotY>0.668329179</hotspotY>
+                        <angle>1.570814252</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carroEstacionado4" uid="2306">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>423.733032227</x>
+                        <y>559.611999512</y>
+                        <z>0</z>
+                        <width>30.41204834</width>
+                        <height>49.202407837</height>
+                        <depth>0</depth>
+                        <hotspotX>0.570895493</hotspotX>
+                        <hotspotY>0.668329179</hotspotY>
+                        <angle>1.570814252</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carroEstacionado4" uid="2307">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>421.869476318</x>
+                        <y>512.421691895</y>
+                        <z>0</z>
+                        <width>30.41204834</width>
+                        <height>49.202407837</height>
+                        <depth>0</depth>
+                        <hotspotX>0.570895493</hotspotX>
+                        <hotspotY>0.668329179</hotspotY>
+                        <angle>1.570814252</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="marcaVaga1" uid="2277">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>66.23727417</x>
+                        <y>828.711120605</y>
+                        <z>0</z>
+                        <width>344.63494873</width>
+                        <height>4.193283081</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>-1.57079649</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="marcaVaga1" uid="2278">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -2606,268 +2849,43 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado4" uid="2299">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>120</x>
-                        <y>675.80847168</y>
-                        <z>0</z>
-                        <width>30.41204834</width>
-                        <height>49.202407837</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado4" uid="2300">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>120</x>
-                        <y>734.08972168</y>
-                        <z>0</z>
-                        <width>30.41204834</width>
-                        <height>49.202407837</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado4" uid="2301">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>120</x>
-                        <y>794.320556641</y>
-                        <z>0</z>
-                        <width>30.41204834</width>
-                        <height>49.202407837</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado4" uid="2302">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>120</x>
-                        <y>628.534790039</y>
-                        <z>0</z>
-                        <width>30.41204834</width>
-                        <height>49.202407837</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado4" uid="2303">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>120</x>
-                        <y>568.926086426</y>
-                        <z>0</z>
-                        <width>30.41204834</width>
-                        <height>49.202407837</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado4" uid="2304">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>120</x>
-                        <y>511.180023193</y>
-                        <z>0</z>
-                        <width>30.41204834</width>
-                        <height>49.202407837</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado4" uid="2305">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>424.975891113</x>
-                        <y>613.630981445</y>
-                        <z>0</z>
-                        <width>30.41204834</width>
-                        <height>49.202407837</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>1.570814252</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado4" uid="2306">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>423.733032227</x>
-                        <y>559.611999512</y>
-                        <z>0</z>
-                        <width>30.41204834</width>
-                        <height>49.202407837</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>1.570814252</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado4" uid="2307">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>421.869476318</x>
-                        <y>512.421691895</y>
-                        <z>0</z>
-                        <width>30.41204834</width>
-                        <height>49.202407837</height>
-                        <depth>0</depth>
-                        <hotspotX>0.570895493</hotspotX>
-                        <hotspotY>0.668329179</hotspotY>
-                        <angle>1.570814252</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
+            <effects />
+        </layer>
+        <layer name="Fim" sid="858938702844869">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="Controles" sid="535700920953720">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
             <effects />
         </layer>
     </layers>

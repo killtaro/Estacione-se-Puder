@@ -2,7 +2,7 @@
 <c2layout>
     <name>SelectFaseEstaciona</name>
     <sid>288341117585248</sid>
-    <event-sheet>SelectFaseEstaciona</event-sheet>
+    <event-sheet>Eventos SelectFaseEstaciona</event-sheet>
     <size>
         <width>800</width>
         <height>400</height>

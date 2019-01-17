@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="8722530541249526">
+        <layer name="base" sid="8722530541249526">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,33 +29,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="calcada1" uid="3">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-7</x>
-                        <y>174</y>
-                        <z>0</z>
-                        <width>1288.567749023</width>
-                        <height>78</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="grama1" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -69,33 +42,6 @@
                         <z>0</z>
                         <width>1288</width>
                         <height>182</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="calcada1" uid="5">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-1</x>
-                        <y>506</y>
-                        <z>0</z>
-                        <width>1286</width>
-                        <height>78</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -866,60 +812,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bordaCalcada1" uid="67">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-1.919815063</x>
-                        <y>174.929855347</y>
-                        <z>0</z>
-                        <width>1285.261108398</width>
-                        <height>6.868469238</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="bordaCalcada1" uid="68">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-1.009643555</x>
-                        <y>578.565002441</y>
-                        <z>0</z>
-                        <width>1285.261108398</width>
-                        <height>6.868469238</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Final" uid="196">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -972,7 +864,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Layer 1" sid="315344455994010">
+        <layer name="calcada" sid="315344455994010">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -988,33 +880,13 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="carro" uid="1">
+                <instance type="calcada1" uid="3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
+                        <hotspot>Top-left</hotspot>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Car">
-                            <properties>
-                                <max-speed>350</max-speed>
-                                <acceleration>200</acceleration>
-                                <deceleration>300</deceleration>
-                                <steer-speed>225</steer-speed>
-                                <drift-recover>185</drift-recover>
-                                <friction>0.4</friction>
-                                <set-angle>Yes</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="BoundToLayout">
-                            <properties>
-                                <bound-by>Edge</bound-by>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="ScrollTo">
+                        <behavior-instance type="Solid">
                             <properties>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1023,15 +895,115 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>34.051078796</x>
-                        <y>380.158996582</y>
+                        <x>-7</x>
+                        <y>174</y>
                         <z>0</z>
-                        <width>52</width>
-                        <height>34</height>
+                        <width>1288.567749023</width>
+                        <height>78</height>
                         <depth>0</depth>
-                        <hotspotX>0.439635545</hotspotX>
-                        <hotspotY>-0.003731343</hotspotY>
-                        <angle>-0.00995099</angle>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="calcada1" uid="5">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-1</x>
+                        <y>506</y>
+                        <z>0</z>
+                        <width>1286</width>
+                        <height>78</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="borda" sid="951500280481047">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="bordaCalcada1" uid="67">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-1.919815063</x>
+                        <y>174.929855347</y>
+                        <z>0</z>
+                        <width>1285.261108398</width>
+                        <height>6.868469238</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="bordaCalcada1" uid="68">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-1.009643555</x>
+                        <y>578.565002441</y>
+                        <z>0</z>
+                        <width>1285.261108398</width>
+                        <height>6.868469238</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -1089,35 +1061,25 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado13" uid="170">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>133</x>
-                        <y>291</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>51</height>
-                        <depth>0</depth>
-                        <hotspotX>0.481343269</hotspotX>
-                        <hotspotY>0.586034894</hotspotY>
-                        <angle>0.226892799</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="player" sid="206649470707429">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
                 <instance type="carroEstacionado14" uid="175">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -1143,35 +1105,6 @@
                         <depth>0</depth>
                         <hotspotX>0.51119405</hotspotX>
                         <hotspotY>0.436408967</hotspotY>
-                        <angle>0.226892799</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado13" uid="182">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>81</x>
-                        <y>296</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>51</height>
-                        <depth>0</depth>
-                        <hotspotX>0.481343269</hotspotX>
-                        <hotspotY>0.586034894</hotspotY>
                         <angle>0.226892799</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1495,6 +1428,122 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="carroEstacionado14" uid="193">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1220</x>
+                        <y>283</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>51</height>
+                        <depth>0</depth>
+                        <hotspotX>0.51119405</hotspotX>
+                        <hotspotY>0.436408967</hotspotY>
+                        <angle>0.226892799</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carroEstacionado14" uid="194">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1271</x>
+                        <y>288</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>51</height>
+                        <depth>0</depth>
+                        <hotspotX>0.51119405</hotspotX>
+                        <hotspotY>0.436408967</hotspotY>
+                        <angle>0.226892799</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carroEstacionado13" uid="170">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>133</x>
+                        <y>291</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>51</height>
+                        <depth>0</depth>
+                        <hotspotX>0.481343269</hotspotX>
+                        <hotspotY>0.586034894</hotspotY>
+                        <angle>0.226892799</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carroEstacionado13" uid="182">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>81</x>
+                        <y>296</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>51</height>
+                        <depth>0</depth>
+                        <hotspotX>0.481343269</hotspotX>
+                        <hotspotY>0.586034894</hotspotY>
+                        <angle>0.226892799</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="carroEstacionado13" uid="180">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -1756,7 +1805,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carroEstacionado14" uid="193">
+                <instance type="carro" uid="1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1764,7 +1813,25 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid">
+                        <behavior-instance type="Car">
+                            <properties>
+                                <max-speed>350</max-speed>
+                                <acceleration>200</acceleration>
+                                <deceleration>300</deceleration>
+                                <steer-speed>225</steer-speed>
+                                <drift-recover>185</drift-recover>
+                                <friction>0.4</friction>
+                                <set-angle>Yes</set-angle>
+                                <default-controls>Yes</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="BoundToLayout">
+                            <properties>
+                                <bound-by>Edge</bound-by>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="ScrollTo">
                             <properties>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1773,51 +1840,58 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1220</x>
-                        <y>283</y>
+                        <x>34.051078796</x>
+                        <y>380.158996582</y>
                         <z>0</z>
-                        <width>32</width>
-                        <height>51</height>
+                        <width>52</width>
+                        <height>34</height>
                         <depth>0</depth>
-                        <hotspotX>0.51119405</hotspotX>
-                        <hotspotY>0.436408967</hotspotY>
-                        <angle>0.226892799</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="carroEstacionado14" uid="194">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1271</x>
-                        <y>288</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>51</height>
-                        <depth>0</depth>
-                        <hotspotX>0.51119405</hotspotX>
-                        <hotspotY>0.436408967</hotspotY>
-                        <angle>0.226892799</angle>
+                        <hotspotX>0.439635545</hotspotX>
+                        <hotspotY>-0.003731343</hotspotY>
+                        <angle>-0.00995099</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>
             <effects />
         </layer>
-        <layer name="Layer 2" sid="951500280481047">
+        <layer name="pontos" sid="716122104641578">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="Fim" sid="971773602809351">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="Controles" sid="129014415734321">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>

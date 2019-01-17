@@ -4,5 +4,6 @@
     <name>Eventos Cap2 Fase7</name>
     <events>
         <include>Eventos Carros</include>
+        <include>Eventos Controle Mobile</include>
     </events>
 </c2eventsheet>

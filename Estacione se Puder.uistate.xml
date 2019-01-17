@@ -10,11 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Loading</layout>
-        <event-sheet order="1">Loading</event-sheet>
-        <event-sheet order="2">Eventos Seleção de Carros</event-sheet>
-        <event-sheet order="3">Eventos Menu</event-sheet>
-        <event-sheet active="1" order="4">Eventos Seleção de Fases</event-sheet>
+        <layout active="1" order="0">Cap2 Fase3</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -37,15 +33,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Carros Estacionados/" />
         <folder expanded="0" path="object-folder/CarroSelecao/" />
         <folder expanded="0" path="object-folder/Gatilhos/" />
-        <folder expanded="0" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Capítulo 1/" />
-        <folder expanded="0" path="layout-folder/Capítulo 2/" />
-        <folder expanded="0" path="layout-folder/Pré-fases/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="layout-folder/Capítulo 1/" />
+        <folder expanded="1" path="layout-folder/Capítulo 2/" />
+        <folder expanded="1" path="layout-folder/Pré-fases/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="event-folder/Eventos Gerais/" />
-        <folder expanded="0" path="event-folder/Capítulo 1/" />
-        <folder expanded="0" path="event-folder/Capítulo 2/" />
-        <folder expanded="0" path="event-folder/Pré-fases/" />
+        <folder expanded="1" path="event-folder/Eventos Gerais/" />
+        <folder expanded="1" path="event-folder/Capítulo 1/" />
+        <folder expanded="1" path="event-folder/Capítulo 2/" />
+        <folder expanded="1" path="event-folder/Pré-fases/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />

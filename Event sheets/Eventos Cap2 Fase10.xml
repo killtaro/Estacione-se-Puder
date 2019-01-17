@@ -4,5 +4,6 @@
     <name>Eventos Cap2 Fase10</name>
     <events>
         <include>Eventos Carros</include>
+        <include>Eventos Controle Mobile</include>
     </events>
 </c2eventsheet>

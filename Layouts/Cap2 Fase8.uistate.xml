@@ -23,12 +23,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="jogador" />
+    <active-layer name="Controles" />
     <layers>
         <layer locked="0" name="base" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="calcada" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="borda" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="jogador" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Layer 4" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Fim" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Controles" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>
