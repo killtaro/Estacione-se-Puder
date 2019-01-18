@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Cadastro Player</name>
+    <events>
+        <variable constant="0" name="Nome" sid="769665170700665" static="0" type="text"></variable>
+        <comment>Mostra o botao continuar apenas com nomes</comment>
+        <event-block sid="237872161885400">
+            <conditions>
+                <condition id="1" name="On text changed" sid="306010781773932" type="infoNomeChar" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="788405551869186" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Armazena o nome que o jogardor escolher</comment>
+        <event-group description="" sid="176445010848991" title="CapturaNome">
+            <sub-events>
+                <event-block sid="359571866012735">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="324567083044407" type="Touch">
+                            <param id="0" name="Object">ConcluirCadastro</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="790531993182810" type="System">
+                            <param id="0" name="Variable">Nome</param>
+                            <param id="1" name="Value">infoNomeChar.Text</param>
+                        </action>
+                        <action id="10" name="Insert" sid="230657453921367" type="StatusPlayer">
+                            <param id="0" name="Value">infoNomeChar.Text</param>
+                            <param id="1" name="Index">1</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

@@ -16,6 +16,7 @@
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
@@ -394,6 +395,14 @@
                                 <point x="0.00307377" y="0.971751" />
                             </collision-poly>
                         </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="FundoCadastro" sid="266134081112407">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="772833160747717" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1085,6 +1094,12 @@
             <object-type name="Loadin" sid="909950729233795">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="infoNomeCarteira" sid="835670941810254">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="ConcluirCadastro" sid="403473360639796">
+                <plugin id="Text" />
+            </object-type>
         </object-folder>
         <object-folder name="Carros Estacionados">
             <object-type name="carroEstacionado9" sid="783610894164303">
@@ -1635,6 +1650,25 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="Cadastro Player">
+            <object-type name="Carteira" sid="504512764646000">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="565624257487810" speed="5">
+                        <frame duration="1" hotspotX="0.486772" hotspotY="0.568567" original-source="C:\Projetos\Estacione-se-Puder\Textures\Carteira.png">
+                            <collision-poly>
+                                <point x="0.163139" y="0.00308166" />
+                                <point x="0.810406" y="0.00308166" />
+                                <point x="0.999118" y="0.568567" />
+                                <point x="0.731922" y="0.996918" />
+                                <point x="0.241623" y="0.996918" />
+                                <point x="0.000881834" y="0.568567" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Final" sid="350712590619999">
             <plugin id="Sprite" />
             <behaviors>
@@ -1814,6 +1848,9 @@
         <object-type global="1" name="Configuracoes" sid="755012639919032">
             <plugin id="Arr" />
         </object-type>
+        <object-type name="infoNomeChar" sid="319334389026085">
+            <plugin id="TextBox" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1851,6 +1888,7 @@
             <layout>SelectFaseRua.xml</layout>
             <layout>SelectFaseEstaciona.xml</layout>
             <layout>Loading.xml</layout>
+            <layout>Cadastro Player.xml</layout>
         </layout-folder>
     </layout-folder>
     <event-folder>
@@ -1896,6 +1934,7 @@
             <event-sheet>Eventos SelectFaseRua.xml</event-sheet>
             <event-sheet>Eventos SelectFaseEstaciona.xml</event-sheet>
             <event-sheet>Eventos Loading.xml</event-sheet>
+            <event-sheet>Eventos Cadastro Player.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>
