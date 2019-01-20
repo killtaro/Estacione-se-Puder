@@ -886,7 +886,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>-13</x>
-                        <y>-56</y>
+                        <y>-63</y>
                         <z>0</z>
                         <width>837</width>
                         <height>512</height>
@@ -943,110 +943,90 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="opcJogar" uid="2992">
+                <instance type="BotaoJogar" uid="1935">
                     <properties>
-                        <text>Jogar</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-48,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>98</x>
-                        <y>193</y>
+                        <x>171</x>
+                        <y>212</y>
                         <z>0</z>
-                        <width>99</width>
-                        <height>62</height>
+                        <width>96</width>
+                        <height>48</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.510416687</hotspotX>
+                        <hotspotY>0.458333343</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="opcOpcoes" uid="2993">
+                <instance type="BotaoOpcoes" uid="2058">
                     <properties>
-                        <text>Opcoes</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-48,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>194</x>
-                        <y>256</y>
+                        <x>280</x>
+                        <y>288</y>
                         <z>0</z>
                         <width>115</width>
-                        <height>62</height>
+                        <height>48</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.530434787</hotspotX>
+                        <hotspotY>0.458333343</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="opcSair" uid="2994">
+                <instance type="BotaoSair" uid="2059">
                     <properties>
-                        <text>Sair</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-48,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>321</x>
-                        <y>320</y>
+                        <x>406</x>
+                        <y>368</y>
                         <z>0</z>
                         <width>66</width>
-                        <height>61</height>
+                        <height>41</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.575757563</hotspotX>
+                        <hotspotY>0.48780489</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="opcLoja" uid="2995">
+                <instance type="BotaoLoja" uid="2060">
                     <properties>
-                        <text>Loja</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-53,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>623</x>
-                        <y>307</y>
+                        <x>663</x>
+                        <y>319</y>
                         <z>0</z>
-                        <width>109</width>
-                        <height>74</height>
+                        <width>76</width>
+                        <height>46</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.434782594</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

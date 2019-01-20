@@ -3381,7 +3381,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="fim_tela" uid="1265">
+                <instance type="fim_tela" uid="632">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3391,11 +3391,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>960</x>
-                        <y>155</y>
+                        <x>968</x>
+                        <y>170</y>
                         <z>0</z>
                         <width>510</width>
-                        <height>281</height>
+                        <height>296.37109375</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.505338073</hotspotY>
@@ -3403,122 +3403,12 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fundo_btn" uid="1266">
+                <instance type="Pontos" uid="633">
                     <properties>
+                        <text>00000</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>957</x>
-                        <y>187</y>
-                        <z>0</z>
-                        <width>250</width>
-                        <height>34.144104004</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="btn_continua" uid="1267">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>955</x>
-                        <y>191</y>
-                        <z>0</z>
-                        <width>204</width>
-                        <height>37</height>
-                        <depth>0</depth>
-                        <hotspotX>0.504901946</hotspotX>
-                        <hotspotY>0.67567569</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="fundo_btn" uid="1268">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>957</x>
-                        <y>241</y>
-                        <z>0</z>
-                        <width>281.256774902</width>
-                        <height>34.144104004</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="btn_sair" uid="1269">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>961</x>
-                        <y>243</y>
-                        <z>0</z>
-                        <width>273.072052002</width>
-                        <height>30.161376953</height>
-                        <depth>0</depth>
-                        <hotspotX>0.51886791</hotspotX>
-                        <hotspotY>0.594594598</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="fundo_btn" uid="1270">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>928</x>
-                        <y>90</y>
-                        <z>0</z>
-                        <width>374.952728271</width>
-                        <height>37.049865723</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Pontos" uid="1271">
-                    <properties>
-                        <text></text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Narrow,-32,400,0</font>
-                        <color>0,0,0</color>
+                        <font>Coolvetica Rg,-37,400,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -3528,11 +3418,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>921</x>
-                        <y>73</y>
+                        <x>873</x>
+                        <y>44</y>
                         <z>0</z>
                         <width>225.187011719</width>
-                        <height>41.290161133</height>
+                        <height>47.056518555</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -3540,24 +3430,83 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="tela_pontos_d" uid="1272">
+                <instance type="infoTexto1" uid="634">
                     <properties>
+                        <text>Pontos:</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
+                        <font>Coolvetica Rg,-37,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>833</x>
-                        <y>92</y>
+                        <x>738</x>
+                        <y>41</y>
                         <z>0</z>
-                        <width>159</width>
-                        <height>37</height>
+                        <width>124.109619141</width>
+                        <height>52.094238281</height>
                         <depth>0</depth>
-                        <hotspotX>0.528301895</hotspotX>
-                        <hotspotY>0.540540516</hotspotY>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="btnContinuar" uid="644">
+                    <properties>
+                        <text>Continuar</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Coolvetica Rg,-48,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>725</x>
+                        <y>120</y>
+                        <z>0</z>
+                        <width>485.311004639</width>
+                        <height>57</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="btnBackMenu" uid="645">
+                    <properties>
+                        <text>Voltar ao menu</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Coolvetica Rg,-48,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>725</x>
+                        <y>200</y>
+                        <z>0</z>
+                        <width>486.270690918</width>
+                        <height>57</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

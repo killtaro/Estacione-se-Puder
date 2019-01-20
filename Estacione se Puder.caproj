@@ -40,7 +40,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
-    <first-layout>Menu</first-layout>
+    <first-layout>Loading</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -1851,6 +1851,101 @@
         <object-type name="infoNomeChar" sid="319334389026085">
             <plugin id="TextBox" />
         </object-type>
+        <object-type name="BotaoCampanha" sid="109838341793491">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689388043160228" speed="5">
+                    <frame duration="1" hotspotX="0.48366" hotspotY="0.48" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Campanha.png">
+                        <collision-poly>
+                            <point x="0.00653596" y="0.52" />
+                            <point x="0.986928" y="0.44" />
+                            <point x="0.986928" y="0.52" />
+                            <point x="0.00653596" y="0.44" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotaoArrancada" sid="434946725106415">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421311918991155" speed="5">
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.512195" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Arrancada.png">
+                        <collision-poly>
+                            <point x="0.00581395" y="0.219512" />
+                            <point x="0.511628" y="0.414634" />
+                            <point x="0.988372" y="0.341463" />
+                            <point x="0.988372" y="0.682927" />
+                            <point x="0.511628" y="0.560976" />
+                            <point x="0.00581395" y="0.804878" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotaoVoltar" sid="245019223940239">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="335235155755951" speed="5">
+                    <frame duration="1" hotspotX="0.557522" hotspotY="0.536585" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Voltar.png">
+                        <collision-poly>
+                            <point x="0.00884956" y="0.853659" />
+                            <point x="0.557522" y="0.365854" />
+                            <point x="0.893805" y="0.536585" />
+                            <point x="0.557522" y="0.97561" />
+                            <point x="0.00884956" y="0.219512" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotaoJogar" sid="903310962884983">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="843001132744281" speed="5">
+                    <frame duration="1" hotspotX="0.510417" hotspotY="0.458333" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\BotaoJogar.png">
+                        <collision-poly>
+                            <point x="0.510417" y="0.354167" />
+                            <point x="0.875" y="0.458333" />
+                            <point x="0.510417" y="0.979167" />
+                            <point x="0.0104167" y="0.458333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotaoOpcoes" sid="214507353764476">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="540571031037708" speed="5">
+                    <frame duration="1" hotspotX="0.530435" hotspotY="0.458333" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Opcoes.png">
+                        <collision-poly>
+                            <point x="0.00869565" y="0.770833" />
+                            <point x="0.530435" y="0.229167" />
+                            <point x="0.93913" y="0.458333" />
+                            <point x="0.530435" y="0.833333" />
+                            <point x="0.00869565" y="0.145833" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotaoSair" sid="849387670222337">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="975583353732971" speed="5">
+                    <frame duration="1" hotspotX="0.575758" hotspotY="0.487805" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Sair.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotaoLoja" sid="302605286541428">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444940035181480" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.434783" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Loja.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1889,6 +1984,7 @@
             <layout>SelectFaseEstaciona.xml</layout>
             <layout>Loading.xml</layout>
             <layout>Cadastro Player.xml</layout>
+            <layout>Sub Menu modos de jogo.xml</layout>
         </layout-folder>
     </layout-folder>
     <event-folder>
@@ -1935,6 +2031,7 @@
             <event-sheet>Eventos SelectFaseEstaciona.xml</event-sheet>
             <event-sheet>Eventos Loading.xml</event-sheet>
             <event-sheet>Eventos Cadastro Player.xml</event-sheet>
+            <event-sheet>Eventos sub menu.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>

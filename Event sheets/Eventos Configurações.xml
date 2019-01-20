@@ -87,7 +87,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="278480810710764" type="System">
                             <param id="0" name="Variable">VolumeMusica</param>
-                            <param id="1" name="Value">Configuracoes.At(2,2)</param>
+                            <param id="1" name="Value">Configuracoes.At(2)</param>
                         </action>
                     </actions>
                 </event-block>

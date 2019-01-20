@@ -10,12 +10,30 @@
                 <event-block sid="284307709672947">
                     <conditions>
                         <condition id="-1" name="Every tick" sid="764136698537003" type="System" />
+                        <condition id="-14" name="Compare variable" sid="913164822856872" type="System">
+                            <param id="0" name="Variable">FaseSim</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action behavior="Car" id="5" name="Set acceleration" sid="306155853892577" type="carro">
-                            <param id="0" name="Acceleration">80</param>
+                            <param id="0" name="Acceleration">120</param>
                         </action>
                         <action behavior="Car" id="7" name="Simulate control" sid="187876229222578" type="carro">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="385054694935304">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="444936040631489" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="317234630398075" type="carro">
+                            <param id="0" name="Acceleration">80</param>
+                        </action>
+                        <action behavior="Car" id="7" name="Simulate control" sid="764905690231881" type="carro">
                             <param id="0" name="Control">2</param>
                         </action>
                     </actions>
@@ -76,7 +94,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="117705417741807" type="System">
-                            <param id="0" name="Layout">Menu Principal</param>
+                            <param id="0" name="Layout">Menu</param>
                         </action>
                     </actions>
                 </event-block>
