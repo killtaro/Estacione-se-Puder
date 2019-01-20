@@ -1855,7 +1855,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689388043160228" speed="5">
-                    <frame duration="1" hotspotX="0.48366" hotspotY="0.48" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Campanha.png">
+                    <frame duration="1" hotspotX="0.320261" hotspotY="0.54" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Campanha.png">
                         <collision-poly>
                             <point x="0.00653596" y="0.52" />
                             <point x="0.986928" y="0.44" />
@@ -1986,6 +1986,9 @@
             <layout>Cadastro Player.xml</layout>
             <layout>Sub Menu modos de jogo.xml</layout>
         </layout-folder>
+        <layout-folder name="Fases Extras">
+            <layout>Modo Arrancada.xml</layout>
+        </layout-folder>
     </layout-folder>
     <event-folder>
         <event-folder name="Eventos Gerais">
@@ -2032,6 +2035,9 @@
             <event-sheet>Eventos Loading.xml</event-sheet>
             <event-sheet>Eventos Cadastro Player.xml</event-sheet>
             <event-sheet>Eventos sub menu.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Fases Extras">
+            <event-sheet>Eventos Modo Arrancada.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>
