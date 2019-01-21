@@ -374,28 +374,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Icone_moeda" uid="2909">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>520.867980957</x>
-                        <y>334.16519165</y>
-                        <z>0</z>
-                        <width>66</width>
-                        <height>55</height>
-                        <depth>0</depth>
-                        <hotspotX>0.477064222</hotspotX>
-                        <hotspotY>0.535211265</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="PrecoCarro" uid="2910">
                     <properties>
                         <text>00</text>
@@ -419,6 +397,28 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Dinheiro" uid="2909">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>512</x>
+                        <y>334</y>
+                        <z>0</z>
+                        <width>90</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.512121201</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

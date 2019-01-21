@@ -864,6 +864,23 @@
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Projetos\Estacione-se-Puder\Textures\barra_vermelha.png" />
             </object-type>
+            <object-type name="Dinheiro" sid="224665248256927">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="377017835206246" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.512121" original-source="C:\Projetos\Estacione-se-Puder\Textures\Dinheiro.png">
+                            <collision-poly>
+                                <point x="0.330986" y="0.0030303" />
+                                <point x="0.669014" y="0.0030303" />
+                                <point x="0.998994" y="0.512121" />
+                                <point x="0.660966" y="0.99697" />
+                                <point x="0.339034" y="0.99697" />
+                                <point x="0.00100604" y="0.512121" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Textos">
             <object-folder name="Números Separados">
@@ -1998,6 +2015,8 @@
             <event-sheet>Eventos Andares.xml</event-sheet>
             <event-sheet>Eventos de Sons.xml</event-sheet>
             <event-sheet>Eventos Configurações.xml</event-sheet>
+            <event-sheet>Eventos Save.xml</event-sheet>
+            <event-sheet>Eventos Load.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 1">
             <event-sheet>Eventos Cap1 Fase1.xml</event-sheet>
