@@ -217,67 +217,80 @@
         <comment>Controle de dinheiro</comment>
         <event-group description="" sid="514475578801770" title="ControleDinheiro">
             <sub-events>
-                <event-block sid="184438075094121">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="275229134447797" type="System">
-                            <param id="0" name="Variable">Pontos</param>
-                            <param id="1" name="Comparison">4</param>
-                            <param id="2" name="Value">500</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="581344735225150" type="System">
-                            <param id="0" name="Variable">Pontos</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">1000</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="538210904789303" type="System">
-                            <param id="0" name="Variable">DinheiroGanho</param>
-                            <param id="1" name="Value">150</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="464362062856234">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="340243163980593" type="System">
-                            <param id="0" name="Variable">Pontos</param>
-                            <param id="1" name="Comparison">4</param>
-                            <param id="2" name="Value">1000</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="837748933393186" type="System">
-                            <param id="0" name="Variable">Pontos</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">2000</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="862436264184456" type="System">
-                            <param id="0" name="Variable">DinheiroGanho</param>
-                            <param id="1" name="Value">300</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="555049637086258">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="143465350488225" type="System">
-                            <param id="0" name="Variable">Pontos</param>
-                            <param id="1" name="Comparison">4</param>
-                            <param id="2" name="Value">3000</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="774693114218343" type="System">
-                            <param id="0" name="Variable">Pontos</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">4000</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="527382011039159" type="System">
-                            <param id="0" name="Variable">DinheiroGanho</param>
-                            <param id="1" name="Value">480</param>
-                        </action>
-                    </actions>
-                </event-block>
                 <comment>Soma o valor ao status do player</comment>
+                <event-block sid="395819712581195">
+                    <conditions>
+                        <condition id="-3" name="On end of layout" sid="648296459580853" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="311674477816041" type="System">
+                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="1" name="Value">DinheiroGanho</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="454005161694729" type="StatusPlayer">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Value">Dinheiro_char</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <comment>Controla dinheiro ganho na partida</comment>
+        <event-group description="" sid="491217108059260" title="ControlaGanhosMonetarios">
+            <sub-events>
+                <event-block sid="984094968431319">
+                    <conditions>
+                        <condition behavior="Car" id="0" name="Is moving" sid="798613483037089" type="carro" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="509710408511159" type="System">
+                            <param id="0" name="Variable">DinheiroGanho</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="441765974688263">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="997106295649413" type="System">
+                            <param id="0" name="Variable">DinheiroGanho</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">2028</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="176218264677546" type="System">
+                            <param id="0" name="Variable">DinheiroGanho</param>
+                            <param id="1" name="Value">40</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="180334749200370">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="547902990615557" type="System" />
+                        <condition id="-14" name="Compare variable" sid="415472976131416" type="System">
+                            <param id="0" name="Variable">DinheiroGanho</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1000</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="163189470239225" type="System">
+                            <param id="0" name="Variable">DinheiroGanho</param>
+                            <param id="1" name="Value">20</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="795829804048252">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="994058962420007" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="381892637755655" type="System">
+                            <param id="0" name="Variable">DinheiroGanho</param>
+                            <param id="1" name="Value">25</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
     </events>
