@@ -47,7 +47,7 @@
                 </action>
                 <action id="-9" name="Set value" sid="287635074874665" type="System">
                     <param id="0" name="Variable">Fase</param>
-                    <param id="1" name="Value">2</param>
+                    <param id="1" name="Value">10</param>
                 </action>
                 <action id="-4" name="Set layer visible" sid="793568939071006" type="System">
                     <param id="0" name="Layer">1</param>

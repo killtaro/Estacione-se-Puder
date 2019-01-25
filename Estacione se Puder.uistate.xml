@@ -10,12 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="2">Cap1 Fase1</layout>
-        <event-sheet active="1" order="0">Eventos Pontos</event-sheet>
-        <event-sheet order="1">Eventos Cap1 Fase1</event-sheet>
-        <event-sheet order="3">Eventos Menu Principal</event-sheet>
-        <event-sheet order="4">Eventos Loja</event-sheet>
-        <event-sheet order="5">Eventos Carros</event-sheet>
+        <layout order="0">Cap2 Fase9</layout>
+        <event-sheet order="1">Eventos Cap2 Fase9</event-sheet>
+        <event-sheet order="2">Eventos Cap2 Fase10</event-sheet>
+        <event-sheet order="3">Eventos Cap2 Fase8</event-sheet>
+        <event-sheet active="1" order="4">Eventos Cap1 Fase10</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -41,13 +40,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Cadastro Player/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Capítulo 1/" />
-        <folder expanded="0" path="layout-folder/Capítulo 2/" />
+        <folder expanded="1" path="layout-folder/Capítulo 2/" />
         <folder expanded="0" path="layout-folder/Pré-fases/" />
         <folder expanded="0" path="layout-folder/Fases Extras/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="event-folder/Eventos Gerais/" />
         <folder expanded="1" path="event-folder/Capítulo 1/" />
-        <folder expanded="0" path="event-folder/Capítulo 2/" />
+        <folder expanded="1" path="event-folder/Capítulo 2/" />
         <folder expanded="1" path="event-folder/Pré-fases/" />
         <folder expanded="0" path="event-folder/Fases Extras/" />
         <folder expanded="0" path="file-folder/" />
