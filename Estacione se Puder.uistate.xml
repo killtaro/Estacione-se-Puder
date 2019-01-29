@@ -10,11 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Cap2 Fase9</layout>
-        <event-sheet order="1">Eventos Cap2 Fase9</event-sheet>
-        <event-sheet order="2">Eventos Cap2 Fase10</event-sheet>
-        <event-sheet order="3">Eventos Cap2 Fase8</event-sheet>
-        <event-sheet active="1" order="4">Eventos Cap1 Fase10</event-sheet>
+        <event-sheet active="1" order="0">Eventos Cap2 Fase9</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -24,7 +20,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/Superfícies/" />
         <folder expanded="0" path="object-folder/Edifícios/" />
         <folder expanded="0" path="object-folder/Backgrounds/" />
@@ -139,5 +135,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BotaoOpcoes/" />
         <folder expanded="1" path="animation-folder/BotaoSair/" />
         <folder expanded="1" path="animation-folder/BotaoLoja/" />
+        <folder expanded="1" path="animation-folder/backPontos/" />
     </folders-expanded>
 </c2uistate>

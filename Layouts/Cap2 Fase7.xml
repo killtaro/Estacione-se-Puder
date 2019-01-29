@@ -2182,7 +2182,7 @@
             <instances />
             <effects />
         </layer>
-        <layer name="Fim" sid="329277573584919">
+        <layer name="Controles" sid="906294260893684">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -2200,7 +2200,7 @@
             <instances />
             <effects />
         </layer>
-        <layer name="Controles" sid="906294260893684">
+        <layer name="Pontos" sid="143596019083519">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>

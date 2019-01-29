@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap1 Fase2</name>
     <events>
-        <include>Eventos Andares</include>
         <include>Eventos Pontos</include>
         <include>Eventos Controle Mobile</include>
         <include>Eventos Carros</include>
@@ -19,23 +18,6 @@
                 </action>
                 <action id="-4" name="Set layer visible" sid="691224957510560" type="System">
                     <param id="0" name="Layer">1</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="652822735643754">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="860393612993782" type="carro">
-                    <param id="0" name="Object">Final</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="195952434549997" type="Pontos">
-                    <param id="0" name="Text">Pontos</param>
-                </action>
-                <action id="-9" name="Destroy" sid="631141387741959" type="carro" />
-                <action id="-4" name="Set layer visible" sid="816117273951653" type="System">
-                    <param id="0" name="Layer">2</param>
                     <param id="1" name="Visibility">1</param>
                 </action>
             </actions>

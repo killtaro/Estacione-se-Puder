@@ -3,25 +3,9 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap2 Fase8</name>
     <events>
+        <include>Eventos Pontos</include>
         <include>Eventos Carros</include>
         <include>Eventos Controle Mobile</include>
-        <event-block sid="866474894654579">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="930186193808601" type="carro">
-                    <param id="0" name="Object">Final</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="150728978785717" type="Pontos">
-                    <param id="0" name="Text">Pontos</param>
-                </action>
-                <action id="-9" name="Destroy" sid="859324189401773" type="carro" />
-                <action id="-4" name="Set layer visible" sid="152754032985932" type="System">
-                    <param id="0" name="Layer">5</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
         <comment>Encaminha para o carregamento</comment>
         <event-block sid="190864169675991">
             <conditions>

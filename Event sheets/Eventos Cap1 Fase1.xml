@@ -8,27 +8,6 @@
         <include>Eventos Pontos</include>
         <variable constant="0" name="Pontos" sid="471179457952003" static="0" type="number">0</variable>
         <comment>Extremamente importante, desativar o grupo dinheiro no inicio da fase</comment>
-        <event-block sid="639379356136339">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="736023277914912" type="carro">
-                    <param id="0" name="Object">Final</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="924215135384985" type="Pontos">
-                    <param id="0" name="Text">Pontos</param>
-                </action>
-                <action id="-9" name="Destroy" sid="434370535275099" type="carro" />
-                <action id="-4" name="Set layer visible" sid="316647549285102" type="System">
-                    <param id="0" name="Layer">3</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="267588115486287" type="System">
-                    <param id="0" name="Layer">4</param>
-                    <param id="1" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
         <comment>Encaminha para o carregamento</comment>
         <event-block sid="200112481481059">
             <conditions>

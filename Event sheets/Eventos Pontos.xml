@@ -293,5 +293,130 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <comment>Aqui ocorre o gerenciamento da tela informativa</comment>
+        <event-block sid="294931745365909">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="372831206529618" type="System" />
+            </conditions>
+            <actions>
+                <action id="-33" name="Set layer parallax" sid="303924536179150" type="System">
+                    <param id="0" name="Layer">&quot;Pontos&quot;</param>
+                    <param id="1" name="Parallax X">0</param>
+                    <param id="2" name="Parallax Y">0</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="892994279896333" type="System">
+                    <param id="0" name="Layer">&quot;Pontos&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Create object" sid="718071423043715" type="System">
+                    <param id="0" name="Object to create">backPontos</param>
+                    <param id="1" name="Layer">&quot;Pontos&quot;</param>
+                    <param id="2" name="X">0</param>
+                    <param id="3" name="Y">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="211347398731331" type="backPontos">
+                    <param id="0" name="X">400</param>
+                    <param id="1" name="Y">200</param>
+                </action>
+                <action id="-7" name="Set size" sid="621860722766122" type="backPontos">
+                    <param id="0" name="Width">349</param>
+                    <param id="1" name="Height">380</param>
+                </action>
+                <action id="-3" name="Create object" sid="722905901783496" type="System">
+                    <param id="0" name="Object to create">textoPontos</param>
+                    <param id="1" name="Layer">&quot;Pontos&quot;</param>
+                    <param id="2" name="X">0</param>
+                    <param id="3" name="Y">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="288798947961938" type="textoPontos">
+                    <param id="0" name="X">227</param>
+                    <param id="1" name="Y">11.789</param>
+                </action>
+                <action id="-7" name="Set size" sid="145721506988493" type="textoPontos">
+                    <param id="0" name="Width">347</param>
+                    <param id="1" name="Height">73</param>
+                </action>
+                <action id="-3" name="Create object" sid="235088969113376" type="System">
+                    <param id="0" name="Object to create">infoTexto1</param>
+                    <param id="1" name="Layer">&quot;Pontos&quot;</param>
+                    <param id="2" name="X">0</param>
+                    <param id="3" name="Y">0</param>
+                </action>
+                <action id="0" name="Set text" sid="695451302455095" type="infoTexto1">
+                    <param id="0" name="Text">&quot;Pontos&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="469011652766860" type="infoTexto1">
+                    <param id="0" name="X">227</param>
+                    <param id="1" name="Y">101.047</param>
+                </action>
+                <action id="-7" name="Set size" sid="894454414246673" type="infoTexto1">
+                    <param id="0" name="Width">345</param>
+                    <param id="1" name="Height">52</param>
+                </action>
+                <action id="-3" name="Create object" sid="364628188511141" type="System">
+                    <param id="0" name="Object to create">btnContinuar</param>
+                    <param id="1" name="Layer">&quot;Pontos&quot;</param>
+                    <param id="2" name="X">0</param>
+                    <param id="3" name="Y">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="339179166485828" type="btnContinuar">
+                    <param id="0" name="X">226</param>
+                    <param id="1" name="Y">196</param>
+                </action>
+                <action id="-7" name="Set size" sid="220680688699701" type="btnContinuar">
+                    <param id="0" name="Width">346</param>
+                    <param id="1" name="Height">70</param>
+                </action>
+                <action id="-3" name="Create object" sid="642747578907892" type="System">
+                    <param id="0" name="Object to create">btnBackMenu</param>
+                    <param id="1" name="Layer">&quot;Pontos&quot;</param>
+                    <param id="2" name="X">0</param>
+                    <param id="3" name="Y">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="362131178111702" type="btnBackMenu">
+                    <param id="0" name="X">227</param>
+                    <param id="1" name="Y">301</param>
+                </action>
+                <action id="-7" name="Set size" sid="154999668088615" type="btnBackMenu">
+                    <param id="0" name="Width">345</param>
+                    <param id="1" name="Height">70</param>
+                </action>
+                <action behavior="Car" id="8" name="Set enabled" sid="983217438766044" type="carro">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="161610874107241" type="carro">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="386325295777346" type="backPontos">
+                    <param id="0" name="Opacity">80</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="680601113110054">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="970654155882255" type="carro">
+                    <param id="0" name="Object">Final</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="524167364621383" type="System">
+                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="971384756770774" type="System">
+                    <param id="0" name="Layer">&quot;Pontos&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Set text" sid="502272733119215" type="textoPontos">
+                    <param id="0" name="Text">Pontos</param>
+                </action>
+                <action behavior="Car" id="8" name="Set enabled" sid="750764373093213" type="carro">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="436087424175360" type="carro">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

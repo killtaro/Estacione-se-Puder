@@ -160,7 +160,7 @@
                         <x>647</x>
                         <y>743</y>
                         <z>0</z>
-                        <width>576</width>
+                        <width>606.400268555</width>
                         <height>352</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -626,6 +626,46 @@
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="marcaVaga1" uid="3117">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1241.408203125</x>
+                        <y>828.429870605</y>
+                        <z>0</z>
+                        <width>86.163276672</width>
+                        <height>5.280395508</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>-1.57079649</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="marcaVaga1" uid="3116">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1241.408203125</x>
+                        <y>1078.786132813</y>
+                        <z>0</z>
+                        <width>86.163276672</width>
+                        <height>5.280395508</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>-1.57079649</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -2837,7 +2877,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Fim" sid="696217524987166">
+        <layer name="Controles" sid="931980209005732">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -2855,7 +2895,7 @@
             <instances />
             <effects />
         </layer>
-        <layer name="Controles" sid="931980209005732">
+        <layer name="Pontos" sid="222144442043248">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>

@@ -17,23 +17,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="272854796994210">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="285738568152587" type="carro">
-                    <param id="0" name="Object">Final</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="532965448975108" type="Pontos">
-                    <param id="0" name="Text">Pontos</param>
-                </action>
-                <action id="-9" name="Destroy" sid="573216963441936" type="carro" />
-                <action id="-4" name="Set layer visible" sid="575922120324857" type="System">
-                    <param id="0" name="Layer">5</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
         <comment>Encaminha para o carregamento</comment>
         <event-block sid="419502302655455">
             <conditions>

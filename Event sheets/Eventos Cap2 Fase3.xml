@@ -6,23 +6,6 @@
         <include>Eventos Pontos</include>
         <include>Eventos Carros</include>
         <include>Eventos Controle Mobile</include>
-        <event-block sid="111826347235533">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="453938924568828" type="carro">
-                    <param id="0" name="Object">Final</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="370958299037598" type="Pontos">
-                    <param id="0" name="Text">Pontos</param>
-                </action>
-                <action id="-9" name="Destroy" sid="131680194102048" type="carro" />
-                <action id="-4" name="Set layer visible" sid="413003802568887" type="System">
-                    <param id="0" name="Layer">4</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
         <comment>Encaminha para o carregamento</comment>
         <event-block sid="554634115684606">
             <conditions>
