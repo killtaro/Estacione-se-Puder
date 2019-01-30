@@ -1686,6 +1686,28 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="Inimigos Arrancada">
+            <object-type name="Inimigos" sid="640427768866067">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Car" sid="768260471845765">
+                        <behavior id="Car" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="580534551471741" speed="5">
+                        <frame duration="1" hotspotX="0.500971" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\001.png" />
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\002.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\003.png" />
+                        <frame duration="1" hotspotX="0.500971" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\004.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\005.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\006.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501538" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\007.png" />
+                        <frame duration="1" hotspotX="0.500846" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\008.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Final" sid="350712590619999">
             <plugin id="Sprite" />
             <behaviors>
@@ -2079,6 +2101,7 @@
         </event-folder>
         <event-folder name="Fases Extras">
             <event-sheet>Eventos Modo Arrancada.xml</event-sheet>
+            <event-sheet>Eventos Dos Inimigos.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>

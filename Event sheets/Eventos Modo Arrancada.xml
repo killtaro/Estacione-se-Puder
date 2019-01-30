@@ -2,5 +2,8 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Modo Arrancada</name>
-    <events />
+    <events>
+        <include>Eventos Dos Inimigos</include>
+        <include>Eventos Carros</include>
+    </events>
 </c2eventsheet>

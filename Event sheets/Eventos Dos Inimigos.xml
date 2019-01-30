@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Dos Inimigos</name>
+    <events>
+        <variable constant="0" name="VaiCarro" sid="179681409525546" static="0" type="number">0</variable>
+        <comment>Seleciona o Inimigo para a corrida</comment>
+        <event-group description="" sid="585975763350150" title="EscolhaEnemy">
+            <sub-events>
+                <event-block sid="785477563309625">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="503489891180941" type="System">
+                            <param id="0" name="Variable">Inimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="214378199740151" type="Inimigos">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="989378761270537" type="Inimigos">
+                            <param id="0" name="Max Speed">400</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="805674246991679" type="Inimigos">
+                            <param id="0" name="Acceleration">250</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="907589782907429">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="443036762155243" type="System">
+                            <param id="0" name="Variable">Inimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="249879796182977" type="Inimigos">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="251755921711925" type="Inimigos">
+                            <param id="0" name="Max Speed">456</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="302526116765282" type="Inimigos">
+                            <param id="0" name="Acceleration">310</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="497710256251426">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="554401899204172" type="System">
+                            <param id="0" name="Variable">Inimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="380594266655660" type="Inimigos">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="789346540049752" type="Inimigos">
+                            <param id="0" name="Max Speed">375</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="159669711493372" type="Inimigos">
+                            <param id="0" name="Acceleration">350</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="117077943166339">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="325729419990777" type="System">
+                            <param id="0" name="Variable">Inimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="143276215385426" type="Inimigos">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="211035949862924" type="Inimigos">
+                            <param id="0" name="Max Speed">490</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="484407680448363" type="Inimigos">
+                            <param id="0" name="Acceleration">411</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="618262259749219">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="842939079730656" type="System">
+                            <param id="0" name="Variable">Inimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="554963699834757" type="Inimigos">
+                            <param id="0" name="Frame number">4</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="125195708031190" type="Inimigos">
+                            <param id="0" name="Max Speed">480</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="359149824524099" type="Inimigos">
+                            <param id="0" name="Acceleration">467</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="721142967577528">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="544105050455250" type="System">
+                            <param id="0" name="Variable">Inimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="566489506053014" type="Inimigos">
+                            <param id="0" name="Frame number">5</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="345396485678055" type="Inimigos">
+                            <param id="0" name="Max Speed">480</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="627957963633242" type="Inimigos">
+                            <param id="0" name="Acceleration">500</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="881520156047936">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="126415344223533" type="System">
+                            <param id="0" name="Variable">Inimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="861122941401049" type="Inimigos">
+                            <param id="0" name="Frame number">6</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="263498106173524" type="Inimigos">
+                            <param id="0" name="Max Speed">420</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="483542755695533" type="Inimigos">
+                            <param id="0" name="Acceleration">250</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="800898776473443">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="176766338759787" type="System">
+                            <param id="0" name="Variable">Inimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="492577391777906" type="Inimigos">
+                            <param id="0" name="Frame number">7</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="243422411660209" type="Inimigos">
+                            <param id="0" name="Max Speed">460</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="121949443868365" type="Inimigos">
+                            <param id="0" name="Acceleration">378</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="773272145144104">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="325758036710855" type="System">
+                            <param id="0" name="Variable">Inimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="369090059391911" type="Inimigos">
+                            <param id="0" name="Frame number">8</param>
+                        </action>
+                        <action behavior="Car" id="4" name="Set max speed" sid="141139984224063" type="Inimigos">
+                            <param id="0" name="Max Speed">487</param>
+                        </action>
+                        <action behavior="Car" id="5" name="Set acceleration" sid="431406820988653" type="Inimigos">
+                            <param id="0" name="Acceleration">250</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <comment>Inteligência artificial incrívelmente bem programada</comment>
+        <event-group description="" sid="928409714160030" title="AICarros">
+            <sub-events>
+                <event-block sid="151988814608151">
+                    <conditions>
+                        <condition id="-7" name="Compare time" sid="277190548032570" type="System">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Time (seconds)">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="412396683940301" type="System">
+                            <param id="0" name="Variable">VaiCarro</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="183816867514999">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="133902836554468" type="System">
+                            <param id="0" name="Variable">VaiCarro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Car" id="7" name="Simulate control" sid="214922683405637" type="Inimigos">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
