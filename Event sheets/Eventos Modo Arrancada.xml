@@ -5,5 +5,39 @@
     <events>
         <include>Eventos Dos Inimigos</include>
         <include>Eventos Carros</include>
+        <comment>Compara se o inimigo chegou antes na linha de chegada</comment>
+        <event-block sid="532595749151531">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="218504693719769" type="Inimigos">
+                    <param id="0" name="Object">Gatilho_inimigo</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="910944355690059" type="carro">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Y co-ordinate">127</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="779430856377521">
+            <conditions>
+                <condition id="-22" name="Else" sid="574425724734160" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <comment>Compara se o player atingiu a linha de chegada antes</comment>
+                <event-block sid="197379945112326">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="749820820622937" type="carro">
+                            <param id="0" name="Object">Gatilho_vitoria</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="219026784512644" type="Inimigos">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Y co-ordinate">127</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -406,6 +406,14 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="TelaTeste" sid="698075090433716">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="660273150095646" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Controles">
             <object-type name="Keyboard" sid="644089788571661">
@@ -1704,6 +1712,22 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\006.png" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.501538" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\007.png" />
                         <frame duration="1" hotspotX="0.500846" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\008.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Gatilho_inimigo" sid="475302082219212">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="525977142389419" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Gatilho_vitoria" sid="848360275782912">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="336686042997996" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
