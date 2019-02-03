@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Evento Menu de Pausa</name>
+    <events>
+        <comment>Inicia o menu de pausa</comment>
+        <event-group description="" sid="926182610303028" title="CriaMenu">
+            <sub-events>
+                <event-block sid="131721304030288">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="141387776572029" type="Touch">
+                            <param id="0" name="Object">BotaoPausar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="637980472090483" type="System">
+                            <param id="0" name="Layer">&quot;Config&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Car" id="8" name="Set enabled" sid="585725455600282" type="carro">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="Car" id="0" name="Stop" sid="284044053314045" type="carro" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <comment>Impede que utilize o menu sem aparecer o menu</comment>
+        <event-group description="" sid="459791148773745" title="UsaMenu">
+            <sub-events>
+                <comment>vai para o layout de configurações</comment>
+                <event-block sid="628400725244438">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="518335411275432" type="Touch">
+                            <param id="0" name="Object">OpcoesPausa</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="542637708818344" type="System">
+                            <param id="0" name="Layer">&quot;Config&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="169370914845835">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="440275189427617" type="Touch">
+                            <param id="0" name="Object">SalvarPausa</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="121367538024137" type="System">
+                            <param id="0" name="Layer">&quot;Config&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-36" name="Save" sid="778142066511701" type="System">
+                            <param id="0" name="Slot">Nome</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="753732774939544">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="233697372421193" type="Touch">
+                            <param id="0" name="Object">VoltarAoMenu</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="360379783249440" type="System">
+                            <param id="0" name="Layer">&quot;Config&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="630479249473402" type="System">
+                            <param id="0" name="Layer">&quot;Config&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="546326734937019" type="System">
+                            <param id="0" name="Layout">Menu Principal</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <comment>Desabilita o Menu de pausa</comment>
+        <event-group description="" sid="702925717075901" title="EscondeMenu" />
+    </events>
+</c2eventsheet>
