@@ -16,7 +16,11 @@
                     <param id="1" name="Y co-ordinate">127</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="0" name="Set text" sid="824487597993851" type="TextoTeste">
+                    <param id="0" name="Text">&quot;Perdeu&quot;</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="779430856377521">
             <conditions>
@@ -35,7 +39,11 @@
                             <param id="1" name="Y co-ordinate">127</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="0" name="Set text" sid="592949449041212" type="TextoTeste">
+                            <param id="0" name="Text">&quot;Ganhou&quot;</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-block>

@@ -1125,6 +1125,9 @@
             <object-type name="ConcluirCadastro" sid="403473360639796">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="TextoTeste" sid="251700846098274">
+                <plugin id="Text" />
+            </object-type>
         </object-folder>
         <object-folder name="Carros Estacionados">
             <object-type name="carroEstacionado9" sid="783610894164303">
@@ -1690,6 +1693,14 @@
                                 <point x="0.000881834" y="0.568567" />
                             </collision-poly>
                         </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="SpriteGeral" sid="186898356958211">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="929432352710765" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Textures\CriacaoDe personagem.png" />
                     </animation>
                 </animation-folder>
             </object-type>

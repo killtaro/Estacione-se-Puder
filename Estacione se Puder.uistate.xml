@@ -10,10 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="2">Cap1 Fase1</layout>
-        <event-sheet active="1" order="0">Evento Menu de Pausa</event-sheet>
-        <event-sheet order="1">Eventos Controle Mobile</event-sheet>
-        <event-sheet order="3">Eventos Cap1 Fase1</event-sheet>
+        <layout order="0">Cap1 Fase1</layout>
+        <layout order="1">Modo Arrancada</layout>
+        <layout active="1" order="2">Cadastro Player</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -38,19 +37,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Gatilhos/" />
         <folder expanded="0" path="object-folder/Cadastro Player/" />
         <folder expanded="0" path="object-folder/Inimigos Arrancada/" />
-        <folder expanded="1" path="object-folder/Menu de pausa/" />
-        <folder expanded="1" path="object-folder/Botoes/" />
+        <folder expanded="0" path="object-folder/Menu de pausa/" />
+        <folder expanded="0" path="object-folder/Botoes/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Capítulo 1/" />
         <folder expanded="0" path="layout-folder/Capítulo 2/" />
-        <folder expanded="0" path="layout-folder/Pré-fases/" />
+        <folder expanded="1" path="layout-folder/Pré-fases/" />
         <folder expanded="0" path="layout-folder/Fases Extras/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="event-folder/Eventos Gerais/" />
-        <folder expanded="1" path="event-folder/Capítulo 1/" />
+        <folder expanded="0" path="event-folder/Capítulo 1/" />
         <folder expanded="0" path="event-folder/Capítulo 2/" />
         <folder expanded="0" path="event-folder/Pré-fases/" />
-        <folder expanded="0" path="event-folder/Fases Extras/" />
+        <folder expanded="1" path="event-folder/Fases Extras/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
@@ -127,6 +126,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Carro9/" />
         <folder expanded="1" path="animation-folder/ResetaBarra/" />
         <folder expanded="1" path="animation-folder/Carteira/" />
+        <folder expanded="1" path="animation-folder/SpriteGeral/" />
         <folder expanded="1" path="animation-folder/Inimigos/" />
         <folder expanded="1" path="animation-folder/Gatilho_inimigo/" />
         <folder expanded="1" path="animation-folder/Gatilho_vitoria/" />
