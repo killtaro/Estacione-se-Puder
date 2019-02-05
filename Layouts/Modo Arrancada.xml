@@ -692,8 +692,8 @@
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
             <parallax>
-                <x>1</x>
-                <y>1</y>
+                <x>0</x>
+                <y>0</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
             <opacity>1</opacity>
@@ -713,8 +713,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>608</x>
-                        <y>160</y>
+                        <x>448</x>
+                        <y>128</y>
                         <z>0</z>
                         <width>250</width>
                         <height>250</height>
@@ -740,8 +740,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>544</x>
-                        <y>160</y>
+                        <x>352</x>
+                        <y>32</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>
