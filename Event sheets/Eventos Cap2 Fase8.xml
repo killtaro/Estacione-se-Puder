@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap2 Fase8</name>
     <events>
+        <include>Evento Menu de Pausa</include>
         <include>Eventos Pontos</include>
         <include>Eventos Carros</include>
         <include>Eventos Controle Mobile</include>

@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="terreo" sid="852523445291577">
+        <layer name="Terreo" sid="852523445291577">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -2661,7 +2661,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="1andar" sid="824487296965156">
+        <layer name="1Andar" sid="824487296965156">
             <initially-visible>0</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -2702,7 +2702,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="2dnar" sid="326935163098744">
+        <layer name="2Andar" sid="326935163098744">
             <initially-visible>0</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -2769,8 +2769,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>717.094848633</x>
-                        <y>44</y>
+                        <x>702</x>
+                        <y>-93</y>
                         <z>0</z>
                         <width>40</width>
                         <height>39</height>
