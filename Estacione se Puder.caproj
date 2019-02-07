@@ -770,7 +770,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="339288789037142" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.70297" original-source="C:\Users\pixel\Downloads\roadblocke(1).png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.70297" original-source="C:\Users\pixel\Downloads\New Piskel(1).png">
                             <collision-poly>
                                 <point x="0.116374" y="0" />
                                 <point x="0.883626" y="0" />
@@ -1074,14 +1074,6 @@
             </object-folder>
             <object-type name="infoCarro" sid="401895682396351">
                 <plugin id="Text" />
-                <effects>
-                    <effect-type name="GlowHorizontal">
-                        <effect id="glowhorizontal" />
-                    </effect-type>
-                    <effect-type name="GlowVertical">
-                        <effect id="glowvertical" />
-                    </effect-type>
-                </effects>
             </object-type>
             <object-type name="seta" sid="582862715921041">
                 <plugin id="Text" />
