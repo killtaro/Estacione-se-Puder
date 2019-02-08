@@ -2124,6 +2124,26 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="logo" sid="221892259535502">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="613030387547000" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\hit.png">
+                        <collision-poly>
+                            <point x="0.220508" y="0.405" />
+                            <point x="0.5" y="0.136667" />
+                            <point x="0.802178" y="0.363333" />
+                            <point x="0.839383" y="0.705" />
+                            <point x="0.5" y="0.823333" />
+                            <point x="0.18784" y="0.655" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hitkilo" sid="185911846354621">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2154,7 +2174,7 @@
         <layout-folder name="Pré-fases">
             <layout>Seleção de Carros.xml</layout>
             <layout>Prologo.xml</layout>
-            <layout>Menu.xml</layout>
+            <layout>Menu Intro.xml</layout>
             <layout>Menu Principal.xml</layout>
             <layout>Loja.xml</layout>
             <layout>Seleção de Fases.xml</layout>
@@ -2207,7 +2227,7 @@
         <event-folder name="Pré-fases">
             <event-sheet>Eventos Seleção de Carros.xml</event-sheet>
             <event-sheet>Eventos Prologo.xml</event-sheet>
-            <event-sheet>Eventos Menu.xml</event-sheet>
+            <event-sheet>Eventos Menu Intro.xml</event-sheet>
             <event-sheet>Eventos Loja.xml</event-sheet>
             <event-sheet>Eventos Menu Principal.xml</event-sheet>
             <event-sheet>Eventos Seleção de Fases.xml</event-sheet>

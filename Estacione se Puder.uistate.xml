@@ -10,19 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Cap1 Fase1</layout>
-        <layout active="1" order="1">Cap1 Fase2</layout>
-        <layout order="2">Cap1 Fase3</layout>
-        <layout order="3">Cap1 Fase4</layout>
-        <layout order="4">Cap1 Fase5</layout>
-        <layout order="5">Cap1 Fase6</layout>
-        <layout order="6">Cap1 Fase7</layout>
-        <layout order="7">Cap1 Fase8</layout>
-        <layout order="8">Cap1 Fase9</layout>
-        <layout order="9">Cap2 Fase1</layout>
-        <layout order="11">Seleção de Carros</layout>
-        <layout order="12">Menu Principal</layout>
-        <event-sheet order="10">Eventos Seleção de Carros</event-sheet>
+        <layout active="1" order="0">Menu Intro</layout>
+        <event-sheet order="1">Eventos Menu Intro</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -161,5 +150,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BotaoLoja/" />
         <folder expanded="1" path="animation-folder/backPontos/" />
         <folder expanded="1" path="animation-folder/BotaoPausar/" />
+        <folder expanded="1" path="animation-folder/logo/" />
     </folders-expanded>
 </c2uistate>

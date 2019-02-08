@@ -94,7 +94,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="117705417741807" type="System">
-                            <param id="0" name="Layout">Menu</param>
+                            <param id="0" name="Layout">Menu Intro</param>
                         </action>
                     </actions>
                 </event-block>
