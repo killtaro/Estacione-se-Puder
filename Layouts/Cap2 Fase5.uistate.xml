@@ -29,7 +29,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layer locked="0" name="calcada" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="borda" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="jogador" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Fim" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Controles" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Pontos" parallax-in-editor="0" visible="1" />
     </layers>
