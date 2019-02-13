@@ -5,7 +5,6 @@
     <events>
         <include>Evento Menu de Pausa</include>
         <include>Eventos Pontos</include>
-        <include>Eventos Carros</include>
         <include>Eventos Controle Mobile</include>
         <comment>Encaminha para o carregamento</comment>
         <event-block sid="865195238006716">

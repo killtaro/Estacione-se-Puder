@@ -598,7 +598,7 @@
                         </frame>
                         <frame duration="1" hotspotX="0.464419" hotspotY="0.570895" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro7.png">
                             <collision-poly>
-                                <point x="0.853933" y="0.00373134" />
+                                <point x="0.853933" y="0.00373131" />
                                 <point x="0.949438" y="0.106343" />
                                 <point x="1" y="0.291045" />
                                 <point x="1" y="0.699626" />
