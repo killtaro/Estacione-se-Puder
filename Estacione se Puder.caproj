@@ -2,7 +2,7 @@
 <c2project>
     <name>Estacione se Puder</name>
     <description>Jogos de estacionar</description>
-    <version>1.0A</version>
+    <version>2.5</version>
     <author>HitKillStudios</author>
     <author-email>zh.dubeslando@gmail.com</author-email>
     <author-website>www.google.com</author-website>
@@ -414,6 +414,23 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Testo" sid="233171306911679">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="797023570975445" speed="5">
+                        <frame duration="1" hotspotX="0.480867" hotspotY="0.564972" original-source="C:\Projetos\Estacione-se-Puder\Textures\EmConstrução.png">
+                            <collision-poly>
+                                <point x="0.354592" y="0.00564972" />
+                                <point x="0.480867" y="0.129944" />
+                                <point x="0.584184" y="0.107345" />
+                                <point x="0.559949" y="0.915254" />
+                                <point x="0.480867" y="0.372881" />
+                                <point x="0.383929" y="0.99435" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Controles">
             <object-type name="Keyboard" sid="644089788571661">
@@ -779,6 +796,25 @@
                                 <point x="0.5" y="0.749747" />
                                 <point x="0.116374" y="1" />
                                 <point x="0" y="0.706687" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Coninho" sid="800467039288437">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="476270326026625" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Textures\Coninho.png">
+                            <collision-poly>
+                                <point x="0.346154" y="0.252809" />
+                                <point x="0.5" y="0.00561798" />
+                                <point x="0.684615" y="0.230337" />
+                                <point x="0.776923" y="0.5" />
+                                <point x="0.869231" y="0.904494" />
+                                <point x="0.5" y="0.994382" />
+                                <point x="0.130769" y="0.904494" />
+                                <point x="0.253846" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -2183,6 +2219,7 @@
             <layout>Loading.xml</layout>
             <layout>Cadastro Player.xml</layout>
             <layout>Sub Menu modos de jogo.xml</layout>
+            <layout>ForaDeOperação.xml</layout>
         </layout-folder>
         <layout-folder name="Fases Extras">
             <layout>Modo Arrancada.xml</layout>
@@ -2236,6 +2273,7 @@
             <event-sheet>Eventos Loading.xml</event-sheet>
             <event-sheet>Eventos Cadastro Player.xml</event-sheet>
             <event-sheet>Eventos sub menu.xml</event-sheet>
+            <event-sheet>ForaDeOperação.xml</event-sheet>
         </event-folder>
         <event-folder name="Fases Extras">
             <event-sheet>Eventos Modo Arrancada.xml</event-sheet>
