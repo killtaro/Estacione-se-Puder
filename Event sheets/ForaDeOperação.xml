@@ -2,5 +2,18 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ForaDeOperação</name>
-    <events />
+    <events>
+        <event-block sid="569105984475162">
+            <conditions>
+                <condition id="3" name="On touched object" sid="119381593075842" type="Touch">
+                    <param id="0" name="Object">VoltarAoMenu</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="553469153959025" type="System">
+                    <param id="0" name="Layout">Menu Principal</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

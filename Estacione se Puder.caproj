@@ -1156,6 +1156,14 @@
             <object-type name="TextoTeste" sid="251700846098274">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="Aviso" sid="149752563141954">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="792393260772521" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Textures\Aviso.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Carros Estacionados">
             <object-type name="carroEstacionado9" sid="783610894164303">
@@ -1832,10 +1840,10 @@
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="863165915429070" speed="5">
                         <frame duration="1" hotspotX="0.490066" hotspotY="0.56" original-source="C:\Projetos\Estacione-se-Puder\Textures\Botões\VoltarAoMenu.png">
                             <collision-poly>
-                                <point x="0.00662253" y="0.64" />
-                                <point x="0.986755" y="0.56" />
-                                <point x="0.986755" y="0.56" />
-                                <point x="0.00662253" y="0.48" />
+                                <point x="0.00662253" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.986755" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -2028,12 +2036,12 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="689388043160228" speed="5">
-                    <frame duration="1" hotspotX="0.320261" hotspotY="0.54" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Campanha.png">
+                    <frame duration="1" hotspotX="0.496732" hotspotY="0.52" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Campanha.png">
                         <collision-poly>
-                            <point x="0.00653596" y="0.52" />
-                            <point x="0.986928" y="0.44" />
-                            <point x="0.986928" y="0.52" />
-                            <point x="0.00653596" y="0.44" />
+                            <point x="1.21072e-008" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.986928" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2045,12 +2053,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421311918991155" speed="5">
                     <frame duration="1" hotspotX="0.511628" hotspotY="0.512195" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Arrancada.png">
                         <collision-poly>
-                            <point x="0.00581395" y="0.219512" />
-                            <point x="0.511628" y="0.414634" />
-                            <point x="0.988372" y="0.341463" />
-                            <point x="0.988372" y="0.682927" />
-                            <point x="0.511628" y="0.560976" />
-                            <point x="0.00581395" y="0.804878" />
+                            <point x="0" y="0" />
+                            <point x="0.511628" y="0" />
+                            <point x="0.982558" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.511628" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2062,11 +2070,11 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="335235155755951" speed="5">
                     <frame duration="1" hotspotX="0.557522" hotspotY="0.536585" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Voltar.png">
                         <collision-poly>
-                            <point x="0.00884956" y="0.853659" />
-                            <point x="0.557522" y="0.365854" />
-                            <point x="0.893805" y="0.536585" />
-                            <point x="0.557522" y="0.97561" />
-                            <point x="0.00884956" y="0.219512" />
+                            <point x="0.00884956" y="1" />
+                            <point x="0.99115" y="1" />
+                            <point x="1" y="0" />
+                            <point x="0.00884956" y="0" />
+                            <point x="0.00884956" y="0.487805" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2220,6 +2228,7 @@
             <layout>Cadastro Player.xml</layout>
             <layout>Sub Menu modos de jogo.xml</layout>
             <layout>ForaDeOperação.xml</layout>
+            <layout>PreLogo - Aviso.xml</layout>
         </layout-folder>
         <layout-folder name="Fases Extras">
             <layout>Modo Arrancada.xml</layout>
@@ -2274,6 +2283,7 @@
             <event-sheet>Eventos Cadastro Player.xml</event-sheet>
             <event-sheet>Eventos sub menu.xml</event-sheet>
             <event-sheet>ForaDeOperação.xml</event-sheet>
+            <event-sheet>PreLogo - Aviso.xml</event-sheet>
         </event-folder>
         <event-folder name="Fases Extras">
             <event-sheet>Eventos Modo Arrancada.xml</event-sheet>
