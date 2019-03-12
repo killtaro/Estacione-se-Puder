@@ -87,8 +87,8 @@
                                 <drift-recover>185</drift-recover>
                                 <friction>0.4</friction>
                                 <set-angle>Yes</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
+                                <default-controls>No</default-controls>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="BoundToLayout">

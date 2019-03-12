@@ -40,7 +40,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
-    <first-layout>Loading</first-layout>
+    <first-layout>PreLogo - Aviso</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -1698,6 +1698,25 @@
                                 <point x="0.499029" y="0.934641" />
                                 <point x="0.038835" y="0.934641" />
                                 <point x="0.00194175" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Carro0" sid="879249186413063">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="819675576450044" speed="5">
+                        <frame duration="1" hotspotX="0.501139" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Animations\carro\Default\000.png">
+                            <collision-poly>
+                                <point x="9.77889e-009" y="0.0186567" />
+                                <point x="0.528474" y="4.65661e-010" />
+                                <point x="0.801822" y="0" />
+                                <point x="0.997722" y="0.5" />
+                                <point x="0.826879" y="0.962687" />
+                                <point x="0.482916" y="0.958955" />
+                                <point x="0.0113895" y="0.94403" />
+                                <point x="0.0022779" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>

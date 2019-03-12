@@ -2,5 +2,19 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>PreLogo - Aviso</name>
-    <events />
+    <events>
+        <event-block sid="215252111785150">
+            <conditions>
+                <condition id="-7" name="Compare time" sid="939433707927954" type="System">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Time (seconds)">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="416109635474635" type="System">
+                    <param id="0" name="Layout">Loading</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

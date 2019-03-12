@@ -150,11 +150,7 @@
                 <event-block sid="478224541574168">
                     <conditions>
                         <condition id="3" name="On touched object" sid="590737595489262" type="Touch">
-                            <param id="0" name="Object">carro</param>
-                        </condition>
-                        <condition id="3" name="Compare frame" sid="842824583328060" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Number">0</param>
+                            <param id="0" name="Object">Carro0</param>
                         </condition>
                     </conditions>
                     <actions>
