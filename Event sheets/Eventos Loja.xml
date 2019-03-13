@@ -507,14 +507,14 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="358467426829311" type="CavalariaText">
-                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                        <action id="0" name="Set text" sid="194128777170021" type="CavalariaText">
+                            <param id="0" name="Text">&quot;40 hp&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="304374590678603" type="VelocidadeText">
-                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                        <action id="0" name="Set text" sid="403288260700304" type="VelocidadeText">
+                            <param id="0" name="Text">&quot;140 KM/h&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="475277116456804" type="FreioText">
-                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                        <action id="0" name="Set text" sid="565055133650075" type="FreioText">
+                            <param id="0" name="Text">&quot;Pouco Regulados&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -528,10 +528,10 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="330697087235366" type="CavalariaText">
-                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                            <param id="0" name="Text">&quot;61 hp&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="355514364574135" type="VelocidadeText">
-                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                            <param id="0" name="Text">&quot;165 KM/h&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="273915301725330" type="FreioText">
                             <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
@@ -548,10 +548,10 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="195372593783963" type="CavalariaText">
-                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                            <param id="0" name="Text">&quot;74 Hp&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="883649256901623" type="VelocidadeText">
-                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                            <param id="0" name="Text">&quot;180 KM/h&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="169978224866173" type="FreioText">
                             <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
@@ -568,13 +568,13 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="438355908198132" type="CavalariaText">
-                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                            <param id="0" name="Text">&quot;90 Hp&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="256158607628832" type="VelocidadeText">
                             <param id="0" name="Text">&quot;100 KM/H&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="132915203404450" type="FreioText">
-                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                            <param id="0" name="Text">&quot;Ruins&quot;</param>
                         </action>
                     </actions>
                 </event-block>
