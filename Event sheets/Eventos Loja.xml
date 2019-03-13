@@ -571,7 +571,7 @@
                             <param id="0" name="Text">&quot;90 Hp&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="256158607628832" type="VelocidadeText">
-                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                            <param id="0" name="Text">&quot;142 KM/h&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="132915203404450" type="FreioText">
                             <param id="0" name="Text">&quot;Ruins&quot;</param>
@@ -588,13 +588,13 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="890308532247916" type="CavalariaText">
-                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                            <param id="0" name="Text">&quot;106 Hp&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="361947471102113" type="VelocidadeText">
-                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                            <param id="0" name="Text">&quot;157 KM/h&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="230294053411975" type="FreioText">
-                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                            <param id="0" name="Text">&quot;Bons&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -608,13 +608,13 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="570487746414289" type="CavalariaText">
-                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                            <param id="0" name="Text">&quot;112 Hp&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="841942022738810" type="VelocidadeText">
-                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                            <param id="0" name="Text">&quot;170 KM/h&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="832783582938325" type="FreioText">
-                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                            <param id="0" name="Text">&quot;Pouco Regulados&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -628,13 +628,13 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="626703825345210" type="CavalariaText">
-                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                            <param id="0" name="Text">&quot;124 Hp&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="616599121483622" type="VelocidadeText">
-                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                            <param id="0" name="Text">&quot;192 KM/h&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="434643822341113" type="FreioText">
-                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                            <param id="0" name="Text">&quot;Otimos&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -648,13 +648,13 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="800988379862270" type="CavalariaText">
-                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                            <param id="0" name="Text">&quot;150 Hp&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="753749594299166" type="VelocidadeText">
-                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                            <param id="0" name="Text">&quot;210 KM/h&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="202353412910655" type="FreioText">
-                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                            <param id="0" name="Text">&quot;Otimos&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -668,13 +668,13 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="760673634371405" type="CavalariaText">
-                            <param id="0" name="Text">&quot;40 CV&quot;</param>
+                            <param id="0" name="Text">&quot;175 Hp&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="887308790068671" type="VelocidadeText">
-                            <param id="0" name="Text">&quot;100 KM/H&quot;</param>
+                            <param id="0" name="Text">&quot;224 KM/h&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="652242098659819" type="FreioText">
-                            <param id="0" name="Text">&quot;Meia-Vida&quot;</param>
+                            <param id="0" name="Text">&quot;Bons&quot;</param>
                         </action>
                     </actions>
                 </event-block>
