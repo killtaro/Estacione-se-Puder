@@ -105,101 +105,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>205</x>
-                        <y>190</y>
+                        <x>210</x>
+                        <y>192</y>
                         <z>0</z>
                         <width>102</width>
                         <height>76</height>
                         <depth>0</depth>
                         <hotspotX>0.439635545</hotspotX>
                         <hotspotY>-0.003731343</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="infoCarro" uid="2903">
-                    <properties>
-                        <text>Carros para venda:</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-64,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>163</x>
-                        <y>7</y>
-                        <z>0</z>
-                        <width>460</width>
-                        <height>71</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="seta" uid="2906">
-                    <properties>
-                        <text>-&gt;</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Narrow,-96,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <id>1</id>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>286</x>
-                        <y>160</y>
-                        <z>0</z>
-                        <width>88</width>
-                        <height>145</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="seta" uid="2907">
-                    <properties>
-                        <text>&lt;-</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Narrow,-96,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <id>0</id>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>44</x>
-                        <y>168</y>
-                        <z>0</z>
-                        <width>80</width>
-                        <height>136</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -249,6 +162,94 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="SetaDireita" uid="518">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>354</x>
+                        <y>225</y>
+                        <z>0</z>
+                        <width>120</width>
+                        <height>79</height>
+                        <depth>0</depth>
+                        <hotspotX>0.512048185</hotspotX>
+                        <hotspotY>0.506329119</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="SetaEsquerda" uid="519">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>63</x>
+                        <y>224</y>
+                        <z>0</z>
+                        <width>120</width>
+                        <height>79</height>
+                        <depth>0</depth>
+                        <hotspotX>0.487951815</hotspotX>
+                        <hotspotY>0.493670881</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Label" uid="520">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>119</x>
+                        <y>387</y>
+                        <z>0</z>
+                        <width>188</width>
+                        <height>39</height>
+                        <depth>0</depth>
+                        <hotspotX>0.510638297</hotspotX>
+                        <hotspotY>1.307692289</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Header" uid="627">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>359</x>
+                        <y>37</y>
+                        <z>0</z>
+                        <width>442</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0.499460638</hotspotX>
+                        <hotspotY>0.514285743</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -313,33 +314,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="DinheiroLabel" uid="3044">
-                    <properties>
-                        <text>Seu dinheiro</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-37,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>20</x>
-                        <y>338</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>48</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="FundoBotaoComprar" uid="2908">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -484,60 +458,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TituloStatus" uid="2975">
-                    <properties>
-                        <text>Potencia :</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-21,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>508.065551758</x>
-                        <y>170.347000122</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TituloStatus" uid="2976">
-                    <properties>
-                        <text>Velocidade Final :</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-21,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>507.461975098</x>
-                        <y>206.173828125</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="VelocidadeText" uid="2977">
                     <properties>
                         <text>Loren Ipsun</text>
@@ -558,33 +478,6 @@
                         <z>0</z>
                         <width>200</width>
                         <height>28</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TituloStatus" uid="2978">
-                    <properties>
-                        <text>Frenagem :</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-21,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>509.495605469</x>
-                        <y>240.710372925</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -619,29 +512,90 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="opcVoltar" uid="3043">
+                <instance type="BotaoVoltar2" uid="521">
                     <properties>
-                        <text>Voltar ao Menu</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-32,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>621</x>
-                        <y>69</y>
+                        <x>679</x>
+                        <y>111.025642395</y>
                         <z>0</z>
-                        <width>170</width>
-                        <height>39</height>
+                        <width>226</width>
+                        <height>38</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.974358976</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Potencia" uid="628">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>525</x>
+                        <y>182</y>
+                        <z>0</z>
+                        <width>90</width>
+                        <height>23</height>
+                        <depth>0</depth>
+                        <hotspotX>0.485294104</hotspotX>
+                        <hotspotY>0.56410259</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Velocidade" uid="629">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>529</x>
+                        <y>214</y>
+                        <z>0</z>
+                        <width>138</width>
+                        <height>21</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504065037</hotspotX>
+                        <hotspotY>0.432432443</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Freios" uid="630">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>532</x>
+                        <y>250</y>
+                        <z>0</z>
+                        <width>70</width>
+                        <height>27</height>
+                        <depth>0</depth>
+                        <hotspotX>0.547368407</hotspotX>
+                        <hotspotY>0.513513505</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

@@ -23,17 +23,12 @@
                 <condition id="6" name="On object clicked" sid="801949285303268" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">seta</param>
+                    <param id="2" name="Object clicked">SetaDireita</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="340981860866722" type="System">
                     <param id="0" name="Variable">carro</param>
                     <param id="1" name="Comparison">2</param>
                     <param id="2" name="Value">8</param>
-                </condition>
-                <condition id="-7" name="Compare instance variable" sid="597366049907985" type="seta">
-                    <param id="0" name="Instance variable">id</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
             <actions>
@@ -48,16 +43,11 @@
                 <condition id="6" name="On object clicked" sid="737200388846698" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">seta</param>
+                    <param id="2" name="Object clicked">SetaEsquerda</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="924450433990447" type="System">
                     <param id="0" name="Variable">carro</param>
                     <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-                <condition id="-7" name="Compare instance variable" sid="839311946941736" type="seta">
-                    <param id="0" name="Instance variable">id</param>
-                    <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
                 </condition>
             </conditions>
@@ -684,7 +674,7 @@
         <event-block sid="674627810331832">
             <conditions>
                 <condition id="3" name="On touched object" sid="881965906561843" type="Touch">
-                    <param id="0" name="Object">opcVoltar</param>
+                    <param id="0" name="Object">BotaoVoltar2</param>
                 </condition>
             </conditions>
             <actions>
