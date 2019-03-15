@@ -29,6 +29,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layer locked="1" name="Cima" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="FundoStatus" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Botao Comprar" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Status" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="Status" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

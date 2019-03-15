@@ -925,6 +925,53 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Intro" sid="386161518964679">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="289418645305714" speed="5">
+                        <frame duration="1" hotspotX="0.475043" hotspotY="0.530075" original-source="C:\Projetos\Estacione-se-Puder\Textures\MigraçãoMobile\intro.png">
+                            <collision-poly>
+                                <point x="0.00172118" y="0.24812" />
+                                <point x="0.998279" y="0.135338" />
+                                <point x="0.738382" y="0.353383" />
+                                <point x="0.00172118" y="0.808271" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Titulo2" sid="531991044121280">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="839858879981726" speed="5">
+                        <frame duration="1" hotspotX="0.500745" hotspotY="0.501393" original-source="C:\Projetos\Estacione-se-Puder\Textures\MigraçãoMobile\Menu.png">
+                            <collision-poly>
+                                <point x="0.23696" y="0.442897" />
+                                <point x="0.758569" y="0.451253" />
+                                <point x="0.818182" y="0.498607" />
+                                <point x="0.758569" y="0.548747" />
+                                <point x="0.23696" y="0.557103" />
+                                <point x="0.165425" y="0.498607" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TocaAqui" sid="467478766974490">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="567528222532172" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.508475" original-source="C:\Projetos\Estacione-se-Puder\Textures\MigraçãoMobile\TOCA AQUI.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.372881" />
+                                <point x="0.79" y="0.491525" />
+                                <point x="0.5" y="0.474576" />
+                                <point x="0.235" y="0.491525" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Textos">
             <object-folder name="Números Separados">

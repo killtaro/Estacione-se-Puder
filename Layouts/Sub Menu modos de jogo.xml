@@ -905,8 +905,8 @@
                         <width>148</width>
                         <height>52</height>
                         <depth>0</depth>
-                        <hotspotX>0.320261449</hotspotX>
-                        <hotspotY>0.540000021</hotspotY>
+                        <hotspotX>0.496732026</hotspotX>
+                        <hotspotY>0.519999981</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -955,29 +955,24 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="titulo" uid="1931">
+                <instance type="Titulo2" uid="634">
                     <properties>
-                        <text>Estacione se Puder</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Long Shot,-91,400,0</font>
-                        <color>255,153,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>66</x>
-                        <y>38</y>
+                        <x>401</x>
+                        <y>72</y>
                         <z>0</z>
-                        <width>671</width>
-                        <height>113</height>
+                        <width>885</width>
+                        <height>452</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.500745177</hotspotX>
+                        <hotspotY>0.501392782</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
