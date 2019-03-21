@@ -72,11 +72,6 @@
             </object-type>
             <object-type name="calcada1" sid="167461108493864">
                 <plugin id="TiledBg" />
-                <behaviors>
-                    <behavior-type name="Solid" sid="662859489384982">
-                        <behavior id="solid" />
-                    </behavior-type>
-                </behaviors>
                 <texture original-source="C:\Users\pixel\Downloads\calçada2(1).png" />
             </object-type>
             <object-type name="grama1" sid="303596449187048">
@@ -2392,6 +2387,15 @@
         </object-type>
         <object-type name="hitkilo" sid="185911846354621">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="bord" sid="900281689071951">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="841592262644451">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\pixel\Downloads\New Piskel(2).png" />
         </object-type>
     </object-folder>
     <families />

@@ -10,13 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Loja</layout>
-        <layout order="3">Menu Intro</layout>
-        <layout order="5">Menu Principal</layout>
-        <layout active="1" order="6">Sub Menu modos de jogo</layout>
-        <event-sheet order="1">Eventos Carros</event-sheet>
-        <event-sheet order="2">Eventos Loja</event-sheet>
-        <event-sheet order="4">Eventos Menu Intro</event-sheet>
+        <layout active="1" order="0">Cap2 Fase1</layout>
+        <layout order="2">Cap2 Fase2</layout>
+        <event-sheet order="1">Eventos Cap2 Fase1</event-sheet>
+        <event-sheet order="3">Eventos Cap2 Fase2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -27,32 +24,32 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="0" path="object-folder/Superfícies/" />
-        <folder expanded="0" path="object-folder/Edifícios/" />
+        <folder expanded="1" path="object-folder/Superfícies/" />
+        <folder expanded="1" path="object-folder/Edifícios/" />
         <folder expanded="0" path="object-folder/Backgrounds/" />
-        <folder expanded="0" path="object-folder/Controles/" />
+        <folder expanded="1" path="object-folder/Controles/" />
         <folder expanded="1" path="object-folder/Player/" />
         <folder expanded="1" path="object-folder/Obstáculos/" />
         <folder expanded="1" path="object-folder/Detalhes/" />
         <folder expanded="1" path="object-folder/Textos/" />
         <folder expanded="0" path="object-folder/Textos/Números Separados/" />
         <folder expanded="0" path="object-folder/Carros Estacionados/" />
-        <folder expanded="0" path="object-folder/CarroSelecao/" />
-        <folder expanded="0" path="object-folder/Gatilhos/" />
-        <folder expanded="0" path="object-folder/Cadastro Player/" />
-        <folder expanded="0" path="object-folder/Inimigos Arrancada/" />
+        <folder expanded="1" path="object-folder/CarroSelecao/" />
+        <folder expanded="1" path="object-folder/Gatilhos/" />
+        <folder expanded="1" path="object-folder/Cadastro Player/" />
+        <folder expanded="1" path="object-folder/Inimigos Arrancada/" />
         <folder expanded="0" path="object-folder/Menu de pausa/" />
-        <folder expanded="0" path="object-folder/Botoes/" />
+        <folder expanded="1" path="object-folder/Botoes/" />
         <folder expanded="1" path="object-folder/Loja/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Capítulo 1/" />
-        <folder expanded="0" path="layout-folder/Capítulo 2/" />
+        <folder expanded="1" path="layout-folder/Capítulo 1/" />
+        <folder expanded="1" path="layout-folder/Capítulo 2/" />
         <folder expanded="1" path="layout-folder/Pré-fases/" />
         <folder expanded="1" path="layout-folder/Fases Extras/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="event-folder/Eventos Gerais/" />
-        <folder expanded="0" path="event-folder/Capítulo 1/" />
-        <folder expanded="0" path="event-folder/Capítulo 2/" />
+        <folder expanded="1" path="event-folder/Capítulo 1/" />
+        <folder expanded="1" path="event-folder/Capítulo 2/" />
         <folder expanded="1" path="event-folder/Pré-fases/" />
         <folder expanded="0" path="event-folder/Fases Extras/" />
         <folder expanded="0" path="file-folder/" />
