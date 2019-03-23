@@ -76,7 +76,7 @@
             </object-type>
             <object-type name="grama1" sid="303596449187048">
                 <plugin id="TiledBg" />
-                <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\grama.png" />
+                <texture original-source="C:\Users\pixel\Downloads\Grama.png" />
             </object-type>
             <object-type name="marcaVaga1" sid="470938837178382">
                 <plugin id="TiledBg" />
