@@ -42,12 +42,12 @@
                             <param id="0" name="Variable">Fase</param>
                             <param id="1" name="Value">3</param>
                         </action>
-                        <action id="-4" name="Set layer visible" sid="467057257670717" type="System">
-                            <param id="0" name="Layer">4</param>
+                        <action id="-4" name="Set layer visible" sid="587751595970322" type="System">
+                            <param id="0" name="Layer">&quot;Pontos&quot;</param>
                             <param id="1" name="Visibility">0</param>
                         </action>
-                        <action id="-4" name="Set layer visible" sid="860920778621061" type="System">
-                            <param id="0" name="Layer">5</param>
+                        <action id="-4" name="Set layer visible" sid="140622318094624" type="System">
+                            <param id="0" name="Layer">&quot;Controles&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
@@ -59,12 +59,12 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="740452355451650" type="System">
-                            <param id="0" name="Layer">4</param>
+                        <action id="-4" name="Set layer visible" sid="924573450149904" type="System">
+                            <param id="0" name="Layer">&quot;Pontos&quot;</param>
                             <param id="1" name="Visibility">0</param>
                         </action>
-                        <action id="-4" name="Set layer visible" sid="876980298625180" type="System">
-                            <param id="0" name="Layer">5</param>
+                        <action id="-4" name="Set layer visible" sid="832944726597220" type="System">
+                            <param id="0" name="Layer">&quot;Controles&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                         <action id="-9" name="Set value" sid="186635037759901" type="System">

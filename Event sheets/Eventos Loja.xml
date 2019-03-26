@@ -20,10 +20,8 @@
         </event-block>
         <event-block sid="318382208835189">
             <conditions>
-                <condition id="6" name="On object clicked" sid="801949285303268" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">SetaDireita</param>
+                <condition id="3" name="On touched object" sid="801949285303268" type="Touch">
+                    <param id="0" name="Object">SetaDireita</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="340981860866722" type="System">
                     <param id="0" name="Variable">carro</param>
@@ -40,10 +38,8 @@
         </event-block>
         <event-block sid="431036550068297">
             <conditions>
-                <condition id="6" name="On object clicked" sid="737200388846698" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">SetaEsquerda</param>
+                <condition id="3" name="On touched object" sid="737200388846698" type="Touch">
+                    <param id="0" name="Object">SetaEsquerda</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="924450433990447" type="System">
                     <param id="0" name="Variable">carro</param>

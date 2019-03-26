@@ -53,12 +53,12 @@
                             <param id="0" name="Variable">Fase</param>
                             <param id="1" name="Value">2</param>
                         </action>
-                        <action id="-4" name="Set layer visible" sid="971229785165099" type="System">
-                            <param id="0" name="Layer">5</param>
+                        <action id="-4" name="Set layer visible" sid="278046950088779" type="System">
+                            <param id="0" name="Layer">&quot;Pontos&quot;</param>
                             <param id="1" name="Visibility">0</param>
                         </action>
-                        <action id="-4" name="Set layer visible" sid="181265190799594" type="System">
-                            <param id="0" name="Layer">6</param>
+                        <action id="-4" name="Set layer visible" sid="702429718104128" type="System">
+                            <param id="0" name="Layer">&quot;Controles&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
@@ -71,11 +71,11 @@
                     </conditions>
                     <actions>
                         <action id="-4" name="Set layer visible" sid="508351480947682" type="System">
-                            <param id="0" name="Layer">5</param>
+                            <param id="0" name="Layer">&quot;Pontos&quot;</param>
                             <param id="1" name="Visibility">0</param>
                         </action>
-                        <action id="-4" name="Set layer visible" sid="184762487397611" type="System">
-                            <param id="0" name="Layer">6</param>
+                        <action id="-4" name="Set layer visible" sid="882652964232295" type="System">
+                            <param id="0" name="Layer">&quot;Controles&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                         <action id="-9" name="Set value" sid="116277263406940" type="System">
