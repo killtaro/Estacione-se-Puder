@@ -2050,6 +2050,79 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="OBJ_ATUALIZACAO">
+            <object-type name="infoCapitulo" sid="283026885441568">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="461619346972548" speed="5">
+                        <frame duration="1" hotspotX="0.483213" hotspotY="0.584" original-source="C:\Projetos\Estacione-se-Puder\Textures\Novos menus\infoCapitulo.png">
+                            <collision-poly>
+                                <point x="1" y="0" />
+                                <point x="1" y="0.416" />
+                                <point x="1" y="1" />
+                                <point x="0.540767" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0.00119904" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CapRua" sid="198007010159171">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="220020993988404" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.64511" original-source="C:\Projetos\Estacione-se-Puder\Textures\Novos menus\Fases Rua.png">
+                            <collision-poly>
+                                <point x="0.103563" y="0.0772871" />
+                                <point x="0.473274" y="0" />
+                                <point x="0.900891" y="0.0646688" />
+                                <point x="1" y="0.676656" />
+                                <point x="0.847439" y="1" />
+                                <point x="0.0946548" y="1" />
+                                <point x="0" y="0.619874" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="CapEst" sid="968240535535017">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186824664348644" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.638264" original-source="C:\Projetos\Estacione-se-Puder\Textures\Novos menus\Estacionamento.png">
+                            <collision-poly>
+                                <point x="0.153675" y="0.138264" />
+                                <point x="0.5" y="0.0498392" />
+                                <point x="0.85412" y="0.12701" />
+                                <point x="0.998886" y="0.638264" />
+                                <point x="0.749443" y="0.998392" />
+                                <point x="0.250557" y="0.998392" />
+                                <point x="0.00111359" y="0.638264" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnInicio" sid="677238308177807">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="305322930500447" speed="5">
+                        <frame duration="1" hotspotX="0.556923" hotspotY="0.785714" original-source="C:\Projetos\Estacione-se-Puder\Textures\Novos menus\botãoIniciar.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.550769" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.959184" />
+                                <point x="0.618462" y="0.989796" />
+                                <point x="0.495385" y="0.989796" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Final" sid="350712590619999">
             <plugin id="Sprite" />
             <behaviors>
@@ -2438,6 +2511,7 @@
             <layout>Sub Menu modos de jogo.xml</layout>
             <layout>ForaDeOperação.xml</layout>
             <layout>PreLogo - Aviso.xml</layout>
+            <layout>Seleção de Capitulos.xml</layout>
         </layout-folder>
         <layout-folder name="Fases Extras">
             <layout>Modo Arrancada.xml</layout>
@@ -2493,6 +2567,7 @@
             <event-sheet>Eventos sub menu.xml</event-sheet>
             <event-sheet>ForaDeOperação.xml</event-sheet>
             <event-sheet>PreLogo - Aviso.xml</event-sheet>
+            <event-sheet>Eventos Seleção de capitulo.xml</event-sheet>
         </event-folder>
         <event-folder name="Fases Extras">
             <event-sheet>Eventos Modo Arrancada.xml</event-sheet>
