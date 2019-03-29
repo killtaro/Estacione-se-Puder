@@ -2122,6 +2122,23 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="selectCar" sid="744459811131772">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="788612507679072" speed="5">
+                        <frame duration="1" hotspotX="0.49082" hotspotY="0.826531" original-source="C:\Projetos\Estacione-se-Puder\Textures\Novos menus\selectCar.png">
+                            <collision-poly>
+                                <point x="0.424725" y="0.27551" />
+                                <point x="0.556916" y="0.27551" />
+                                <point x="0.998776" y="0.826531" />
+                                <point x="0.47246" y="0.673469" />
+                                <point x="0.471236" y="0.989796" />
+                                <point x="0.00122399" y="0.826531" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Final" sid="350712590619999">
             <plugin id="Sprite" />
