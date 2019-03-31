@@ -8,6 +8,17 @@
         <include>Eventos Pontos</include>
         <include>Eventos Carros</include>
         <include>Eventos Controle Mobile</include>
+        <event-block sid="902579746321562">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="778183334640973" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="813716491867663" type="System">
+                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="640575813503656">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="914547549890455" type="carro">

@@ -7,6 +7,17 @@
         <include>Eventos Pontos</include>
         <include>Eventos Carros</include>
         <include>Eventos Controle Mobile</include>
+        <event-block sid="971298667545353">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="316153980800026" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="935635701456077" type="System">
+                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
         <comment>Encaminha para o carregamento</comment>
         <event-block sid="736075340578174">
             <conditions>

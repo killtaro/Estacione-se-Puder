@@ -278,7 +278,7 @@
                         </action>
                         <action id="-11" name="Subtract from" sid="434644693644704" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
-                            <param id="1" name="Value">0</param>
+                            <param id="1" name="Value">200</param>
                         </action>
                     </actions>
                 </event-block>
@@ -306,7 +306,7 @@
                         </action>
                         <action id="-11" name="Subtract from" sid="286567709225955" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
-                            <param id="1" name="Value">0</param>
+                            <param id="1" name="Value">410</param>
                         </action>
                     </actions>
                 </event-block>
@@ -334,7 +334,7 @@
                         </action>
                         <action id="-11" name="Subtract from" sid="451592906379691" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
-                            <param id="1" name="Value">0</param>
+                            <param id="1" name="Value">560</param>
                         </action>
                     </actions>
                 </event-block>
@@ -362,7 +362,7 @@
                         </action>
                         <action id="-11" name="Subtract from" sid="423273797535529" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
-                            <param id="1" name="Value">0</param>
+                            <param id="1" name="Value">680</param>
                         </action>
                     </actions>
                 </event-block>
@@ -390,7 +390,7 @@
                         </action>
                         <action id="-11" name="Subtract from" sid="189115510342244" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
-                            <param id="1" name="Value">0</param>
+                            <param id="1" name="Value">732</param>
                         </action>
                     </actions>
                 </event-block>
@@ -418,7 +418,7 @@
                         </action>
                         <action id="-11" name="Subtract from" sid="604876562215838" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
-                            <param id="1" name="Value">0</param>
+                            <param id="1" name="Value">848</param>
                         </action>
                     </actions>
                 </event-block>
@@ -446,7 +446,7 @@
                         </action>
                         <action id="-11" name="Subtract from" sid="558844120927466" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
-                            <param id="1" name="Value">0</param>
+                            <param id="1" name="Value">1056</param>
                         </action>
                     </actions>
                 </event-block>
@@ -474,7 +474,7 @@
                         </action>
                         <action id="-11" name="Subtract from" sid="894353805568942" type="System">
                             <param id="0" name="Variable">Dinheiro_char</param>
-                            <param id="1" name="Value">0</param>
+                            <param id="1" name="Value">2028</param>
                         </action>
                     </actions>
                 </event-block>

@@ -7,6 +7,17 @@
         <include>Evento Menu de Pausa</include>
         <include>Eventos Carros</include>
         <include>Eventos Controle Mobile</include>
+        <event-block sid="843487448229309">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="119496703916252" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="845720307249935" type="System">
+                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
         <comment>Encaminha para o carregamento</comment>
         <event-block sid="136059193796882">
             <conditions>

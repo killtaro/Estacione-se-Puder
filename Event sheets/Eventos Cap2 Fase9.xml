@@ -6,6 +6,17 @@
         <include>Evento Menu de Pausa</include>
         <include>Eventos Pontos</include>
         <include>Eventos Controle Mobile</include>
+        <event-block sid="238847012283052">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="252234666128315" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="839828457107519" type="System">
+                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
         <comment>Encaminha para o carregamento</comment>
         <event-block sid="865195238006716">
             <conditions>

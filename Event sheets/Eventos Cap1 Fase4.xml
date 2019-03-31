@@ -8,6 +8,17 @@
         <include>Eventos Controle Mobile</include>
         <include>Eventos Pontos</include>
         <include>Eventos Carros</include>
+        <event-block sid="509044361055772">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="525005265957485" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="527024662763684" type="System">
+                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="170983464837997">
             <conditions>
                 <condition id="-9" name="Layer is visible" sid="733805138006061" type="System">
@@ -82,11 +93,49 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="874302408840914">
+        <event-block sid="988690193692052">
             <conditions>
-                <condition id="-22" name="Else" sid="350387670112545" type="System" />
+                <condition id="0" name="On collision with another object" sid="996522954896516" type="carro">
+                    <param id="0" name="Object">Gatilho_layer</param>
+                </condition>
+                <condition id="-16" name="Is on layer" sid="500262617298357" type="carro">
+                    <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-4" name="Set layer visible" sid="658253781626869" type="System">
+                    <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-26" name="Move to layer" sid="973454175937148" type="carro">
+                    <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                </action>
+                <action id="-2" name="Set Y" sid="818275704478343" type="carro">
+                    <param id="0" name="Y">180</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="712163357199976">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="473941166898555" type="carro">
+                    <param id="0" name="Object">gatilho_layer2</param>
+                </condition>
+                <condition id="-16" name="Is on layer" sid="633867074122203" type="carro">
+                    <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="131507516240132" type="System">
+                    <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-26" name="Move to layer" sid="110607737532616" type="carro">
+                    <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                </action>
+                <action id="-2" name="Set Y" sid="862201654773190" type="carro">
+                    <param id="0" name="Y">0</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

@@ -9,6 +9,17 @@
         <include>Eventos Carros</include>
         <include>Eventos Pontos</include>
         <variable constant="0" name="Pontos" sid="471179457952003" static="0" type="number">0</variable>
+        <event-block sid="557070532202439">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="624075949087673" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="222031701362682" type="System">
+                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
         <comment>Extremamente importante, desativar o grupo dinheiro no inicio da fase</comment>
         <comment>Encaminha para o carregamento</comment>
         <event-block sid="265607648288272">
