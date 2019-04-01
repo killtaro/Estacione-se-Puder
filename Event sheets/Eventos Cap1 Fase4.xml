@@ -110,8 +110,8 @@
                 <action id="-26" name="Move to layer" sid="973454175937148" type="carro">
                     <param id="0" name="Layer">&quot;1Andar&quot;</param>
                 </action>
-                <action id="-2" name="Set Y" sid="818275704478343" type="carro">
-                    <param id="0" name="Y">180</param>
+                <action id="-8" name="Set angle" sid="818275704478343" type="carro">
+                    <param id="0" name="Angle">270</param>
                 </action>
             </actions>
         </event-block>
@@ -132,8 +132,8 @@
                 <action id="-26" name="Move to layer" sid="110607737532616" type="carro">
                     <param id="0" name="Layer">&quot;2Andar&quot;</param>
                 </action>
-                <action id="-2" name="Set Y" sid="862201654773190" type="carro">
-                    <param id="0" name="Y">0</param>
+                <action id="-8" name="Set angle" sid="862201654773190" type="carro">
+                    <param id="0" name="Angle">0</param>
                 </action>
             </actions>
         </event-block>
