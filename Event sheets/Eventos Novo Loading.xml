@@ -2,5 +2,75 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Novo Loading</name>
-    <events />
+    <events>
+        <event-block sid="524330951288756">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="795932512281761" type="System" />
+            </conditions>
+            <actions>
+                <action id="-18" name="Rotate clockwise" sid="244367195509681" type="Volante">
+                    <param id="0" name="Degrees">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="180874299634821" title="CarregaElementoSonoro2">
+            <sub-events>
+                <event-block sid="783894697780764">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="164980092844675" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Preload (by name)" sid="811001149199978" type="Musicas">
+                            <param id="0" name="Folder">0</param>
+                            <param id="1" name="Audio file name">&quot;MusicaIntro.ogg&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <comment>Busca por fases no jogo</comment>
+        <event-group description="" sid="744116729070662" title="LocalizaFase2">
+            <sub-events>
+                <event-block sid="564794658778424">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="499916084408481" type="carro">
+                            <param id="0" name="Object">ResetaBarra</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="599769071645696" type="System">
+                            <param id="0" name="Variable">FaseSim</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="662226504955206" type="System">
+                            <param id="0" name="Layout">Seleção de Carros</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <comment>Vai para o menu</comment>
+        <event-group description="" sid="704302710454353" title="GoMenu2">
+            <sub-events>
+                <event-block sid="805503146577846">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="317474710468900" type="carro">
+                            <param id="0" name="Object">ResetaBarra</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="131029933737455" type="System">
+                            <param id="0" name="Variable">FaseSim</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="537152131424132" type="System">
+                            <param id="0" name="Layout">Menu Intro</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
 </c2eventsheet>

@@ -2139,6 +2139,46 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Volante" sid="661734461104561">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416747965788541" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500337" original-source="C:\Projetos\Estacione-se-Puder\Textures\Novo Loading\steering_wheel_PNG16679.png">
+                            <collision-poly>
+                                <point x="0.147418" y="0.146128" />
+                                <point x="0.5" y="0.0013468" />
+                                <point x="0.855978" y="0.142761" />
+                                <point x="0.998641" y="0.499663" />
+                                <point x="0.849185" y="0.850505" />
+                                <point x="0.5" y="0.998653" />
+                                <point x="0.148098" y="0.853199" />
+                                <point x="0.0013587" y="0.499663" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Avisos">
+            <object-type name="Aviso1" sid="485238475473959">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357082906870574" speed="5">
+                        <frame duration="1" hotspotX="0.492405" hotspotY="0.476563" original-source="C:\Projetos\Estacione-se-Puder\Textures\Novo Loading\Avisos\1.png">
+                            <collision-poly>
+                                <point x="0.00886076" y="0.00260417" />
+                                <point x="0.492405" y="0.0416667" />
+                                <point x="0.922785" y="0.111979" />
+                                <point x="0.998734" y="0.476563" />
+                                <point x="0.998734" y="0.997396" />
+                                <point x="0.492405" y="0.997396" />
+                                <point x="0.216456" y="0.523438" />
+                                <point x="0.216456" y="0.476563" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Final" sid="350712590619999">
             <plugin id="Sprite" />
@@ -2486,6 +2526,25 @@
                 </behavior-type>
             </behaviors>
             <texture original-source="C:\Users\pixel\Downloads\New Piskel(2).png" />
+        </object-type>
+        <object-type name="infoCarga" sid="161087947913797">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="796761115985485" speed="5">
+                    <frame duration="1" hotspotX="0.483871" hotspotY="0.512" original-source="C:\Projetos\Estacione-se-Puder\Textures\Novo Loading\Texto.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.476281" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.68" />
+                            <point x="1" y="1" />
+                            <point x="0.483871" y="0.992" />
+                            <point x="0" y="1" />
+                            <point x="0.00189753" y="0.512" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
