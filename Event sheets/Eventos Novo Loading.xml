@@ -33,8 +33,9 @@
             <sub-events>
                 <event-block sid="564794658778424">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="499916084408481" type="carro">
-                            <param id="0" name="Object">ResetaBarra</param>
+                        <condition id="-7" name="Compare time" sid="499916084408481" type="System">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Time (seconds)">5</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="599769071645696" type="System">
                             <param id="0" name="Variable">FaseSim</param>
@@ -55,8 +56,9 @@
             <sub-events>
                 <event-block sid="805503146577846">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="317474710468900" type="carro">
-                            <param id="0" name="Object">ResetaBarra</param>
+                        <condition id="-7" name="Compare time" sid="561907163773720" type="System">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Time (seconds)">9.5</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="131029933737455" type="System">
                             <param id="0" name="Variable">FaseSim</param>

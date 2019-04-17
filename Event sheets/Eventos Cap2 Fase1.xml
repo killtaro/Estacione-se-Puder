@@ -53,9 +53,6 @@
                             <param id="0" name="Variable">FaseSim</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="573440770242669" type="System">
-                            <param id="0" name="Layout">Loading</param>
-                        </action>
                         <action id="-9" name="Set value" sid="291095793145539" type="System">
                             <param id="0" name="Variable">Capitulo</param>
                             <param id="1" name="Value">2</param>
@@ -71,6 +68,9 @@
                         <action id="-4" name="Set layer visible" sid="702429718104128" type="System">
                             <param id="0" name="Layer">&quot;Controles&quot;</param>
                             <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="660319559817743" type="System">
+                            <param id="0" name="Layout">Novo Loading</param>
                         </action>
                     </actions>
                 </event-block>
