@@ -5,23 +5,10 @@
     <events>
         <variable constant="0" name="Dinheiro_char" sid="556272596546668" static="0" type="number">0</variable>
         <include>Eventos Carros</include>
-        <event-block sid="425582947400595">
-            <conditions>
-                <condition id="-1" name="Every tick" sid="723347989068739" type="System" />
-            </conditions>
-            <actions>
-                <action behavior="Car" id="7" name="Simulate control" sid="500786028730870" type="carro">
-                    <param id="0" name="Control">2</param>
-                </action>
-                <action behavior="Car" id="7" name="Simulate control" sid="551230360926423" type="carro">
-                    <param id="0" name="Control">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="516342097188608">
             <conditions>
                 <condition id="3" name="On touched object" sid="757110423251184" type="Touch">
-                    <param id="0" name="Object">BotaoLoja</param>
+                    <param id="0" name="Object">selecaoLoja</param>
                 </condition>
             </conditions>
             <actions>
@@ -33,7 +20,7 @@
         <event-block sid="125491715180150">
             <conditions>
                 <condition id="3" name="On touched object" sid="347785333746638" type="Touch">
-                    <param id="0" name="Object">BotaoJogar</param>
+                    <param id="0" name="Object">selecaoJogar</param>
                 </condition>
             </conditions>
             <actions>

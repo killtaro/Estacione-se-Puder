@@ -99,5 +99,123 @@
             </conditions>
             <actions />
         </event-block>
+        <event-block sid="211882788737366">
+            <conditions>
+                <condition id="2" name="Key is down" sid="973914337187935" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="934213724051698" type="newCarro">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="712201355229261">
+            <conditions>
+                <condition id="2" name="Key is down" sid="460645326423574" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="711329812837230" type="newCarro">
+                    <param id="0" name="Frame number">4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="336706933577461">
+            <conditions>
+                <condition id="2" name="Key is down" sid="225149356428204" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="968933807719035" type="newCarro">
+                    <param id="0" name="Frame number">6</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="481402638590886">
+            <conditions>
+                <condition id="2" name="Key is down" sid="407274420843142" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="761496693974997" type="newCarro">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="536778536945857">
+            <conditions>
+                <condition id="2" name="Key is down" sid="699037563858867" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="618553284729818" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="720096708032364" type="newCarro">
+                    <param id="0" name="Frame number">7</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="516652468347419">
+            <conditions>
+                <condition id="2" name="Key is down" sid="171553455878449" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="524212682332089" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="583773093262487" type="newCarro">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="718998487381071">
+            <conditions>
+                <condition id="2" name="Key is down" sid="558454168133700" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="994612576824526" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="966672664692427" type="newCarro">
+                    <param id="0" name="Frame number">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="621096302678199">
+            <conditions>
+                <condition id="2" name="Key is down" sid="749819013001944" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="134780959489394" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="905574762158506" type="newCarro">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="350426452498172">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="682678843878425" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="644273493316467" type="newCarro">
+                    <param id="0" name="Frame number">6</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

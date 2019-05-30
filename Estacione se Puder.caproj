@@ -22,6 +22,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Car" version="1">Car</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
@@ -76,7 +77,7 @@
             </object-type>
             <object-type name="grama1" sid="303596449187048">
                 <plugin id="TiledBg" />
-                <texture original-source="C:\Users\pixel\Downloads\Grama.png" />
+                <texture original-source="C:\Users\pixel\Downloads\Grama clone.png" />
             </object-type>
             <object-type name="marcaVaga1" sid="470938837178382">
                 <plugin id="TiledBg" />
@@ -2297,14 +2298,6 @@
         </object-type>
         <object-type name="infoTitulo" sid="537370718230961">
             <plugin id="Text" />
-            <effects>
-                <effect-type name="GlowHorizontal">
-                    <effect id="glowhorizontal" />
-                </effect-type>
-                <effect-type name="GlowVertical">
-                    <effect id="glowvertical" />
-                </effect-type>
-            </effects>
         </object-type>
         <object-type name="pisoLoja" sid="802283589777526">
             <plugin id="Sprite" />
@@ -2545,6 +2538,59 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="newCarro" sid="412215256106520">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="158900101918175">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="478294288842961">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="842120541293018" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5128" hotspotY="0.476261" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.47377" />
+                    <frame duration="1" hotspotX="0.515123" hotspotY="0.51995" />
+                    <frame duration="1" hotspotX="0.52168" hotspotY="0.48005" />
+                    <frame duration="1" hotspotX="0.484877" hotspotY="0.51995" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.47377" />
+                    <frame duration="1" hotspotX="0.4872" hotspotY="0.476261" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="156485608499671">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="987457014428538" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.640625" original-source="C:\Users\pixel\Downloads\Árvore.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.0774648" />
+                            <point x="0.783688" y="0.0774648" />
+                            <point x="0.996454" y="0.640845" />
+                            <point x="0.677305" y="0.992958" />
+                            <point x="0.5" y="0.992958" />
+                            <point x="0.358156" y="0.922535" />
+                            <point x="0.0035461" y="0.640845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="selecaoJogar" sid="251219682054956">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="selecaoOpcoes" sid="708230572091229">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="selecaoLoja" sid="569049136475427">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="selecaoSair" sid="268116660630716">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
