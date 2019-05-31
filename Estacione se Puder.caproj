@@ -2592,6 +2592,15 @@
         <object-type name="selecaoSair" sid="268116660630716">
             <plugin id="Text" />
         </object-type>
+        <object-type name="selecaoArrancada" sid="690938526591072">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="selecaoCampanha" sid="215653853756305">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="selecaoVolta" sid="583085236858245">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
