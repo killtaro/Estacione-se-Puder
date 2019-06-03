@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap2 Fase3</name>
     <events>
+        <include>Configurações</include>
         <include>Eventos Pontos</include>
         <include>Eventos Carros</include>
         <include>Eventos Controle Mobile</include>
@@ -29,12 +30,12 @@
             <sub-events>
                 <event-block sid="554634115684606">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="458018442990383" type="Touch">
+                        <condition id="3" name="On touched object" sid="458018442990383" type="Toque">
                             <param id="0" name="Object">btnContinuar</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="2" name="Set at X" sid="971983080428781" type="FasesRua">
+                        <action id="2" name="Set at X" sid="971983080428781" type="array_FasesRua">
                             <param id="0" name="X">4</param>
                             <param id="1" name="Value">4</param>
                         </action>
@@ -65,7 +66,7 @@
                 </event-block>
                 <event-block sid="666744717035774">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="959515760792746" type="Touch">
+                        <condition id="3" name="On touched object" sid="959515760792746" type="Toque">
                             <param id="0" name="Object">btnBackMenu</param>
                         </condition>
                     </conditions>
@@ -82,7 +83,7 @@
                             <param id="0" name="Variable">FaseSim</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="2" name="Set at X" sid="531336533273079" type="FasesRua">
+                        <action id="2" name="Set at X" sid="531336533273079" type="array_FasesRua">
                             <param id="0" name="X">4</param>
                             <param id="1" name="Value">4</param>
                         </action>
@@ -101,7 +102,7 @@
         </event-block>
         <event-block sid="211882788737366">
             <conditions>
-                <condition id="2" name="Key is down" sid="973914337187935" type="Keyboard">
+                <condition id="2" name="Key is down" sid="973914337187935" type="Teclado">
                     <param id="0" name="Key">38</param>
                 </condition>
             </conditions>
@@ -113,7 +114,7 @@
         </event-block>
         <event-block sid="712201355229261">
             <conditions>
-                <condition id="2" name="Key is down" sid="460645326423574" type="Keyboard">
+                <condition id="2" name="Key is down" sid="460645326423574" type="Teclado">
                     <param id="0" name="Key">40</param>
                 </condition>
             </conditions>
@@ -125,7 +126,7 @@
         </event-block>
         <event-block sid="336706933577461">
             <conditions>
-                <condition id="2" name="Key is down" sid="225149356428204" type="Keyboard">
+                <condition id="2" name="Key is down" sid="225149356428204" type="Teclado">
                     <param id="0" name="Key">39</param>
                 </condition>
             </conditions>
@@ -137,7 +138,7 @@
         </event-block>
         <event-block sid="481402638590886">
             <conditions>
-                <condition id="2" name="Key is down" sid="407274420843142" type="Keyboard">
+                <condition id="2" name="Key is down" sid="407274420843142" type="Teclado">
                     <param id="0" name="Key">37</param>
                 </condition>
             </conditions>
@@ -149,10 +150,10 @@
         </event-block>
         <event-block sid="536778536945857">
             <conditions>
-                <condition id="2" name="Key is down" sid="699037563858867" type="Keyboard">
+                <condition id="2" name="Key is down" sid="699037563858867" type="Teclado">
                     <param id="0" name="Key">38</param>
                 </condition>
-                <condition id="2" name="Key is down" sid="618553284729818" type="Keyboard">
+                <condition id="2" name="Key is down" sid="618553284729818" type="Teclado">
                     <param id="0" name="Key">39</param>
                 </condition>
             </conditions>
@@ -164,10 +165,10 @@
         </event-block>
         <event-block sid="516652468347419">
             <conditions>
-                <condition id="2" name="Key is down" sid="171553455878449" type="Keyboard">
+                <condition id="2" name="Key is down" sid="171553455878449" type="Teclado">
                     <param id="0" name="Key">38</param>
                 </condition>
-                <condition id="2" name="Key is down" sid="524212682332089" type="Keyboard">
+                <condition id="2" name="Key is down" sid="524212682332089" type="Teclado">
                     <param id="0" name="Key">37</param>
                 </condition>
             </conditions>
@@ -179,10 +180,10 @@
         </event-block>
         <event-block sid="718998487381071">
             <conditions>
-                <condition id="2" name="Key is down" sid="558454168133700" type="Keyboard">
+                <condition id="2" name="Key is down" sid="558454168133700" type="Teclado">
                     <param id="0" name="Key">40</param>
                 </condition>
-                <condition id="2" name="Key is down" sid="994612576824526" type="Keyboard">
+                <condition id="2" name="Key is down" sid="994612576824526" type="Teclado">
                     <param id="0" name="Key">39</param>
                 </condition>
             </conditions>
@@ -194,10 +195,10 @@
         </event-block>
         <event-block sid="621096302678199">
             <conditions>
-                <condition id="2" name="Key is down" sid="749819013001944" type="Keyboard">
+                <condition id="2" name="Key is down" sid="749819013001944" type="Teclado">
                     <param id="0" name="Key">40</param>
                 </condition>
-                <condition id="2" name="Key is down" sid="134780959489394" type="Keyboard">
+                <condition id="2" name="Key is down" sid="134780959489394" type="Teclado">
                     <param id="0" name="Key">37</param>
                 </condition>
             </conditions>

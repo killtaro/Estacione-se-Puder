@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Configurações</name>
+    <events>
+        <event-group description="Responsável pela configuração dos controles da versão mobile." sid="724036570689435" title="Configurações dos controles Mobile">
+            <sub-events>
+                <event-group description="Responsável pela configuração dos sprites do carro para que a impressão de dimensão seja passado ao jogador." sid="666418089755401" title="Configuração dos sprites do carro na versão mobile">
+                    <sub-events>
+                        <event-block sid="571354319211694">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="638621531326283" type="Toque">
+                                    <param id="0" name="Object">controle_SetaDireita</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="736880302981933" type="newCarro">
+                                    <param id="0" name="Frame number">6</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="138258320357205">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="267539075123456" type="Toque">
+                                    <param id="0" name="Object">controle_SetaEsquerda</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="397149546972143" type="newCarro">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="270640259232040">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="976532652372702" type="Toque">
+                                    <param id="0" name="Object">controle_SetaCima</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="176264276210147" type="newCarro">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="319961489522213">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="167360572815472" type="Toque">
+                                    <param id="0" name="Object">controle_SetaBaixo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="337159533827602" type="newCarro">
+                                    <param id="0" name="Frame number">4</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="351524620129593">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="269541688376947" type="Toque">
+                                    <param id="0" name="Object">controle_SetaCima</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="995775020777164" type="Toque">
+                                    <param id="0" name="Object">controle_SetaDireita</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="533043530501066" type="newCarro">
+                                    <param id="0" name="Frame number">7</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="319476774296914">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="785341728157188" type="Toque">
+                                    <param id="0" name="Object">controle_SetaCima</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="106314792446217" type="Toque">
+                                    <param id="0" name="Object">controle_SetaEsquerda</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="450617511534766" type="newCarro">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="774388625624083">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="689584166868030" type="Toque">
+                                    <param id="0" name="Object">controle_SetaBaixo</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="501247127428194" type="Toque">
+                                    <param id="0" name="Object">controle_SetaDireita</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="524364995413540" type="newCarro">
+                                    <param id="0" name="Frame number">5</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="993619758191408">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="867591643324012" type="Toque">
+                                    <param id="0" name="Object">controle_SetaBaixo</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="399652388568050" type="Toque">
+                                    <param id="0" name="Object">controle_SetaEsquerda</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="241380988979313" type="newCarro">
+                                    <param id="0" name="Frame number">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="Responsável pela configuração de posicionamento dos botões e afins responsáveis pelo controle do veículo na versão mobile." sid="729716894933304" title="Configuração do posicionamento dos controles mobile">
+                    <sub-events>
+                        <event-block sid="182433022802348">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="692375637564831" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="968252740452081" type="System">
+                                    <param id="0" name="Object to create">controle_SetaEsquerda</param>
+                                    <param id="1" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="2" name="X">56</param>
+                                    <param id="3" name="Y">320</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="887376379132909" type="controle_SetaEsquerda">
+                                    <param id="0" name="Width">52</param>
+                                    <param id="1" name="Height">30</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="814925436164425" type="controle_SetaEsquerda">
+                                    <param id="0" name="Opacity">50</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="487167104785757" type="System">
+                                    <param id="0" name="Object to create">controle_SetaDireita</param>
+                                    <param id="1" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="2" name="X">156</param>
+                                    <param id="3" name="Y">318.903</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="630026332961921" type="controle_SetaDireita">
+                                    <param id="0" name="Width">52</param>
+                                    <param id="1" name="Height">30</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="357199890475959" type="controle_SetaDireita">
+                                    <param id="0" name="Opacity">50</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="750707868425393" type="System">
+                                    <param id="0" name="Object to create">controle_SetaCima</param>
+                                    <param id="1" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="2" name="X">104</param>
+                                    <param id="3" name="Y">280</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="229105315635519" type="controle_SetaCima">
+                                    <param id="0" name="Width">30</param>
+                                    <param id="1" name="Height">52</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="762217222368903" type="controle_SetaCima">
+                                    <param id="0" name="Opacity">50</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="568163736648508" type="System">
+                                    <param id="0" name="Object to create">controle_SetaBaixo</param>
+                                    <param id="1" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="2" name="X">104</param>
+                                    <param id="3" name="Y">360</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="696524446052314" type="controle_SetaBaixo">
+                                    <param id="0" name="Width">30</param>
+                                    <param id="1" name="Height">52</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="421154590209317" type="controle_SetaBaixo">
+                                    <param id="0" name="Opacity">50</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="750804320564409" type="System">
+                                    <param id="0" name="Object to create">controle_Freio</param>
+                                    <param id="1" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="2" name="X">623</param>
+                                    <param id="3" name="Y">350</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="268891632969629" type="controle_Freio">
+                                    <param id="0" name="Width">70</param>
+                                    <param id="1" name="Height">63</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="142514654385235" type="controle_Freio">
+                                    <param id="0" name="Opacity">50</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="261888835881932" type="System">
+                                    <param id="0" name="Object to create">controle_Acelerador</param>
+                                    <param id="1" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="2" name="X">740</param>
+                                    <param id="3" name="Y">327</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="853939573139831" type="controle_Acelerador">
+                                    <param id="0" name="Width">47</param>
+                                    <param id="1" name="Height">86</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="326804920647253" type="controle_Acelerador">
+                                    <param id="0" name="Opacity">50</param>
+                                </action>
+                                <action id="-33" name="Set layer parallax" sid="139073359707799" type="System">
+                                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="1" name="Parallax X">0</param>
+                                    <param id="2" name="Parallax Y">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="Responsável pela configuração das ações de resposta das interações com os controles mobiles. Basicamente responsável pelo funcionamento dos controles mobile em questão da jogabilidade." sid="282267967445234" title="Configuração das ações dos controles mobile">
+                    <sub-events>
+                        <event-block sid="272520260382402">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="295883272724899" type="Toque">
+                                    <param id="0" name="Object">controle_SetaDireita</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="799613557876689" type="Toque">
+                                    <param id="0" name="Object">controle_Acelerador</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="667420232815766" type="newCarro">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="559872639020309">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="358455097518101" type="Toque">
+                                    <param id="0" name="Object">controle_SetaEsquerda</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="208575687214649" type="Toque">
+                                    <param id="0" name="Object">controle_Acelerador</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="595957910118918" type="newCarro">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="462063268367146">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="988422128339473" type="Toque">
+                                    <param id="0" name="Object">controle_SetaCima</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="144704838779562" type="Toque">
+                                    <param id="0" name="Object">controle_Acelerador</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="500539327488424" type="newCarro">
+                                    <param id="0" name="Control">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="579785676495484">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="583613825139010" type="Toque">
+                                    <param id="0" name="Object">controle_SetaBaixo</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="464378553584970" type="Toque">
+                                    <param id="0" name="Object">controle_Acelerador</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="328130722540790" type="newCarro">
+                                    <param id="0" name="Control">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="Responsável pela configuração dos controles da versão mobile" sid="565725417021203" title="Configuração dos controles desktop">
+            <sub-events>
+                <event-group description="Responsável pela configuração dos sprites do carro para que a impressão de dimensão seja passado ao jogador." sid="571414557267362" title="Configuração dos sprites do carro na versão desktop">
+                    <sub-events>
+                        <event-block sid="630764304853021">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="324821906771901" type="Teclado">
+                                    <param id="0" name="Key">38</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="288388130686019" type="newCarro">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="373452662728675">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="896627847487165" type="Teclado">
+                                    <param id="0" name="Key">40</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="837579288315154" type="newCarro">
+                                    <param id="0" name="Frame number">4</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="914305985333490">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="771341714378521" type="Teclado">
+                                    <param id="0" name="Key">39</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="704875127619221" type="newCarro">
+                                    <param id="0" name="Frame number">6</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="320096110686541">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="499451735506669" type="Teclado">
+                                    <param id="0" name="Key">37</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="132876130972774" type="newCarro">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="672750664621128">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="496869012277724" type="Teclado">
+                                    <param id="0" name="Key">38</param>
+                                </condition>
+                                <condition id="2" name="Key is down" sid="481016714013908" type="Teclado">
+                                    <param id="0" name="Key">39</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="521269064721886" type="newCarro">
+                                    <param id="0" name="Frame number">7</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="117719090166498">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="554673198018420" type="Teclado">
+                                    <param id="0" name="Key">38</param>
+                                </condition>
+                                <condition id="2" name="Key is down" sid="844722627733832" type="Teclado">
+                                    <param id="0" name="Key">37</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="561701861237813" type="newCarro">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="284619686689361">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="611300559621331" type="Teclado">
+                                    <param id="0" name="Key">40</param>
+                                </condition>
+                                <condition id="2" name="Key is down" sid="819992922532034" type="Teclado">
+                                    <param id="0" name="Key">39</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="980965206855120" type="newCarro">
+                                    <param id="0" name="Frame number">5</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="694823381641863">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="894612274196390" type="Teclado">
+                                    <param id="0" name="Key">40</param>
+                                </condition>
+                                <condition id="2" name="Key is down" sid="428396508399973" type="Teclado">
+                                    <param id="0" name="Key">37</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="383921686155502" type="newCarro">
+                                    <param id="0" name="Frame number">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

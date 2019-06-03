@@ -226,94 +226,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="BotaoJogar" uid="1935">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>264</x>
-                        <y>496</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>48</height>
-                        <depth>0</depth>
-                        <hotspotX>0.510416687</hotspotX>
-                        <hotspotY>0.458333343</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BotaoOpcoes" uid="2058">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>448</x>
-                        <y>504</y>
-                        <z>0</z>
-                        <width>115</width>
-                        <height>48</height>
-                        <depth>0</depth>
-                        <hotspotX>0.530434787</hotspotX>
-                        <hotspotY>0.458333343</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BotaoSair" uid="2059">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>576</x>
-                        <y>496</y>
-                        <z>0</z>
-                        <width>66</width>
-                        <height>41</height>
-                        <depth>0</depth>
-                        <hotspotX>0.575757563</hotspotX>
-                        <hotspotY>0.48780489</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BotaoLoja" uid="2060">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>693.803955078</x>
-                        <y>502.321289063</y>
-                        <z>0</z>
-                        <width>76</width>
-                        <height>46</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.434782594</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Sprite" uid="778">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -369,7 +281,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>640</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>24</width>
                         <height>48</height>
@@ -413,7 +325,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>672</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>24</width>
                         <height>48</height>
@@ -457,7 +369,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>704</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>24</width>
                         <height>48</height>
@@ -501,7 +413,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>736</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>24</width>
                         <height>48</height>
@@ -545,7 +457,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>768</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>24</width>
                         <height>48</height>
@@ -743,7 +655,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>0</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>24</width>
                         <height>48</height>
@@ -787,7 +699,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>32</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>24</width>
                         <height>48</height>
@@ -831,7 +743,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>64</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>24</width>
                         <height>48</height>
@@ -875,7 +787,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>96</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>24</width>
                         <height>48</height>
@@ -919,7 +831,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>128</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>24</width>
                         <height>48</height>
@@ -963,7 +875,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>160</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>24</width>
                         <height>48</height>
@@ -2012,7 +1924,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>800</x>
-                        <y>392</y>
+                        <y>400</y>
                         <z>0</z>
                         <width>24</width>
                         <height>48</height>

@@ -481,14 +481,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>45</x>
-                        <y>178</y>
+                        <x>56</x>
+                        <y>153.361038208</y>
                         <z>0</z>
-                        <width>52</width>
-                        <height>34</height>
+                        <width>24</width>
+                        <height>24</height>
                         <depth>0</depth>
-                        <hotspotX>0.439635545</hotspotX>
-                        <hotspotY>-0.003731343</hotspotY>
+                        <hotspotX>0.384415597</hotspotX>
+                        <hotspotY>-0.170129865</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -542,6 +542,72 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="controle_SetaCima" uid="2058">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>104</x>
+                        <y>280</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>52</height>
+                        <depth>0</depth>
+                        <hotspotX>0.484848499</hotspotX>
+                        <hotspotY>0.489878535</hotspotY>
+                        <angle>0</angle>
+                        <opacity>0.5</opacity>
+                    </world>
+                </instance>
+                <instance type="controle_SetaEsquerda" uid="540">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>56</x>
+                        <y>320</y>
+                        <z>0</z>
+                        <width>52</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0.53441298</hotspotX>
+                        <hotspotY>0.560606062</hotspotY>
+                        <angle>0</angle>
+                        <opacity>0.5</opacity>
+                    </world>
+                </instance>
+                <instance type="controle_SetaBaixo" uid="2059">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>104</x>
+                        <y>360</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>52</height>
+                        <depth>0</depth>
+                        <hotspotX>0.484848499</hotspotX>
+                        <hotspotY>0.510121465</hotspotY>
+                        <angle>0</angle>
+                        <opacity>0.5</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -561,7 +627,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Seta_esquerda_vira" uid="540">
+                <instance type="controle_SetaDireita" uid="541">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -571,41 +637,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>69</x>
-                        <y>353</y>
+                        <x>156</x>
+                        <y>318.902648926</y>
                         <z>0</z>
-                        <width>66.099067688</width>
-                        <height>70.601448059</height>
-                        <depth>0</depth>
-                        <hotspotX>0.53441298</hotspotX>
-                        <hotspotY>0.560606062</hotspotY>
-                        <angle>0</angle>
-                        <opacity>0.5</opacity>
-                    </world>
-                </instance>
-                <instance type="Setadireitavira" uid="541">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>207</x>
-                        <y>351</y>
-                        <z>0</z>
-                        <width>72.247497559</width>
-                        <height>65.118293762</height>
+                        <width>52</width>
+                        <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0.510121465</hotspotX>
-                        <hotspotY>0.484848499</hotspotY>
+                        <hotspotY>0.515151501</hotspotY>
                         <angle>0</angle>
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="Acelerador" uid="542">
+                <instance type="controle_Acelerador" uid="542">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -627,7 +671,7 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="freio" uid="543">
+                <instance type="controle_Freio" uid="543">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

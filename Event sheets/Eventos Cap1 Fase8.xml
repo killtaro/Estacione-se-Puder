@@ -46,12 +46,12 @@
             <sub-events>
                 <event-block sid="219685772227453">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="417125835026934" type="Touch">
+                        <condition id="3" name="On touched object" sid="417125835026934" type="Toque">
                             <param id="0" name="Object">btnContinuar</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="2" name="Set at X" sid="830764612556266" type="FasesEstaciona">
+                        <action id="2" name="Set at X" sid="830764612556266" type="array_FasesEstacionamento">
                             <param id="0" name="X">9</param>
                             <param id="1" name="Value">9</param>
                         </action>
@@ -82,7 +82,7 @@
                 </event-block>
                 <event-block sid="558648578935368">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="531458550753368" type="Touch">
+                        <condition id="3" name="On touched object" sid="531458550753368" type="Toque">
                             <param id="0" name="Object">btnBackMenu</param>
                         </condition>
                     </conditions>
@@ -99,7 +99,7 @@
                             <param id="0" name="Variable">FaseSim</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="2" name="Set at X" sid="500727177153809" type="FasesEstaciona">
+                        <action id="2" name="Set at X" sid="500727177153809" type="array_FasesEstacionamento">
                             <param id="0" name="X">9</param>
                             <param id="1" name="Value">9</param>
                         </action>

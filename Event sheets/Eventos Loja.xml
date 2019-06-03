@@ -20,7 +20,7 @@
         </event-block>
         <event-block sid="318382208835189">
             <conditions>
-                <condition id="3" name="On touched object" sid="801949285303268" type="Touch">
+                <condition id="3" name="On touched object" sid="801949285303268" type="Toque">
                     <param id="0" name="Object">SetaDireita</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="340981860866722" type="System">
@@ -38,7 +38,7 @@
         </event-block>
         <event-block sid="431036550068297">
             <conditions>
-                <condition id="3" name="On touched object" sid="737200388846698" type="Touch">
+                <condition id="3" name="On touched object" sid="737200388846698" type="Toque">
                     <param id="0" name="Object">SetaEsquerda</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="924450433990447" type="System">
@@ -56,7 +56,7 @@
         </event-block>
         <event-block sid="548742513187140">
             <conditions>
-                <condition id="0" name="On key pressed" sid="306819450736982" type="Keyboard">
+                <condition id="0" name="On key pressed" sid="306819450736982" type="Teclado">
                     <param id="0" name="Key">39</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="624835742631587" type="System">
@@ -74,7 +74,7 @@
         </event-block>
         <event-block sid="615414597566699">
             <conditions>
-                <condition id="0" name="On key pressed" sid="268132730847872" type="Keyboard">
+                <condition id="0" name="On key pressed" sid="268132730847872" type="Teclado">
                     <param id="0" name="Key">37</param>
                 </condition>
                 <condition id="-14" name="Compare variable" sid="271373181824501" type="System">
@@ -228,7 +228,7 @@
                 <comment>Os valores dos carros estao em branco para testes</comment>
                 <event-block sid="881512241394707">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="381207369878939" type="Touch">
+                        <condition id="3" name="On touched object" sid="381207369878939" type="Toque">
                             <param id="0" name="Object">FundoBotaoComprar</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="785516014649885" type="System">
@@ -243,7 +243,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="841008806255134" type="CarrosComprados">
+                        <action id="10" name="Insert" sid="841008806255134" type="array_CarrosComprados">
                             <param id="0" name="Value">0</param>
                             <param id="1" name="Index">0</param>
                             <param id="2" name="Axis">0</param>
@@ -256,7 +256,7 @@
                 </event-block>
                 <event-block sid="533672489910506">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="626825395574093" type="Touch">
+                        <condition id="3" name="On touched object" sid="626825395574093" type="Toque">
                             <param id="0" name="Object">FundoBotaoComprar</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="319051762810263" type="System">
@@ -271,7 +271,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="256194170459162" type="CarrosComprados">
+                        <action id="10" name="Insert" sid="256194170459162" type="array_CarrosComprados">
                             <param id="0" name="Value">1</param>
                             <param id="1" name="Index">1</param>
                             <param id="2" name="Axis">0</param>
@@ -284,7 +284,7 @@
                 </event-block>
                 <event-block sid="576070021039917">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="282230124169676" type="Touch">
+                        <condition id="3" name="On touched object" sid="282230124169676" type="Toque">
                             <param id="0" name="Object">FundoBotaoComprar</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="646649393682686" type="System">
@@ -299,7 +299,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="419699561679601" type="CarrosComprados">
+                        <action id="10" name="Insert" sid="419699561679601" type="array_CarrosComprados">
                             <param id="0" name="Value">2</param>
                             <param id="1" name="Index">2</param>
                             <param id="2" name="Axis">0</param>
@@ -312,7 +312,7 @@
                 </event-block>
                 <event-block sid="735512039774077">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="987370100852222" type="Touch">
+                        <condition id="3" name="On touched object" sid="987370100852222" type="Toque">
                             <param id="0" name="Object">FundoBotaoComprar</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="404136913001164" type="System">
@@ -327,7 +327,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="604829278513259" type="CarrosComprados">
+                        <action id="10" name="Insert" sid="604829278513259" type="array_CarrosComprados">
                             <param id="0" name="Value">3</param>
                             <param id="1" name="Index">3</param>
                             <param id="2" name="Axis">0</param>
@@ -340,7 +340,7 @@
                 </event-block>
                 <event-block sid="147412020190331">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="187674779181698" type="Touch">
+                        <condition id="3" name="On touched object" sid="187674779181698" type="Toque">
                             <param id="0" name="Object">FundoBotaoComprar</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="585739269535747" type="System">
@@ -355,7 +355,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="356194805768099" type="CarrosComprados">
+                        <action id="10" name="Insert" sid="356194805768099" type="array_CarrosComprados">
                             <param id="0" name="Value">4</param>
                             <param id="1" name="Index">4</param>
                             <param id="2" name="Axis">0</param>
@@ -368,7 +368,7 @@
                 </event-block>
                 <event-block sid="597469486201429">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="417768687299776" type="Touch">
+                        <condition id="3" name="On touched object" sid="417768687299776" type="Toque">
                             <param id="0" name="Object">FundoBotaoComprar</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="517753935273053" type="System">
@@ -383,7 +383,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="463410113342057" type="CarrosComprados">
+                        <action id="10" name="Insert" sid="463410113342057" type="array_CarrosComprados">
                             <param id="0" name="Value">5</param>
                             <param id="1" name="Index">5</param>
                             <param id="2" name="Axis">0</param>
@@ -396,7 +396,7 @@
                 </event-block>
                 <event-block sid="350893968577884">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="503167843991209" type="Touch">
+                        <condition id="3" name="On touched object" sid="503167843991209" type="Toque">
                             <param id="0" name="Object">FundoBotaoComprar</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="813218617938968" type="System">
@@ -411,7 +411,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="952901179852874" type="CarrosComprados">
+                        <action id="10" name="Insert" sid="952901179852874" type="array_CarrosComprados">
                             <param id="0" name="Value">6</param>
                             <param id="1" name="Index">6</param>
                             <param id="2" name="Axis">0</param>
@@ -424,7 +424,7 @@
                 </event-block>
                 <event-block sid="272243531923337">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="673640936361692" type="Touch">
+                        <condition id="3" name="On touched object" sid="673640936361692" type="Toque">
                             <param id="0" name="Object">FundoBotaoComprar</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="187857878357049" type="System">
@@ -439,7 +439,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="940299094704670" type="CarrosComprados">
+                        <action id="10" name="Insert" sid="940299094704670" type="array_CarrosComprados">
                             <param id="0" name="Value">7</param>
                             <param id="1" name="Index">7</param>
                             <param id="2" name="Axis">0</param>
@@ -452,7 +452,7 @@
                 </event-block>
                 <event-block sid="680994651246678">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="744006326432779" type="Touch">
+                        <condition id="3" name="On touched object" sid="744006326432779" type="Toque">
                             <param id="0" name="Object">FundoBotaoComprar</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="533704633616867" type="System">
@@ -467,7 +467,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="375332640294282" type="CarrosComprados">
+                        <action id="10" name="Insert" sid="375332640294282" type="array_CarrosComprados">
                             <param id="0" name="Value">8</param>
                             <param id="1" name="Index">8</param>
                             <param id="2" name="Axis">0</param>
@@ -669,7 +669,7 @@
         <comment>Coloquei o botão voltar na loja :D</comment>
         <event-block sid="674627810331832">
             <conditions>
-                <condition id="3" name="On touched object" sid="881965906561843" type="Touch">
+                <condition id="3" name="On touched object" sid="881965906561843" type="Toque">
                     <param id="0" name="Object">BotaoVoltar2</param>
                 </condition>
             </conditions>

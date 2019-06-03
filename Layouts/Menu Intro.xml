@@ -3293,8 +3293,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>399</x>
-                        <y>206</y>
+                        <x>384</x>
+                        <y>192</y>
                         <z>0</z>
                         <width>581</width>
                         <height>266</height>
@@ -3317,14 +3317,14 @@
                 <depth>1</depth>
             </properties>
         </instance>
-        <instance type="FasesRua" uid="3067">
+        <instance type="array_FasesRua" uid="3067">
             <properties>
                 <width>10</width>
                 <height>1</height>
                 <depth>1</depth>
             </properties>
         </instance>
-        <instance type="FasesEstaciona" uid="3108">
+        <instance type="array_FasesEstacionamento" uid="3108">
             <properties>
                 <width>10</width>
                 <height>1</height>

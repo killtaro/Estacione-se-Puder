@@ -25,7 +25,7 @@
         </event-block>
         <event-block sid="974748072451258">
             <conditions>
-                <condition id="3" name="On touched object" sid="430267193536314" type="Touch">
+                <condition id="3" name="On touched object" sid="430267193536314" type="Toque">
                     <param id="0" name="Object">TocaAqui</param>
                 </condition>
             </conditions>

@@ -7,7 +7,7 @@
         <include>Eventos Carros</include>
         <event-block sid="516342097188608">
             <conditions>
-                <condition id="3" name="On touched object" sid="757110423251184" type="Touch">
+                <condition id="3" name="On touched object" sid="757110423251184" type="Toque">
                     <param id="0" name="Object">selecaoLoja</param>
                 </condition>
             </conditions>
@@ -19,7 +19,7 @@
         </event-block>
         <event-block sid="125491715180150">
             <conditions>
-                <condition id="3" name="On touched object" sid="347785333746638" type="Touch">
+                <condition id="3" name="On touched object" sid="347785333746638" type="Toque">
                     <param id="0" name="Object">selecaoJogar</param>
                 </condition>
             </conditions>

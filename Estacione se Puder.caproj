@@ -429,16 +429,16 @@
             </object-type>
         </object-folder>
         <object-folder name="Controles">
-            <object-type name="Keyboard" sid="644089788571661">
+            <object-type name="Teclado" sid="644089788571661">
                 <plugin id="Keyboard" />
             </object-type>
             <object-type name="Mouse" sid="852929394867428">
                 <plugin id="Mouse" />
             </object-type>
-            <object-type name="Touch" sid="677633756870191">
+            <object-type name="Toque" sid="677633756870191">
                 <plugin id="Touch" />
             </object-type>
-            <object-type name="Seta_esquerda_vira" sid="625966385439448">
+            <object-type name="controle_SetaEsquerda" sid="625966385439448">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="724248943137833" speed="5">
@@ -457,25 +457,25 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Setadireitavira" sid="228161634709643">
+            <object-type name="controle_SetaDireita" sid="228161634709643">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="768270522750956" speed="5">
-                        <frame duration="1" hotspotX="0.510121" hotspotY="0.484848" original-source="C:\Users\pixel\Downloads\seta.png">
+                        <frame duration="1" hotspotX="0.510121" hotspotY="0.515152" original-source="C:\Users\pixel\Downloads\seta.png">
                             <collision-poly>
-                                <point x="0" y="0.064577" />
+                                <point x="0" y="0.088114" />
                                 <point x="0.510121" y="0" />
                                 <point x="1" y="0.347013" />
-                                <point x="1" y="0.488233" />
+                                <point x="1" y="0.511767" />
                                 <point x="1" y="0.652987" />
                                 <point x="0.510121" y="1" />
-                                <point x="0" y="0.911886" />
+                                <point x="0" y="0.935423" />
                             </collision-poly>
                         </frame>
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Acelerador" sid="503873416856199">
+            <object-type name="controle_Acelerador" sid="503873416856199">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="995351185324280" speed="5">
@@ -492,7 +492,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="freio" sid="874714362832192">
+            <object-type name="controle_Freio" sid="874714362832192">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963931575730570" speed="5">
@@ -506,6 +506,42 @@
                                 <point x="0.5" y="0.994924" />
                                 <point x="0.240566" y="0.918782" />
                                 <point x="0.0754717" y="0.639594" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="controle_SetaCima" sid="265209600195608">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="575808543581787" speed="5">
+                        <frame duration="1" hotspotX="0.484848" hotspotY="0.489879" original-source="C:\Users\pixel\Downloads\seta.png">
+                            <collision-poly>
+                                <point x="0.064577" y="1" />
+                                <point x="0" y="0.489879" />
+                                <point x="0.347013" y="0" />
+                                <point x="0.488233" y="0" />
+                                <point x="0.652987" y="0" />
+                                <point x="1" y="0.489879" />
+                                <point x="0.911886" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="controle_SetaBaixo" sid="196637870397336">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="914960712177998" speed="5">
+                        <frame duration="1" hotspotX="0.484848" hotspotY="0.510121" original-source="C:\Users\pixel\Downloads\seta.png">
+                            <collision-poly>
+                                <point x="0.911886" y="0" />
+                                <point x="1" y="0.510121" />
+                                <point x="0.652987" y="1" />
+                                <point x="0.488233" y="1" />
+                                <point x="0.347013" y="1" />
+                                <point x="0" y="0.510121" />
+                                <point x="0.064577" y="0" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -528,20 +564,20 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="539104986536067" speed="5">
-                        <frame duration="1" hotspotX="0.439636" hotspotY="-0.00373134" original-source="C:\Users\pixel\Downloads\Carro.png">
-                            <image-point name="Imagepoint 1" x="0.455581" y="-0.00373134" />
-                            <image-point name="Imagepoint 2" x="0.542141" y="-0.00373134" />
+                        <frame duration="1" hotspotX="0.384416" hotspotY="-0.17013" original-source="C:\Users\pixel\Downloads\novo carro(2).gif">
+                            <image-point name="Imagepoint 1" x="0.415584" y="-0.17013" />
+                            <image-point name="Imagepoint 2" x="0.580519" y="-0.17013" />
                             <collision-poly>
-                                <point x="0.350797" y="1" />
+                                <point x="0.21477" y="1" />
                                 <point x="0" y="1" />
                                 <point x="0" y="0" />
-                                <point x="0.348519" y="0.00373137" />
-                                <point x="0.824601" y="0.00373137" />
-                                <point x="0.952164" y="0.149254" />
-                                <point x="1" y="0.30737" />
-                                <point x="1" y="0.704291" />
-                                <point x="0.953303" y="0.860075" />
-                                <point x="0.813212" y="1" />
+                                <point x="0.210416" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.0335534" />
+                                <point x="1" y="0.243827" />
+                                <point x="1" y="0.77168" />
+                                <point x="1" y="0.978853" />
+                                <point x="1" y="1" />
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.370874" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Carro2.png">
@@ -2144,16 +2180,16 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416747965788541" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.500337" original-source="C:\Projetos\Estacione-se-Puder\Textures\Novo Loading\steering_wheel_PNG16679.png">
+                        <frame duration="1" hotspotX="0.517053" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\volante(1).png">
                             <collision-poly>
-                                <point x="0.147418" y="0.146128" />
-                                <point x="0.5" y="0.0013468" />
-                                <point x="0.855978" y="0.142761" />
-                                <point x="0.998641" y="0.499663" />
-                                <point x="0.849185" y="0.850505" />
-                                <point x="0.5" y="0.998653" />
-                                <point x="0.148098" y="0.853199" />
-                                <point x="0.0013587" y="0.499663" />
+                                <point x="0.130221" y="0.124445" />
+                                <point x="0.51675" y="0" />
+                                <point x="0.907003" y="0.120872" />
+                                <point x="1" y="0.499642" />
+                                <point x="0.899556" y="0.871982" />
+                                <point x="0.51675" y="1" />
+                                <point x="0.130966" y="0.874841" />
+                                <point x="0" y="0.499642" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -2290,7 +2326,7 @@
         <object-type name="PrecoCarro" sid="877173234766327">
             <plugin id="Text" />
         </object-type>
-        <object-type global="1" name="CarrosComprados" sid="737290395242474">
+        <object-type global="1" name="array_CarrosComprados" sid="737290395242474">
             <plugin id="Arr" />
         </object-type>
         <object-type name="titulo" sid="340188405744779">
@@ -2343,13 +2379,13 @@
         <object-type name="Musicas" sid="875163646192660">
             <plugin id="Audio" />
         </object-type>
-        <object-type global="1" name="FasesRua" sid="485392884781207">
+        <object-type global="1" name="array_FasesRua" sid="485392884781207">
             <plugin id="Arr" />
         </object-type>
-        <object-type global="1" name="FasesEstaciona" sid="380256465452725">
+        <object-type global="1" name="array_FasesEstacionamento" sid="380256465452725">
             <plugin id="Arr" />
         </object-type>
-        <object-type global="1" name="Configuracoes" sid="755012639919032">
+        <object-type global="1" name="array_Configurações" sid="755012639919032">
             <plugin id="Arr" />
         </object-type>
         <object-type name="infoNomeChar" sid="319334389026085">
@@ -2400,53 +2436,6 @@
                             <point x="0.00884956" y="0.487805" />
                         </collision-poly>
                     </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="BotaoJogar" sid="903310962884983">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="843001132744281" speed="5">
-                    <frame duration="1" hotspotX="0.510417" hotspotY="0.458333" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\BotaoJogar.png">
-                        <collision-poly>
-                            <point x="0.510417" y="0.354167" />
-                            <point x="0.875" y="0.458333" />
-                            <point x="0.510417" y="0.979167" />
-                            <point x="0.0104167" y="0.458333" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="BotaoOpcoes" sid="214507353764476">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="540571031037708" speed="5">
-                    <frame duration="1" hotspotX="0.530435" hotspotY="0.458333" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Opcoes.png">
-                        <collision-poly>
-                            <point x="0.00869565" y="0.770833" />
-                            <point x="0.530435" y="0.229167" />
-                            <point x="0.93913" y="0.458333" />
-                            <point x="0.530435" y="0.833333" />
-                            <point x="0.00869565" y="0.145833" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="BotaoSair" sid="849387670222337">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="975583353732971" speed="5">
-                    <frame duration="1" hotspotX="0.575758" hotspotY="0.487805" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Sair.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="BotaoLoja" sid="302605286541428">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="444940035181480" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.434783" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Loja.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2542,11 +2531,11 @@
         <object-type name="newCarro" sid="412215256106520">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="8Direction" sid="158900101918175">
-                    <behavior id="EightDir" />
-                </behavior-type>
                 <behavior-type name="ScrollTo" sid="478294288842961">
                     <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="253112881935010">
+                    <behavior id="EightDir" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -2600,6 +2589,14 @@
         </object-type>
         <object-type name="selecaoVolta" sid="583085236858245">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="coluna" sid="825788120515753">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="607926419665681" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Edifício10 clone(1).png" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
@@ -2660,6 +2657,7 @@
             <event-sheet>Eventos Save.xml</event-sheet>
             <event-sheet>Eventos Load.xml</event-sheet>
             <event-sheet>Evento Menu de Pausa.xml</event-sheet>
+            <event-sheet>Configurações.xml</event-sheet>
         </event-folder>
         <event-folder name="Capítulo 1">
             <event-sheet>Eventos Cap1 Fase1.xml</event-sheet>
@@ -2708,8 +2706,8 @@
         </event-folder>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="2" />
-        <global-instance type="Touch" uid="74">
+        <global-instance type="Teclado" uid="2" />
+        <global-instance type="Toque" uid="74">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>

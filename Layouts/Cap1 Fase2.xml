@@ -2444,11 +2444,11 @@
                         <x>61</x>
                         <y>76</y>
                         <z>0</z>
-                        <width>52</width>
-                        <height>34</height>
+                        <width>91.207290649</width>
+                        <height>97.686569214</height>
                         <depth>0</depth>
-                        <hotspotX>0.439635545</hotspotX>
-                        <hotspotY>-0.003731343</hotspotY>
+                        <hotspotX>0.384415597</hotspotX>
+                        <hotspotY>-0.170129865</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

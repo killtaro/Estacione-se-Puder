@@ -33,7 +33,7 @@
             <sub-events>
                 <event-block sid="131721304030288">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="141387776572029" type="Touch">
+                        <condition id="3" name="On touched object" sid="141387776572029" type="Toque">
                             <param id="0" name="Object">BotaoPausar</param>
                         </condition>
                     </conditions>
@@ -84,7 +84,7 @@
                 <comment>vai para o layout de configurações</comment>
                 <event-block disabled="1" sid="628400725244438">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="518335411275432" type="Touch">
+                        <condition id="3" name="On touched object" sid="518335411275432" type="Toque">
                             <param id="0" name="Object">OpcoesPausa</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="542637708818344" type="System">
@@ -95,7 +95,7 @@
                 </event-block>
                 <event-block disabled="1" sid="667620836558613">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="651604659571082" type="Touch">
+                        <condition id="3" name="On touched object" sid="651604659571082" type="Toque">
                             <param id="0" name="Object">VoltarAoMenu</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="250218133814302" type="System">
@@ -122,7 +122,7 @@
                 </event-block>
                 <event-block disabled="1" sid="169370914845835">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="440275189427617" type="Touch">
+                        <condition id="3" name="On touched object" sid="440275189427617" type="Toque">
                             <param id="0" name="Object">SalvarPausa</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="121367538024137" type="System">
@@ -149,7 +149,7 @@
             <sub-events>
                 <event-block sid="180641611663565">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="197776335197465" type="Touch">
+                        <condition id="3" name="On touched object" sid="197776335197465" type="Toque">
                             <param id="0" name="Object">VoltarAoMenu</param>
                         </condition>
                     </conditions>
@@ -173,7 +173,7 @@
                 </event-block>
                 <event-block sid="961667850751181">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="799119948306174" type="Touch">
+                        <condition id="3" name="On touched object" sid="799119948306174" type="Toque">
                             <param id="0" name="Object">SalvarPausa</param>
                         </condition>
                     </conditions>

@@ -19,7 +19,7 @@
             <sub-events>
                 <event-block sid="507464019595006">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="794826260647977" type="Touch">
+                        <condition id="3" name="On touched object" sid="794826260647977" type="Toque">
                             <param id="0" name="Object">infoFase</param>
                         </condition>
                     </conditions>
@@ -45,7 +45,7 @@
             <sub-events>
                 <event-block sid="153436805382611">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="489565245797251" type="Touch">
+                        <condition id="3" name="On touched object" sid="489565245797251" type="Toque">
                             <param id="0" name="Object">infoFase</param>
                         </condition>
                     </conditions>

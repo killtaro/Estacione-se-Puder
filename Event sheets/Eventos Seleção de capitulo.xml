@@ -6,7 +6,7 @@
         <comment>Troca o capitulo na tela</comment>
         <event-block sid="369115675269240">
             <conditions>
-                <condition id="3" name="On touched object" sid="629153507353633" type="Touch">
+                <condition id="3" name="On touched object" sid="629153507353633" type="Toque">
                     <param id="0" name="Object">SetaDireita</param>
                 </condition>
                 <condition id="-9" name="Layer is visible" sid="244235371062965" type="System">
@@ -26,7 +26,7 @@
         </event-block>
         <event-block sid="622010936371318">
             <conditions>
-                <condition id="3" name="On touched object" sid="669594417492992" type="Touch">
+                <condition id="3" name="On touched object" sid="669594417492992" type="Toque">
                     <param id="0" name="Object">SetaEsquerda</param>
                 </condition>
                 <condition id="-9" name="Layer is visible" sid="746485690575888" type="System">
@@ -47,7 +47,7 @@
         <comment>Seleciona o capitulo a ser jogado</comment>
         <event-block sid="178781674346678">
             <conditions>
-                <condition id="3" name="On touched object" sid="947866917809429" type="Touch">
+                <condition id="3" name="On touched object" sid="947866917809429" type="Toque">
                     <param id="0" name="Object">btnInicio</param>
                 </condition>
                 <condition id="-9" name="Layer is visible" sid="671648685855450" type="System">
@@ -62,7 +62,7 @@
         </event-block>
         <event-block sid="546380711034012">
             <conditions>
-                <condition id="3" name="On touched object" sid="752192878328208" type="Touch">
+                <condition id="3" name="On touched object" sid="752192878328208" type="Toque">
                     <param id="0" name="Object">btnInicio</param>
                 </condition>
                 <condition id="-9" name="Layer is visible" sid="912460335452870" type="System">

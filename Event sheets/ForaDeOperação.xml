@@ -5,7 +5,7 @@
     <events>
         <event-block sid="569105984475162">
             <conditions>
-                <condition id="3" name="On touched object" sid="119381593075842" type="Touch">
+                <condition id="3" name="On touched object" sid="119381593075842" type="Toque">
                     <param id="0" name="Object">VoltarAoMenu</param>
                 </condition>
             </conditions>

@@ -19,8 +19,8 @@
         </event-block>
         <event-block sid="778442425061132">
             <conditions>
-                <condition id="3" name="On touched object" sid="538099324377868" type="Touch">
-                    <param id="0" name="Object">BotaoCampanha</param>
+                <condition id="3" name="On touched object" sid="538099324377868" type="Toque">
+                    <param id="0" name="Object">selecaoCampanha</param>
                 </condition>
             </conditions>
             <actions>
@@ -31,8 +31,8 @@
         </event-block>
         <event-block sid="203061081323607">
             <conditions>
-                <condition id="3" name="On touched object" sid="482112135966930" type="Touch">
-                    <param id="0" name="Object">BotaoVoltar</param>
+                <condition id="3" name="On touched object" sid="482112135966930" type="Toque">
+                    <param id="0" name="Object">selecaoVolta</param>
                 </condition>
             </conditions>
             <actions>
@@ -41,22 +41,10 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="946636108933970">
-            <conditions>
-                <condition id="3" name="On touched object" sid="601022994900574" type="Touch">
-                    <param id="0" name="Object">BotaoLoja</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="935548575534343" type="System">
-                    <param id="0" name="Layout">Loja</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="416697354833901">
             <conditions>
-                <condition id="3" name="On touched object" sid="159557485632826" type="Touch">
-                    <param id="0" name="Object">BotaoArrancada</param>
+                <condition id="3" name="On touched object" sid="159557485632826" type="Toque">
+                    <param id="0" name="Object">selecaoArrancada</param>
                 </condition>
             </conditions>
             <actions>

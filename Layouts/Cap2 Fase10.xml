@@ -4311,11 +4311,11 @@
                         <x>160.007446289</x>
                         <y>160</y>
                         <z>0</z>
-                        <width>52</width>
-                        <height>32</height>
+                        <width>91.207290649</width>
+                        <height>91.940299988</height>
                         <depth>0</depth>
-                        <hotspotX>0.439635545</hotspotX>
-                        <hotspotY>-0.003731343</hotspotY>
+                        <hotspotX>0.384415597</hotspotX>
+                        <hotspotY>-0.170129865</hotspotY>
                         <angle>0.008197344</angle>
                         <opacity>1</opacity>
                     </world>

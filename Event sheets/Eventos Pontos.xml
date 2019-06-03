@@ -184,7 +184,7 @@
             <sub-events>
                 <event-block sid="894459006625400">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="592144213854484" type="Touch">
+                        <condition id="3" name="On touched object" sid="592144213854484" type="Toque">
                             <param id="0" name="Object">btnContinuar</param>
                         </condition>
                     </conditions>
@@ -201,7 +201,7 @@
                 </event-block>
                 <event-block sid="879219197818558">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="768227377733612" type="Touch">
+                        <condition id="3" name="On touched object" sid="768227377733612" type="Toque">
                             <param id="0" name="Object">btnBackMenu</param>
                         </condition>
                     </conditions>
