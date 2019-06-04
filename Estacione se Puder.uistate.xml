@@ -16,7 +16,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="1">Eventos Configurações</event-sheet>
         <event-sheet order="2">Eventos Controle Mobile</event-sheet>
         <event-sheet order="4">Eventos Prologo</event-sheet>
-        <event-sheet active="1" order="6">Evento Menu de Pausa</event-sheet>
+        <event-sheet order="6">Evento Menu de Pausa</event-sheet>
+        <event-sheet active="1" order="7">Configurações</event-sheet>
+        <event-sheet order="8">Eventos Cap1 Fase1</event-sheet>
+        <event-sheet order="9">Eventos Andares</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -36,7 +39,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Detalhes/" />
         <folder expanded="0" path="object-folder/Textos/" />
         <folder expanded="0" path="object-folder/Textos/Números Separados/" />
-        <folder expanded="0" path="object-folder/Carros Estacionados/" />
+        <folder expanded="1" path="object-folder/Carros Estacionados/" />
         <folder expanded="0" path="object-folder/CarroSelecao/" />
         <folder expanded="0" path="object-folder/Gatilhos/" />
         <folder expanded="0" path="object-folder/Cadastro Player/" />

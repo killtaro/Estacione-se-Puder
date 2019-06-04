@@ -5,7 +5,7 @@
     <events>
         <event-block sid="777800767616283">
             <conditions>
-                <condition id="-16" name="Is on layer" sid="674814323179412" type="carro">
+                <condition id="-16" name="Is on layer" sid="674814323179412" type="newCarro">
                     <param id="0" name="Layer">&quot;Terreo&quot;</param>
                 </condition>
             </conditions>
@@ -735,7 +735,7 @@
         </event-block>
         <event-block sid="963022188275871">
             <conditions>
-                <condition id="-16" name="Is on layer" sid="344672899411112" type="carro">
+                <condition id="-16" name="Is on layer" sid="344672899411112" type="newCarro">
                     <param id="0" name="Layer">&quot;1Andar&quot;</param>
                 </condition>
             </conditions>
@@ -1465,7 +1465,7 @@
         </event-block>
         <event-block sid="255212466524183">
             <conditions>
-                <condition id="-16" name="Is on layer" sid="491937187525772" type="carro">
+                <condition id="-16" name="Is on layer" sid="491937187525772" type="newCarro">
                     <param id="0" name="Layer">&quot;2Andar&quot;</param>
                 </condition>
             </conditions>

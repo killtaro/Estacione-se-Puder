@@ -1247,341 +1247,308 @@
         <object-folder name="Carros Estacionados">
             <object-type name="carroEstacionado9" sid="783610894164303">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="680415089033360" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="222814619255547">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506856588331148" speed="5">
-                        <frame duration="1" hotspotX="0.526119" hotspotY="0.453865" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(4).png">
-                            <collision-poly>
-                                <point x="0" y="0.137157" />
-                                <point x="0.0858209" y="0.0523691" />
-                                <point x="0.227612" y="0" />
-                                <point x="0.787313" y="0" />
-                                <point x="0.910447" y="0.0573566" />
-                                <point x="1" y="0.135787" />
-                                <point x="1" y="0.975658" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0.975658" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506856588331148" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado8" sid="437206292026584">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="590506027705218" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="110378441744673">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186435793777405" speed="5">
-                        <frame duration="1" hotspotX="0.720149" hotspotY="0.985037" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(3).png">
-                            <collision-poly>
-                                <point x="0" y="0.134663" />
-                                <point x="0.0820895" y="0.0448878" />
-                                <point x="0.220149" y="0" />
-                                <point x="0.794776" y="0" />
-                                <point x="0.921642" y="0.0473815" />
-                                <point x="1" y="0.148256" />
-                                <point x="1" y="0.975658" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0.975658" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186435793777405" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado7" sid="493325250058739">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="462617574994973" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="932813904504041">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894779112743620" speed="5">
-                        <frame duration="1" hotspotX="0.485075" hotspotY="0.461347" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(2).png">
-                            <collision-poly>
-                                <point x="0" y="0.134663" />
-                                <point x="0.0820896" y="0.0498753" />
-                                <point x="0.220149" y="0" />
-                                <point x="0.776119" y="0" />
-                                <point x="0.91791" y="0.0448878" />
-                                <point x="1" y="0.1308" />
-                                <point x="1" y="0.975658" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0.975658" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894779112743620" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado6" sid="511876861748460">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="983060845888862" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="716862157387245">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="799278208648956" speed="5">
-                        <frame duration="1" hotspotX="0.720149" hotspotY="0.985037" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(1).png">
-                            <collision-poly>
-                                <point x="0" y="0.147132" />
-                                <point x="0.0746269" y="0.0498753" />
-                                <point x="0.19403" y="0" />
-                                <point x="0.787313" y="0" />
-                                <point x="0.929105" y="0.0473816" />
-                                <point x="1" y="0.140775" />
-                                <point x="1" y="0.975658" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0.975658" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="799278208648956" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado5" sid="341518968027869">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="724841304255628" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="267495252297649">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="379011191047282" speed="5">
-                        <frame duration="1" hotspotX="0.570895" hotspotY="0.668329" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro10 Estacionado4.png">
-                            <collision-poly>
-                                <point x="0" y="0.137157" />
-                                <point x="0.0820895" y="0.0473815" />
-                                <point x="0.218284" y="0" />
-                                <point x="0.779851" y="0" />
-                                <point x="0.923507" y="0.0524016" />
-                                <point x="1" y="0.157172" />
-                                <point x="1" y="0.663472" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0.663472" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="379011191047282" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado4" sid="837661886254449">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="565365834506804" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="193646494551815">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637806035120964" speed="5">
-                        <frame duration="1" hotspotX="0.570895" hotspotY="0.668329" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro10 Estacionado3.png">
-                            <collision-poly>
-                                <point x="0" y="0.142145" />
-                                <point x="0.0820895" y="0.0498753" />
-                                <point x="0.225746" y="0" />
-                                <point x="0.787313" y="0.00124687" />
-                                <point x="0.925373" y="0.0542394" />
-                                <point x="1" y="0.142145" />
-                                <point x="1" y="0.663472" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0.663472" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637806035120964" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado3" sid="652472608772661">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="340804721070373" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="212027555133222">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365704531630476" speed="5">
-                        <frame duration="1" hotspotX="0.570895" hotspotY="0.668329" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro10 Estacionado2.png">
-                            <collision-poly>
-                                <point x="0" y="0.144638" />
-                                <point x="0.0820896" y="0.0523691" />
-                                <point x="0.22388" y="0" />
-                                <point x="0.772388" y="0" />
-                                <point x="0.910448" y="0.0511873" />
-                                <point x="1" y="0.15212" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0.663472" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365704531630476" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado2" sid="854590272236678">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="487488148993021" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="982940272085833">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703155429327295" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.501247" original-source="C:\Projetos\Estacione-se-Puder\Animations\carroEstacionado\Default\004.png">
-                            <collision-poly>
-                                <point x="0.0746269" y="0.0498753" />
-                                <point x="0.238806" y="0" />
-                                <point x="0.779851" y="0" />
-                                <point x="0.925373" y="0.0498753" />
-                                <point x="1" y="0.157107" />
-                                <point x="0.996269" y="0.997506" />
-                                <point x="0.00373134" y="0.997506" />
-                                <point x="0" y="0.144638" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703155429327295" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado14" sid="462157544037012">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="517665838983321" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="447065254288814">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="474134394692071" speed="5">
-                        <frame duration="1" hotspotX="0.511194" hotspotY="0.436409" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado.png">
-                            <collision-poly>
-                                <point x="0" y="0.157107" />
-                                <point x="0.0820896" y="0.0473815" />
-                                <point x="0.238806" y="0" />
-                                <point x="0.787313" y="0" />
-                                <point x="0.921642" y="0.0548628" />
-                                <point x="1" y="0.147132" />
-                                <point x="1" y="1" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="1" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="474134394692071" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado13" sid="778458883472458">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="895247512588511" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="169274482654106">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424968054176665" speed="5">
-                        <frame duration="1" hotspotX="0.481343" hotspotY="0.586035" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(8).png">
-                            <collision-poly>
-                                <point x="0" y="0.129676" />
-                                <point x="0.0858209" y="0.0523691" />
-                                <point x="0.212687" y="0" />
-                                <point x="0.787313" y="0" />
-                                <point x="0.91791" y="0.0573566" />
-                                <point x="1" y="0.139651" />
-                                <point x="1" y="1" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="1" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424968054176665" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado12" sid="219383989652479">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="592641498205380" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="278098275687946">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="562450522484159" speed="5">
-                        <frame duration="1" hotspotX="0.485075" hotspotY="0.591022" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(7).png">
-                            <collision-poly>
-                                <point x="0" y="0.139651" />
-                                <point x="0.0895522" y="0.0498753" />
-                                <point x="0.227612" y="0" />
-                                <point x="0.791045" y="0" />
-                                <point x="0.932836" y="0.0448878" />
-                                <point x="1" y="0.144638" />
-                                <point x="1" y="1" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="1" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="562450522484159" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado11" sid="297773234692457">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="837161279024228" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="257052322237373">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="904507585550451" speed="5">
-                        <frame duration="1" hotspotX="0.720149" hotspotY="0.985037" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(6).png">
-                            <collision-poly>
-                                <point x="0" y="0.144638" />
-                                <point x="0.0820896" y="0.0473815" />
-                                <point x="0.212687" y="0" />
-                                <point x="0.776119" y="0" />
-                                <point x="0.936567" y="0.0548628" />
-                                <point x="1" y="0.140775" />
-                                <point x="1" y="0.975658" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0.975658" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="904507585550451" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado10" sid="536826346282150">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="285965398567374" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="543373003717394">
                         <behavior id="solid" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663875033902350" speed="5">
-                        <frame duration="1" hotspotX="0.720149" hotspotY="0.985037" original-source="C:\Users\pixel\Downloads\Carro10 Estacionado(5).png">
-                            <collision-poly>
-                                <point x="0" y="0.127182" />
-                                <point x="0.0820895" y="0.0548628" />
-                                <point x="0.216418" y="0" />
-                                <point x="0.783582" y="0.00498753" />
-                                <point x="0.925373" y="0.0523691" />
-                                <point x="1" y="0.143269" />
-                                <point x="1" y="0.975658" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0.975658" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663875033902350" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="carroEstacionado1" sid="701218169407255">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="759925580294836" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="885643985440430">
                         <behavior id="solid" />
@@ -1589,16 +1556,16 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="718978879906912" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.501247" original-source="C:\Projetos\Estacione-se-Puder\Animations\carroEstacionado\Default\000.png">
+                        <frame duration="1" hotspotX="0.659639" hotspotY="0.157729" original-source="C:\Users\pixel\Downloads\carro2.gif">
                             <collision-poly>
-                                <point x="0.0746269" y="0.0498753" />
-                                <point x="0.227612" y="0" />
-                                <point x="0.783582" y="0.00249377" />
-                                <point x="0.917911" y="0.0511221" />
-                                <point x="1" y="0.147132" />
-                                <point x="0.996269" y="0.997506" />
-                                <point x="0.00373134" y="0.997506" />
-                                <point x="0" y="0.159601" />
+                                <point x="0" y="0" />
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -2539,7 +2506,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="842120541293018" speed="5">
+                <animation framecount="8" loop="0" name="carro1" pingpong="0" repeatcount="1" repeatto="0" sid="842120541293018" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5128" hotspotY="0.476261" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.47377" />
@@ -2548,6 +2515,27 @@
                     <frame duration="1" hotspotX="0.484877" hotspotY="0.51995" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.47377" />
                     <frame duration="1" hotspotX="0.4872" hotspotY="0.476261" />
+                </animation>
+                <animation framecount="8" loop="0" name="carro2" pingpong="0" repeatcount="1" repeatto="0" sid="272524721696749" speed="5">
+                    <frame duration="1" hotspotX="0.570997" hotspotY="0.321203" original-source="C:\Users\pixel\Downloads\carro2(1).gif">
+                        <collision-poly>
+                            <point x="0.0468278" y="0.238924" />
+                            <point x="0.522659" y="0.00158228" />
+                            <point x="0.998489" y="0.238924" />
+                            <point x="0.998489" y="0.428797" />
+                            <point x="0.907855" y="0.523734" />
+                            <point x="0.522659" y="0.998418" />
+                            <point x="0.137462" y="0.523734" />
+                            <point x="0.00151057" y="0.428797" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500846" hotspotY="0.43508" />
+                    <frame duration="1" hotspotX="0.516393" hotspotY="0.421488" />
+                    <frame duration="1" hotspotX="0.516393" hotspotY="0.428928" />
+                    <frame duration="1" hotspotX="0.501139" hotspotY="0.389535" />
+                    <frame duration="1" hotspotX="0.485246" hotspotY="0.428928" />
+                    <frame duration="1" hotspotX="0.485246" hotspotY="0.421488" />
+                    <frame duration="1" hotspotX="0.500846" hotspotY="0.43508" />
                 </animation>
             </animation-folder>
         </object-type>

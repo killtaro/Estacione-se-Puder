@@ -393,5 +393,86 @@
                 </event-group>
             </sub-events>
         </event-group>
+        <event-block sid="277657764199673">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="129491579618250" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="109952657573243" type="newCarro">
+                    <param id="0" name="Width">32</param>
+                    <param id="1" name="Height">32</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="163916494110650">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="396425985141597" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="247175077744605" type="carroEstacionado1">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="247855040253259" type="carroEstacionado10">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="835072171579782" type="carroEstacionado11">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="981594965850471" type="carroEstacionado12">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="938256182217497" type="carroEstacionado13">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="968081536637147" type="carroEstacionado14">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="727230373258119" type="carroEstacionado2">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="315314434282290" type="carroEstacionado3">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="766257440258981" type="carroEstacionado4">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="434318243165319" type="carroEstacionado5">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="367799648674618" type="carroEstacionado6">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="511758193345589" type="carroEstacionado7">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="919873649989450" type="carroEstacionado8">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+                <action id="5" name="Set frame" sid="175557469847095" type="carroEstacionado9">
+                    <param id="0" name="Frame number">Self.frame</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="861982962106545">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="367825936496829" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="791236188633041" type="carroEstacionado1" />
+                <action id="2" name="Stop" sid="427761754458095" type="carroEstacionado10" />
+                <action id="2" name="Stop" sid="300510029355404" type="carroEstacionado11" />
+                <action id="2" name="Stop" sid="825930854117207" type="carroEstacionado12" />
+                <action id="2" name="Stop" sid="468254687241580" type="carroEstacionado13" />
+                <action id="2" name="Stop" sid="154179493702152" type="carroEstacionado14" />
+                <action id="2" name="Stop" sid="845990465815812" type="carroEstacionado2" />
+                <action id="2" name="Stop" sid="681352097187789" type="carroEstacionado3" />
+                <action id="2" name="Stop" sid="669727173040034" type="carroEstacionado4" />
+                <action id="2" name="Stop" sid="278962708603515" type="carroEstacionado5" />
+                <action id="2" name="Stop" sid="735021365517960" type="carroEstacionado6" />
+                <action id="2" name="Stop" sid="896105092484530" type="carroEstacionado7" />
+                <action id="2" name="Stop" sid="719216286804455" type="carroEstacionado8" />
+                <action id="2" name="Stop" sid="420141930431437" type="carroEstacionado9" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -2262,6 +2262,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2275,11 +2278,11 @@
                         <x>1151.113647461</x>
                         <y>1029.141723633</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2291,6 +2294,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2304,11 +2310,11 @@
                         <x>1086.635620117</x>
                         <y>1026.969116211</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2320,6 +2326,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2333,11 +2342,11 @@
                         <x>1022.489562988</x>
                         <y>1025.942382813</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2349,6 +2358,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2362,11 +2374,11 @@
                         <x>960.911254883</x>
                         <y>1027.483276367</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2378,6 +2390,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2391,11 +2406,11 @@
                         <x>894.286010742</x>
                         <y>1026.456542969</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2407,6 +2422,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2420,11 +2438,11 @@
                         <x>831.680908203</x>
                         <y>1025.942382813</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2436,6 +2454,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2449,11 +2470,11 @@
                         <x>767.536437988</x>
                         <y>1027.995849609</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2465,6 +2486,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2478,11 +2502,11 @@
                         <x>704.418823242</x>
                         <y>1024.915649414</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2494,6 +2518,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2507,11 +2534,11 @@
                         <x>705.443969727</x>
                         <y>783.732543945</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2523,6 +2550,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2536,11 +2566,11 @@
                         <x>764.971862793</x>
                         <y>780.65222168</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2552,6 +2582,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2565,11 +2598,11 @@
                         <x>831.166748047</x>
                         <y>783.730957031</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2581,6 +2614,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2594,11 +2630,11 @@
                         <x>891.207275391</x>
                         <y>780.139587402</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2610,6 +2646,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2623,11 +2662,11 @@
                         <x>959.971374512</x>
                         <y>784.245117188</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2639,6 +2678,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2652,11 +2694,11 @@
                         <x>1086.309204102</x>
                         <y>784.245117188</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2668,6 +2710,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2681,11 +2726,11 @@
                         <x>1218.229248047</x>
                         <y>781.678955078</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2697,6 +2742,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2710,11 +2758,11 @@
                         <x>1024.500488281</x>
                         <y>780.141235352</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>-0.024405962</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2726,6 +2774,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <frame>0</frame>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2739,11 +2790,11 @@
                         <x>1149.735595703</x>
                         <y>782.19317627</y>
                         <z>0</z>
-                        <width>34.974731445</width>
-                        <height>57.921203613</height>
+                        <width>43.326904297</width>
+                        <height>45.788082123</height>
                         <depth>0</depth>
-                        <hotspotX>0.485074639</hotspotX>
-                        <hotspotY>0.461346626</hotspotY>
+                        <hotspotX>0.52409637</hotspotX>
+                        <hotspotY>0.429022074</hotspotY>
                         <angle>0.025282616</angle>
                         <opacity>1</opacity>
                     </world>
