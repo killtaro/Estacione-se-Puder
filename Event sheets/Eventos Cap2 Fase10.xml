@@ -19,16 +19,11 @@
             </actions>
         </event-block>
         <event-block sid="387979548047364">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="163502106976707" type="carro">
-                    <param id="0" name="Object">Final</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="0" name="Set text" sid="741352565968917" type="Pontos">
                     <param id="0" name="Text">Pontos</param>
                 </action>
-                <action id="-9" name="Destroy" sid="129948687914669" type="carro" />
                 <action id="-4" name="Set layer visible" sid="195157731139098" type="System">
                     <param id="0" name="Layer">5</param>
                     <param id="1" name="Visibility">1</param>

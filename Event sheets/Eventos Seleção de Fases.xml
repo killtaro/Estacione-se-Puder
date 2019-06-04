@@ -6,11 +6,7 @@
         <include>Eventos Controle Mobile</include>
         <include>Eventos Carros</include>
         <event-block sid="970711456874150">
-            <conditions>
-                <condition id="1" name="Is overlapping another object" sid="424052618931233" type="carro">
-                    <param id="0" name="Object">asfalto1</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="0" name="Set text" sid="608249143027564" type="infoFase">
                     <param id="0" name="Text">&quot;Estacionamento&quot;</param>
@@ -32,11 +28,7 @@
             </sub-events>
         </event-block>
         <event-block sid="607384072420670">
-            <conditions>
-                <condition id="1" name="Is overlapping another object" sid="135983439978612" type="carro">
-                    <param id="0" name="Object">asfalto2</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="0" name="Set text" sid="171516866209770" type="infoFase">
                     <param id="0" name="Text">&quot;Rua&quot;</param>

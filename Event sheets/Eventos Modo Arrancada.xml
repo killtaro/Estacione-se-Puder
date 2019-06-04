@@ -40,7 +40,6 @@
                         <condition id="-6" name="Every X seconds" sid="274775273104551" type="System">
                             <param id="0" name="Interval (seconds)">1</param>
                         </condition>
-                        <condition behavior="Car" id="0" name="Is moving" sid="644836057310956" type="carro" />
                     </conditions>
                     <actions>
                         <action id="-10" name="Add to" sid="286623051473256" type="System">
@@ -100,11 +99,7 @@
         <event-group description="" sid="604389850572806" title="AcabaCorridaPlayer">
             <sub-events>
                 <event-block sid="740008401711245">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="496616914757034" type="carro">
-                            <param id="0" name="Object">Gatilho_vitoria</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action behavior="Car" id="0" name="Stop" sid="527277204059327" type="Inimigos" />
                         <action id="-12" name="Set group active" sid="977482587576409" type="System">

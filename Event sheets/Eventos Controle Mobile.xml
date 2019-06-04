@@ -11,11 +11,7 @@
                             <param id="0" name="Object">controle_SetaDireita</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action behavior="Car" id="7" name="Simulate control" sid="449318076307865" type="carro">
-                            <param id="0" name="Control">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block disabled="1" sid="793076862050290">
                     <conditions>
@@ -23,11 +19,7 @@
                             <param id="0" name="Object">controle_SetaEsquerda</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action behavior="Car" id="7" name="Simulate control" sid="360965634182942" type="carro">
-                            <param id="0" name="Control">0</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block disabled="1" sid="478074265643504">
                     <conditions>
@@ -35,11 +27,7 @@
                             <param id="0" name="Object">controle_Acelerador</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action behavior="Car" id="7" name="Simulate control" sid="836116964739044" type="carro">
-                            <param id="0" name="Control">2</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block disabled="1" sid="149940626361723">
                     <conditions>
@@ -47,11 +35,7 @@
                             <param id="0" name="Object">controle_Freio</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action behavior="Car" id="7" name="Simulate control" sid="460645007651112" type="carro">
-                            <param id="0" name="Control">3</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block disabled="1" sid="219531625078793">
                     <conditions>

@@ -14,14 +14,7 @@
             <conditions>
                 <condition id="-1" name="Every tick" sid="964838979502141" type="System" />
             </conditions>
-            <actions>
-                <action behavior="Car" id="7" name="Simulate control" sid="871698200560367" type="carro">
-                    <param id="0" name="Control">2</param>
-                </action>
-                <action behavior="Car" id="7" name="Simulate control" sid="874180813411089" type="carro">
-                    <param id="0" name="Control">1</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <event-block sid="974748072451258">
             <conditions>

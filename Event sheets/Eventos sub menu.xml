@@ -8,14 +8,7 @@
             <conditions>
                 <condition id="-1" name="Every tick" sid="150333829174538" type="System" />
             </conditions>
-            <actions>
-                <action behavior="Car" id="7" name="Simulate control" sid="294231577452266" type="carro">
-                    <param id="0" name="Control">2</param>
-                </action>
-                <action behavior="Car" id="7" name="Simulate control" sid="717390041406912" type="carro">
-                    <param id="0" name="Control">1</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <event-block sid="778442425061132">
             <conditions>

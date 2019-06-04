@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap1 Fase2</name>
     <events>
+        <include>Configurações</include>
         <include>Eventos Andares</include>
         <include>Evento Menu de Pausa</include>
         <include>Eventos Pontos</include>
@@ -21,20 +22,14 @@
         </event-block>
         <event-block sid="393058028811708">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="811740899097369" type="carro">
+                <condition id="0" name="On collision with another object" sid="337837237189439" type="newCarro">
                     <param id="0" name="Object">Gatilho_layer</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-26" name="Move to layer" sid="795319232959309" type="carro">
-                    <param id="0" name="Layer">1</param>
-                </action>
                 <action id="-4" name="Set layer visible" sid="691224957510560" type="System">
                     <param id="0" name="Layer">1</param>
                     <param id="1" name="Visibility">1</param>
-                </action>
-                <action id="-8" name="Set angle" sid="747983731665896" type="carro">
-                    <param id="0" name="Angle">184.634</param>
                 </action>
             </actions>
         </event-block>

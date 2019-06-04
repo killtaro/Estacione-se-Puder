@@ -10,16 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Cap1 Fase1</layout>
-        <layout order="3">Prologo</layout>
-        <layout order="5">Cap2 Fase3</layout>
-        <event-sheet order="1">Eventos Configurações</event-sheet>
-        <event-sheet order="2">Eventos Controle Mobile</event-sheet>
-        <event-sheet order="4">Eventos Prologo</event-sheet>
-        <event-sheet order="6">Evento Menu de Pausa</event-sheet>
-        <event-sheet active="1" order="7">Configurações</event-sheet>
-        <event-sheet order="8">Eventos Cap1 Fase1</event-sheet>
-        <event-sheet order="9">Eventos Andares</event-sheet>
+        <layout order="0">Cap1 Fase2</layout>
+        <event-sheet order="1">Eventos Cap1 Fase2</event-sheet>
+        <event-sheet order="2">Eventos Andares</event-sheet>
+        <event-sheet active="1" order="3">Eventos Pontos</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -92,7 +86,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/controle_Freio/" />
         <folder expanded="1" path="animation-folder/controle_SetaCima/" />
         <folder expanded="1" path="animation-folder/controle_SetaBaixo/" />
-        <folder expanded="1" path="animation-folder/carro/" />
         <folder expanded="1" path="animation-folder/buraco1/" />
         <folder expanded="1" path="animation-folder/buraco2/" />
         <folder expanded="1" path="animation-folder/buraco3/" />

@@ -94,46 +94,20 @@
             </sub-events>
         </event-block>
         <event-block sid="988690193692052">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="996522954896516" type="carro">
-                    <param id="0" name="Object">Gatilho_layer</param>
-                </condition>
-                <condition id="-16" name="Is on layer" sid="500262617298357" type="carro">
-                    <param id="0" name="Layer">&quot;Terreo&quot;</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-4" name="Set layer visible" sid="658253781626869" type="System">
                     <param id="0" name="Layer">&quot;1Andar&quot;</param>
                     <param id="1" name="Visibility">1</param>
                 </action>
-                <action id="-26" name="Move to layer" sid="973454175937148" type="carro">
-                    <param id="0" name="Layer">&quot;1Andar&quot;</param>
-                </action>
-                <action id="-8" name="Set angle" sid="818275704478343" type="carro">
-                    <param id="0" name="Angle">270</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="712163357199976">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="473941166898555" type="carro">
-                    <param id="0" name="Object">gatilho_layer2</param>
-                </condition>
-                <condition id="-16" name="Is on layer" sid="633867074122203" type="carro">
-                    <param id="0" name="Layer">&quot;1Andar&quot;</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-4" name="Set layer visible" sid="131507516240132" type="System">
                     <param id="0" name="Layer">&quot;2Andar&quot;</param>
                     <param id="1" name="Visibility">1</param>
-                </action>
-                <action id="-26" name="Move to layer" sid="110607737532616" type="carro">
-                    <param id="0" name="Layer">&quot;2Andar&quot;</param>
-                </action>
-                <action id="-8" name="Set angle" sid="862201654773190" type="carro">
-                    <param id="0" name="Angle">0</param>
                 </action>
             </actions>
         </event-block>

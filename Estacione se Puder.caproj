@@ -24,7 +24,6 @@
         <behavior author="Scirra" id="Car" version="1">Car</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
-        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -548,148 +547,7 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-folder name="Player">
-            <object-type name="carro" sid="236195351824496">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Car" sid="132543584272972">
-                        <behavior id="Car" />
-                    </behavior-type>
-                    <behavior-type name="BoundToLayout" sid="343495674925350">
-                        <behavior id="bound" />
-                    </behavior-type>
-                    <behavior-type name="ScrollTo" sid="256347100117144">
-                        <behavior id="scrollto" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="539104986536067" speed="5">
-                        <frame duration="1" hotspotX="0.384416" hotspotY="-0.17013" original-source="C:\Users\pixel\Downloads\novo carro(2).gif">
-                            <image-point name="Imagepoint 1" x="0.415584" y="-0.17013" />
-                            <image-point name="Imagepoint 2" x="0.580519" y="-0.17013" />
-                            <collision-poly>
-                                <point x="0.21477" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0" />
-                                <point x="0.210416" y="0" />
-                                <point x="1" y="0" />
-                                <point x="1" y="0.0335534" />
-                                <point x="1" y="0.243827" />
-                                <point x="1" y="0.77168" />
-                                <point x="1" y="0.978853" />
-                                <point x="1" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.370874" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Carro2.png">
-                            <collision-poly>
-                                <point x="0.850485" y="0.003268" />
-                                <point x="0.959223" y="0.117647" />
-                                <point x="1" y="0.256536" />
-                                <point x="1" y="0.758579" />
-                                <point x="0.955339" y="0.875" />
-                                <point x="0.850485" y="0.996732" />
-                                <point x="0.370874" y="0.996732" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0" />
-                                <point x="0.370874" y="0.003268" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.480084" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Carro3.png">
-                            <collision-poly>
-                                <point x="1" y="0.317164" />
-                                <point x="1" y="0.544776" />
-                                <point x="1" y="0.705224" />
-                                <point x="0.828092" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0.00209641" y="0.5" />
-                                <point x="0" y="0" />
-                                <point x="0.830189" y="0" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\Carro4.png">
-                            <collision-poly>
-                                <point x="0.792135" y="0" />
-                                <point x="0.962547" y="0.104478" />
-                                <point x="1" y="0.309701" />
-                                <point x="1" y="0.714552" />
-                                <point x="0.945693" y="0.910448" />
-                                <point x="0.775281" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0" />
-                                <point x="0.5" y="0.00373143" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.44466" hotspotY="0.570895" original-source="C:\Users\pixel\Downloads\Carro5.png">
-                            <collision-poly>
-                                <point x="0.951456" y="0.115672" />
-                                <point x="1" y="0.294776" />
-                                <point x="1" y="0.705224" />
-                                <point x="0.945631" y="0.891791" />
-                                <point x="0.848543" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0" />
-                                <point x="0.842718" y="0" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.423387" hotspotY="0.570895" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro6.png">
-                            <collision-poly>
-                                <point x="0.885081" y="0" />
-                                <point x="0.94254" y="0.123134" />
-                                <point x="1" y="0.231343" />
-                                <point x="1" y="0.783582" />
-                                <point x="0.939516" y="0.880597" />
-                                <point x="0.883064" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0.00201613" y="0.570895" />
-                                <point x="0" y="0" />
-                                <point x="0.274194" y="0" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.464419" hotspotY="0.570895" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro7.png">
-                            <collision-poly>
-                                <point x="0.853933" y="0.00373131" />
-                                <point x="0.949438" y="0.106343" />
-                                <point x="1" y="0.291045" />
-                                <point x="1" y="0.699626" />
-                                <point x="0.955056" y="0.895522" />
-                                <point x="0.842697" y="1" />
-                                <point x="0.11236" y="0.99347" />
-                                <point x="0.0580525" y="0.889925" />
-                                <point x="0" y="0.772388" />
-                                <point x="0" y="0.235075" />
-                                <point x="0.0524345" y="0.108209" />
-                                <point x="0.117978" y="0" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.428839" hotspotY="0.470769" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro8.png">
-                            <collision-poly>
-                                <point x="1" y="0.175385" />
-                                <point x="1" y="0.501538" />
-                                <point x="1" y="0.821539" />
-                                <point x="0.883895" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0" />
-                                <point x="0.882022" y="0" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.387479" hotspotY="0.570895" original-source="C:\Users\pixel\Downloads\Estacione\Carros\Carro9.png">
-                            <collision-poly>
-                                <point x="0.967851" y="0.0858209" />
-                                <point x="1" y="0.238806" />
-                                <point x="1" y="0.772388" />
-                                <point x="0.967851" y="0.921642" />
-                                <point x="0.898477" y="1" />
-                                <point x="0.069374" y="1" />
-                                <point x="0" y="0.839552" />
-                                <point x="0" y="0.145522" />
-                                <point x="0.0744501" y="0" />
-                                <point x="0.900169" y="0" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-        </object-folder>
+        <object-folder name="Player" />
         <object-folder name="Obstáculos">
             <object-type name="parede1Frente" sid="306459936002053">
                 <plugin id="TiledBg" />
@@ -1555,19 +1413,15 @@
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="718978879906912" speed="5">
-                        <frame duration="1" hotspotX="0.659639" hotspotY="0.157729" original-source="C:\Users\pixel\Downloads\carro2.gif">
-                            <collision-poly>
-                                <point x="0" y="0" />
-                                <point x="0" y="0" />
-                                <point x="1" y="0" />
-                                <point x="1" y="0" />
-                                <point x="1" y="0" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="718978879906912" speed="5">
+                        <frame duration="1" hotspotX="0.524096" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.516598" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.501441" hotspotY="0.389706" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.429022" />
+                        <frame duration="1" hotspotX="0.485477" hotspotY="0.421603" />
+                        <frame duration="1" hotspotX="0.501071" hotspotY="0.435158" />
                     </animation>
                 </animation-folder>
             </object-type>

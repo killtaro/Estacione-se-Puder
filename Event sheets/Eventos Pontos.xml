@@ -6,12 +6,7 @@
         <event-group description="" sid="163702724781385" title="Pontos">
             <sub-events>
                 <event-block sid="457797978856113">
-                    <conditions>
-                        <condition behavior="Car" id="1" name="Compare speed" sid="118561464860566" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Speed">100</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-10" name="Add to" sid="573135725395452" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -20,12 +15,7 @@
                     </actions>
                 </event-block>
                 <event-block sid="618532077123406">
-                    <conditions>
-                        <condition behavior="Car" id="1" name="Compare speed" sid="232273145127628" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Speed">50</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-10" name="Add to" sid="912266157072840" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -34,12 +24,7 @@
                     </actions>
                 </event-block>
                 <event-block sid="518538135654357">
-                    <conditions>
-                        <condition behavior="Car" id="1" name="Compare speed" sid="610480776198163" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Speed">75</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-10" name="Add to" sid="306098529970151" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -48,12 +33,7 @@
                     </actions>
                 </event-block>
                 <event-block sid="687955376847022">
-                    <conditions>
-                        <condition behavior="Car" id="1" name="Compare speed" sid="967242179808668" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Speed">90</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-10" name="Add to" sid="938816609581221" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -62,12 +42,7 @@
                     </actions>
                 </event-block>
                 <event-block sid="507007459562403">
-                    <conditions>
-                        <condition behavior="Car" id="1" name="Compare speed" sid="525962711110589" type="carro">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Speed">200</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-10" name="Add to" sid="686556267209682" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -76,11 +51,7 @@
                     </actions>
                 </event-block>
                 <event-block sid="446001583216213">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="998917921534806" type="carro">
-                            <param id="0" name="Object">roadBlock</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-11" name="Subtract from" sid="628070642284078" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -89,11 +60,7 @@
                     </actions>
                 </event-block>
                 <event-block sid="415355859892463">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="759504607986929" type="carro">
-                            <param id="0" name="Object">bordaCalcada1</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-11" name="Subtract from" sid="588659388101546" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -102,11 +69,7 @@
                     </actions>
                 </event-block>
                 <event-block sid="658352907993813">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="326363158876931" type="carro">
-                            <param id="0" name="Object">carroEstacionado1</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-11" name="Subtract from" sid="800542029163746" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -115,11 +78,7 @@
                     </actions>
                 </event-block>
                 <event-block sid="599311694386818">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="823488643251966" type="carro">
-                            <param id="0" name="Object">carroEstacionado10</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-11" name="Subtract from" sid="313515401501375" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -128,11 +87,7 @@
                     </actions>
                 </event-block>
                 <event-block sid="613657090493469">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="706576889429475" type="carro">
-                            <param id="0" name="Object">carroEstacionado6</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-11" name="Subtract from" sid="971119822884789" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -141,11 +96,7 @@
                     </actions>
                 </event-block>
                 <event-block sid="788309694527473">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="988902994689847" type="carro">
-                            <param id="0" name="Object">carroEstacionado9</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-11" name="Subtract from" sid="292799582936104" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -154,11 +105,7 @@
                     </actions>
                 </event-block>
                 <event-block sid="168270223667249">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="324941756914597" type="carro">
-                            <param id="0" name="Object">carroEstacionado2</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-11" name="Subtract from" sid="967202417914705" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -167,9 +114,7 @@
                     </actions>
                 </event-block>
                 <event-block sid="376447381126053">
-                    <conditions>
-                        <condition behavior="Car" id="0" name="Is moving" sid="447455899935491" type="carro" />
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-10" name="Add to" sid="981509343738446" type="System">
                             <param id="0" name="Variable">Pontos</param>
@@ -239,9 +184,7 @@
         <event-group description="" sid="491217108059260" title="ControlaGanhosMonetarios">
             <sub-events>
                 <event-block sid="984094968431319">
-                    <conditions>
-                        <condition behavior="Car" id="0" name="Is moving" sid="798613483037089" type="carro" />
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-10" name="Add to" sid="509710408511159" type="System">
                             <param id="0" name="Variable">DinheiroGanho</param>
@@ -385,12 +328,6 @@
                     <param id="0" name="Width">345</param>
                     <param id="1" name="Height">70</param>
                 </action>
-                <action behavior="Car" id="8" name="Set enabled" sid="983217438766044" type="carro">
-                    <param id="0" name="State">1</param>
-                </action>
-                <action id="11" name="Set collisions enabled" sid="161610874107241" type="carro">
-                    <param id="0" name="Collisions">1</param>
-                </action>
                 <action id="-16" name="Set opacity" sid="386325295777346" type="backPontos">
                     <param id="0" name="Opacity">80</param>
                 </action>
@@ -398,7 +335,7 @@
         </event-block>
         <event-block sid="680601113110054">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="970654155882255" type="carro">
+                <condition id="0" name="On collision with another object" sid="418560593243889" type="newCarro">
                     <param id="0" name="Object">Final</param>
                 </condition>
             </conditions>
@@ -413,12 +350,6 @@
                 </action>
                 <action id="0" name="Set text" sid="502272733119215" type="textoPontos">
                     <param id="0" name="Text">Pontos</param>
-                </action>
-                <action behavior="Car" id="8" name="Set enabled" sid="750764373093213" type="carro">
-                    <param id="0" name="State">0</param>
-                </action>
-                <action id="11" name="Set collisions enabled" sid="436087424175360" type="carro">
-                    <param id="0" name="Collisions">0</param>
                 </action>
             </actions>
         </event-block>
