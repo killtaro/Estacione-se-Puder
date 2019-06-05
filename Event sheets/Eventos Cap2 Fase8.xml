@@ -5,8 +5,6 @@
     <events>
         <include>Evento Menu de Pausa</include>
         <include>Eventos Pontos</include>
-        <include>Eventos Carros</include>
-        <include>Eventos Controle Mobile</include>
         <event-block sid="971298667545353">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="316153980800026" type="System" />

@@ -5,8 +5,6 @@
     <events>
         <include>Configurações</include>
         <include>Eventos Pontos</include>
-        <include>Eventos Carros</include>
-        <include>Eventos Controle Mobile</include>
         <include>Evento Menu de Pausa</include>
         <event-block sid="171583001309541">
             <conditions>

@@ -3,8 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Seleção de Fases</name>
     <events>
-        <include>Eventos Controle Mobile</include>
-        <include>Eventos Carros</include>
         <event-block sid="970711456874150">
             <conditions />
             <actions>

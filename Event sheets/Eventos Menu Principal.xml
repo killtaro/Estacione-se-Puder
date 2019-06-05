@@ -4,7 +4,6 @@
     <name>Eventos Menu Principal</name>
     <events>
         <variable constant="0" name="Dinheiro_char" sid="556272596546668" static="0" type="number">0</variable>
-        <include>Eventos Carros</include>
         <event-block sid="516342097188608">
             <conditions>
                 <condition id="3" name="On touched object" sid="757110423251184" type="Toque">

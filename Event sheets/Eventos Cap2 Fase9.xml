@@ -3,10 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap2 Fase9</name>
     <events>
-        <include>Eventos Carros</include>
         <include>Evento Menu de Pausa</include>
         <include>Eventos Pontos</include>
-        <include>Eventos Controle Mobile</include>
         <event-block sid="238847012283052">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="252234666128315" type="System" />

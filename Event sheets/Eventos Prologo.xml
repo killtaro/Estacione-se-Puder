@@ -3,8 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Prologo</name>
     <events>
-        <include>Eventos Controle Mobile</include>
-        <include>Eventos Carros</include>
         <event-block sid="889766820528050">
             <conditions />
             <actions>

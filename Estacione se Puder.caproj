@@ -57,7 +57,7 @@
     </configuration-settings>
     <object-folder>
         <object-folder name="Superfícies">
-            <object-type name="asfalto1" sid="523930573412658">
+            <object-type name="tileset_Asfalto1" sid="523930573412658">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\asfalto.png" />
             </object-type>
@@ -70,39 +70,39 @@
                 </behaviors>
                 <texture original-source="C:\Users\pixel\Downloads\Borda calçada clone(4).png" />
             </object-type>
-            <object-type name="calcada1" sid="167461108493864">
+            <object-type name="tileset_Calcada" sid="167461108493864">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\calçada2(1).png" />
             </object-type>
-            <object-type name="grama1" sid="303596449187048">
+            <object-type name="tileset_Grama1" sid="303596449187048">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Grama clone.png" />
             </object-type>
-            <object-type name="marcaVaga1" sid="470938837178382">
+            <object-type name="tileset_Vaga" sid="470938837178382">
                 <plugin id="TiledBg" />
                 <texture />
             </object-type>
-            <object-type name="asfalto2" sid="976944734493720">
+            <object-type name="tileset_Asfalto2" sid="976944734493720">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\asfalto2.png" />
             </object-type>
-            <object-type name="grama2" sid="413971958465483">
+            <object-type name="tileset_Grama2" sid="413971958465483">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\grama2.png" />
             </object-type>
-            <object-type name="grama3" sid="696694170825050">
+            <object-type name="tileset_Grama3" sid="696694170825050">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\grama3.png" />
             </object-type>
-            <object-type name="areia1" sid="715065684876821">
+            <object-type name="tileset_Areia" sid="715065684876821">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\areia.png" />
             </object-type>
-            <object-type name="terra1" sid="531258880702639">
+            <object-type name="tileset_Terra1" sid="531258880702639">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\terra.png" />
             </object-type>
-            <object-type name="terra2" sid="967344520405636">
+            <object-type name="tileset_Terra2" sid="967344520405636">
                 <plugin id="TiledBg" />
                 <texture original-source="C:\Users\pixel\Downloads\Estacione\Superfícies\terra2.png" />
             </object-type>
@@ -551,13 +551,23 @@
         <object-folder name="Obstáculos">
             <object-type name="parede1Frente" sid="306459936002053">
                 <plugin id="TiledBg" />
-                <texture original-source="C:\Users\pixel\Downloads\Parede1(1).png" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="259371766869152">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\pixel\Downloads\Paredes clone clone(9).png" />
             </object-type>
             <object-type name="parede1Cima" sid="354795708772942">
                 <plugin id="TiledBg" />
-                <texture original-source="C:\Users\pixel\Downloads\Paredes de cima.png" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="116088403001360">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\pixel\Downloads\Paredes clone clone(4).png" />
             </object-type>
-            <object-type name="buraco1" sid="183161288683456">
+            <object-type name="obj_Buraco1" sid="183161288683456">
                 <plugin id="Sprite" />
                 <behaviors>
                     <behavior-type name="Solid" sid="548013945265326">
@@ -587,7 +597,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="buraco2" sid="490907565650090">
+            <object-type name="obj_Buraco3" sid="490907565650090">
                 <plugin id="Sprite" />
                 <behaviors>
                     <behavior-type name="Solid" sid="541295620215712">
@@ -617,7 +627,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="buraco3" sid="779967973765137">
+            <object-type name="obj_Buraco2" sid="779967973765137">
                 <plugin id="Sprite" />
                 <behaviors>
                     <behavior-type name="Solid" sid="771947266153762">
@@ -647,7 +657,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="oleo" sid="326218336345544">
+            <object-type name="obj_Oleo" sid="326218336345544">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="314808017629855" speed="5">
@@ -668,7 +678,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="roadBlock" sid="679376197831889">
+            <object-type name="obj_Roadblock" sid="679376197831889">
                 <plugin id="Sprite" />
                 <behaviors>
                     <behavior-type name="Solid" sid="180254740223641">
@@ -691,7 +701,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Coninho" sid="800467039288437">
+            <object-type name="obj_Cone" sid="800467039288437">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="476270326026625" speed="5">
@@ -1103,7 +1113,7 @@
             </object-type>
         </object-folder>
         <object-folder name="Carros Estacionados">
-            <object-type name="carroEstacionado9" sid="783610894164303">
+            <object-type name="obj_Carro14" sid="783610894164303">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="680415089033360" type="number" />
@@ -1126,7 +1136,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado8" sid="437206292026584">
+            <object-type name="obj_Carro13" sid="437206292026584">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="590506027705218" type="number" />
@@ -1149,7 +1159,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado7" sid="493325250058739">
+            <object-type name="obj_Carro12" sid="493325250058739">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="462617574994973" type="number" />
@@ -1172,7 +1182,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado6" sid="511876861748460">
+            <object-type name="obj_Carro11" sid="511876861748460">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="983060845888862" type="number" />
@@ -1195,7 +1205,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado5" sid="341518968027869">
+            <object-type name="obj_Carro10" sid="341518968027869">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="724841304255628" type="number" />
@@ -1218,7 +1228,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado4" sid="837661886254449">
+            <object-type name="obj_Carro9" sid="837661886254449">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="565365834506804" type="number" />
@@ -1241,7 +1251,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado3" sid="652472608772661">
+            <object-type name="obj_Carro8" sid="652472608772661">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="340804721070373" type="number" />
@@ -1264,7 +1274,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado2" sid="854590272236678">
+            <object-type name="obj_Carro7" sid="854590272236678">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="487488148993021" type="number" />
@@ -1287,7 +1297,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado14" sid="462157544037012">
+            <object-type name="obj_Carro6" sid="462157544037012">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="517665838983321" type="number" />
@@ -1310,7 +1320,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado13" sid="778458883472458">
+            <object-type name="obj_Carro5" sid="778458883472458">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="895247512588511" type="number" />
@@ -1333,7 +1343,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado12" sid="219383989652479">
+            <object-type name="obj_Carro4" sid="219383989652479">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="592641498205380" type="number" />
@@ -1356,7 +1366,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado11" sid="297773234692457">
+            <object-type name="obj_Carro3" sid="297773234692457">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="837161279024228" type="number" />
@@ -1379,7 +1389,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado10" sid="536826346282150">
+            <object-type name="obj_Carro2" sid="536826346282150">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="285965398567374" type="number" />
@@ -1402,7 +1412,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="carroEstacionado1" sid="701218169407255">
+            <object-type name="obj_Carro1" sid="701218169407255">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable comment="Variável do frame de direção do veículo." name="frame" sid="759925580294836" type="number" />
@@ -1624,10 +1634,26 @@
             </object-type>
         </object-folder>
         <object-folder name="Gatilhos">
-            <object-type name="ResetaBarra" sid="888437124403911">
+            <object-type name="gatilho_ResetaBarra" sid="888437124403911">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="104898208866422" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="gatilho_Andar1" sid="448343869170565">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="227587367608083" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="gatilho_Andar2" sid="698149732728105">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467755448878509" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -1661,7 +1687,7 @@
             </object-type>
         </object-folder>
         <object-folder name="Inimigos Arrancada">
-            <object-type name="Inimigos" sid="640427768866067">
+            <object-type name="bot_Inimigo" sid="640427768866067">
                 <plugin id="Sprite" />
                 <behaviors>
                     <behavior-type name="Car" sid="768260471845765">
@@ -1681,7 +1707,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Gatilho_inimigo" sid="475302082219212">
+            <object-type name="gatilho_Inimigo" sid="475302082219212">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="525977142389419" speed="5">
@@ -1689,7 +1715,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Gatilho_vitoria" sid="848360275782912">
+            <object-type name="gatilho_Vitoria" sid="848360275782912">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="336686042997996" speed="5">
@@ -2038,6 +2064,20 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="Arrays">
+            <object-type global="1" name="array_CarrosComprados" sid="737290395242474">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type global="1" name="array_Configurações" sid="755012639919032">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type global="1" name="array_FasesEstacionamento" sid="380256465452725">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type global="1" name="array_FasesRua" sid="485392884781207">
+                <plugin id="Arr" />
+            </object-type>
+        </object-folder>
         <object-type name="Final" sid="350712590619999">
             <plugin id="Sprite" />
             <behaviors>
@@ -2078,26 +2118,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Gatilho_layer" sid="448343869170565">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="227587367608083" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Renderiza_controle" sid="683361431227565">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="611968859034242" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="gatilho_layer2" sid="698149732728105">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467755448878509" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
@@ -2146,9 +2170,6 @@
         </object-type>
         <object-type name="PrecoCarro" sid="877173234766327">
             <plugin id="Text" />
-        </object-type>
-        <object-type global="1" name="array_CarrosComprados" sid="737290395242474">
-            <plugin id="Arr" />
         </object-type>
         <object-type name="titulo" sid="340188405744779">
             <plugin id="Text" />
@@ -2199,15 +2220,6 @@
         </object-type>
         <object-type name="Musicas" sid="875163646192660">
             <plugin id="Audio" />
-        </object-type>
-        <object-type global="1" name="array_FasesRua" sid="485392884781207">
-            <plugin id="Arr" />
-        </object-type>
-        <object-type global="1" name="array_FasesEstacionamento" sid="380256465452725">
-            <plugin id="Arr" />
-        </object-type>
-        <object-type global="1" name="array_Configurações" sid="755012639919032">
-            <plugin id="Arr" />
         </object-type>
         <object-type name="infoNomeChar" sid="319334389026085">
             <plugin id="TextBox" />
@@ -2490,10 +2502,7 @@
     </layout-folder>
     <event-folder>
         <event-folder name="Eventos Gerais">
-            <event-sheet>Eventos Carros.xml</event-sheet>
             <event-sheet>Eventos Pontos.xml</event-sheet>
-            <event-sheet>Eventos Controle Mobile.xml</event-sheet>
-            <event-sheet>Eventos Andares.xml</event-sheet>
             <event-sheet>Eventos de Sons.xml</event-sheet>
             <event-sheet>Eventos Configurações.xml</event-sheet>
             <event-sheet>Eventos Save.xml</event-sheet>

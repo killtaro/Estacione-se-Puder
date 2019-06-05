@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos sub menu</name>
     <events>
-        <include>Eventos Carros</include>
         <event-block sid="355936265696431">
             <conditions>
                 <condition id="-1" name="Every tick" sid="150333829174538" type="System" />

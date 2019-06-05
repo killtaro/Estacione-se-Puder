@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Loja</name>
     <events>
-        <include>Eventos Carros</include>
         <event-block sid="239248802961404">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="316487824150888" type="System" />

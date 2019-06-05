@@ -4,9 +4,7 @@
     <name>Eventos Cap2 Fase2</name>
     <events>
         <include>Eventos Pontos</include>
-        <include>Eventos Carros</include>
         <include>Evento Menu de Pausa</include>
-        <include>Eventos Controle Mobile</include>
         <event-block sid="551531152224714">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="153031651922134" type="System" />

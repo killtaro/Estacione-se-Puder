@@ -6,7 +6,6 @@
         <comment>Variaveis para definição da fase escolhida pelo jogador</comment>
         <variable constant="0" name="Capitulo" sid="489380773368510" static="0" type="number">0</variable>
         <variable constant="0" name="Fase" sid="343482288476194" static="0" type="number">0</variable>
-        <include>Eventos Carros</include>
         <event-block sid="547965324247828">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="597325449440601" type="System" />

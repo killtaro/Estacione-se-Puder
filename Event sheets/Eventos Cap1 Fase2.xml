@@ -4,11 +4,8 @@
     <name>Eventos Cap1 Fase2</name>
     <events>
         <include>Configurações</include>
-        <include>Eventos Andares</include>
         <include>Evento Menu de Pausa</include>
         <include>Eventos Pontos</include>
-        <include>Eventos Controle Mobile</include>
-        <include>Eventos Carros</include>
         <event-block sid="337511477462414">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="905307182845515" type="System" />
@@ -16,19 +13,6 @@
             <actions>
                 <action id="-4" name="Set layer visible" sid="535723494528476" type="System">
                     <param id="0" name="Layer">&quot;Controles&quot;</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="393058028811708">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="337837237189439" type="newCarro">
-                    <param id="0" name="Object">Gatilho_layer</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-4" name="Set layer visible" sid="691224957510560" type="System">
-                    <param id="0" name="Layer">1</param>
                     <param id="1" name="Visibility">1</param>
                 </action>
             </actions>

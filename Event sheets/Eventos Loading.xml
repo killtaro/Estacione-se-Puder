@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Loading</name>
     <events>
-        <include>Eventos Carros</include>
         <event-group description="" sid="688964948775200" title="CarroBarraLoading">
             <sub-events>
                 <comment>Movimenta o carro na tela</comment>
