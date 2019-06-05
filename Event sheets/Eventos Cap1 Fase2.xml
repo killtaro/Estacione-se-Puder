@@ -5,7 +5,6 @@
     <events>
         <include>Configurações</include>
         <include>Evento Menu de Pausa</include>
-        <include>Eventos Pontos</include>
         <event-block sid="337511477462414">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="905307182845515" type="System" />

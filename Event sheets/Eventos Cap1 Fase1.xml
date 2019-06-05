@@ -5,7 +5,6 @@
     <events>
         <include>Configurações</include>
         <include>Evento Menu de Pausa</include>
-        <include>Eventos Pontos</include>
         <variable constant="0" name="Pontos" sid="471179457952003" static="0" type="number">0</variable>
         <event-block sid="557070532202439">
             <conditions>

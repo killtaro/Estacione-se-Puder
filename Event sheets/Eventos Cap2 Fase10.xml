@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Cap2 Fase10</name>
     <events>
-        <include>Eventos Pontos</include>
         <include>Evento Menu de Pausa</include>
         <event-block sid="297437306709171">
             <conditions>

@@ -202,6 +202,19 @@
                                 <action id="-16" name="Set opacity" sid="326804920647253" type="controle_Acelerador">
                                     <param id="0" name="Opacity">50</param>
                                 </action>
+                                <action id="-3" name="Create object" sid="392305353072091" type="System">
+                                    <param id="0" name="Object to create">BotaoPausar</param>
+                                    <param id="1" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="2" name="X">717.095</param>
+                                    <param id="3" name="Y">44</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="266060698219318" type="BotaoPausar">
+                                    <param id="0" name="Width">40</param>
+                                    <param id="1" name="Height">39</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="444080871600163" type="BotaoPausar">
+                                    <param id="0" name="Opacity">50</param>
+                                </action>
                                 <action id="-33" name="Set layer parallax" sid="139073359707799" type="System">
                                     <param id="0" name="Layer">&quot;Controles&quot;</param>
                                     <param id="1" name="Parallax X">0</param>
@@ -2898,6 +2911,436 @@
                                     </actions>
                                 </event-block>
                             </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="Responsável pela configuração dos pontos." sid="469206792864259" title="Configurações dos pontos">
+            <sub-events>
+                <event-group description="Responsável por adicionar ou remover pontos do jogador dependendo das ações do mesmo" sid="653184289467640" title="Configuração das distribuições de pontos">
+                    <sub-events>
+                        <event-block sid="366756090336560">
+                            <conditions>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="118772260849138" type="newCarro" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="787361698472001" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="696894142720781">
+                            <conditions>
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="751617193035502" type="newCarro">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Speed">50</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="279961386971990" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">50</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="681794787205445">
+                            <conditions>
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="843606441202568" type="newCarro">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Speed">75</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="556423379693480" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">75</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="164567735233110">
+                            <conditions>
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="840673236748654" type="newCarro">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Speed">90</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="288060102734836" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">90</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="395191213065700">
+                            <conditions>
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="994883580553673" type="newCarro">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Speed">100</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="579325436836497" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="956155054839918">
+                            <conditions>
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="497567200670355" type="newCarro">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Speed">200</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="713047747780151" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">200</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="582736777705429">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="190584759253351" type="newCarro">
+                                    <param id="0" name="Object">parede1Cima</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="732449347075159" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">25</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="207011642086046">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="133649883338609" type="newCarro">
+                                    <param id="0" name="Object">parede1Frente</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="280299524652897" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">25</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="880264318122586">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="306835605867464" type="newCarro">
+                                    <param id="0" name="Object">obj_Roadblock</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="748490842006287" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">50</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="211770643723442">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="739906768311762" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="143025141114116" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="365468130700505">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="747729766195377" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="632990607536612" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="675187407732417">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="444866148268245" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="289654559843259" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="245116336500240">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="268129711875924" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="782117039359235" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="475758035484476">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="713969277826492" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro13</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="212052420599591" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="928380234177615">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="941276345271245" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro14</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="230383616876298" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="504193878754092">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="889251660446596" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="645610011153018" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="400670149684174">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="612017864807863" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="654482127728294" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="591075226628115">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="128467753394955" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="912228211205837" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="530114312110360">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="737666493361799" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="341724766761578" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="653504095923636">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="238331955712477" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro6</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="699194782543376" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="452825985151362">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="601409924624396" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="283648898309264" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="418692878256991">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="605508907681957" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="216511119540386" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="336494953926407">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="778812908033498" type="newCarro">
+                                    <param id="0" name="Object">obj_Carro9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="767673103287416" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="Responsável por definir o menu no fim de cada fase exibindo os pontos feitos pelo jogador." sid="193443569107820" title="Configuração de exibição dos pontos ">
+                    <sub-events>
+                        <event-block sid="616238280975779">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="493702460512442" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="122319610511328" type="System">
+                                    <param id="0" name="Variable">Pontos</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-33" name="Set layer parallax" sid="794461727914730" type="System">
+                                    <param id="0" name="Layer">&quot;Pontos&quot;</param>
+                                    <param id="1" name="Parallax X">0</param>
+                                    <param id="2" name="Parallax Y">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="339893037424700" type="System">
+                                    <param id="0" name="Layer">&quot;Pontos&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="177325180422626" type="System">
+                                    <param id="0" name="Object to create">backPontos</param>
+                                    <param id="1" name="Layer">&quot;Pontos&quot;</param>
+                                    <param id="2" name="X">0</param>
+                                    <param id="3" name="Y">0</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="301565804104671" type="backPontos">
+                                    <param id="0" name="X">400</param>
+                                    <param id="1" name="Y">200</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="984898963762275" type="backPontos">
+                                    <param id="0" name="Width">349</param>
+                                    <param id="1" name="Height">380</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="231644768005337" type="System">
+                                    <param id="0" name="Object to create">textoPontos</param>
+                                    <param id="1" name="Layer">&quot;Pontos&quot;</param>
+                                    <param id="2" name="X">0</param>
+                                    <param id="3" name="Y">0</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="947312468313835" type="textoPontos">
+                                    <param id="0" name="X">227</param>
+                                    <param id="1" name="Y">11.789</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="673057380802754" type="textoPontos">
+                                    <param id="0" name="Width">347</param>
+                                    <param id="1" name="Height">73</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="607132489646859" type="System">
+                                    <param id="0" name="Object to create">infoTexto1</param>
+                                    <param id="1" name="Layer">&quot;Pontos&quot;</param>
+                                    <param id="2" name="X">0</param>
+                                    <param id="3" name="Y">0</param>
+                                </action>
+                                <action id="0" name="Set text" sid="181789643925923" type="infoTexto1">
+                                    <param id="0" name="Text">&quot;Pontos&quot;</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="539591571461934" type="infoTexto1">
+                                    <param id="0" name="X">227</param>
+                                    <param id="1" name="Y">101.047</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="989110396542579" type="infoTexto1">
+                                    <param id="0" name="Width">345</param>
+                                    <param id="1" name="Height">52</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="412240655368326" type="System">
+                                    <param id="0" name="Object to create">btnContinuar</param>
+                                    <param id="1" name="Layer">&quot;Pontos&quot;</param>
+                                    <param id="2" name="X">0</param>
+                                    <param id="3" name="Y">0</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="363917225188093" type="btnContinuar">
+                                    <param id="0" name="X">226</param>
+                                    <param id="1" name="Y">196</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="413380058381573" type="btnContinuar">
+                                    <param id="0" name="Width">346</param>
+                                    <param id="1" name="Height">70</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="436472254814093" type="System">
+                                    <param id="0" name="Object to create">btnBackMenu</param>
+                                    <param id="1" name="Layer">&quot;Pontos&quot;</param>
+                                    <param id="2" name="X">0</param>
+                                    <param id="3" name="Y">0</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="985718979486155" type="btnBackMenu">
+                                    <param id="0" name="X">227</param>
+                                    <param id="1" name="Y">301</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="400761191202979" type="btnBackMenu">
+                                    <param id="0" name="Width">345</param>
+                                    <param id="1" name="Height">70</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="958230643404895" type="backPontos">
+                                    <param id="0" name="Opacity">80</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="614317590872269">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="454466612106682" type="newCarro">
+                                    <param id="0" name="Object">Final</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="533644829814499" type="System">
+                                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="181640394515644" type="System">
+                                    <param id="0" name="Layer">&quot;Pontos&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="892956193517473" type="textoPontos">
+                                    <param id="0" name="Text">Pontos</param>
+                                </action>
+                            </actions>
                         </event-block>
                     </sub-events>
                 </event-group>

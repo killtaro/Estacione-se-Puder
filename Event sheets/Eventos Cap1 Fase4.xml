@@ -4,7 +4,6 @@
     <name>Eventos Cap1 Fase4</name>
     <events>
         <include>Evento Menu de Pausa</include>
-        <include>Eventos Pontos</include>
         <event-block sid="509044361055772">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="525005265957485" type="System" />

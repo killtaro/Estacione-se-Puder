@@ -2502,11 +2502,8 @@
     </layout-folder>
     <event-folder>
         <event-folder name="Eventos Gerais">
-            <event-sheet>Eventos Pontos.xml</event-sheet>
             <event-sheet>Eventos de Sons.xml</event-sheet>
             <event-sheet>Eventos Configurações.xml</event-sheet>
-            <event-sheet>Eventos Save.xml</event-sheet>
-            <event-sheet>Eventos Load.xml</event-sheet>
             <event-sheet>Evento Menu de Pausa.xml</event-sheet>
             <event-sheet>Configurações.xml</event-sheet>
         </event-folder>

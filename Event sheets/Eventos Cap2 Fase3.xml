@@ -4,7 +4,6 @@
     <name>Eventos Cap2 Fase3</name>
     <events>
         <include>Configurações</include>
-        <include>Eventos Pontos</include>
         <include>Evento Menu de Pausa</include>
         <event-block sid="171583001309541">
             <conditions>
