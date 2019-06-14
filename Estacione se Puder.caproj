@@ -441,16 +441,16 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="724248943137833" speed="5">
-                        <frame duration="1" hotspotX="0.534413" hotspotY="0.560606" original-source="C:\Users\pixel\Downloads\seta.png">
+                        <frame duration="1" hotspotX="0.148515" hotspotY="0.211268" original-source="C:\Users\pixel\Downloads\New Piskel(2).png">
                             <collision-poly>
-                                <point x="0" y="0.257576" />
-                                <point x="0.533091" y="0" />
-                                <point x="1" y="0" />
-                                <point x="1" y="0.563796" />
+                                <point x="1" y="0.5" />
                                 <point x="1" y="1" />
-                                <point x="0.533091" y="1" />
-                                <point x="0" y="0.767942" />
-                                <point x="0" y="0.563796" />
+                                <point x="0.5" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.5" />
+                                <point x="0" y="0" />
+                                <point x="0.5" y="0" />
+                                <point x="1" y="0" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -460,15 +460,15 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="768270522750956" speed="5">
-                        <frame duration="1" hotspotX="0.510121" hotspotY="0.515152" original-source="C:\Users\pixel\Downloads\seta.png">
+                        <frame duration="1" hotspotX="0.475248" hotspotY="0.521127" original-source="C:\Users\pixel\Downloads\New Piskel(2).png">
                             <collision-poly>
-                                <point x="0" y="0.088114" />
-                                <point x="0.510121" y="0" />
-                                <point x="1" y="0.347013" />
-                                <point x="1" y="0.511767" />
-                                <point x="1" y="0.652987" />
-                                <point x="0.510121" y="1" />
-                                <point x="0" y="0.935423" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.522808" />
+                                <point x="0.742356" y="1" />
+                                <point x="0.481359" y="1" />
+                                <point x="0.257644" y="1" />
+                                <point x="0" y="0.522808" />
+                                <point x="0" y="0" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -514,15 +514,15 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="575808543581787" speed="5">
-                        <frame duration="1" hotspotX="0.484848" hotspotY="0.489879" original-source="C:\Users\pixel\Downloads\seta.png">
+                        <frame duration="1" hotspotX="0.464789" hotspotY="0.485149" original-source="C:\Users\pixel\Downloads\New Piskel(2).png">
                             <collision-poly>
-                                <point x="0.064577" y="1" />
-                                <point x="0" y="0.489879" />
-                                <point x="0.347013" y="0" />
-                                <point x="0.488233" y="0" />
-                                <point x="0.652987" y="0" />
-                                <point x="1" y="0.489879" />
-                                <point x="0.911886" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.483967" />
+                                <point x="0.155241" y="0" />
+                                <point x="0.473483" y="0" />
+                                <point x="0.844759" y="0" />
+                                <point x="1" y="0.483967" />
+                                <point x="1" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -532,15 +532,15 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="914960712177998" speed="5">
-                        <frame duration="1" hotspotX="0.484848" hotspotY="0.510121" original-source="C:\Users\pixel\Downloads\seta.png">
+                        <frame duration="1" hotspotX="0.464789" hotspotY="0.485149" original-source="C:\Users\pixel\Downloads\New Piskel(2).png">
                             <collision-poly>
-                                <point x="0.911886" y="0" />
-                                <point x="1" y="0.510121" />
-                                <point x="0.652987" y="1" />
-                                <point x="0.488233" y="1" />
-                                <point x="0.347013" y="1" />
-                                <point x="0" y="0.510121" />
-                                <point x="0.064577" y="0" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.483967" />
+                                <point x="0.155241" y="0" />
+                                <point x="0.473483" y="0" />
+                                <point x="0.844759" y="0" />
+                                <point x="1" y="0.483967" />
+                                <point x="1" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -2455,29 +2455,29 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout-folder name="Capítulo 1">
-            <layout>Cap1 Fase1.xml</layout>
-            <layout>Cap1 Fase2.xml</layout>
-            <layout>Cap1 Fase3.xml</layout>
-            <layout>Cap1 Fase4.xml</layout>
-            <layout>Cap1 Fase5.xml</layout>
-            <layout>Cap1 Fase6.xml</layout>
-            <layout>Cap1 Fase7.xml</layout>
-            <layout>Cap1 Fase8.xml</layout>
-            <layout>Cap1 Fase9.xml</layout>
-            <layout>Cap1 Fase10.xml</layout>
+        <layout-folder name="Capítulo 1 - Rua">
+            <layout>Capítulo 1 - Fase 1.xml</layout>
+            <layout>Capítulo 1 - Fase 2.xml</layout>
+            <layout>Capítulo 1 - Fase 3.xml</layout>
+            <layout>Capítulo 1 - Fase 4.xml</layout>
+            <layout>Capítulo 1 - Fase 5.xml</layout>
+            <layout>Capítulo 1 - Fase 6.xml</layout>
+            <layout>Capítulo 1 - Fase 7.xml</layout>
+            <layout>Capítulo 1 - Fase 8.xml</layout>
+            <layout>Capítulo 1 - Fase 9.xml</layout>
+            <layout>Capítulo 1 - Fase 10.xml</layout>
         </layout-folder>
-        <layout-folder name="Capítulo 2">
-            <layout>Cap2 Fase1.xml</layout>
-            <layout>Cap2 Fase2.xml</layout>
-            <layout>Cap2 Fase3.xml</layout>
-            <layout>Cap2 Fase4.xml</layout>
-            <layout>Cap2 Fase5.xml</layout>
-            <layout>Cap2 Fase6.xml</layout>
-            <layout>Cap2 Fase7.xml</layout>
-            <layout>Cap2 Fase8.xml</layout>
-            <layout>Cap2 Fase9.xml</layout>
-            <layout>Cap2 Fase10.xml</layout>
+        <layout-folder name="Capítulo 2 - Estacionamento">
+            <layout>Capítulo 2 - Fase 1.xml</layout>
+            <layout>Capítulo 2 - Fase 2.xml</layout>
+            <layout>Capítulo 2 - Fase 3.xml</layout>
+            <layout>Capítulo 2 - Fase 4.xml</layout>
+            <layout>Capítulo 2 - Fase 5.xml</layout>
+            <layout>Capítulo 2 - Fase 6.xml</layout>
+            <layout>Capítulo 2 - Fase 7.xml</layout>
+            <layout>Capítulo 2 - Fase 8.xml</layout>
+            <layout>Capítulo 2 - Fase 9.xml</layout>
+            <layout>Capítulo 2 - Fase 10.xml</layout>
         </layout-folder>
         <layout-folder name="Pré-fases">
             <layout>Seleção de Carros.xml</layout>
@@ -2507,30 +2507,6 @@
             <event-sheet>Evento Menu de Pausa.xml</event-sheet>
             <event-sheet>Configurações.xml</event-sheet>
         </event-folder>
-        <event-folder name="Capítulo 1">
-            <event-sheet>Eventos Cap1 Fase1.xml</event-sheet>
-            <event-sheet>Eventos Cap1 Fase2.xml</event-sheet>
-            <event-sheet>Eventos Cap1 Fase3.xml</event-sheet>
-            <event-sheet>Eventos Cap1 Fase4.xml</event-sheet>
-            <event-sheet>Eventos Cap1 Fase5.xml</event-sheet>
-            <event-sheet>Eventos Cap1 Fase6.xml</event-sheet>
-            <event-sheet>Eventos Cap1 Fase7.xml</event-sheet>
-            <event-sheet>Eventos Cap1 Fase8.xml</event-sheet>
-            <event-sheet>Eventos Cap1 Fase9.xml</event-sheet>
-            <event-sheet>Eventos Cap1 Fase10.xml</event-sheet>
-        </event-folder>
-        <event-folder name="Capítulo 2">
-            <event-sheet>Eventos Cap2 Fase1.xml</event-sheet>
-            <event-sheet>Eventos Cap2 Fase2.xml</event-sheet>
-            <event-sheet>Eventos Cap2 Fase3.xml</event-sheet>
-            <event-sheet>Eventos Cap2 Fase4.xml</event-sheet>
-            <event-sheet>Eventos Cap2 Fase5.xml</event-sheet>
-            <event-sheet>Eventos Cap2 Fase6.xml</event-sheet>
-            <event-sheet>Eventos Cap2 Fase7.xml</event-sheet>
-            <event-sheet>Eventos Cap2 Fase8.xml</event-sheet>
-            <event-sheet>Eventos Cap2 Fase9.xml</event-sheet>
-            <event-sheet>Eventos Cap2 Fase10.xml</event-sheet>
-        </event-folder>
         <event-folder name="Pré-fases">
             <event-sheet>Eventos Seleção de Carros.xml</event-sheet>
             <event-sheet>Eventos Prologo.xml</event-sheet>
@@ -2551,6 +2527,30 @@
         <event-folder name="Fases Extras">
             <event-sheet>Eventos Modo Arrancada.xml</event-sheet>
             <event-sheet>Eventos Dos Inimigos.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Capítulo 1 - Rua">
+            <event-sheet>Eventos Capítulo 1 - Fase 1.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 1 - Fase 2.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 1 - Fase 3.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 1 - Fase 4.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 1 - Fase 5.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 1 - Fase 6.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 1 - Fase 7.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 1 - Fase 8.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 1 - Fase 9.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 1 - Fase 10.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Capítulo 2 - Estacionamento">
+            <event-sheet>Eventos Capítulo 2 - Fase 1.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 2 - Fase 2.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 2 - Fase 3.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 2 - Fase 4.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 2 - Fase 5.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 2 - Fase 6.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 2 - Fase 7.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 2 - Fase 8.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 2 - Fase 9.xml</event-sheet>
+            <event-sheet>Eventos Capítulo 2 - Fase 10.xml</event-sheet>
         </event-folder>
     </event-folder>
     <global-instances>

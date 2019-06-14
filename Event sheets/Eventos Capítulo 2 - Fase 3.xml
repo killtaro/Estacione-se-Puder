@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Capítulo 2 - Fase 3</name>
+    <events>
+        <include>Evento Menu de Pausa</include>
+        <event-block sid="407210783834177">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="638837032413120" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="197196493190049" type="System">
+                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="427848222149707">
+            <conditions>
+                <condition id="-9" name="Layer is visible" sid="214056432982603" type="System">
+                    <param id="0" name="Layer">&quot;Pontos&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="464524487743825">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="993749152241209" type="Toque">
+                            <param id="0" name="Object">btnContinuar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="674609363129020" type="array_FasesEstacionamento">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="535842423252100" type="System">
+                            <param id="0" name="Variable">FaseSim</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="711995422737838" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="945036964671366" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="272665269607891" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="655627549795915" type="System">
+                            <param id="0" name="Layer">2</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="393221294698803" type="System">
+                            <param id="0" name="Layout">Novo Loading</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="611072829385808">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="797646839150903" type="Toque">
+                            <param id="0" name="Object">btnBackMenu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="886600474379002" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="580340117325193" type="System">
+                            <param id="0" name="Layer">2</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="619227267626056" type="System">
+                            <param id="0" name="Variable">FaseSim</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="916463137790755" type="array_FasesEstacionamento">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="903708984395054" type="System">
+                            <param id="0" name="Layout">Menu Principal</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="637231684013281">
+            <conditions>
+                <condition id="-22" name="Else" sid="669312267408910" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>

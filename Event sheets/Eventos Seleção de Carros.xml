@@ -343,7 +343,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="332732409615982" type="System">
-                            <param id="0" name="Layout">Cap1 Fase1</param>
+                            <param id="0" name="Layout">Capítulo 2 - Fase 1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -362,7 +362,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="107396844763553" type="System">
-                            <param id="0" name="Layout">Cap1 Fase2</param>
+                            <param id="0" name="Layout">Capítulo 2 - Fase 2</param>
                         </action>
                     </actions>
                 </event-block>
@@ -381,7 +381,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="163198569615972" type="System">
-                            <param id="0" name="Layout">Cap1 Fase3</param>
+                            <param id="0" name="Layout">Capítulo 2 - Fase 3</param>
                         </action>
                     </actions>
                 </event-block>
@@ -400,7 +400,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="449350265337329" type="System">
-                            <param id="0" name="Layout">Cap1 Fase4</param>
+                            <param id="0" name="Layout">Capítulo 2 - Fase 4</param>
                         </action>
                     </actions>
                 </event-block>
@@ -419,7 +419,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="273173760192367" type="System">
-                            <param id="0" name="Layout">Cap1 Fase5</param>
+                            <param id="0" name="Layout">Capítulo 2 - Fase 5</param>
                         </action>
                     </actions>
                 </event-block>
@@ -438,7 +438,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="105225333602908" type="System">
-                            <param id="0" name="Layout">Cap1 Fase6</param>
+                            <param id="0" name="Layout">Capítulo 2 - Fase 6</param>
                         </action>
                     </actions>
                 </event-block>
@@ -457,7 +457,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="328274369881451" type="System">
-                            <param id="0" name="Layout">Cap1 Fase7</param>
+                            <param id="0" name="Layout">Capítulo 2 - Fase 7</param>
                         </action>
                     </actions>
                 </event-block>
@@ -476,7 +476,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="217226968730453" type="System">
-                            <param id="0" name="Layout">Cap1 Fase8</param>
+                            <param id="0" name="Layout">Capítulo 2 - Fase 8</param>
                         </action>
                     </actions>
                 </event-block>
@@ -495,7 +495,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="174772139600802" type="System">
-                            <param id="0" name="Layout">Cap1 Fase9</param>
+                            <param id="0" name="Layout">Capítulo 2 - Fase 9</param>
                         </action>
                     </actions>
                 </event-block>
@@ -514,7 +514,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="684979150816364" type="System">
-                            <param id="0" name="Layout">Cap1 Fase10</param>
+                            <param id="0" name="Layout">Capítulo 2 - Fase 10</param>
                         </action>
                     </actions>
                 </event-block>
@@ -534,7 +534,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="806989438758442" type="System">
-                            <param id="0" name="Layout">Cap2 Fase1</param>
+                            <param id="0" name="Layout">Capítulo 1 - Fase 1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -553,7 +553,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="793710013467903" type="System">
-                            <param id="0" name="Layout">Cap2 Fase2</param>
+                            <param id="0" name="Layout">Capítulo 1 - Fase 2</param>
                         </action>
                     </actions>
                 </event-block>
@@ -572,7 +572,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="694909436071414" type="System">
-                            <param id="0" name="Layout">Cap2 Fase3</param>
+                            <param id="0" name="Layout">Capítulo 1 - Fase 3</param>
                         </action>
                     </actions>
                 </event-block>
@@ -591,7 +591,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="571926337655348" type="System">
-                            <param id="0" name="Layout">Cap2 Fase4</param>
+                            <param id="0" name="Layout">Capítulo 1 - Fase 4</param>
                         </action>
                     </actions>
                 </event-block>
@@ -610,7 +610,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="738761694884209" type="System">
-                            <param id="0" name="Layout">Cap2 Fase5</param>
+                            <param id="0" name="Layout">Capítulo 1 - Fase 5</param>
                         </action>
                     </actions>
                 </event-block>
@@ -629,7 +629,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="566377387732616" type="System">
-                            <param id="0" name="Layout">Cap2 Fase6</param>
+                            <param id="0" name="Layout">Capítulo 1 - Fase 6</param>
                         </action>
                     </actions>
                 </event-block>
@@ -648,7 +648,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="274728514771419" type="System">
-                            <param id="0" name="Layout">Cap2 Fase7</param>
+                            <param id="0" name="Layout">Capítulo 1 - Fase 7</param>
                         </action>
                     </actions>
                 </event-block>
@@ -667,7 +667,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="740752334739433" type="System">
-                            <param id="0" name="Layout">Cap2 Fase8</param>
+                            <param id="0" name="Layout">Capítulo 1 - Fase 8</param>
                         </action>
                     </actions>
                 </event-block>
@@ -686,7 +686,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="407069251532729" type="System">
-                            <param id="0" name="Layout">Cap2 Fase9</param>
+                            <param id="0" name="Layout">Capítulo 1 - Fase 9</param>
                         </action>
                     </actions>
                 </event-block>
@@ -705,7 +705,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="375683805067364" type="System">
-                            <param id="0" name="Layout">Cap2 Fase10</param>
+                            <param id="0" name="Layout">Capítulo 1 - Fase 10</param>
                         </action>
                     </actions>
                 </event-block>
