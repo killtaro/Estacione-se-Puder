@@ -224,6 +224,17 @@
                         </event-block>
                     </sub-events>
                 </event-group>
+                <event-block sid="155063406645652">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="406521072707983" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="389004767357505" type="System">
+                            <param id="0" name="Layer">&quot;Controles&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-group description="Responsável pela configuração das ações de resposta das interações com os controles mobiles. Basicamente responsável pelo funcionamento dos controles mobile em questão da jogabilidade." sid="282267967445234" title="Configuração das ações dos controles mobile">
                     <sub-events>
                         <event-block sid="272520260382402">
@@ -543,21 +554,47 @@
         </event-group>
         <event-group description="Responsável pelas configurações a respeito do jogador e de seu carro." sid="697067470717023" title="Configurações do jogador">
             <sub-events>
-                <event-block sid="277657764199673">
-                    <conditions>
-                        <condition id="-2" name="On start of layout" sid="129491579618250" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-7" name="Set size" sid="109952657573243" type="newCarro">
-                            <param id="0" name="Width">40</param>
-                            <param id="1" name="Height">40</param>
-                        </action>
-                        <action id="2" name="Stop" sid="321536113071159" type="newCarro" />
-                        <action id="5" name="Set frame" sid="829445410199885" type="newCarro">
-                            <param id="0" name="Frame number">5</param>
-                        </action>
-                    </actions>
-                </event-block>
+                <event-group description="Responsável por definir os atributos do carro, como, aceleração, velocidade máxima, dentre outros." sid="417433723502524" title="Configuração de atributos do carro">
+                    <sub-events>
+                        <event-block sid="915729359806109">
+                            <conditions>
+                                <condition id="2" name="Is playing" sid="223401326266746" type="newCarro">
+                                    <param id="0" name="Animation">&quot;carro1&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="8Direction" id="4" name="Set max speed" sid="733809949147696" type="newCarro">
+                                    <param id="0" name="Max Speed">600</param>
+                                </action>
+                                <action behavior="8Direction" id="5" name="Set acceleration" sid="967085096087115" type="newCarro">
+                                    <param id="0" name="Acceleration">600</param>
+                                </action>
+                                <action behavior="8Direction" id="6" name="Set deceleration" sid="819255579317002" type="newCarro">
+                                    <param id="0" name="Deceleration">600</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="Responsável por configurar o tamanho do carro e parar a animação" sid="764126182946788" title="Configurações de tamanho do carro">
+                    <sub-events>
+                        <event-block sid="277657764199673">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="129491579618250" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="109952657573243" type="newCarro">
+                                    <param id="0" name="Width">40</param>
+                                    <param id="1" name="Height">40</param>
+                                </action>
+                                <action id="2" name="Stop" sid="321536113071159" type="newCarro" />
+                                <action id="5" name="Set frame" sid="829445410199885" type="newCarro">
+                                    <param id="0" name="Frame number">5</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
             </sub-events>
         </event-group>
         <event-group description="Responsável por gerenciar as configurações de funcionamento dos andares." sid="615254690861179" title="Configurações dos andares">
