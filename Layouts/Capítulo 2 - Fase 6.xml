@@ -2491,7 +2491,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -2523,7 +2523,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>2</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -2535,8 +2535,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1118</x>
-                        <y>409</y>
+                        <x>1105</x>
+                        <y>386</y>
                         <z>0</z>
                         <width>44.597015381</width>
                         <height>48.221946716</height>
@@ -2555,7 +2555,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>1</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -2567,8 +2567,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>840</x>
-                        <y>397</y>
+                        <x>834</x>
+                        <y>370</y>
                         <z>0</z>
                         <width>48.313434601</width>
                         <height>49.802993774</height>
@@ -2619,7 +2619,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -2651,7 +2651,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>7</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -2741,7 +2741,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -2785,8 +2785,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>958</x>
-                        <y>526</y>
+                        <x>956</x>
+                        <y>508</y>
                         <z>0</z>
                         <width>44.597015381</width>
                         <height>48.221946716</height>
@@ -2863,7 +2863,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>4</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -2875,8 +2875,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>412</x>
-                        <y>460</y>
+                        <x>378</x>
+                        <y>465</y>
                         <z>0</z>
                         <width>44.597015381</width>
                         <height>48.221946716</height>
@@ -2924,7 +2924,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>7</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -2956,7 +2956,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>7</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -3029,8 +3029,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>601</x>
-                        <y>449</y>
+                        <x>618</x>
+                        <y>467</y>
                         <z>0</z>
                         <width>48.313434601</width>
                         <height>49.802993774</height>
@@ -3049,7 +3049,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>4</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -3081,7 +3081,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>1</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -3113,7 +3113,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>1</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -3125,8 +3125,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>228</x>
-                        <y>639</y>
+                        <x>225</x>
+                        <y>612</y>
                         <z>0</z>
                         <width>44.597015381</width>
                         <height>48.221946716</height>
@@ -3261,7 +3261,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>7</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -3293,7 +3293,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>1</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -3325,7 +3325,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -3391,6 +3391,46 @@
                         <z>0</z>
                         <width>171</width>
                         <height>154</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="newCarro" uid="400">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="ScrollTo">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>200</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>8 directions</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>Yes</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>666</x>
+                        <y>1225</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -5879,7 +5919,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>1</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -5911,7 +5951,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>1</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -5924,7 +5964,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1141</x>
-                        <y>587</y>
+                        <y>606</y>
                         <z>0</z>
                         <width>44.597015381</width>
                         <height>48.221946716</height>
@@ -5943,7 +5983,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>1</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6007,7 +6047,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>7</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6039,7 +6079,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>4</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6129,7 +6169,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>1</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6251,7 +6291,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>4</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6312,7 +6352,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6344,7 +6384,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>7</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6454,7 +6494,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>7</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6486,7 +6526,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6518,7 +6558,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>1</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6530,8 +6570,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>429</x>
-                        <y>797</y>
+                        <x>424</x>
+                        <y>836</y>
                         <z>0</z>
                         <width>44.597015381</width>
                         <height>48.221946716</height>
@@ -6550,7 +6590,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>1</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6698,7 +6738,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>7</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6730,7 +6770,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>1</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -6762,7 +6802,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">

@@ -3246,7 +3246,7 @@
                 </instance>
                 <instance type="infoTitulo" uid="392">
                     <properties>
-                        <text>Versão 0.10.6</text>
+                        <text>Versão 0.10.7</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Harlow Solid Italic,-16,400,1</font>
                         <color>255,255,255</color>
