@@ -229,6 +229,21 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>1</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>10</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <effect-instances>
                         <effect-instance type="GlowHorizontal">
                             <parameters>
@@ -364,6 +379,99 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="imagemTexto_GranaJogador" uid="765">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>90.171234131</x>
+                        <y>49.558189392</y>
+                        <z>0</z>
+                        <width>110.302581787</width>
+                        <height>28.000076294</height>
+                        <depth>0</depth>
+                        <hotspotX>0.481818169</hotspotX>
+                        <hotspotY>0.423076928</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="textoInfoLoja_Dinheiro" uid="766">
+                    <properties>
+                        <text>00000000</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-24,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>149.054321289</x>
+                        <y>36.621383667</y>
+                        <z>0</z>
+                        <width>131.061981201</width>
+                        <height>32.272598267</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="back_Botao1" uid="2908">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>182.830856323</x>
+                        <y>319.443267822</y>
+                        <z>0</z>
+                        <width>263.335754395</width>
+                        <height>75.363891602</height>
+                        <depth>0</depth>
+                        <hotspotX>0.475892872</hotspotX>
+                        <hotspotY>0.060509555</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="imagemTexto_Voltar" uid="2973">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>182.324310303</x>
+                        <y>352.847595215</y>
+                        <z>0</z>
+                        <width>111.032806396</width>
+                        <height>36.63168335</height>
+                        <depth>0</depth>
+                        <hotspotX>0.486910999</hotspotX>
+                        <hotspotY>0.59375</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -482,8 +590,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>155.833724976</x>
-                        <y>-88.750686646</y>
+                        <x>324.015960693</x>
+                        <y>50.64289093</y>
                         <z>0</z>
                         <width>90</width>
                         <height>32</height>

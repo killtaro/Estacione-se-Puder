@@ -11,8 +11,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="2">Loja</layout>
+        <layout order="3">PreLogo - Aviso</layout>
+        <layout order="5">Menu Intro</layout>
+        <layout order="6">Menu Principal</layout>
         <event-sheet order="0">Configurações</event-sheet>
         <event-sheet active="1" order="1">Eventos Loja</event-sheet>
+        <event-sheet order="4">PreLogo - Aviso</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -109,7 +113,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/oito/" />
         <folder expanded="1" path="animation-folder/nove/" />
         <folder expanded="1" path="animation-folder/dez/" />
-        <folder expanded="1" path="animation-folder/Aviso/" />
+        <folder expanded="1" path="animation-folder/imagemTexto_AvisoAlpha/" />
         <folder expanded="1" path="animation-folder/obj_Carro14/" />
         <folder expanded="1" path="animation-folder/obj_Carro13/" />
         <folder expanded="1" path="animation-folder/obj_Carro12/" />
@@ -174,5 +178,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/imagemTexto_Desaceleracao/" />
         <folder expanded="1" path="animation-folder/imagemTexto_Valor/" />
         <folder expanded="1" path="animation-folder/imagemTexto_Comprar/" />
+        <folder expanded="1" path="animation-folder/imagemTexto_GranaJogador/" />
+        <folder expanded="1" path="animation-folder/back_Botao1/" />
+        <folder expanded="1" path="animation-folder/imagemTexto_Voltar/" />
     </folders-expanded>
 </c2uistate>

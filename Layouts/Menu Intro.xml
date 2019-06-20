@@ -3246,7 +3246,7 @@
                 </instance>
                 <instance type="infoTitulo" uid="392">
                     <properties>
-                        <text>Versão 0.10.8</text>
+                        <text>Versão 0.10.9</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Harlow Solid Italic,-16,400,1</font>
                         <color>255,255,255</color>
@@ -3290,7 +3290,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="back_Sombra" uid="492">
+                <instance type="back_PretoSolido" uid="492">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -3320,14 +3320,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>384</x>
-                        <y>192</y>
+                        <x>394.763549805</x>
+                        <y>256.294128418</y>
                         <z>0</z>
-                        <width>581</width>
-                        <height>266</height>
+                        <width>507.462127686</width>
+                        <height>168.882354736</height>
                         <depth>0</depth>
-                        <hotspotX>0.475043029</hotspotX>
-                        <hotspotY>0.530075192</hotspotY>
+                        <hotspotX>0.489681065</hotspotX>
+                        <hotspotY>0.833333313</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

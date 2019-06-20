@@ -2,7 +2,7 @@
 <c2project>
     <name>Estacione se Puder</name>
     <description>Jogos de estacionar</description>
-    <version>0.10.8</version>
+    <version>0.10.9</version>
     <author>HitKillStudios</author>
     <author-email>zh.dubeslando@gmail.com</author-email>
     <author-website>www.google.com</author-website>
@@ -797,12 +797,12 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="289418645305714" speed="5">
-                        <frame duration="1" hotspotX="0.475043" hotspotY="0.530075" original-source="C:\Projetos\Estacione-se-Puder\Textures\MigraçãoMobile\intro.png">
+                        <frame duration="1" hotspotX="0.489681" hotspotY="0.833333" original-source="C:\Users\pixel\Pictures\EsP\ioio.png">
                             <collision-poly>
-                                <point x="0.00172118" y="0.24812" />
-                                <point x="0.998279" y="0.135338" />
-                                <point x="0.738382" y="0.353383" />
-                                <point x="0.00172118" y="0.808271" />
+                                <point x="0" y="0.198766" />
+                                <point x="1" y="0" />
+                                <point x="0.858864" y="0.435136" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -1056,11 +1056,22 @@
             <object-type name="TextoTeste" sid="251700846098274">
                 <plugin id="Text" />
             </object-type>
-            <object-type name="Aviso" sid="149752563141954">
+            <object-type name="imagemTexto_AvisoAlpha" sid="149752563141954">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="792393260772521" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Projetos\Estacione-se-Puder\Textures\Aviso.png" />
+                        <frame duration="1" hotspotX="0.500413" hotspotY="0.54833" original-source="C:\Users\pixel\Pictures\EsP\imagemPreLogo.png">
+                            <collision-poly>
+                                <point x="0.199835" y="0.541301" />
+                                <point x="0.500413" y="0.130053" />
+                                <point x="0.80512" y="0.532513" />
+                                <point x="0.943848" y="0.546573" />
+                                <point x="0.998348" y="0.973638" />
+                                <point x="0.500413" y="0.987698" />
+                                <point x="0.0107349" y="0.956063" />
+                                <point x="0.0520231" y="0.546573" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1996,7 +2007,7 @@
         <object-type name="opcLoja" sid="267677197477665">
             <plugin id="Text" />
         </object-type>
-        <object-type name="back_Sombra" sid="742020907170988">
+        <object-type name="back_PretoSolido" sid="742020907170988">
             <plugin id="TiledBg" />
             <texture />
         </object-type>
@@ -2398,6 +2409,11 @@
         </object-type>
         <object-type name="imagemTexto_Comprar" sid="511472113571995">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="857556015486356">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <effects>
                 <effect-type name="GlowHorizontal">
                     <effect id="glowhorizontal" />
@@ -2429,6 +2445,60 @@
         </object-type>
         <object-type name="textoInfoLoja_Valor" sid="485115450709623">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="imagemTexto_GranaJogador" sid="685456204130139">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="935757914244458" speed="5">
+                    <frame duration="1" hotspotX="0.481818" hotspotY="0.423077" original-source="C:\Users\pixel\Pictures\EsP\suaGrana.png">
+                        <collision-poly>
+                            <point x="0.00909091" y="0.230769" />
+                            <point x="0.930303" y="0.333333" />
+                            <point x="0.993939" y="0.410256" />
+                            <point x="0.987879" y="0.74359" />
+                            <point x="0.481818" y="0.974359" />
+                            <point x="0.00606061" y="0.615385" />
+                            <point x="0.0515152" y="0.410256" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="textoInfoLoja_Dinheiro" sid="464957836230986">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="back_Botao1" sid="634061706203279">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="955539178684495" speed="5">
+                    <frame duration="1" hotspotX="0.475893" hotspotY="0.0605096" original-source="C:\Users\pixel\Downloads\New Piskel(7).png">
+                        <collision-poly>
+                            <point x="0.195592" y="0" />
+                            <point x="0.755733" y="0" />
+                            <point x="1" y="0.0582279" />
+                            <point x="0.806655" y="1" />
+                            <point x="0.14467" y="1" />
+                            <point x="0" y="0.0582279" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="imagemTexto_Voltar" sid="956032117501931">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="148944552920997" speed="5">
+                    <frame duration="1" hotspotX="0.486911" hotspotY="0.59375" original-source="C:\Users\pixel\Pictures\EsP\imagevoltar.png">
+                        <collision-poly>
+                            <point x="0.0209424" y="0.28125" />
+                            <point x="0.910995" y="0.40625" />
+                            <point x="0.91623" y="0.59375" />
+                            <point x="0.910995" y="0.78125" />
+                            <point x="0.0732984" y="0.75" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
