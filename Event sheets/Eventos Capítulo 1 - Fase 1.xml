@@ -4,29 +4,6 @@
     <name>Eventos Capítulo 1 - Fase 1</name>
     <events>
         <include>Evento Menu de Pausa</include>
-        <event-block sid="856929186067579">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="687940373480755" type="System" />
-            </conditions>
-            <actions>
-                <action id="-4" name="Set layer visible" sid="471706126637307" type="System">
-                    <param id="0" name="Layer">&quot;Controles&quot;</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <variable constant="0" name="carro" sid="395619423906324" static="0" type="number">0</variable>
-        <event-block sid="587051171891545">
-            <conditions>
-                <condition id="-1" name="Every tick" sid="451332089391398" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="258711311810115" type="Text">
-                    <param id="0" name="Text">carro</param>
-                </action>
-            </actions>
-        </event-block>
-        <comment>Encaminha para o carregamento</comment>
         <event-block sid="402016831897447">
             <conditions>
                 <condition id="-9" name="Layer is visible" sid="740007532104565" type="System">

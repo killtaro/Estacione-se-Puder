@@ -4,15 +4,15 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>397.006</position-x>
-        <position-y>242.966</position-y>
-        <position-z>100</position-z>
-        <lookat-x>397.006</lookat-x>
-        <lookat-y>242.966</lookat-y>
+        <position-x>405.495</position-x>
+        <position-y>199.69</position-y>
+        <position-z>75.7575</position-z>
+        <lookat-x>405.495</lookat-x>
+        <lookat-y>199.69</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
-    <show-grid>0</show-grid>
+    <show-grid>1</show-grid>
     <snap-width>32</snap-width>
     <snap-height>32</snap-height>
     <show-collision-polys>0</show-collision-polys>
@@ -23,12 +23,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="Status" />
+    <active-layer name="Cima" />
     <layers>
-        <layer locked="1" name="Fundo" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="Cima" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="FundoStatus" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="Botao Comprar" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="Status" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Fundo" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Cima" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="FundoStatus" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Botao Comprar" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Status" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

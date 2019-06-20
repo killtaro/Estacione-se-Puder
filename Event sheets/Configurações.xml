@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Configurações</name>
     <events>
+        <variable constant="0" name="idCarro" sid="395619423906324" static="0" type="number">0</variable>
         <event-group description="Responsável pela configuração dos controles da versão mobile." sid="724036570689435" title="Configurações dos controles Mobile">
             <sub-events>
                 <event-group description="Responsável pela configuração dos sprites do carro para que a impressão de dimensão seja passado ao jogador." sid="666418089755401" title="Configuração dos sprites do carro na versão mobile">
@@ -556,23 +557,69 @@
             <sub-events>
                 <event-group description="Responsável por definir os atributos do carro, como, aceleração, velocidade máxima, dentre outros." sid="417433723502524" title="Configuração de atributos do carro">
                     <sub-events>
-                        <event-block sid="915729359806109">
+                        <event-block sid="301234269139388">
                             <conditions>
-                                <condition id="2" name="Is playing" sid="223401326266746" type="newCarro">
-                                    <param id="0" name="Animation">&quot;carro1&quot;</param>
-                                </condition>
+                                <condition id="-2" name="On start of layout" sid="657010282184954" type="System" />
                             </conditions>
-                            <actions>
-                                <action behavior="8Direction" id="4" name="Set max speed" sid="733809949147696" type="newCarro">
-                                    <param id="0" name="Max Speed">600</param>
-                                </action>
-                                <action behavior="8Direction" id="5" name="Set acceleration" sid="967085096087115" type="newCarro">
-                                    <param id="0" name="Acceleration">600</param>
-                                </action>
-                                <action behavior="8Direction" id="6" name="Set deceleration" sid="819255579317002" type="newCarro">
-                                    <param id="0" name="Deceleration">600</param>
-                                </action>
-                            </actions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="928918408369740">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="173826299375536" type="System">
+                                            <param id="0" name="Variable">idCarro</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="577330319685187" type="newCarro">
+                                            <param id="0" name="Animation">&quot;carrro1&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action behavior="8Direction" id="4" name="Set max speed" sid="363388753020014" type="newCarro">
+                                            <param id="0" name="Max Speed">600</param>
+                                        </action>
+                                        <action behavior="8Direction" id="5" name="Set acceleration" sid="248363837583963" type="newCarro">
+                                            <param id="0" name="Acceleration">600</param>
+                                        </action>
+                                        <action behavior="8Direction" id="6" name="Set deceleration" sid="645470785000449" type="newCarro">
+                                            <param id="0" name="Deceleration">600</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="494819829064723" type="newCarro">
+                                            <param id="0" name="Instance variable">Valor</param>
+                                            <param id="1" name="Value">300</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="333662474880188">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="703819822167553" type="System">
+                                            <param id="0" name="Variable">idCarro</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="168823289491198" type="newCarro">
+                                            <param id="0" name="Animation">&quot;carrro2&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action behavior="8Direction" id="4" name="Set max speed" sid="392448572884589" type="newCarro">
+                                            <param id="0" name="Max Speed">600</param>
+                                        </action>
+                                        <action behavior="8Direction" id="5" name="Set acceleration" sid="892721962333843" type="newCarro">
+                                            <param id="0" name="Acceleration">600</param>
+                                        </action>
+                                        <action behavior="8Direction" id="6" name="Set deceleration" sid="865456420376852" type="newCarro">
+                                            <param id="0" name="Deceleration">600</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="445764130330918" type="newCarro">
+                                            <param id="0" name="Instance variable">Valor</param>
+                                            <param id="1" name="Value">900</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-group>
@@ -1373,7 +1420,7 @@
                                 </event-block>
                                 <event-block sid="790891033297164">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="841334386249587" type="parede1Cima">
+                                        <condition id="-16" name="Is on layer" sid="841334386249587" type="obj_parede1Cima">
                                             <param id="0" name="Layer">&quot;Terreo&quot;</param>
                                         </condition>
                                     </conditions>
@@ -1385,7 +1432,7 @@
                                 </event-block>
                                 <event-block sid="566012599879680">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="801542529717262" type="parede1Cima">
+                                        <condition id="-16" name="Is on layer" sid="801542529717262" type="obj_parede1Cima">
                                             <param id="0" name="Layer">&quot;1Andar&quot;</param>
                                         </condition>
                                     </conditions>
@@ -1397,7 +1444,7 @@
                                 </event-block>
                                 <event-block sid="241890574207059">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="611109533818396" type="parede1Cima">
+                                        <condition id="-16" name="Is on layer" sid="611109533818396" type="obj_parede1Cima">
                                             <param id="0" name="Layer">&quot;2Andar&quot;</param>
                                         </condition>
                                     </conditions>
@@ -1409,7 +1456,7 @@
                                 </event-block>
                                 <event-block sid="424583829146513">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="890447291448669" type="parede1Frente">
+                                        <condition id="-16" name="Is on layer" sid="890447291448669" type="obj_parede1Frente">
                                             <param id="0" name="Layer">&quot;Terreo&quot;</param>
                                         </condition>
                                     </conditions>
@@ -1421,7 +1468,7 @@
                                 </event-block>
                                 <event-block sid="722675857452508">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="817171088844141" type="parede1Frente">
+                                        <condition id="-16" name="Is on layer" sid="817171088844141" type="obj_parede1Frente">
                                             <param id="0" name="Layer">&quot;1Andar&quot;</param>
                                         </condition>
                                     </conditions>
@@ -1433,7 +1480,7 @@
                                 </event-block>
                                 <event-block sid="689043938937720">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="837873899770639" type="parede1Frente">
+                                        <condition id="-16" name="Is on layer" sid="837873899770639" type="obj_parede1Frente">
                                             <param id="0" name="Layer">&quot;2Andar&quot;</param>
                                         </condition>
                                     </conditions>
@@ -2179,7 +2226,7 @@
                                 </event-block>
                                 <event-block sid="533465016963291">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="662723917586026" type="parede1Cima">
+                                        <condition id="-16" name="Is on layer" sid="662723917586026" type="obj_parede1Cima">
                                             <param id="0" name="Layer">&quot;Terreo&quot;</param>
                                         </condition>
                                     </conditions>
@@ -2191,7 +2238,7 @@
                                 </event-block>
                                 <event-block sid="111215799672168">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="805471800817249" type="parede1Cima">
+                                        <condition id="-16" name="Is on layer" sid="805471800817249" type="obj_parede1Cima">
                                             <param id="0" name="Layer">&quot;1Andar&quot;</param>
                                         </condition>
                                     </conditions>
@@ -2203,7 +2250,7 @@
                                 </event-block>
                                 <event-block sid="513787061144963">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="860546208613856" type="parede1Cima">
+                                        <condition id="-16" name="Is on layer" sid="860546208613856" type="obj_parede1Cima">
                                             <param id="0" name="Layer">&quot;2Andar&quot;</param>
                                         </condition>
                                     </conditions>
@@ -2215,7 +2262,7 @@
                                 </event-block>
                                 <event-block sid="113767374543720">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="820184725662215" type="parede1Frente">
+                                        <condition id="-16" name="Is on layer" sid="820184725662215" type="obj_parede1Frente">
                                             <param id="0" name="Layer">&quot;Terreo&quot;</param>
                                         </condition>
                                     </conditions>
@@ -2227,7 +2274,7 @@
                                 </event-block>
                                 <event-block sid="827285033390207">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="886060243837079" type="parede1Frente">
+                                        <condition id="-16" name="Is on layer" sid="886060243837079" type="obj_parede1Frente">
                                             <param id="0" name="Layer">&quot;1Andar&quot;</param>
                                         </condition>
                                     </conditions>
@@ -2239,7 +2286,7 @@
                                 </event-block>
                                 <event-block sid="668286388574187">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="176024373829914" type="parede1Frente">
+                                        <condition id="-16" name="Is on layer" sid="176024373829914" type="obj_parede1Frente">
                                             <param id="0" name="Layer">&quot;2Andar&quot;</param>
                                         </condition>
                                     </conditions>
@@ -2877,7 +2924,7 @@
                                 </event-block>
                                 <event-block sid="952761385278615">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="452269979263123" type="parede1Cima">
+                                        <condition id="-16" name="Is on layer" sid="452269979263123" type="obj_parede1Cima">
                                             <param id="0" name="Layer">&quot;Terreo&quot;</param>
                                         </condition>
                                     </conditions>
@@ -2889,7 +2936,7 @@
                                 </event-block>
                                 <event-block sid="996717218294398">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="159914232699534" type="parede1Cima">
+                                        <condition id="-16" name="Is on layer" sid="159914232699534" type="obj_parede1Cima">
                                             <param id="0" name="Layer">&quot;1Andar&quot;</param>
                                         </condition>
                                     </conditions>
@@ -2901,7 +2948,7 @@
                                 </event-block>
                                 <event-block sid="635350097920655">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="277790911731495" type="parede1Cima">
+                                        <condition id="-16" name="Is on layer" sid="277790911731495" type="obj_parede1Cima">
                                             <param id="0" name="Layer">&quot;2Andar&quot;</param>
                                         </condition>
                                     </conditions>
@@ -2913,7 +2960,7 @@
                                 </event-block>
                                 <event-block sid="247963330687377">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="491445513252793" type="parede1Frente">
+                                        <condition id="-16" name="Is on layer" sid="491445513252793" type="obj_parede1Frente">
                                             <param id="0" name="Layer">&quot;Terreo&quot;</param>
                                         </condition>
                                     </conditions>
@@ -2925,7 +2972,7 @@
                                 </event-block>
                                 <event-block sid="655189121382901">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="268632078171437" type="parede1Frente">
+                                        <condition id="-16" name="Is on layer" sid="268632078171437" type="obj_parede1Frente">
                                             <param id="0" name="Layer">&quot;1Andar&quot;</param>
                                         </condition>
                                     </conditions>
@@ -2937,7 +2984,7 @@
                                 </event-block>
                                 <event-block sid="537534388857828">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="756811092994073" type="parede1Frente">
+                                        <condition id="-16" name="Is on layer" sid="756811092994073" type="obj_parede1Frente">
                                             <param id="0" name="Layer">&quot;2Andar&quot;</param>
                                         </condition>
                                     </conditions>
@@ -3041,7 +3088,7 @@
                         <event-block sid="582736777705429">
                             <conditions>
                                 <condition id="0" name="On collision with another object" sid="190584759253351" type="newCarro">
-                                    <param id="0" name="Object">parede1Cima</param>
+                                    <param id="0" name="Object">obj_parede1Cima</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -3054,7 +3101,7 @@
                         <event-block sid="207011642086046">
                             <conditions>
                                 <condition id="0" name="On collision with another object" sid="133649883338609" type="newCarro">
-                                    <param id="0" name="Object">parede1Frente</param>
+                                    <param id="0" name="Object">obj_parede1Frente</param>
                                 </condition>
                             </conditions>
                             <actions>

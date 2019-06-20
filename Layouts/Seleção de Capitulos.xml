@@ -191,50 +191,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="SetaEsquerda" uid="765">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>167</x>
-                        <y>240</y>
-                        <z>0</z>
-                        <width>93</width>
-                        <height>56</height>
-                        <depth>0</depth>
-                        <hotspotX>0.487951815</hotspotX>
-                        <hotspotY>0.493670881</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="SetaDireita" uid="766">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>641</x>
-                        <y>240</y>
-                        <z>0</z>
-                        <width>93</width>
-                        <height>56</height>
-                        <depth>0</depth>
-                        <hotspotX>0.512048185</hotspotX>
-                        <hotspotY>0.506329119</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="btnInicio" uid="767">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>

@@ -1345,7 +1345,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="362">
+                <instance type="detalhe_seta" uid="362">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1367,7 +1367,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="363">
+                <instance type="detalhe_seta" uid="363">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1389,7 +1389,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="364">
+                <instance type="detalhe_seta" uid="364">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1411,7 +1411,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="365">
+                <instance type="detalhe_seta" uid="365">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1433,7 +1433,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="366">
+                <instance type="detalhe_seta" uid="366">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1455,7 +1455,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="367">
+                <instance type="detalhe_seta" uid="367">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2232,7 +2232,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="1558">
+                <instance type="detalhe_seta" uid="1558">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2288,6 +2288,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <Valor>0</Valor>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="ScrollTo">
                             <properties>
@@ -2321,7 +2324,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede1Cima" uid="56">
+                <instance type="obj_parede1Cima" uid="56">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2348,7 +2351,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede1Frente" uid="200">
+                <instance type="obj_parede1Frente" uid="200">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2375,7 +2378,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede1Frente" uid="395">
+                <instance type="obj_parede1Frente" uid="395">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2402,7 +2405,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede1Frente" uid="342">
+                <instance type="obj_parede1Frente" uid="342">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2429,7 +2432,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede1Frente" uid="292">
+                <instance type="obj_parede1Frente" uid="292">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2456,7 +2459,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede1Frente" uid="290">
+                <instance type="obj_parede1Frente" uid="290">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2483,7 +2486,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede1Cima" uid="291">
+                <instance type="obj_parede1Cima" uid="291">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2510,7 +2513,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede1Frente" uid="293">
+                <instance type="obj_parede1Frente" uid="293">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2537,7 +2540,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede1Frente" uid="295">
+                <instance type="obj_parede1Frente" uid="295">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2564,7 +2567,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede1Frente" uid="294">
+                <instance type="obj_parede1Frente" uid="294">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2591,7 +2594,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede1Cima" uid="296">
+                <instance type="obj_parede1Cima" uid="296">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2618,7 +2621,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede1Cima" uid="321">
+                <instance type="obj_parede1Cima" uid="321">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2638,6 +2641,222 @@
                         <z>0</z>
                         <width>10.010696411</width>
                         <height>-183.714141846</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_parede1Frente" uid="1264">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>397.280700684</x>
+                        <y>222.164459229</y>
+                        <z>0</z>
+                        <width>89.600860596</width>
+                        <height>48.947387695</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_parede1Frente" uid="1417">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>750.41015625</x>
+                        <y>221.528198242</y>
+                        <z>0</z>
+                        <width>92.033538818</width>
+                        <height>48.947387695</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_parede1Frente" uid="1632">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1108.121582031</x>
+                        <y>242.99597168</y>
+                        <z>0</z>
+                        <width>92.033538818</width>
+                        <height>48.947387695</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_parede1Frente" uid="1725">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>751.095397949</x>
+                        <y>632.701782227</y>
+                        <z>0</z>
+                        <width>92.033538818</width>
+                        <height>48.947387695</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_parede1Frente" uid="1923">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>394.15914917</x>
+                        <y>633.863220215</y>
+                        <z>0</z>
+                        <width>92.033538818</width>
+                        <height>48.947387695</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_parede1Frente" uid="2056">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>394.923614502</x>
+                        <y>795.695861816</y>
+                        <z>0</z>
+                        <width>92.033538818</width>
+                        <height>48.947387695</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_parede1Frente" uid="2060">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>749.130737305</x>
+                        <y>794.54888916</y>
+                        <z>0</z>
+                        <width>92.033538818</width>
+                        <height>48.947387695</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_parede1Frente" uid="2195">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1111.125732422</x>
+                        <y>897.470458984</y>
+                        <z>0</z>
+                        <width>92.033538818</width>
+                        <height>48.947387695</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -4279,7 +4498,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="474">
+                <instance type="detalhe_seta" uid="474">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4301,7 +4520,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="475">
+                <instance type="detalhe_seta" uid="475">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4323,7 +4542,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="476">
+                <instance type="detalhe_seta" uid="476">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4345,7 +4564,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="477">
+                <instance type="detalhe_seta" uid="477">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4367,7 +4586,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="478">
+                <instance type="detalhe_seta" uid="478">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4389,7 +4608,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="479">
+                <instance type="detalhe_seta" uid="479">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

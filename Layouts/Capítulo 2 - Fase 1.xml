@@ -308,10 +308,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>384</x>
-                        <y>608</y>
+                        <y>610.706726074</y>
                         <z>0</z>
                         <width>92</width>
-                        <height>59</height>
+                        <height>56.293273926</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -1615,7 +1615,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="152">
+                <instance type="detalhe_seta" uid="152">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1637,7 +1637,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="153">
+                <instance type="detalhe_seta" uid="153">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1659,7 +1659,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="154">
+                <instance type="detalhe_seta" uid="154">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1681,7 +1681,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="155">
+                <instance type="detalhe_seta" uid="155">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1703,7 +1703,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="156">
+                <instance type="detalhe_seta" uid="156">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1725,7 +1725,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="157">
+                <instance type="detalhe_seta" uid="157">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2509,7 +2509,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="172">
+                <instance type="detalhe_seta" uid="172">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2585,7 +2585,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="380">
+                <instance type="detalhe_seta" uid="380">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2672,6 +2672,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <Valor>0</Valor>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="ScrollTo">
                             <properties>
@@ -2701,6 +2704,87 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_parede1Frente" uid="2235">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>386</x>
+                        <y>223</y>
+                        <z>0</z>
+                        <width>90.67565918</width>
+                        <height>50</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_parede1Frente" uid="2361">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>739.672241211</x>
+                        <y>224.553222656</y>
+                        <z>0</z>
+                        <width>90.67565918</width>
+                        <height>50</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_parede1Frente" uid="2451">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>384.097625732</x>
+                        <y>622.436218262</y>
+                        <z>0</z>
+                        <width>92.759674072</width>
+                        <height>50.008056641</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

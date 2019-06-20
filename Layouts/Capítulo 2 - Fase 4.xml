@@ -1612,7 +1612,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="720">
+                <instance type="detalhe_seta" uid="720">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1634,7 +1634,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="721">
+                <instance type="detalhe_seta" uid="721">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1752,7 +1752,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="725">
+                <instance type="detalhe_seta" uid="725">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2084,7 +2084,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="911">
+                <instance type="detalhe_seta" uid="911">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2184,6 +2184,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <Valor>0</Valor>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="ScrollTo">
                             <properties>
@@ -3848,7 +3851,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="897">
+                <instance type="detalhe_seta" uid="897">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3966,7 +3969,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="901">
+                <instance type="detalhe_seta" uid="901">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5872,7 +5875,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="989">
+                <instance type="detalhe_seta" uid="989">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5990,7 +5993,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="setaestacionamento" uid="993">
+                <instance type="detalhe_seta" uid="993">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

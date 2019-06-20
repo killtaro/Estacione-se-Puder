@@ -6,9 +6,6 @@
         <comment>Troca o capitulo na tela</comment>
         <event-block sid="369115675269240">
             <conditions>
-                <condition id="3" name="On touched object" sid="629153507353633" type="Toque">
-                    <param id="0" name="Object">SetaDireita</param>
-                </condition>
                 <condition id="-9" name="Layer is visible" sid="244235371062965" type="System">
                     <param id="0" name="Layer">&quot;Rua&quot;</param>
                 </condition>
@@ -26,9 +23,6 @@
         </event-block>
         <event-block sid="622010936371318">
             <conditions>
-                <condition id="3" name="On touched object" sid="669594417492992" type="Toque">
-                    <param id="0" name="Object">SetaEsquerda</param>
-                </condition>
                 <condition id="-9" name="Layer is visible" sid="746485690575888" type="System">
                     <param id="0" name="Layer">&quot;Estacionamento&quot;</param>
                 </condition>

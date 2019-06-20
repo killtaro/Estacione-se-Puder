@@ -3246,7 +3246,7 @@
                 </instance>
                 <instance type="infoTitulo" uid="392">
                     <properties>
-                        <text>Versão 0.10.7</text>
+                        <text>Versão 0.10.8</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Harlow Solid Italic,-16,400,1</font>
                         <color>255,255,255</color>
@@ -3290,7 +3290,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="preto" uid="492">
+                <instance type="back_Sombra" uid="492">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
