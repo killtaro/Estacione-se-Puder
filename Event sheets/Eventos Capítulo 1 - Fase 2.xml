@@ -3,19 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Capítulo 1 - Fase 2</name>
     <events>
+        <include>Configurações</include>
         <include>Evento Menu de Pausa</include>
-        <event-block sid="551531152224714">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="153031651922134" type="System" />
-            </conditions>
-            <actions>
-                <action id="-4" name="Set layer visible" sid="707433960924051" type="System">
-                    <param id="0" name="Layer">&quot;Controles&quot;</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <comment>Encaminha para o carregamento</comment>
         <event-block sid="527087038830481">
             <conditions>
                 <condition id="-9" name="Layer is visible" sid="819007235726908" type="System">
