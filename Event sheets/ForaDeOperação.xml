@@ -11,7 +11,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="553469153959025" type="System">
-                    <param id="0" name="Layout">Menu Principal</param>
+                    <param id="0" name="Layout">Menu - Principal</param>
                 </action>
             </actions>
         </event-block>

@@ -84,7 +84,7 @@
                             <param id="1" name="Value">9</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="293246185204413" type="System">
-                            <param id="0" name="Layout">Menu Principal</param>
+                            <param id="0" name="Layout">Menu - Principal</param>
                         </action>
                     </actions>
                 </event-block>

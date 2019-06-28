@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Configurações</name>
     <events>
+        <variable constant="0" name="dinheiroJogador" sid="556272596546668" static="0" type="number">0</variable>
         <variable constant="0" name="idCarro" sid="395619423906324" static="0" type="number">0</variable>
         <event-group description="Responsável pela configuração dos controles da versão mobile." sid="724036570689435" title="Configurações dos controles Mobile">
             <sub-events>

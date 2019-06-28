@@ -1397,7 +1397,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="230">
+                <instance type="obj_BordaRua" uid="230">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1424,7 +1424,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="231">
+                <instance type="obj_BordaRua" uid="231">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1451,7 +1451,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="232">
+                <instance type="obj_BordaRua" uid="232">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1478,7 +1478,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="233">
+                <instance type="obj_BordaRua" uid="233">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1505,7 +1505,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="234">
+                <instance type="obj_BordaRua" uid="234">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1532,7 +1532,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="235">
+                <instance type="obj_BordaRua" uid="235">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1559,7 +1559,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="236">
+                <instance type="obj_BordaRua" uid="236">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1586,7 +1586,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="237">
+                <instance type="obj_BordaRua" uid="237">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1613,7 +1613,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="238">
+                <instance type="obj_BordaRua" uid="238">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1640,7 +1640,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="239">
+                <instance type="obj_BordaRua" uid="239">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1667,7 +1667,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="240">
+                <instance type="obj_BordaRua" uid="240">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1694,7 +1694,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="241">
+                <instance type="obj_BordaRua" uid="241">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1721,7 +1721,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="242">
+                <instance type="obj_BordaRua" uid="242">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1748,7 +1748,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="243">
+                <instance type="obj_BordaRua" uid="243">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1775,7 +1775,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="244">
+                <instance type="obj_BordaRua" uid="244">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1802,7 +1802,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="284">
+                <instance type="obj_BordaRua" uid="284">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1829,7 +1829,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="547">
+                <instance type="obj_BordaRua" uid="547">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1856,7 +1856,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="548">
+                <instance type="obj_BordaRua" uid="548">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1883,7 +1883,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="549">
+                <instance type="obj_BordaRua" uid="549">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1910,7 +1910,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="550">
+                <instance type="obj_BordaRua" uid="550">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1937,7 +1937,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="551">
+                <instance type="obj_BordaRua" uid="551">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1964,7 +1964,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="552">
+                <instance type="obj_BordaRua" uid="552">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1991,7 +1991,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="553">
+                <instance type="obj_BordaRua" uid="553">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2058,7 +2058,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="645">
+                <instance type="obj_BordaRua" uid="645">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2085,7 +2085,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="646">
+                <instance type="obj_BordaRua" uid="646">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2112,7 +2112,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="647">
+                <instance type="obj_BordaRua" uid="647">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2199,7 +2199,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="733">
+                <instance type="obj_BordaRua" uid="733">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2226,7 +2226,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="734">
+                <instance type="obj_BordaRua" uid="734">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -2253,7 +2253,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bord" uid="735">
+                <instance type="obj_BordaRua" uid="735">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>

@@ -71,45 +71,8 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="548742513187140">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="306819450736982" type="Teclado">
-                    <param id="0" name="Key">39</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="624835742631587" type="System">
-                    <param id="0" name="Variable">idCarro</param>
-                    <param id="1" name="Comparison">2</param>
-                    <param id="2" name="Value">8</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Add to" sid="136103654762282" type="System">
-                    <param id="0" name="Variable">idCarro</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="615414597566699">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="268132730847872" type="Teclado">
-                    <param id="0" name="Key">37</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="271373181824501" type="System">
-                    <param id="0" name="Variable">idCarro</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-11" name="Subtract from" sid="170692894344285" type="System">
-                    <param id="0" name="Variable">idCarro</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-group description="" sid="941661470079396" title="CompraCarros">
+        <event-group description="Responsável por gerenciar o array da compra de carros e realizar as alterações quando um novo carro é comprado." sid="941661470079396" title="Configuração da compra de carros">
             <sub-events>
-                <comment>Os valores dos carros estao em branco para testes</comment>
                 <event-block sid="881512241394707">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="785516014649885" type="System">
@@ -118,7 +81,7 @@
                             <param id="2" name="Value">0</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="676011465920936" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">0</param>
                         </condition>
@@ -130,7 +93,7 @@
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="778048665253342" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Value">0</param>
                         </action>
                     </actions>
@@ -143,7 +106,7 @@
                             <param id="2" name="Value">1</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="630908455154322" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">0</param>
                         </condition>
@@ -155,7 +118,7 @@
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="434644693644704" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Value">200</param>
                         </action>
                     </actions>
@@ -168,7 +131,7 @@
                             <param id="2" name="Value">2</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="843860341518616" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">410</param>
                         </condition>
@@ -180,7 +143,7 @@
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="286567709225955" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Value">410</param>
                         </action>
                     </actions>
@@ -193,7 +156,7 @@
                             <param id="2" name="Value">3</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="477812022209919" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">560</param>
                         </condition>
@@ -205,7 +168,7 @@
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="451592906379691" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Value">560</param>
                         </action>
                     </actions>
@@ -218,7 +181,7 @@
                             <param id="2" name="Value">4</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="591388835178791" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">680</param>
                         </condition>
@@ -230,7 +193,7 @@
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="423273797535529" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Value">680</param>
                         </action>
                     </actions>
@@ -243,7 +206,7 @@
                             <param id="2" name="Value">5</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="117741847270371" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">732</param>
                         </condition>
@@ -255,7 +218,7 @@
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="189115510342244" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Value">732</param>
                         </action>
                     </actions>
@@ -268,7 +231,7 @@
                             <param id="2" name="Value">6</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="731671686156268" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">848</param>
                         </condition>
@@ -280,7 +243,7 @@
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="604876562215838" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Value">848</param>
                         </action>
                     </actions>
@@ -293,7 +256,7 @@
                             <param id="2" name="Value">7</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="438315063998041" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">1056</param>
                         </condition>
@@ -305,7 +268,7 @@
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="558844120927466" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Value">1056</param>
                         </action>
                     </actions>
@@ -318,7 +281,7 @@
                             <param id="2" name="Value">8</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="324340210394535" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">2028</param>
                         </condition>
@@ -330,91 +293,143 @@
                             <param id="2" name="Axis">0</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="894353805568942" type="System">
-                            <param id="0" name="Variable">Dinheiro_char</param>
+                            <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Value">2028</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="214448035943730">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="237511698619785" type="System" />
-            </conditions>
-            <actions>
-                <action id="3" name="Start" sid="222271929138142" type="newCarro">
-                    <param id="0" name="From">1</param>
-                </action>
-                <action id="6" name="Set speed" sid="440090486418622" type="newCarro">
-                    <param id="0" name="Speed">4</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="521430508852291">
-            <conditions>
-                <condition id="4" name="On finished" sid="193270635179596" type="newCarro">
-                    <param id="0" name="Animation">&quot;carro1&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="3" name="Start" sid="834294176932951" type="newCarro">
-                    <param id="0" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="868039298548260">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="389282926964374" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="517120347357608" type="textoInfoLoja_VelocidadeMaxima">
-                    <param id="0" name="Text">newCarro.8Direction.MaxSpeed</param>
-                </action>
-                <action id="0" name="Set text" sid="569416055471802" type="textoInfoLoja_Aceleracao">
-                    <param id="0" name="Text">newCarro.8Direction.Acceleration</param>
-                </action>
-                <action id="0" name="Set text" sid="478553720052237" type="textoInfoLoja_Desaceleracao">
-                    <param id="0" name="Text">newCarro.8Direction.Deceleration</param>
-                </action>
-                <action id="0" name="Set text" sid="742927171161107" type="textoInfoLoja_Valor">
-                    <param id="0" name="Text">newCarro.Valor</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="240434871060240">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="437568117341732" type="System" />
-            </conditions>
-            <actions>
-                <action behavior="8Direction" id="8" name="Set enabled" sid="113891482365859" type="newCarro">
-                    <param id="0" name="State">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block any="1" sid="979505190785275">
-            <conditions>
-                <condition id="3" name="On touched object" sid="562949548660696" type="Toque">
-                    <param id="0" name="Object">imagemTexto_Voltar</param>
-                </condition>
-                <condition id="6" name="On object clicked" sid="280698422873586" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">imagemTexto_Voltar</param>
-                </condition>
-                <condition id="3" name="On touched object" sid="929200908717883" type="Toque">
-                    <param id="0" name="Object">back_Botao1</param>
-                </condition>
-                <condition id="6" name="On object clicked" sid="794334694516662" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">back_Botao1</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="597358710153290" type="System">
-                    <param id="0" name="Layout">Menu Principal</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="Responsável por realizar a alteração no valor idCarro para a representação do carro na hora da compra." sid="601426273540510" title="Configuração da alteração dos carros para compra">
+            <sub-events>
+                <event-block sid="548742513187140">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="306819450736982" type="Teclado">
+                            <param id="0" name="Key">39</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="624835742631587" type="System">
+                            <param id="0" name="Variable">idCarro</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="136103654762282" type="System">
+                            <param id="0" name="Variable">idCarro</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="615414597566699">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="268132730847872" type="Teclado">
+                            <param id="0" name="Key">37</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="271373181824501" type="System">
+                            <param id="0" name="Variable">idCarro</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="170692894344285" type="System">
+                            <param id="0" name="Variable">idCarro</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Responsável por definir a animação do carro em exibição na loja." sid="623278703629525" title="Configuração dos detalhes do carro na loja">
+            <sub-events>
+                <event-block sid="240434871060240">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="437568117341732" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="113891482365859" type="newCarro">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="214448035943730">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="237511698619785" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Start" sid="222271929138142" type="newCarro">
+                            <param id="0" name="From">1</param>
+                        </action>
+                        <action id="6" name="Set speed" sid="440090486418622" type="newCarro">
+                            <param id="0" name="Speed">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="521430508852291">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="193270635179596" type="newCarro">
+                            <param id="0" name="Animation">&quot;carro1&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Start" sid="834294176932951" type="newCarro">
+                            <param id="0" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Responsável por definir os textos informativos referentes aos atributos do carro." sid="401716006257806" title="Configuração das informações do carro">
+            <sub-events>
+                <event-block sid="868039298548260">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="389282926964374" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="517120347357608" type="textoInfoLoja_VelocidadeMaxima">
+                            <param id="0" name="Text">newCarro.8Direction.MaxSpeed</param>
+                        </action>
+                        <action id="0" name="Set text" sid="569416055471802" type="textoInfoLoja_Aceleracao">
+                            <param id="0" name="Text">newCarro.8Direction.Acceleration</param>
+                        </action>
+                        <action id="0" name="Set text" sid="478553720052237" type="textoInfoLoja_Desaceleracao">
+                            <param id="0" name="Text">newCarro.8Direction.Deceleration</param>
+                        </action>
+                        <action id="0" name="Set text" sid="742927171161107" type="textoInfoLoja_Valor">
+                            <param id="0" name="Text">newCarro.Valor</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Responsável por definir o funcionamento dos botões de ação na loja." sid="704247424754495" title="Configuração dos botões de operação na loja">
+            <sub-events>
+                <event-block any="1" sid="979505190785275">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="562949548660696" type="Toque">
+                            <param id="0" name="Object">imagemTexto_Voltar</param>
+                        </condition>
+                        <condition id="6" name="On object clicked" sid="280698422873586" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">imagemTexto_Voltar</param>
+                        </condition>
+                        <condition id="3" name="On touched object" sid="929200908717883" type="Toque">
+                            <param id="0" name="Object">back_Botao1</param>
+                        </condition>
+                        <condition id="6" name="On object clicked" sid="794334694516662" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">back_Botao1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="597358710153290" type="System">
+                            <param id="0" name="Layout">Menu - Principal</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
