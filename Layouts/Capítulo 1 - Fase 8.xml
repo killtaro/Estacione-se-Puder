@@ -229,206 +229,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="tileset_Grama2" uid="2441">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>512</x>
-                        <y>-32</y>
-                        <z>0</z>
-                        <width>768</width>
-                        <height>320</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Grama2" uid="2442">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1216</x>
-                        <y>288</y>
-                        <z>0</z>
-                        <width>64</width>
-                        <height>736</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Grama2" uid="2443">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>512</x>
-                        <y>864</y>
-                        <z>0</z>
-                        <width>704</width>
-                        <height>160</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Grama2" uid="2444">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1952</x>
-                        <y>32</y>
-                        <z>0</z>
-                        <width>64</width>
-                        <height>1312</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Grama2" uid="2445">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1216</x>
-                        <y>-32</y>
-                        <z>0</z>
-                        <width>800</width>
-                        <height>64</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Grama2" uid="2446">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>0</x>
-                        <y>-32</y>
-                        <z>0</z>
-                        <width>544</width>
-                        <height>64</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Grama2" uid="2447">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>0</x>
-                        <y>288</y>
-                        <z>0</z>
-                        <width>256</width>
-                        <height>480</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Grama2" uid="2448">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>224</x>
-                        <y>544</y>
-                        <z>0</z>
-                        <width>736</width>
-                        <height>64</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Grama2" uid="2449">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>0</x>
-                        <y>768</y>
-                        <z>0</z>
-                        <width>64</width>
-                        <height>576</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Grama2" uid="2450">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>64</x>
-                        <y>1280</y>
-                        <z>0</z>
-                        <width>1888</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="tileset_Vaga" uid="2492">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -1117,7 +917,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1129,8 +929,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1411.970092773</x>
-                        <y>136.878097534</y>
+                        <x>1403</x>
+                        <y>137</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1149,7 +949,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1161,8 +961,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1408.361938477</x>
-                        <y>201.841217041</y>
+                        <x>1391</x>
+                        <y>199</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1181,7 +981,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1193,8 +993,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1408.367675781</x>
-                        <y>265.61730957</y>
+                        <x>1401</x>
+                        <y>266</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1213,7 +1013,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1225,8 +1025,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1411.134765625</x>
-                        <y>332.167602539</y>
+                        <x>1396</x>
+                        <y>328</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1245,7 +1045,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1257,8 +1057,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1412.055175781</x>
-                        <y>391.322906494</y>
+                        <x>1396</x>
+                        <y>392</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1277,7 +1077,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1289,8 +1089,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1412.060913086</x>
-                        <y>456.947174072</y>
+                        <x>1398</x>
+                        <y>460</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1309,7 +1109,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1321,8 +1121,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1410.208618164</x>
-                        <y>522.572753906</y>
+                        <x>1394</x>
+                        <y>523</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1341,7 +1141,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1353,8 +1153,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1412.060791016</x>
-                        <y>584.502380371</y>
+                        <x>1399</x>
+                        <y>585</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1373,7 +1173,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1385,8 +1185,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1411.140380859</x>
-                        <y>649.202880859</y>
+                        <x>1387</x>
+                        <y>649</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1405,7 +1205,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1417,8 +1217,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1411.134765625</x>
-                        <y>712.055664063</y>
+                        <x>1392</x>
+                        <y>713</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1437,7 +1237,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1449,8 +1249,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1413.907470703</x>
-                        <y>776.755065918</y>
+                        <x>1387</x>
+                        <y>775</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1469,7 +1269,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1481,8 +1281,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1412.981201172</x>
-                        <y>841.457336426</y>
+                        <x>1386</x>
+                        <y>838</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1501,7 +1301,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1513,8 +1313,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1409.282470703</x>
-                        <y>903.387451172</y>
+                        <x>1391</x>
+                        <y>903</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1533,7 +1333,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1545,8 +1345,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1411.134521484</x>
-                        <y>968.08972168</y>
+                        <x>1387</x>
+                        <y>965</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1565,7 +1365,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>3</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1577,8 +1377,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1414.833496094</x>
-                        <y>1030.019287109</y>
+                        <x>1389</x>
+                        <y>1032</y>
                         <z>0</z>
                         <width>38.441020966</width>
                         <height>41.520004272</height>
@@ -1597,7 +1397,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1629,7 +1429,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1661,7 +1461,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1693,7 +1493,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1725,7 +1525,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1757,7 +1557,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1789,7 +1589,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1821,7 +1621,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1853,7 +1653,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1885,7 +1685,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1917,7 +1717,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1949,7 +1749,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -1981,7 +1781,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -2013,7 +1813,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <frame>0</frame>
+                        <frame>5</frame>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -2083,6 +1883,206 @@
                         <hotspotX>0.484848499</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0.726707458</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Grama1" uid="2441">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>512</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <width>768</width>
+                        <height>288</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Grama1" uid="2442">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-32</x>
+                        <y>288</y>
+                        <z>0</z>
+                        <width>288</width>
+                        <height>480</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Grama1" uid="2443">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>256</x>
+                        <y>544</y>
+                        <z>0</z>
+                        <width>704</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Grama1" uid="2444">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1216</x>
+                        <y>288</y>
+                        <z>0</z>
+                        <width>64</width>
+                        <height>736</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Grama1" uid="2445">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>512</x>
+                        <y>864</y>
+                        <z>0</z>
+                        <width>704</width>
+                        <height>160</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Grama1" uid="2446">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>0</x>
+                        <y>768</y>
+                        <z>0</z>
+                        <width>64</width>
+                        <height>544</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Grama1" uid="2447">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>64</x>
+                        <y>1280</y>
+                        <z>0</z>
+                        <width>1952</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Grama1" uid="2448">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1952</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <width>64</width>
+                        <height>1280</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Grama1" uid="2449">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1280</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <width>672</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Grama1" uid="2450">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <width>512</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -3622,7 +3622,3114 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="obj_ArvoreSombra" uid="3687">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>96</x>
+                        <y>320</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3688">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>96</x>
+                        <y>448</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3689">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>192</x>
+                        <y>576</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3690">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>128</x>
+                        <y>608</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3691">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>64</x>
+                        <y>640</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3692">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>224</x>
+                        <y>704</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3693">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>128</x>
+                        <y>704</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3694">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>32</x>
+                        <y>512</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3695">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>160</x>
+                        <y>384</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3696">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>217.475997925</x>
+                        <y>360.768096924</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3697">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>32.475631714</x>
+                        <y>363.267944336</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3698">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>142.476043701</x>
+                        <y>478.267425537</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3699">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>198.308990479</x>
+                        <y>472.434020996</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3700">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>259.142272949</x>
+                        <y>548.267028809</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3701">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>327.475769043</x>
+                        <y>559.10144043</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3702">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>442.196258545</x>
+                        <y>563.26739502</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3703">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>531.360961914</x>
+                        <y>561.601257324</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3704">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>640.527038574</x>
+                        <y>559.101379395</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3705">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>739.693725586</x>
+                        <y>555.767883301</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3706">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>877.195678711</x>
+                        <y>565.767272949</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3707">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>578.028259277</x>
+                        <y>190.768112183</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3708">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>714.69519043</x>
+                        <y>197.43522644</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3709">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>641.361999512</x>
+                        <y>72.435089111</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3710">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>613.028686523</x>
+                        <y>186.600845337</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3711">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>807.194702148</x>
+                        <y>181.601135254</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3712">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>734.693969727</x>
+                        <y>245.767349243</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3713">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>892.194702148</x>
+                        <y>217.434020996</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3714">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>620.38671875</x>
+                        <y>22.018463135</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3715">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>582.051452637</x>
+                        <y>65.352172852</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3716">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>715.386108398</x>
+                        <y>75.352203369</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3717">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>670.383789063</x>
+                        <y>149.518463135</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3718">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>779.552368164</x>
+                        <y>-7.147949219</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3719">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>840.386291504</x>
+                        <y>48.684997559</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3720">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>767.053100586</x>
+                        <y>90.35194397</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3721">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>947.052490234</x>
+                        <y>24.518951416</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3722">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>997.884460449</x>
+                        <y>140.352127075</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3723">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>877.88659668</x>
+                        <y>131.185165405</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3724">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>943.717651367</x>
+                        <y>207.018188477</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3725">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>928.718566895</x>
+                        <y>87.018386841</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3726">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1017.885803223</x>
+                        <y>33.685302734</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3727">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1078.719726563</x>
+                        <y>92.018722534</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3728">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1032.884887695</x>
+                        <y>164.518829346</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3729">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1133.718994141</x>
+                        <y>32.018493652</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3730">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1118.717285156</x>
+                        <y>182.018417358</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3731">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1172.051757813</x>
+                        <y>130.352081299</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3732">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1207.052246094</x>
+                        <y>2.852111816</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3733">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1237.052978516</x>
+                        <y>93.685501099</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3734">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1219.551391602</x>
+                        <y>215.352081299</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3735">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1054.551147461</x>
+                        <y>223.685348511</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3736">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>984.55279541</x>
+                        <y>239.518157959</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3737">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>777.884887695</x>
+                        <y>241.184936523</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3738">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>670.386291504</x>
+                        <y>250.351898193</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3739">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>545.386108398</x>
+                        <y>230.351821899</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3740">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>535.386779785</x>
+                        <y>96.185348511</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3741">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1235.385498047</x>
+                        <y>314.518127441</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3742">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1251.217041016</x>
+                        <y>410.351867676</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3743">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1238.717895508</x>
+                        <y>492.018951416</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3744">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1245.384887695</x>
+                        <y>586.393066406</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3745">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1256.219238281</x>
+                        <y>688.893249512</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3746">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1248.717163086</x>
+                        <y>784.100952148</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3747">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1242.052612305</x>
+                        <y>905.768798828</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3748">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1241.217651367</x>
+                        <y>955.349975586</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3749">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1106.218139648</x>
+                        <y>946.182983398</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3750">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1184.551025391</x>
+                        <y>967.016784668</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3751">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>955.384460449</x>
+                        <y>950.350280762</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3752">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1066.218017578</x>
+                        <y>960.34967041</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3753">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>934.550720215</x>
+                        <y>975.351318359</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3754">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>854.55291748</x>
+                        <y>978.68359375</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3755">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>757.051147461</x>
+                        <y>965.349365234</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3756">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>691.220092773</x>
+                        <y>927.016662598</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3757">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>657.052062988</x>
+                        <y>967.849243164</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3758">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>602.05279541</x>
+                        <y>983.683288574</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3759">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>563.720092773</x>
+                        <y>913.682434082</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3760">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>627.051269531</x>
+                        <y>900.350708008</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3761">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>740.384643555</x>
+                        <y>894.516052246</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3762">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>821.219909668</x>
+                        <y>895.351013184</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3763">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>799.551147461</x>
+                        <y>980.351013184</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3764">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>892.885681152</x>
+                        <y>914.51739502</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3765">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>949.552368164</x>
+                        <y>885.349060059</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3766">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1002.051757813</x>
+                        <y>947.018005371</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3767">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1040.384521484</x>
+                        <y>884.516662598</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3768">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1142.885986328</x>
+                        <y>965.349365234</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3769">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1160.384887695</x>
+                        <y>886.184082031</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3770">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1177.886474609</x>
+                        <y>908.685241699</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3771">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1236.218017578</x>
+                        <y>832.017272949</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3772">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1162.049804688</x>
+                        <y>984.515686035</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3773">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1035.384765625</x>
+                        <y>971.184082031</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3774">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>763.718261719</x>
+                        <y>568.058166504</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3775">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>843.718566895</x>
+                        <y>569.725585938</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3776">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>814.55279541</x>
+                        <y>217.435333252</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3777">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>852.053100586</x>
+                        <y>152.435409546</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3778">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>762.885864258</x>
+                        <y>134.101470947</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3779">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>699.552062988</x>
+                        <y>101.602142334</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3780">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>139.388092041</x>
+                        <y>508.684814453</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3781">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>94.388259888</x>
+                        <y>502.85144043</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3782">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>43.554992676</x>
+                        <y>407.851379395</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3783">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>96.054397583</x>
+                        <y>371.184814453</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3784">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>57.721664429</x>
+                        <y>536.184448242</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3785">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>65.221221924</x>
+                        <y>690.142028809</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3786">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>41.888214111</x>
+                        <y>805.142883301</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3787">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>24.388000488</x>
+                        <y>846.807922363</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3788">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>43.554992676</x>
+                        <y>907.641967773</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3789">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>34.388031006</x>
+                        <y>969.308349609</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3790">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>26.054779053</x>
+                        <y>1024.307617188</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3791">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>27.721557617</x>
+                        <y>1053.473510742</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3792">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>17</x>
+                        <y>1121</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3793">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>38</x>
+                        <y>1175</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3794">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>39</x>
+                        <y>1242</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3795">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>35</x>
+                        <y>1282</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3796">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>140</x>
+                        <y>1320</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3797">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>304</x>
+                        <y>1307</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3798">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>422</x>
+                        <y>1318</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3799">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>520</x>
+                        <y>1311</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3800">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>628</x>
+                        <y>1307</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3801">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>770</x>
+                        <y>1310</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3802">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>893</x>
+                        <y>1306</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3803">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>975</x>
+                        <y>1301</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3804">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1985</x>
+                        <y>1207</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3805">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1995</x>
+                        <y>1276</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3806">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1961</x>
+                        <y>1307</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3807">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1988</x>
+                        <y>1122</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3808">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2002</x>
+                        <y>1039</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3809">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1999</x>
+                        <y>10</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3810">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1989</x>
+                        <y>89</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3811">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1988</x>
+                        <y>136</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3812">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2001</x>
+                        <y>173</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3813">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1995</x>
+                        <y>217</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3814">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1988</x>
+                        <y>279</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3815">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1989</x>
+                        <y>327</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3816">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2001</x>
+                        <y>391</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3817">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1986</x>
+                        <y>465</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3818">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2007</x>
+                        <y>564</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3819">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1981</x>
+                        <y>666</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3820">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1985</x>
+                        <y>724</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3821">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1976</x>
+                        <y>586</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3822">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1980</x>
+                        <y>777</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3823">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1994</x>
+                        <y>848</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3824">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1996</x>
+                        <y>929</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="obj_ArvoreSombra" uid="3825">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1983</x>
+                        <y>971</y>
+                        <z>0</z>
+                        <width>31.836898804</width>
+                        <height>60.696792603</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502538085</hotspotX>
+                        <hotspotY>0.501160085</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="newCarro" uid="3826">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Valor>0</Valor>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="ScrollTo">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>200</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>8 directions</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>Yes</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="BoundToLayout">
+                            <properties>
+                                <bound-by>Edge</bound-by>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>74</x>
+                        <y>137</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
         <layer name="Controles" sid="887924034260697">

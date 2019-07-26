@@ -562,7 +562,11 @@
                             <conditions>
                                 <condition id="-2" name="On start of layout" sid="657010282184954" type="System" />
                             </conditions>
-                            <actions />
+                            <actions>
+                                <action behavior="ScrollTo" id="1" name="Set enabled" sid="736319071599263" type="newCarro">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
                             <sub-events>
                                 <event-block sid="928918408369740">
                                     <conditions>
@@ -3447,6 +3451,20 @@
                 </action>
                 <action behavior="Sine" id="2" name="Set magnitude" sid="578969840814940" type="Final">
                     <param id="0" name="Magnitude">10</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="168639431905358">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="381670554046770" type="newCarro">
+                    <param id="0" name="Object">obj_BordaRua</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="ScrollTo" id="0" name="Shake" sid="497748236150647" type="newCarro">
+                    <param id="0" name="Magnitude">10</param>
+                    <param id="1" name="Duration">0.4</param>
+                    <param id="2" name="Mode">0</param>
                 </action>
             </actions>
         </event-block>

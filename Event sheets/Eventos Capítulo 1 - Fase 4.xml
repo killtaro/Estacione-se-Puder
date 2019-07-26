@@ -5,18 +5,6 @@
     <events>
         <include>Configurações</include>
         <include>Evento Menu de Pausa</include>
-        <event-block sid="125390508750848">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="591346365574952" type="System" />
-            </conditions>
-            <actions>
-                <action id="-4" name="Set layer visible" sid="700979600331945" type="System">
-                    <param id="0" name="Layer">&quot;Controles&quot;</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <comment>Encaminha para o carregamento</comment>
         <event-block sid="915293349590498">
             <conditions>
                 <condition id="-9" name="Layer is visible" sid="224369306180028" type="System">

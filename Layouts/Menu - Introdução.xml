@@ -3246,9 +3246,9 @@
                 </instance>
                 <instance type="infoTitulo" uid="392">
                     <properties>
-                        <text>Versão 0.11.1</text>
+                        <text>Versão 0.11.2</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Harlow Solid Italic,-16,400,1</font>
+                        <font>Courier New,-16,400,1</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -3259,10 +3259,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>352</x>
+                        <x>320</x>
                         <y>368</y>
                         <z>0</z>
-                        <width>96</width>
+                        <width>144</width>
                         <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
