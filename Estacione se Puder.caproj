@@ -2,7 +2,7 @@
 <c2project>
     <name>Estacione se Puder</name>
     <description>Jogos de estacionar</description>
-    <version>0.11.6</version>
+    <version>0.11.7</version>
     <author>HitKillStudios</author>
     <author-email>zh.dubeslando@gmail.com</author-email>
     <author-website>www.google.com</author-website>
@@ -41,7 +41,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
-    <first-layout>Menu - Aviso</first-layout>
+    <first-layout>Menu de Aviso</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -1353,22 +1353,6 @@
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="imagemTexto_TituloJogo" sid="471268521577320">
-                    <plugin id="Sprite" />
-                    <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="105069556539678" speed="5">
-                            <frame duration="1" hotspotX="0.612466" hotspotY="2.6988" original-source="C:\Users\pixel\Pictures\EsP\étitulo.png">
-                                <collision-poly>
-                                    <point x="0.0108401" y="0.120482" />
-                                    <point x="0.612466" y="0.144578" />
-                                    <point x="0.730352" y="0.975904" />
-                                    <point x="0.612466" y="0.963855" />
-                                    <point x="0.556911" y="0.421687" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                    </animation-folder>
-                </object-type>
                 <object-type name="imagemTexto_Valor" sid="604312130901521">
                     <plugin id="Sprite" />
                     <animation-folder>
@@ -1527,6 +1511,9 @@
                             </frame>
                         </animation>
                     </animation-folder>
+                </object-type>
+                <object-type name="textoInfo_Versao" sid="537370718230961">
+                    <plugin id="Text" />
                 </object-type>
             </object-folder>
             <object-folder name="Pontos">
@@ -2376,9 +2363,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="textoInfo_Versao" sid="537370718230961">
-            <plugin id="Text" />
-        </object-type>
         <object-type global="1" name="StatusPlayer" sid="775965224716583">
             <plugin id="Arr" />
         </object-type>
@@ -2443,16 +2427,16 @@
             <layout>Capítulo 2 - Fase 10.xml</layout>
         </layout-folder>
         <layout-folder name="Pré-fases">
-            <layout>Menu - Seleção de Carros.xml</layout>
+            <layout>Menu de Seleção de Carros.xml</layout>
             <layout>Fase Teste.xml</layout>
-            <layout>Menu - Introdução.xml</layout>
-            <layout>Menu - Principal.xml</layout>
+            <layout>Menu de Introdução.xml</layout>
+            <layout>Menu Principal.xml</layout>
             <layout>Loja.xml</layout>
-            <layout>Seleção de Fase - Capítulo 1.xml</layout>
-            <layout>Seleção de Fase - Capítulo 2.xml</layout>
+            <layout>Seleção de Fase do Capítulo 1.xml</layout>
+            <layout>Seleção de Fase do Capítulo 2.xml</layout>
             <layout>Cadastro Player (Não Funcional).xml</layout>
-            <layout>Menu - Modos de Jogo.xml</layout>
-            <layout>Menu - Aviso.xml</layout>
+            <layout>Menu de Modos de Jogo.xml</layout>
+            <layout>Menu de Aviso.xml</layout>
             <layout>Seleção de Capitulos.xml</layout>
             <layout>Novo Loading.xml</layout>
         </layout-folder>
@@ -2463,7 +2447,6 @@
     <event-folder>
         <event-folder name="Eventos Gerais">
             <event-sheet>Eventos de Sons.xml</event-sheet>
-            <event-sheet>Eventos Configurações.xml</event-sheet>
             <event-sheet>Configurações.xml</event-sheet>
         </event-folder>
         <event-folder name="Pré-fases">
@@ -2475,7 +2458,7 @@
             <event-sheet>Eventos SelectFaseRua.xml</event-sheet>
             <event-sheet>Eventos SelectFaseEstaciona.xml</event-sheet>
             <event-sheet>Eventos Cadastro Player.xml</event-sheet>
-            <event-sheet>Eventos sub menu.xml</event-sheet>
+            <event-sheet>Eventos Menu de Modos de Jogo.xml</event-sheet>
             <event-sheet>PreLogo - Aviso.xml</event-sheet>
             <event-sheet>Eventos Seleção de capitulo.xml</event-sheet>
             <event-sheet>Eventos Novo Loading.xml</event-sheet>

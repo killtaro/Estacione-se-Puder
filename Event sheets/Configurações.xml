@@ -3,6 +3,9 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Configurações</name>
     <events>
+        <variable constant="0" name="TipoControle" sid="356691581770519" static="0" type="number">0</variable>
+        <variable constant="0" name="VolumeMusica" sid="928857954704063" static="0" type="number">0</variable>
+        <variable constant="0" name="VolumeSons" sid="305847114524398" static="0" type="number">0</variable>
         <variable constant="0" name="dinheiroJogador" sid="556272596546668" static="0" type="number">0</variable>
         <variable constant="0" name="idCarro" sid="395619423906324" static="0" type="number">0</variable>
         <event-group description="Responsável pela configuração dos controles da versão mobile." sid="724036570689435" title="Configurações dos controles Mobile">
@@ -3536,7 +3539,7 @@
                                     <param id="1" name="Visibility">0</param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="543354378188733" type="System">
-                                    <param id="0" name="Layout">Menu - Principal</param>
+                                    <param id="0" name="Layout">Menu Principal</param>
                                 </action>
                                 <action id="-4" name="Set layer visible" sid="405459259415143" type="System">
                                     <param id="0" name="Layer">4</param>
@@ -3594,7 +3597,7 @@
                                     <param id="1" name="Visibility">0</param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="929227242125130" type="System">
-                                    <param id="0" name="Layout">Menu - Principal</param>
+                                    <param id="0" name="Layout">Menu Principal</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -3652,6 +3655,90 @@
                             <param id="0" name="Magnitude">10</param>
                             <param id="1" name="Duration">0.4</param>
                             <param id="2" name="Mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="516447660274167" title="LoadConfiguraControle">
+            <sub-events>
+                <event-block sid="869062633235432">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="945997667422201" type="System">
+                            <param id="0" name="Variable">TipoControle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="425366537311584" type="System">
+                            <param id="0" name="Variable">Capitulo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="229959482188162" type="System">
+                            <param id="0" name="Variable">Fase</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="261778166184083" type="System">
+                            <param id="0" name="Group name">&quot;CriaControleMobile&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="160343069320350" type="System">
+                            <param id="0" name="Layer">4</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="945108003838176" title="LoadConfiguraVolume">
+            <sub-events>
+                <event-block sid="773596505483879">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="827207080687876" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Set master volume" sid="658224837979886" type="Musicas">
+                            <param id="0" name="dB">VolumeMusica</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="432073235157751" title="LoadConfiguracaoGeral">
+            <sub-events>
+                <comment>Define o tipo de controle</comment>
+                <event-block sid="335984416960902">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="536712991647616" type="System" />
+                        <condition id="0" name="Compare at X" sid="426542571736992" type="array_Configurações">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="421266899624772" type="System">
+                            <param id="0" name="Variable">TipoControle</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Define o volume da musica</comment>
+                <event-block sid="171570327481079">
+                    <conditions>
+                        <condition id="0" name="Compare at X" sid="254466306960113" type="array_Configurações">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">-1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="305244762536498" type="System">
+                            <param id="0" name="Variable">VolumeMusica</param>
+                            <param id="1" name="Value">array_Configurações.At(2)</param>
                         </action>
                     </actions>
                 </event-block>

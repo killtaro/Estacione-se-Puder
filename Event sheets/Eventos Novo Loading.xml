@@ -45,7 +45,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="662226504955206" type="System">
-                            <param id="0" name="Layout">Menu - Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
@@ -68,7 +68,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="537152131424132" type="System">
-                            <param id="0" name="Layout">Menu - Introdução</param>
+                            <param id="0" name="Layout">Menu de Introdução</param>
                         </action>
                     </actions>
                 </event-block>

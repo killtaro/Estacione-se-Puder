@@ -189,7 +189,7 @@
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="702823915105805" type="System">
-                            <param id="0" name="Layout">Menu - Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
@@ -212,7 +212,7 @@
                             <param id="1" name="Value">2</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="986590344578791" type="System">
-                            <param id="0" name="Layout">Menu - Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
@@ -235,7 +235,7 @@
                             <param id="1" name="Value">3</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="610443694497304" type="System">
-                            <param id="0" name="Layout">Menu - Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
@@ -258,7 +258,7 @@
                             <param id="1" name="Value">4</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="467578872147558" type="System">
-                            <param id="0" name="Layout">Menu - Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
@@ -281,7 +281,7 @@
                             <param id="1" name="Value">5</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="153742723530995" type="System">
-                            <param id="0" name="Layout">Menu - Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
@@ -304,7 +304,7 @@
                             <param id="1" name="Value">6</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="108803606614368" type="System">
-                            <param id="0" name="Layout">Menu - Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
@@ -327,7 +327,7 @@
                             <param id="1" name="Value">7</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="683355426799624" type="System">
-                            <param id="0" name="Layout">Menu - Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
@@ -350,7 +350,7 @@
                             <param id="1" name="Value">8</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="358047083434698" type="System">
-                            <param id="0" name="Layout">Menu - Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
@@ -373,7 +373,7 @@
                             <param id="1" name="Value">9</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="991100328079526" type="System">
-                            <param id="0" name="Layout">Menu - Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
@@ -396,7 +396,7 @@
                             <param id="1" name="Value">10</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="193709521336844" type="System">
-                            <param id="0" name="Layout">Menu - Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
