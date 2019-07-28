@@ -1345,7 +1345,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="362">
+                <instance type="detalhe_Seta" uid="362">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1367,7 +1367,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="363">
+                <instance type="detalhe_Seta" uid="363">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1389,7 +1389,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="364">
+                <instance type="detalhe_Seta" uid="364">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1411,7 +1411,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="365">
+                <instance type="detalhe_Seta" uid="365">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1433,7 +1433,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="366">
+                <instance type="detalhe_Seta" uid="366">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1455,7 +1455,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="367">
+                <instance type="detalhe_Seta" uid="367">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2232,7 +2232,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="1558">
+                <instance type="detalhe_Seta" uid="1558">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2281,7 +2281,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="newCarro" uid="1935">
+                <instance type="player_Carro" uid="1935">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4503,7 +4503,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="474">
+                <instance type="detalhe_Seta" uid="474">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4525,7 +4525,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="475">
+                <instance type="detalhe_Seta" uid="475">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4547,7 +4547,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="476">
+                <instance type="detalhe_Seta" uid="476">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4569,7 +4569,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="477">
+                <instance type="detalhe_Seta" uid="477">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4591,7 +4591,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="478">
+                <instance type="detalhe_Seta" uid="478">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4613,7 +4613,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="479">
+                <instance type="detalhe_Seta" uid="479">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5530,7 +5530,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Final" uid="491">
+                <instance type="detalhe_Final" uid="491">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

@@ -39,11 +39,7 @@
                     <param id="0" name="Object">selecaoArrancada</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="229351066849994" type="System">
-                    <param id="0" name="Layout">ForaDeOperação</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>

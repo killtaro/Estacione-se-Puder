@@ -16,7 +16,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="736880302981933" type="newCarro">
+                                <action id="5" name="Set frame" sid="736880302981933" type="player_Carro">
                                     <param id="0" name="Frame number">6</param>
                                 </action>
                             </actions>
@@ -28,7 +28,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="397149546972143" type="newCarro">
+                                <action id="5" name="Set frame" sid="397149546972143" type="player_Carro">
                                     <param id="0" name="Frame number">2</param>
                                 </action>
                             </actions>
@@ -40,7 +40,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="176264276210147" type="newCarro">
+                                <action id="5" name="Set frame" sid="176264276210147" type="player_Carro">
                                     <param id="0" name="Frame number">0</param>
                                 </action>
                             </actions>
@@ -52,7 +52,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="337159533827602" type="newCarro">
+                                <action id="5" name="Set frame" sid="337159533827602" type="player_Carro">
                                     <param id="0" name="Frame number">4</param>
                                 </action>
                             </actions>
@@ -67,7 +67,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="533043530501066" type="newCarro">
+                                <action id="5" name="Set frame" sid="533043530501066" type="player_Carro">
                                     <param id="0" name="Frame number">7</param>
                                 </action>
                             </actions>
@@ -82,7 +82,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="450617511534766" type="newCarro">
+                                <action id="5" name="Set frame" sid="450617511534766" type="player_Carro">
                                     <param id="0" name="Frame number">1</param>
                                 </action>
                             </actions>
@@ -97,7 +97,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="524364995413540" type="newCarro">
+                                <action id="5" name="Set frame" sid="524364995413540" type="player_Carro">
                                     <param id="0" name="Frame number">5</param>
                                 </action>
                             </actions>
@@ -112,7 +112,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="241380988979313" type="newCarro">
+                                <action id="5" name="Set frame" sid="241380988979313" type="player_Carro">
                                     <param id="0" name="Frame number">3</param>
                                 </action>
                             </actions>
@@ -205,16 +205,16 @@
                                     <param id="0" name="Opacity">50</param>
                                 </action>
                                 <action id="-3" name="Create object" sid="392305353072091" type="System">
-                                    <param id="0" name="Object to create">BotaoPausar</param>
+                                    <param id="0" name="Object to create">controle_PausaJogo</param>
                                     <param id="1" name="Layer">&quot;Controles&quot;</param>
                                     <param id="2" name="X">717.095</param>
                                     <param id="3" name="Y">44</param>
                                 </action>
-                                <action id="-7" name="Set size" sid="266060698219318" type="BotaoPausar">
+                                <action id="-7" name="Set size" sid="266060698219318" type="controle_PausaJogo">
                                     <param id="0" name="Width">40</param>
                                     <param id="1" name="Height">39</param>
                                 </action>
-                                <action id="-16" name="Set opacity" sid="444080871600163" type="BotaoPausar">
+                                <action id="-16" name="Set opacity" sid="444080871600163" type="controle_PausaJogo">
                                     <param id="0" name="Opacity">50</param>
                                 </action>
                                 <action id="-33" name="Set layer parallax" sid="139073359707799" type="System">
@@ -249,7 +249,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action behavior="8Direction" id="7" name="Simulate control" sid="667420232815766" type="newCarro">
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="667420232815766" type="player_Carro">
                                     <param id="0" name="Control">1</param>
                                 </action>
                             </actions>
@@ -264,7 +264,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action behavior="8Direction" id="7" name="Simulate control" sid="595957910118918" type="newCarro">
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="595957910118918" type="player_Carro">
                                     <param id="0" name="Control">0</param>
                                 </action>
                             </actions>
@@ -279,7 +279,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action behavior="8Direction" id="7" name="Simulate control" sid="500539327488424" type="newCarro">
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="500539327488424" type="player_Carro">
                                     <param id="0" name="Control">2</param>
                                 </action>
                             </actions>
@@ -294,7 +294,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action behavior="8Direction" id="7" name="Simulate control" sid="328130722540790" type="newCarro">
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="328130722540790" type="player_Carro">
                                     <param id="0" name="Control">3</param>
                                 </action>
                             </actions>
@@ -314,7 +314,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="288388130686019" type="newCarro">
+                                <action id="5" name="Set frame" sid="288388130686019" type="player_Carro">
                                     <param id="0" name="Frame number">0</param>
                                 </action>
                             </actions>
@@ -326,7 +326,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="837579288315154" type="newCarro">
+                                <action id="5" name="Set frame" sid="837579288315154" type="player_Carro">
                                     <param id="0" name="Frame number">4</param>
                                 </action>
                             </actions>
@@ -338,7 +338,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="704875127619221" type="newCarro">
+                                <action id="5" name="Set frame" sid="704875127619221" type="player_Carro">
                                     <param id="0" name="Frame number">6</param>
                                 </action>
                             </actions>
@@ -350,7 +350,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="132876130972774" type="newCarro">
+                                <action id="5" name="Set frame" sid="132876130972774" type="player_Carro">
                                     <param id="0" name="Frame number">2</param>
                                 </action>
                             </actions>
@@ -365,7 +365,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="521269064721886" type="newCarro">
+                                <action id="5" name="Set frame" sid="521269064721886" type="player_Carro">
                                     <param id="0" name="Frame number">7</param>
                                 </action>
                             </actions>
@@ -380,7 +380,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="561701861237813" type="newCarro">
+                                <action id="5" name="Set frame" sid="561701861237813" type="player_Carro">
                                     <param id="0" name="Frame number">1</param>
                                 </action>
                             </actions>
@@ -395,7 +395,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="980965206855120" type="newCarro">
+                                <action id="5" name="Set frame" sid="980965206855120" type="player_Carro">
                                     <param id="0" name="Frame number">5</param>
                                 </action>
                             </actions>
@@ -410,7 +410,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="383921686155502" type="newCarro">
+                                <action id="5" name="Set frame" sid="383921686155502" type="player_Carro">
                                     <param id="0" name="Frame number">3</param>
                                 </action>
                             </actions>
@@ -563,7 +563,7 @@
                                 <condition id="-2" name="On start of layout" sid="657010282184954" type="System" />
                             </conditions>
                             <actions>
-                                <action behavior="ScrollTo" id="1" name="Set enabled" sid="736319071599263" type="newCarro">
+                                <action behavior="ScrollTo" id="1" name="Set enabled" sid="736319071599263" type="player_Carro">
                                     <param id="0" name="State">1</param>
                                 </action>
                             </actions>
@@ -577,20 +577,20 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="577330319685187" type="newCarro">
+                                        <action id="4" name="Set animation" sid="577330319685187" type="player_Carro">
                                             <param id="0" name="Animation">&quot;carrro1&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
-                                        <action behavior="8Direction" id="4" name="Set max speed" sid="363388753020014" type="newCarro">
+                                        <action behavior="8Direction" id="4" name="Set max speed" sid="363388753020014" type="player_Carro">
                                             <param id="0" name="Max Speed">600</param>
                                         </action>
-                                        <action behavior="8Direction" id="5" name="Set acceleration" sid="248363837583963" type="newCarro">
+                                        <action behavior="8Direction" id="5" name="Set acceleration" sid="248363837583963" type="player_Carro">
                                             <param id="0" name="Acceleration">600</param>
                                         </action>
-                                        <action behavior="8Direction" id="6" name="Set deceleration" sid="645470785000449" type="newCarro">
+                                        <action behavior="8Direction" id="6" name="Set deceleration" sid="645470785000449" type="player_Carro">
                                             <param id="0" name="Deceleration">600</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="494819829064723" type="newCarro">
+                                        <action id="-10" name="Set value" sid="494819829064723" type="player_Carro">
                                             <param id="0" name="Instance variable">Valor</param>
                                             <param id="1" name="Value">300</param>
                                         </action>
@@ -605,20 +605,20 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="168823289491198" type="newCarro">
+                                        <action id="4" name="Set animation" sid="168823289491198" type="player_Carro">
                                             <param id="0" name="Animation">&quot;carrro2&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
-                                        <action behavior="8Direction" id="4" name="Set max speed" sid="392448572884589" type="newCarro">
+                                        <action behavior="8Direction" id="4" name="Set max speed" sid="392448572884589" type="player_Carro">
                                             <param id="0" name="Max Speed">600</param>
                                         </action>
-                                        <action behavior="8Direction" id="5" name="Set acceleration" sid="892721962333843" type="newCarro">
+                                        <action behavior="8Direction" id="5" name="Set acceleration" sid="892721962333843" type="player_Carro">
                                             <param id="0" name="Acceleration">600</param>
                                         </action>
-                                        <action behavior="8Direction" id="6" name="Set deceleration" sid="865456420376852" type="newCarro">
+                                        <action behavior="8Direction" id="6" name="Set deceleration" sid="865456420376852" type="player_Carro">
                                             <param id="0" name="Deceleration">600</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="445764130330918" type="newCarro">
+                                        <action id="-10" name="Set value" sid="445764130330918" type="player_Carro">
                                             <param id="0" name="Instance variable">Valor</param>
                                             <param id="1" name="Value">900</param>
                                         </action>
@@ -635,12 +635,12 @@
                                 <condition id="-2" name="On start of layout" sid="129491579618250" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-7" name="Set size" sid="109952657573243" type="newCarro">
+                                <action id="-7" name="Set size" sid="109952657573243" type="player_Carro">
                                     <param id="0" name="Width">40</param>
                                     <param id="1" name="Height">40</param>
                                 </action>
-                                <action id="2" name="Stop" sid="321536113071159" type="newCarro" />
-                                <action id="5" name="Set frame" sid="829445410199885" type="newCarro">
+                                <action id="2" name="Stop" sid="321536113071159" type="player_Carro" />
+                                <action id="5" name="Set frame" sid="829445410199885" type="player_Carro">
                                     <param id="0" name="Frame number">5</param>
                                 </action>
                             </actions>
@@ -655,7 +655,7 @@
                     <sub-events>
                         <event-block sid="188064644114505">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="564051636462594" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="564051636462594" type="player_Carro">
                                     <param id="0" name="Object">gatilho_Andar1</param>
                                 </condition>
                             </conditions>
@@ -664,17 +664,17 @@
                                     <param id="0" name="Layer">&quot;1Andar&quot;</param>
                                     <param id="1" name="Visibility">1</param>
                                 </action>
-                                <action id="-26" name="Move to layer" sid="166555451057157" type="newCarro">
+                                <action id="-26" name="Move to layer" sid="166555451057157" type="player_Carro">
                                     <param id="0" name="Layer">&quot;1Andar&quot;</param>
                                 </action>
-                                <action id="5" name="Set frame" sid="281285086594716" type="newCarro">
+                                <action id="5" name="Set frame" sid="281285086594716" type="player_Carro">
                                     <param id="0" name="Frame number">4</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="322729178213692">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="160932639383282" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="160932639383282" type="player_Carro">
                                     <param id="0" name="Object">gatilho_Andar2</param>
                                 </condition>
                             </conditions>
@@ -683,10 +683,10 @@
                                     <param id="0" name="Layer">&quot;2Andar&quot;</param>
                                     <param id="1" name="Visibility">1</param>
                                 </action>
-                                <action id="-26" name="Move to layer" sid="245392897064919" type="newCarro">
+                                <action id="-26" name="Move to layer" sid="245392897064919" type="player_Carro">
                                     <param id="0" name="Layer">&quot;2Andar&quot;</param>
                                 </action>
-                                <action id="5" name="Set frame" sid="698197791787673" type="newCarro">
+                                <action id="5" name="Set frame" sid="698197791787673" type="player_Carro">
                                     <param id="0" name="Frame number">4</param>
                                 </action>
                             </actions>
@@ -697,7 +697,7 @@
                     <sub-events>
                         <event-block sid="713562579525318">
                             <conditions>
-                                <condition id="-16" name="Is on layer" sid="619007472392306" type="newCarro">
+                                <condition id="-16" name="Is on layer" sid="619007472392306" type="player_Carro">
                                     <param id="0" name="Layer">&quot;Terreo&quot;</param>
                                 </condition>
                             </conditions>
@@ -1281,36 +1281,36 @@
                                 </event-block>
                                 <event-block sid="798839145902210">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="129738859573473" type="Final">
+                                        <condition id="-16" name="Is on layer" sid="129738859573473" type="detalhe_Final">
                                             <param id="0" name="Layer">&quot;Terreo&quot;</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="11" name="Set collisions enabled" sid="847817031799326" type="Final">
+                                        <action id="11" name="Set collisions enabled" sid="847817031799326" type="detalhe_Final">
                                             <param id="0" name="Collisions">1</param>
                                         </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="541503664455773">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="149667731950918" type="Final">
+                                        <condition id="-16" name="Is on layer" sid="149667731950918" type="detalhe_Final">
                                             <param id="0" name="Layer">&quot;1Andar&quot;</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="11" name="Set collisions enabled" sid="184623100520870" type="Final">
+                                        <action id="11" name="Set collisions enabled" sid="184623100520870" type="detalhe_Final">
                                             <param id="0" name="Collisions">0</param>
                                         </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="841984878818125">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="653705626209248" type="Final">
+                                        <condition id="-16" name="Is on layer" sid="653705626209248" type="detalhe_Final">
                                             <param id="0" name="Layer">&quot;2Andar&quot;</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="11" name="Set collisions enabled" sid="772395963040978" type="Final">
+                                        <action id="11" name="Set collisions enabled" sid="772395963040978" type="detalhe_Final">
                                             <param id="0" name="Collisions">0</param>
                                         </action>
                                     </actions>
@@ -1503,7 +1503,7 @@
                     <sub-events>
                         <event-block sid="919886648330183">
                             <conditions>
-                                <condition id="-16" name="Is on layer" sid="263521414013328" type="newCarro">
+                                <condition id="-16" name="Is on layer" sid="263521414013328" type="player_Carro">
                                     <param id="0" name="Layer">&quot;1Andar&quot;</param>
                                 </condition>
                             </conditions>
@@ -2087,36 +2087,36 @@
                                 </event-block>
                                 <event-block sid="347484432177870">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="531741234570742" type="Final">
+                                        <condition id="-16" name="Is on layer" sid="531741234570742" type="detalhe_Final">
                                             <param id="0" name="Layer">&quot;Terreo&quot;</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="11" name="Set collisions enabled" sid="686253658786279" type="Final">
+                                        <action id="11" name="Set collisions enabled" sid="686253658786279" type="detalhe_Final">
                                             <param id="0" name="Collisions">0</param>
                                         </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="749943969567806">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="782370564593501" type="Final">
+                                        <condition id="-16" name="Is on layer" sid="782370564593501" type="detalhe_Final">
                                             <param id="0" name="Layer">&quot;1Andar&quot;</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="11" name="Set collisions enabled" sid="747271257722024" type="Final">
+                                        <action id="11" name="Set collisions enabled" sid="747271257722024" type="detalhe_Final">
                                             <param id="0" name="Collisions">1</param>
                                         </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="617941755593715">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="547033671466305" type="Final">
+                                        <condition id="-16" name="Is on layer" sid="547033671466305" type="detalhe_Final">
                                             <param id="0" name="Layer">&quot;2Andar&quot;</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="11" name="Set collisions enabled" sid="721834779119151" type="Final">
+                                        <action id="11" name="Set collisions enabled" sid="721834779119151" type="detalhe_Final">
                                             <param id="0" name="Collisions">0</param>
                                         </action>
                                     </actions>
@@ -2309,7 +2309,7 @@
                     <sub-events>
                         <event-block sid="181246994708853">
                             <conditions>
-                                <condition id="-16" name="Is on layer" sid="370640567416030" type="newCarro">
+                                <condition id="-16" name="Is on layer" sid="370640567416030" type="player_Carro">
                                     <param id="0" name="Layer">&quot;2Andar&quot;</param>
                                 </condition>
                             </conditions>
@@ -2893,36 +2893,36 @@
                                 </event-block>
                                 <event-block sid="786797603081606">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="518987140311262" type="Final">
+                                        <condition id="-16" name="Is on layer" sid="518987140311262" type="detalhe_Final">
                                             <param id="0" name="Layer">&quot;Terreo&quot;</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="11" name="Set collisions enabled" sid="789250387270803" type="Final">
+                                        <action id="11" name="Set collisions enabled" sid="789250387270803" type="detalhe_Final">
                                             <param id="0" name="Collisions">0</param>
                                         </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="842024984121089">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="520001099681515" type="Final">
+                                        <condition id="-16" name="Is on layer" sid="520001099681515" type="detalhe_Final">
                                             <param id="0" name="Layer">&quot;1Andar&quot;</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="11" name="Set collisions enabled" sid="151205109438095" type="Final">
+                                        <action id="11" name="Set collisions enabled" sid="151205109438095" type="detalhe_Final">
                                             <param id="0" name="Collisions">0</param>
                                         </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="972286301224427">
                                     <conditions>
-                                        <condition id="-16" name="Is on layer" sid="525286511244011" type="Final">
+                                        <condition id="-16" name="Is on layer" sid="525286511244011" type="detalhe_Final">
                                             <param id="0" name="Layer">&quot;2Andar&quot;</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="11" name="Set collisions enabled" sid="351867700923983" type="Final">
+                                        <action id="11" name="Set collisions enabled" sid="351867700923983" type="detalhe_Final">
                                             <param id="0" name="Collisions">1</param>
                                         </action>
                                     </actions>
@@ -3011,7 +3011,7 @@
                     <sub-events>
                         <event-block sid="366756090336560">
                             <conditions>
-                                <condition behavior="8Direction" id="0" name="Is moving" sid="118772260849138" type="newCarro" />
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="118772260849138" type="player_Carro" />
                             </conditions>
                             <actions>
                                 <action id="-10" name="Add to" sid="787361698472001" type="System">
@@ -3022,7 +3022,7 @@
                         </event-block>
                         <event-block sid="696894142720781">
                             <conditions>
-                                <condition behavior="8Direction" id="1" name="Compare speed" sid="751617193035502" type="newCarro">
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="751617193035502" type="player_Carro">
                                     <param id="0" name="Comparison">0</param>
                                     <param id="1" name="Speed">50</param>
                                 </condition>
@@ -3036,7 +3036,7 @@
                         </event-block>
                         <event-block sid="681794787205445">
                             <conditions>
-                                <condition behavior="8Direction" id="1" name="Compare speed" sid="843606441202568" type="newCarro">
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="843606441202568" type="player_Carro">
                                     <param id="0" name="Comparison">0</param>
                                     <param id="1" name="Speed">75</param>
                                 </condition>
@@ -3050,7 +3050,7 @@
                         </event-block>
                         <event-block sid="164567735233110">
                             <conditions>
-                                <condition behavior="8Direction" id="1" name="Compare speed" sid="840673236748654" type="newCarro">
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="840673236748654" type="player_Carro">
                                     <param id="0" name="Comparison">0</param>
                                     <param id="1" name="Speed">90</param>
                                 </condition>
@@ -3064,7 +3064,7 @@
                         </event-block>
                         <event-block sid="395191213065700">
                             <conditions>
-                                <condition behavior="8Direction" id="1" name="Compare speed" sid="994883580553673" type="newCarro">
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="994883580553673" type="player_Carro">
                                     <param id="0" name="Comparison">0</param>
                                     <param id="1" name="Speed">100</param>
                                 </condition>
@@ -3078,7 +3078,7 @@
                         </event-block>
                         <event-block sid="956155054839918">
                             <conditions>
-                                <condition behavior="8Direction" id="1" name="Compare speed" sid="497567200670355" type="newCarro">
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="497567200670355" type="player_Carro">
                                     <param id="0" name="Comparison">0</param>
                                     <param id="1" name="Speed">200</param>
                                 </condition>
@@ -3092,7 +3092,7 @@
                         </event-block>
                         <event-block sid="582736777705429">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="190584759253351" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="190584759253351" type="player_Carro">
                                     <param id="0" name="Object">obj_parede1Cima</param>
                                 </condition>
                             </conditions>
@@ -3105,7 +3105,7 @@
                         </event-block>
                         <event-block sid="207011642086046">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="133649883338609" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="133649883338609" type="player_Carro">
                                     <param id="0" name="Object">obj_parede1Frente</param>
                                 </condition>
                             </conditions>
@@ -3118,7 +3118,7 @@
                         </event-block>
                         <event-block sid="880264318122586">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="306835605867464" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="306835605867464" type="player_Carro">
                                     <param id="0" name="Object">obj_Roadblock</param>
                                 </condition>
                             </conditions>
@@ -3131,7 +3131,7 @@
                         </event-block>
                         <event-block sid="211770643723442">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="739906768311762" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="739906768311762" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro1</param>
                                 </condition>
                             </conditions>
@@ -3144,7 +3144,7 @@
                         </event-block>
                         <event-block sid="365468130700505">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="747729766195377" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="747729766195377" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro10</param>
                                 </condition>
                             </conditions>
@@ -3157,7 +3157,7 @@
                         </event-block>
                         <event-block sid="675187407732417">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="444866148268245" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="444866148268245" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro11</param>
                                 </condition>
                             </conditions>
@@ -3170,7 +3170,7 @@
                         </event-block>
                         <event-block sid="245116336500240">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="268129711875924" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="268129711875924" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro12</param>
                                 </condition>
                             </conditions>
@@ -3183,7 +3183,7 @@
                         </event-block>
                         <event-block sid="475758035484476">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="713969277826492" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="713969277826492" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro13</param>
                                 </condition>
                             </conditions>
@@ -3196,7 +3196,7 @@
                         </event-block>
                         <event-block sid="928380234177615">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="941276345271245" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="941276345271245" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro14</param>
                                 </condition>
                             </conditions>
@@ -3209,7 +3209,7 @@
                         </event-block>
                         <event-block sid="504193878754092">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="889251660446596" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="889251660446596" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro2</param>
                                 </condition>
                             </conditions>
@@ -3222,7 +3222,7 @@
                         </event-block>
                         <event-block sid="400670149684174">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="612017864807863" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="612017864807863" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro3</param>
                                 </condition>
                             </conditions>
@@ -3235,7 +3235,7 @@
                         </event-block>
                         <event-block sid="591075226628115">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="128467753394955" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="128467753394955" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro4</param>
                                 </condition>
                             </conditions>
@@ -3248,7 +3248,7 @@
                         </event-block>
                         <event-block sid="530114312110360">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="737666493361799" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="737666493361799" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro5</param>
                                 </condition>
                             </conditions>
@@ -3261,7 +3261,7 @@
                         </event-block>
                         <event-block sid="653504095923636">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="238331955712477" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="238331955712477" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro6</param>
                                 </condition>
                             </conditions>
@@ -3274,7 +3274,7 @@
                         </event-block>
                         <event-block sid="452825985151362">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="601409924624396" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="601409924624396" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro7</param>
                                 </condition>
                             </conditions>
@@ -3287,7 +3287,7 @@
                         </event-block>
                         <event-block sid="418692878256991">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="605508907681957" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="605508907681957" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro8</param>
                                 </condition>
                             </conditions>
@@ -3300,7 +3300,7 @@
                         </event-block>
                         <event-block sid="336494953926407">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="778812908033498" type="newCarro">
+                                <condition id="0" name="On collision with another object" sid="778812908033498" type="player_Carro">
                                     <param id="0" name="Object">obj_Carro9</param>
                                 </condition>
                             </conditions>
@@ -3413,8 +3413,8 @@
                         </event-block>
                         <event-block sid="614317590872269">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="454466612106682" type="newCarro">
-                                    <param id="0" name="Object">Final</param>
+                                <condition id="0" name="On collision with another object" sid="454466612106682" type="player_Carro">
+                                    <param id="0" name="Object">detalhe_Final</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -3440,28 +3440,28 @@
                 <condition id="-2" name="On start of layout" sid="895492793412883" type="System" />
             </conditions>
             <actions>
-                <action behavior="Sine" id="0" name="Set active" sid="988291351634495" type="Final">
+                <action behavior="Sine" id="0" name="Set active" sid="988291351634495" type="detalhe_Final">
                     <param id="0" name="State">1</param>
                 </action>
-                <action behavior="Sine" id="3" name="Set movement" sid="152668329678927" type="Final">
+                <action behavior="Sine" id="3" name="Set movement" sid="152668329678927" type="detalhe_Final">
                     <param id="0" name="Movement">2</param>
                 </action>
-                <action behavior="Sine" id="1" name="Set period" sid="144010730531181" type="Final">
+                <action behavior="Sine" id="1" name="Set period" sid="144010730531181" type="detalhe_Final">
                     <param id="0" name="Period">2</param>
                 </action>
-                <action behavior="Sine" id="2" name="Set magnitude" sid="578969840814940" type="Final">
+                <action behavior="Sine" id="2" name="Set magnitude" sid="578969840814940" type="detalhe_Final">
                     <param id="0" name="Magnitude">10</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="168639431905358">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="381670554046770" type="newCarro">
+                <condition id="0" name="On collision with another object" sid="381670554046770" type="player_Carro">
                     <param id="0" name="Object">obj_BordaRua</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="ScrollTo" id="0" name="Shake" sid="497748236150647" type="newCarro">
+                <action behavior="ScrollTo" id="0" name="Shake" sid="497748236150647" type="player_Carro">
                     <param id="0" name="Magnitude">10</param>
                     <param id="1" name="Duration">0.4</param>
                     <param id="2" name="Mode">0</param>

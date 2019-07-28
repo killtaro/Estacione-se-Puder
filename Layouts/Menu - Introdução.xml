@@ -329,29 +329,44 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Titulo2" uid="631">
+                <instance type="imagemTexto_Titulo" uid="631">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>1</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>25</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>404.542480469</x>
-                        <y>200.000015259</y>
+                        <x>416</x>
+                        <y>208</y>
                         <z>0</z>
-                        <width>728</width>
-                        <height>359</height>
+                        <width>568</width>
+                        <height>72</height>
                         <depth>0</depth>
-                        <hotspotX>0.500745177</hotspotX>
-                        <hotspotY>0.501392782</hotspotY>
+                        <hotspotX>0.507042229</hotspotX>
+                        <hotspotY>0.551999986</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TocaAqui" uid="632">
+                <instance type="imagemTexto_TocaAqui" uid="632">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -362,7 +377,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>392</x>
-                        <y>272</y>
+                        <y>280</y>
                         <z>0</z>
                         <width>600</width>
                         <height>56</height>
@@ -3246,7 +3261,7 @@
                 </instance>
                 <instance type="infoTitulo" uid="392">
                     <properties>
-                        <text>Versão 0.11.2</text>
+                        <text>Versão 0.11.3</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Courier New,-16,400,1</font>
                         <color>255,255,255</color>
@@ -3310,7 +3325,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Intro" uid="505">
+                <instance type="imagemTexto_Intro" uid="505">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

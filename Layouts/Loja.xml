@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="back_chaoLoja" uid="2786">
+                <instance type="detalhe_PisoLoja" uid="2786">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -68,7 +68,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="back_altarLoja" uid="2923">
+                <instance type="detalhe_AltarLoja" uid="2923">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -379,7 +379,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="back_Botao1" uid="2908">
+                <instance type="detalhe_Botao1" uid="2908">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -423,7 +423,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="back_Botao2" uid="2974">
+                <instance type="detalhe_Botao2" uid="2974">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -479,7 +479,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="newCarro" uid="2905">
+                <instance type="player_Carro" uid="2905">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -610,7 +610,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Dinheiro" uid="2909">
+                <instance type="detalhe_Dinheiro" uid="2909">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

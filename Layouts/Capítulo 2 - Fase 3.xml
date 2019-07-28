@@ -1548,7 +1548,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Final" uid="623">
+                <instance type="detalhe_Final" uid="623">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1690,7 +1690,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="635">
+                <instance type="detalhe_Seta" uid="635">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1712,7 +1712,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="636">
+                <instance type="detalhe_Seta" uid="636">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1830,7 +1830,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="640">
+                <instance type="detalhe_Seta" uid="640">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1948,7 +1948,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="newCarro" uid="322">
+                <instance type="player_Carro" uid="322">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

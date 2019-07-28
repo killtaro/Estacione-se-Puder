@@ -1085,7 +1085,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Final" uid="2318">
+                <instance type="detalhe_Final" uid="2318">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3544,7 +3544,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="newCarro" uid="3517">
+                <instance type="player_Carro" uid="3517">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

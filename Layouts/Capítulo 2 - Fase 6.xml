@@ -3398,7 +3398,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="newCarro" uid="400">
+                <instance type="player_Carro" uid="400">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6416,7 +6416,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Final" uid="1546">
+                <instance type="detalhe_Final" uid="1546">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

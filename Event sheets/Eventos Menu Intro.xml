@@ -15,10 +15,13 @@
             </conditions>
             <actions />
         </event-block>
-        <event-block sid="974748072451258">
+        <event-block any="1" sid="974748072451258">
             <conditions>
                 <condition id="3" name="On touched object" sid="430267193536314" type="Toque">
-                    <param id="0" name="Object">TocaAqui</param>
+                    <param id="0" name="Object">imagemTexto_TocaAqui</param>
+                </condition>
+                <condition id="3" name="On touched object" sid="196497972425327" type="Toque">
+                    <param id="0" name="Object">imagemTexto_Titulo</param>
                 </condition>
             </conditions>
             <actions>

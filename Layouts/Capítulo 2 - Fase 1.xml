@@ -1615,7 +1615,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="152">
+                <instance type="detalhe_Seta" uid="152">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1637,7 +1637,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="153">
+                <instance type="detalhe_Seta" uid="153">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1659,7 +1659,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="154">
+                <instance type="detalhe_Seta" uid="154">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1681,7 +1681,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="155">
+                <instance type="detalhe_Seta" uid="155">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1703,7 +1703,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="156">
+                <instance type="detalhe_Seta" uid="156">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1725,7 +1725,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="157">
+                <instance type="detalhe_Seta" uid="157">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2460,7 +2460,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Final" uid="53">
+                <instance type="detalhe_Final" uid="53">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2509,7 +2509,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="172">
+                <instance type="detalhe_Seta" uid="172">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2585,7 +2585,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="detalhe_seta" uid="380">
+                <instance type="detalhe_Seta" uid="380">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2665,7 +2665,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="newCarro" uid="89">
+                <instance type="player_Carro" uid="89">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2895,7 +2895,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="BotaoPausar" uid="3123">
+                <instance type="controle_PausaJogo" uid="3123">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

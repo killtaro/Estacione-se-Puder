@@ -20,20 +20,20 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="4" name="Set animation" sid="723675093023957" type="newCarro">
+                                <action id="4" name="Set animation" sid="723675093023957" type="player_Carro">
                                     <param id="0" name="Animation">&quot;carrro1&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
-                                <action behavior="8Direction" id="4" name="Set max speed" sid="715543026844988" type="newCarro">
+                                <action behavior="8Direction" id="4" name="Set max speed" sid="715543026844988" type="player_Carro">
                                     <param id="0" name="Max Speed">600</param>
                                 </action>
-                                <action behavior="8Direction" id="5" name="Set acceleration" sid="154075189750636" type="newCarro">
+                                <action behavior="8Direction" id="5" name="Set acceleration" sid="154075189750636" type="player_Carro">
                                     <param id="0" name="Acceleration">600</param>
                                 </action>
-                                <action behavior="8Direction" id="6" name="Set deceleration" sid="979071284931439" type="newCarro">
+                                <action behavior="8Direction" id="6" name="Set deceleration" sid="979071284931439" type="player_Carro">
                                     <param id="0" name="Deceleration">600</param>
                                 </action>
-                                <action id="-10" name="Set value" sid="437978280155380" type="newCarro">
+                                <action id="-10" name="Set value" sid="437978280155380" type="player_Carro">
                                     <param id="0" name="Instance variable">Valor</param>
                                     <param id="1" name="Value">300</param>
                                 </action>
@@ -48,20 +48,20 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="4" name="Set animation" sid="959303565992858" type="newCarro">
+                                <action id="4" name="Set animation" sid="959303565992858" type="player_Carro">
                                     <param id="0" name="Animation">&quot;carrro2&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
-                                <action behavior="8Direction" id="4" name="Set max speed" sid="278529446769426" type="newCarro">
+                                <action behavior="8Direction" id="4" name="Set max speed" sid="278529446769426" type="player_Carro">
                                     <param id="0" name="Max Speed">600</param>
                                 </action>
-                                <action behavior="8Direction" id="5" name="Set acceleration" sid="158912518614539" type="newCarro">
+                                <action behavior="8Direction" id="5" name="Set acceleration" sid="158912518614539" type="player_Carro">
                                     <param id="0" name="Acceleration">600</param>
                                 </action>
-                                <action behavior="8Direction" id="6" name="Set deceleration" sid="188594704017336" type="newCarro">
+                                <action behavior="8Direction" id="6" name="Set deceleration" sid="188594704017336" type="player_Carro">
                                     <param id="0" name="Deceleration">600</param>
                                 </action>
-                                <action id="-10" name="Set value" sid="344802886088705" type="newCarro">
+                                <action id="-10" name="Set value" sid="344802886088705" type="player_Carro">
                                     <param id="0" name="Instance variable">Valor</param>
                                     <param id="1" name="Value">900</param>
                                 </action>
@@ -347,7 +347,7 @@
                         <condition id="-2" name="On start of layout" sid="437568117341732" type="System" />
                     </conditions>
                     <actions>
-                        <action behavior="8Direction" id="8" name="Set enabled" sid="113891482365859" type="newCarro">
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="113891482365859" type="player_Carro">
                             <param id="0" name="State">0</param>
                         </action>
                     </actions>
@@ -357,22 +357,22 @@
                         <condition id="-2" name="On start of layout" sid="237511698619785" type="System" />
                     </conditions>
                     <actions>
-                        <action id="3" name="Start" sid="222271929138142" type="newCarro">
+                        <action id="3" name="Start" sid="222271929138142" type="player_Carro">
                             <param id="0" name="From">1</param>
                         </action>
-                        <action id="6" name="Set speed" sid="440090486418622" type="newCarro">
+                        <action id="6" name="Set speed" sid="440090486418622" type="player_Carro">
                             <param id="0" name="Speed">4</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="521430508852291">
                     <conditions>
-                        <condition id="4" name="On finished" sid="193270635179596" type="newCarro">
+                        <condition id="4" name="On finished" sid="193270635179596" type="player_Carro">
                             <param id="0" name="Animation">&quot;carro1&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="3" name="Start" sid="834294176932951" type="newCarro">
+                        <action id="3" name="Start" sid="834294176932951" type="player_Carro">
                             <param id="0" name="From">1</param>
                         </action>
                     </actions>
@@ -387,16 +387,16 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="517120347357608" type="textoInfoLoja_VelocidadeMaxima">
-                            <param id="0" name="Text">newCarro.8Direction.MaxSpeed</param>
+                            <param id="0" name="Text">player_Carro.8Direction.MaxSpeed</param>
                         </action>
                         <action id="0" name="Set text" sid="569416055471802" type="textoInfoLoja_Aceleracao">
-                            <param id="0" name="Text">newCarro.8Direction.Acceleration</param>
+                            <param id="0" name="Text">player_Carro.8Direction.Acceleration</param>
                         </action>
                         <action id="0" name="Set text" sid="478553720052237" type="textoInfoLoja_Desaceleracao">
-                            <param id="0" name="Text">newCarro.8Direction.Deceleration</param>
+                            <param id="0" name="Text">player_Carro.8Direction.Deceleration</param>
                         </action>
                         <action id="0" name="Set text" sid="742927171161107" type="textoInfoLoja_Valor">
-                            <param id="0" name="Text">newCarro.Valor</param>
+                            <param id="0" name="Text">player_Carro.Valor</param>
                         </action>
                     </actions>
                 </event-block>
@@ -415,12 +415,12 @@
                             <param id="2" name="Object clicked">imagemTexto_Voltar</param>
                         </condition>
                         <condition id="3" name="On touched object" sid="929200908717883" type="Toque">
-                            <param id="0" name="Object">back_Botao1</param>
+                            <param id="0" name="Object">detalhe_Botao1</param>
                         </condition>
                         <condition id="6" name="On object clicked" sid="794334694516662" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">back_Botao1</param>
+                            <param id="2" name="Object clicked">detalhe_Botao1</param>
                         </condition>
                     </conditions>
                     <actions>

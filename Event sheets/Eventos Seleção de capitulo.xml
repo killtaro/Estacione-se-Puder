@@ -50,7 +50,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="808900022091541" type="System">
-                    <param id="0" name="Layout">SelectFaseRua</param>
+                    <param id="0" name="Layout">Seleção de Fase - Capítulo 1</param>
                 </action>
             </actions>
         </event-block>
@@ -65,7 +65,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="838885423530014" type="System">
-                    <param id="0" name="Layout">SelectFaseEstaciona</param>
+                    <param id="0" name="Layout">Seleção de Fase - Capítulo 2</param>
                 </action>
             </actions>
         </event-block>
