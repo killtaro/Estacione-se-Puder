@@ -15,7 +15,7 @@
                 <event-block sid="187799684103377">
                     <conditions>
                         <condition id="3" name="On touched object" sid="757511705900207" type="Toque">
-                            <param id="0" name="Object">btnContinuar</param>
+                            <param id="0" name="Object">textoSelecaoPontos_Continuar</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -51,7 +51,7 @@
                 <event-block sid="395107391383223">
                     <conditions>
                         <condition id="3" name="On touched object" sid="903650011340271" type="Toque">
-                            <param id="0" name="Object">btnBackMenu</param>
+                            <param id="0" name="Object">textoSelecaoPontos_VoltarMenu</param>
                         </condition>
                     </conditions>
                     <actions>

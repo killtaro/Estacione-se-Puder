@@ -3259,9 +3259,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="infoTitulo" uid="392">
+                <instance type="textoInfo_Versao" uid="392">
                     <properties>
-                        <text>Versão 0.11.5</text>
+                        <text>Versão 0.11.6</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Courier New,-16,400,1</font>
                         <color>255,255,255</color>
@@ -3305,7 +3305,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="back_PretoSolido" uid="492">
+                <instance type="detalhes_PretoSolido" uid="492">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>

@@ -143,7 +143,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="selecaoArrancada" uid="1566">
+                <instance type="textoSelecaoMenu_Arrancada" uid="1566">
                     <properties>
                         <text>Arrancada</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -170,7 +170,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="selecaoCampanha" uid="1567">
+                <instance type="textoSelecaoMenu_Campanha" uid="1567">
                     <properties>
                         <text>Campanha</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -197,7 +197,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="selecaoVolta" uid="1568">
+                <instance type="textoSelecaoMenu_Volta" uid="1568">
                     <properties>
                         <text>Voltar</text>
                         <initial-visibility>Visible</initial-visibility>

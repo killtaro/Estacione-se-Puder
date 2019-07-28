@@ -3359,79 +3359,79 @@
                                     <param id="1" name="Visibility">0</param>
                                 </action>
                                 <action id="-3" name="Create object" sid="177325180422626" type="System">
-                                    <param id="0" name="Object to create">backPontos</param>
+                                    <param id="0" name="Object to create">detalhes_MenuPontos</param>
                                     <param id="1" name="Layer">&quot;Pontos&quot;</param>
                                     <param id="2" name="X">0</param>
                                     <param id="3" name="Y">0</param>
                                 </action>
-                                <action id="-3" name="Set position" sid="301565804104671" type="backPontos">
+                                <action id="-3" name="Set position" sid="301565804104671" type="detalhes_MenuPontos">
                                     <param id="0" name="X">400</param>
                                     <param id="1" name="Y">200</param>
                                 </action>
-                                <action id="-7" name="Set size" sid="984898963762275" type="backPontos">
+                                <action id="-7" name="Set size" sid="984898963762275" type="detalhes_MenuPontos">
                                     <param id="0" name="Width">349</param>
                                     <param id="1" name="Height">380</param>
                                 </action>
                                 <action id="-3" name="Create object" sid="231644768005337" type="System">
-                                    <param id="0" name="Object to create">textoPontos</param>
+                                    <param id="0" name="Object to create">textoInfo_Pontos</param>
                                     <param id="1" name="Layer">&quot;Pontos&quot;</param>
                                     <param id="2" name="X">0</param>
                                     <param id="3" name="Y">0</param>
                                 </action>
-                                <action id="-3" name="Set position" sid="947312468313835" type="textoPontos">
+                                <action id="-3" name="Set position" sid="947312468313835" type="textoInfo_Pontos">
                                     <param id="0" name="X">227</param>
                                     <param id="1" name="Y">11.789</param>
                                 </action>
-                                <action id="-7" name="Set size" sid="673057380802754" type="textoPontos">
+                                <action id="-7" name="Set size" sid="673057380802754" type="textoInfo_Pontos">
                                     <param id="0" name="Width">347</param>
                                     <param id="1" name="Height">73</param>
                                 </action>
                                 <action id="-3" name="Create object" sid="607132489646859" type="System">
-                                    <param id="0" name="Object to create">infoTexto1</param>
+                                    <param id="0" name="Object to create">textoInfo_TextoPontos</param>
                                     <param id="1" name="Layer">&quot;Pontos&quot;</param>
                                     <param id="2" name="X">0</param>
                                     <param id="3" name="Y">0</param>
                                 </action>
-                                <action id="0" name="Set text" sid="181789643925923" type="infoTexto1">
+                                <action id="0" name="Set text" sid="181789643925923" type="textoInfo_TextoPontos">
                                     <param id="0" name="Text">&quot;Pontos&quot;</param>
                                 </action>
-                                <action id="-3" name="Set position" sid="539591571461934" type="infoTexto1">
+                                <action id="-3" name="Set position" sid="539591571461934" type="textoInfo_TextoPontos">
                                     <param id="0" name="X">227</param>
                                     <param id="1" name="Y">101.047</param>
                                 </action>
-                                <action id="-7" name="Set size" sid="989110396542579" type="infoTexto1">
+                                <action id="-7" name="Set size" sid="989110396542579" type="textoInfo_TextoPontos">
                                     <param id="0" name="Width">345</param>
                                     <param id="1" name="Height">52</param>
                                 </action>
                                 <action id="-3" name="Create object" sid="412240655368326" type="System">
-                                    <param id="0" name="Object to create">btnContinuar</param>
+                                    <param id="0" name="Object to create">textoSelecaoPontos_Continuar</param>
                                     <param id="1" name="Layer">&quot;Pontos&quot;</param>
                                     <param id="2" name="X">0</param>
                                     <param id="3" name="Y">0</param>
                                 </action>
-                                <action id="-3" name="Set position" sid="363917225188093" type="btnContinuar">
+                                <action id="-3" name="Set position" sid="363917225188093" type="textoSelecaoPontos_Continuar">
                                     <param id="0" name="X">226</param>
                                     <param id="1" name="Y">196</param>
                                 </action>
-                                <action id="-7" name="Set size" sid="413380058381573" type="btnContinuar">
+                                <action id="-7" name="Set size" sid="413380058381573" type="textoSelecaoPontos_Continuar">
                                     <param id="0" name="Width">346</param>
                                     <param id="1" name="Height">70</param>
                                 </action>
                                 <action id="-3" name="Create object" sid="436472254814093" type="System">
-                                    <param id="0" name="Object to create">btnBackMenu</param>
+                                    <param id="0" name="Object to create">textoSelecaoPontos_VoltarMenu</param>
                                     <param id="1" name="Layer">&quot;Pontos&quot;</param>
                                     <param id="2" name="X">0</param>
                                     <param id="3" name="Y">0</param>
                                 </action>
-                                <action id="-3" name="Set position" sid="985718979486155" type="btnBackMenu">
+                                <action id="-3" name="Set position" sid="985718979486155" type="textoSelecaoPontos_VoltarMenu">
                                     <param id="0" name="X">227</param>
                                     <param id="1" name="Y">301</param>
                                 </action>
-                                <action id="-7" name="Set size" sid="400761191202979" type="btnBackMenu">
+                                <action id="-7" name="Set size" sid="400761191202979" type="textoSelecaoPontos_VoltarMenu">
                                     <param id="0" name="Width">345</param>
                                     <param id="1" name="Height">70</param>
                                 </action>
-                                <action id="-16" name="Set opacity" sid="958230643404895" type="backPontos">
+                                <action id="-16" name="Set opacity" sid="958230643404895" type="detalhes_MenuPontos">
                                     <param id="0" name="Opacity">80</param>
                                 </action>
                             </actions>
@@ -3451,7 +3451,7 @@
                                     <param id="0" name="Layer">&quot;Pontos&quot;</param>
                                     <param id="1" name="Visibility">1</param>
                                 </action>
-                                <action id="0" name="Set text" sid="892956193517473" type="textoPontos">
+                                <action id="0" name="Set text" sid="892956193517473" type="textoInfo_Pontos">
                                     <param id="0" name="Text">Pontos</param>
                                 </action>
                             </actions>

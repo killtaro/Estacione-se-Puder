@@ -38,10 +38,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>-51</x>
-                        <y>-142</y>
+                        <y>-19</y>
                         <z>0</z>
-                        <width>1115</width>
-                        <height>1072</height>
+                        <width>893</width>
+                        <height>443</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -68,7 +68,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="infoCapitulo" uid="737">
+                <instance type="textoImagem_InfoCapitulo" uid="737">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -109,7 +109,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="CapRua" uid="758">
+                <instance type="detalhes_SelecaoRua" uid="758">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -150,7 +150,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="CapEst" uid="764">
+                <instance type="detalhes_SelecaoEstacionamento" uid="764">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -191,7 +191,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="btnInicio" uid="767">
+                <instance type="textoImagem_ComecarCapitulo" uid="767">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

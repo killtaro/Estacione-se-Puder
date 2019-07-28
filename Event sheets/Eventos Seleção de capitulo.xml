@@ -42,7 +42,7 @@
         <event-block sid="178781674346678">
             <conditions>
                 <condition id="3" name="On touched object" sid="947866917809429" type="Toque">
-                    <param id="0" name="Object">btnInicio</param>
+                    <param id="0" name="Object">textoImagem_ComecarCapitulo</param>
                 </condition>
                 <condition id="-9" name="Layer is visible" sid="671648685855450" type="System">
                     <param id="0" name="Layer">&quot;Rua&quot;</param>
@@ -57,7 +57,7 @@
         <event-block sid="546380711034012">
             <conditions>
                 <condition id="3" name="On touched object" sid="752192878328208" type="Toque">
-                    <param id="0" name="Object">btnInicio</param>
+                    <param id="0" name="Object">textoImagem_ComecarCapitulo</param>
                 </condition>
                 <condition id="-9" name="Layer is visible" sid="912460335452870" type="System">
                     <param id="0" name="Layer">&quot;Estacionamento&quot;</param>

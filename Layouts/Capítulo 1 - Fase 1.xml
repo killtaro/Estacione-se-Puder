@@ -3221,7 +3221,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="backPontos" uid="3112">
+                <instance type="detalhes_MenuPontos" uid="3112">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3255,7 +3255,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="textoPontos" uid="3113">
+                <instance type="textoInfo_Pontos" uid="3113">
                     <properties>
                         <text>000000</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -3282,7 +3282,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="infoTexto1" uid="3114">
+                <instance type="textoInfo_TextoPontos" uid="3114">
                     <properties>
                         <text>Pontos</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -3309,7 +3309,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="btnContinuar" uid="54">
+                <instance type="textoSelecaoPontos_Continuar" uid="54">
                     <properties>
                         <text>Continuar</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -3336,7 +3336,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="btnBackMenu" uid="55">
+                <instance type="textoSelecaoPontos_VoltarMenu" uid="55">
                     <properties>
                         <text>Menu</text>
                         <initial-visibility>Visible</initial-visibility>

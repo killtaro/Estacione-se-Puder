@@ -77,21 +77,13 @@
                             <param id="2" name="Value">TEMPOPLAYER</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="0" name="Set text" sid="440519420947879" type="TextoTeste">
-                            <param id="0" name="Text">&quot;Ganhou&quot;</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block sid="866386375144306">
                     <conditions>
                         <condition id="-22" name="Else" sid="657770656619686" type="System" />
                     </conditions>
-                    <actions>
-                        <action id="0" name="Set text" sid="452490516157392" type="TextoTeste">
-                            <param id="0" name="Text">&quot;Perdeu&quot;</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
             </sub-events>
         </event-group>

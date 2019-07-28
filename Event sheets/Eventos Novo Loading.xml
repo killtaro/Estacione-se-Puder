@@ -8,7 +8,7 @@
                 <condition id="-1" name="Every tick" sid="795932512281761" type="System" />
             </conditions>
             <actions>
-                <action id="-18" name="Rotate clockwise" sid="244367195509681" type="Volante">
+                <action id="-18" name="Rotate clockwise" sid="244367195509681" type="detalhes_Volante">
                     <param id="0" name="Degrees">3</param>
                 </action>
             </actions>

@@ -18,9 +18,6 @@
         <event-block sid="640575813503656">
             <conditions />
             <actions>
-                <action id="0" name="Set text" sid="730166003772307" type="Pontos">
-                    <param id="0" name="Text">Pontos</param>
-                </action>
                 <action id="-4" name="Set layer visible" sid="362245767070300" type="System">
                     <param id="0" name="Layer">1</param>
                     <param id="1" name="Visibility">1</param>
@@ -38,7 +35,7 @@
                 <event-block sid="714501410258586">
                     <conditions>
                         <condition id="3" name="On touched object" sid="507179601698547" type="Toque">
-                            <param id="0" name="Object">btnContinuar</param>
+                            <param id="0" name="Object">textoSelecaoPontos_Continuar</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -74,7 +71,7 @@
                 <event-block sid="140547490668506">
                     <conditions>
                         <condition id="3" name="On touched object" sid="401695468921417" type="Toque">
-                            <param id="0" name="Object">btnBackMenu</param>
+                            <param id="0" name="Object">textoSelecaoPontos_VoltarMenu</param>
                         </condition>
                     </conditions>
                     <actions>
