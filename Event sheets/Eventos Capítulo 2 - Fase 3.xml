@@ -4,7 +4,6 @@
     <name>Eventos Capítulo 2 - Fase 3</name>
     <events>
         <include>Configurações</include>
-        <include>Evento Menu de Pausa</include>
         <event-block sid="407210783834177">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="638837032413120" type="System" />

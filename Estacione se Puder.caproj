@@ -2,7 +2,7 @@
 <c2project>
     <name>Estacione se Puder</name>
     <description>Jogos de estacionar</description>
-    <version>0.11.3</version>
+    <version>0.11.4</version>
     <author>HitKillStudios</author>
     <author-email>zh.dubeslando@gmail.com</author-email>
     <author-website>www.google.com</author-website>
@@ -2300,9 +2300,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Heyaheya" sid="953100579624433">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="infoTexto1" sid="747176540747747">
             <plugin id="Text" />
         </object-type>
@@ -2312,50 +2309,10 @@
         <object-type name="btnBackMenu" sid="454249226781514">
             <plugin id="Text" />
         </object-type>
-        <object-type name="informativo" sid="960581488022775">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Icone_moeda" sid="525747496513752">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="211717917828802" speed="5">
-                    <frame duration="1" hotspotX="0.477064" hotspotY="0.535211" original-source="C:\Projetos\Estacione-se-Puder\Textures\moedaas.png">
-                        <collision-poly>
-                            <point x="0.135321" y="0.187793" />
-                            <point x="0.474771" y="0.0164319" />
-                            <point x="0.791285" y="0.213615" />
-                            <point x="0.986239" y="0.535211" />
-                            <point x="0.752294" y="0.816901" />
-                            <point x="0.474771" y="0.946009" />
-                            <point x="0.0802752" y="0.938967" />
-                            <point x="0.0825688" y="0.535211" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="PrecoCarro" sid="877173234766327">
             <plugin id="Text" />
         </object-type>
-        <object-type name="titulo" sid="340188405744779">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="infoTitulo" sid="537370718230961">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="opcJogar" sid="864155498804642">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="opcOpcoes" sid="987077092340338">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="opcSair" sid="735061618117834">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="opcLoja" sid="267677197477665">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="opcVoltar" sid="391585289363047">
             <plugin id="Text" />
         </object-type>
         <object-type global="1" name="StatusPlayer" sid="775965224716583">
@@ -2371,9 +2328,6 @@
             <plugin id="Text" />
         </object-type>
         <object-type name="goNext" sid="849688703938037">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="hitkilo" sid="185911846354621">
             <plugin id="Text" />
         </object-type>
         <object-type name="infoCarga" sid="161087947913797">
@@ -2536,7 +2490,6 @@
         <event-folder name="Eventos Gerais">
             <event-sheet>Eventos de Sons.xml</event-sheet>
             <event-sheet>Eventos Configurações.xml</event-sheet>
-            <event-sheet>Evento Menu de Pausa.xml</event-sheet>
             <event-sheet>Configurações.xml</event-sheet>
         </event-folder>
         <event-folder name="Pré-fases">

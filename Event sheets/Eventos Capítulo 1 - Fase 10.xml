@@ -4,7 +4,6 @@
     <name>Eventos Capítulo 1 - Fase 10</name>
     <events>
         <include>Configurações</include>
-        <include>Evento Menu de Pausa</include>
         <event-block sid="810638496074395">
             <conditions>
                 <condition id="-9" name="Layer is visible" sid="690987861893322" type="System">

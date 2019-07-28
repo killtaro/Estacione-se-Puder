@@ -2254,33 +2254,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="informativo" uid="2556">
-                    <properties>
-                        <text>2º Andar</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Impact,-35,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>934</x>
-                        <y>1068</y>
-                        <z>0</z>
-                        <width>154</width>
-                        <height>55</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="player_Carro" uid="1935">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>

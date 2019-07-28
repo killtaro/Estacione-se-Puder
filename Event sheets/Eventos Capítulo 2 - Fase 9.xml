@@ -4,7 +4,6 @@
     <name>Eventos Capítulo 2 - Fase 9</name>
     <events>
         <include>Configurações</include>
-        <include>Evento Menu de Pausa</include>
         <event-block sid="902579746321562">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="778183334640973" type="System" />

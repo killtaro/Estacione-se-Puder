@@ -1909,7 +1909,7 @@
                 </instance>
                 <instance type="infoTitulo" uid="381">
                     <properties>
-                        <text>Versão 0.11.3</text>
+                        <text>Versão 0.11.4</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Courier New,-16,400,1</font>
                         <color>255,255,255</color>

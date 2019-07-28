@@ -121,6 +121,17 @@
                 </event-group>
                 <event-group description="Responsável pela configuração de posicionamento dos botões e afins responsáveis pelo controle do veículo na versão mobile." sid="729716894933304" title="Configuração do posicionamento dos controles mobile">
                     <sub-events>
+                        <event-block sid="155063406645652">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="406521072707983" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="389004767357505" type="System">
+                                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
                         <event-block sid="182433022802348">
                             <conditions>
                                 <condition id="-2" name="On start of layout" sid="692375637564831" type="System" />
@@ -224,19 +235,33 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="407655000363996">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="500143658200728" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="407582542204927" type="System">
+                                    <param id="0" name="Object to create">controle_PausaJogo</param>
+                                    <param id="1" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="2" name="X">717.095</param>
+                                    <param id="3" name="Y">44</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="324317945229348" type="controle_PausaJogo">
+                                    <param id="0" name="Width">40</param>
+                                    <param id="1" name="Height">39</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="652422912006720" type="controle_PausaJogo">
+                                    <param id="0" name="Opacity">50</param>
+                                </action>
+                                <action id="-33" name="Set layer parallax" sid="390277407450233" type="System">
+                                    <param id="0" name="Layer">&quot;Config&quot;</param>
+                                    <param id="1" name="Parallax X">0</param>
+                                    <param id="2" name="Parallax Y">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-group>
-                <event-block sid="155063406645652">
-                    <conditions>
-                        <condition id="-2" name="On start of layout" sid="406521072707983" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-4" name="Set layer visible" sid="389004767357505" type="System">
-                            <param id="0" name="Layer">&quot;Controles&quot;</param>
-                            <param id="1" name="Visibility">1</param>
-                        </action>
-                    </actions>
-                </event-block>
                 <event-group description="Responsável pela configuração das ações de resposta das interações com os controles mobiles. Basicamente responsável pelo funcionamento dos controles mobile em questão da jogabilidade." sid="282267967445234" title="Configuração das ações dos controles mobile">
                     <sub-events>
                         <event-block sid="272520260382402">
@@ -303,7 +328,7 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-group description="Responsável pela configuração dos controles da versão desktop" sid="565725417021203" title="Configurações dos controles desktop">
+        <event-group description="Responsável pela configuração dos controles da versão desktop" sid="565725417021203" title="Configurações dos controles Desktop">
             <sub-events>
                 <event-group description="Responsável pela configuração dos sprites do carro para que a impressão de dimensão seja passado ao jogador." sid="571414557267362" title="Configuração dos sprites do carro na versão desktop">
                     <sub-events>
@@ -3435,38 +3460,202 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-block sid="212461961386705">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="895492793412883" type="System" />
-            </conditions>
-            <actions>
-                <action behavior="Sine" id="0" name="Set active" sid="988291351634495" type="detalhe_Final">
-                    <param id="0" name="State">1</param>
-                </action>
-                <action behavior="Sine" id="3" name="Set movement" sid="152668329678927" type="detalhe_Final">
-                    <param id="0" name="Movement">2</param>
-                </action>
-                <action behavior="Sine" id="1" name="Set period" sid="144010730531181" type="detalhe_Final">
-                    <param id="0" name="Period">2</param>
-                </action>
-                <action behavior="Sine" id="2" name="Set magnitude" sid="578969840814940" type="detalhe_Final">
-                    <param id="0" name="Magnitude">10</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="168639431905358">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="381670554046770" type="player_Carro">
-                    <param id="0" name="Object">obj_BordaRua</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="ScrollTo" id="0" name="Shake" sid="497748236150647" type="player_Carro">
-                    <param id="0" name="Magnitude">10</param>
-                    <param id="1" name="Duration">0.4</param>
-                    <param id="2" name="Mode">0</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="Responsável pela configuração do menu de pausa." sid="685964664817630" title="Configurações do menu de pausa">
+            <sub-events>
+                <event-group description="" sid="162987314150006" title="CriaMenu">
+                    <sub-events>
+                        <event-block sid="526472185551640">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="726063729470535" type="Toque">
+                                    <param id="0" name="Object">controle_PausaJogo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="369232105990979" type="System">
+                                    <param id="0" name="Object to create">FundoMenuPausa</param>
+                                    <param id="1" name="Layer">&quot;Config&quot;</param>
+                                    <param id="2" name="X">382.5</param>
+                                    <param id="3" name="Y">191</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="187767146496345" type="System">
+                                    <param id="0" name="Object to create">OpcoesPausa</param>
+                                    <param id="1" name="Layer">&quot;Config&quot;</param>
+                                    <param id="2" name="X">373</param>
+                                    <param id="3" name="Y">142.989</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="735440482143264" type="System">
+                                    <param id="0" name="Object to create">SalvarPausa</param>
+                                    <param id="1" name="Layer">&quot;Config&quot;</param>
+                                    <param id="2" name="X">374.303</param>
+                                    <param id="3" name="Y">209.521</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="751826858974835" type="System">
+                                    <param id="0" name="Object to create">VoltarAoMenu</param>
+                                    <param id="1" name="Layer">&quot;Config&quot;</param>
+                                    <param id="2" name="X">375.98</param>
+                                    <param id="3" name="Y">274.128</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="938303795458457" type="System">
+                                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="921560602213788" type="System">
+                                    <param id="0" name="Layer">&quot;Config&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="797874560542482" title="UsaMenu">
+                    <sub-events>
+                        <comment>vai para o layout de configurações</comment>
+                        <event-block disabled="1" sid="365940617539836">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="903817596388767" type="Toque">
+                                    <param id="0" name="Object">OpcoesPausa</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="707626312889889" type="System">
+                                    <param id="0" name="Layer">&quot;Config&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                        </event-block>
+                        <event-block disabled="1" sid="720473976358848">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="868022208151384" type="Toque">
+                                    <param id="0" name="Object">VoltarAoMenu</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="754604717627726" type="System">
+                                    <param id="0" name="Layer">&quot;Config&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="363820396124273" type="System">
+                                    <param id="0" name="Layer">&quot;Config&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="543354378188733" type="System">
+                                    <param id="0" name="Layout">Menu - Principal</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="405459259415143" type="System">
+                                    <param id="0" name="Layer">4</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="647563189225326" type="System">
+                                    <param id="0" name="Layer">3</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block disabled="1" sid="860199197951862">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="375204234914418" type="Toque">
+                                    <param id="0" name="Object">SalvarPausa</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="756680071096569" type="System">
+                                    <param id="0" name="Layer">&quot;Config&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-36" name="Save" sid="644051060116669" type="System">
+                                    <param id="0" name="Slot">Nome</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="766237670162089" title="EscondeMenu" />
+                <event-block sid="506797426507530">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="824401668557841" type="System">
+                            <param id="0" name="Layer">&quot;Config&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="538809947910348">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="444194663945552" type="Toque">
+                                    <param id="0" name="Object">VoltarAoMenu</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="471484617102196" type="System">
+                                    <param id="0" name="Layer">&quot;Pontos&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="130813785669185" type="System">
+                                    <param id="0" name="Layer">&quot;Controles&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="326950576731328" type="System">
+                                    <param id="0" name="Layer">&quot;Config&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="929227242125130" type="System">
+                                    <param id="0" name="Layout">Menu - Principal</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="559408508684460">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="200757207782057" type="Toque">
+                                    <param id="0" name="Object">SalvarPausa</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-36" name="Save" sid="271327593152975" type="System">
+                                    <param id="0" name="Slot">Nome</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="593138014798546">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="882999215853168" type="System" />
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Responsável por configurar elementos gerais presentes em todas as fases." sid="162777596372367" title="Configurações gerais das fases">
+            <sub-events>
+                <event-block sid="212461961386705">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="895492793412883" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Sine" id="0" name="Set active" sid="988291351634495" type="detalhe_Final">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Sine" id="3" name="Set movement" sid="152668329678927" type="detalhe_Final">
+                            <param id="0" name="Movement">2</param>
+                        </action>
+                        <action behavior="Sine" id="1" name="Set period" sid="144010730531181" type="detalhe_Final">
+                            <param id="0" name="Period">2</param>
+                        </action>
+                        <action behavior="Sine" id="2" name="Set magnitude" sid="578969840814940" type="detalhe_Final">
+                            <param id="0" name="Magnitude">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="168639431905358">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="381670554046770" type="player_Carro">
+                            <param id="0" name="Object">obj_BordaRua</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="ScrollTo" id="0" name="Shake" sid="497748236150647" type="player_Carro">
+                            <param id="0" name="Magnitude">10</param>
+                            <param id="1" name="Duration">0.4</param>
+                            <param id="2" name="Mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

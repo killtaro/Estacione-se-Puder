@@ -4,7 +4,6 @@
     <name>Eventos Capítulo 1 - Fase 7</name>
     <events>
         <include>Configurações</include>
-        <include>Evento Menu de Pausa</include>
         <comment>Encaminha para o carregamento</comment>
         <event-block sid="384820892640305">
             <conditions>
