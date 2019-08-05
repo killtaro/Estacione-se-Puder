@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="asfalto2" uid="2061">
+                <instance type="tileset_Asfalto2" uid="2061">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -49,7 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2062">
+                <instance type="tileset_Vaga" uid="2062">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -69,7 +69,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2063">
+                <instance type="tileset_Vaga" uid="2063">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -89,7 +89,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2064">
+                <instance type="tileset_Vaga" uid="2064">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -109,7 +109,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2065">
+                <instance type="tileset_Vaga" uid="2065">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -129,7 +129,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2066">
+                <instance type="tileset_Vaga" uid="2066">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -149,7 +149,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2067">
+                <instance type="tileset_Vaga" uid="2067">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -169,7 +169,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2068">
+                <instance type="tileset_Vaga" uid="2068">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -189,7 +189,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2069">
+                <instance type="tileset_Vaga" uid="2069">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -209,7 +209,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2196">
+                <instance type="tileset_Vaga" uid="2196">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -229,7 +229,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2197">
+                <instance type="tileset_Vaga" uid="2197">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -249,7 +249,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2198">
+                <instance type="tileset_Vaga" uid="2198">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -269,7 +269,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2199">
+                <instance type="tileset_Vaga" uid="2199">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -289,7 +289,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2200">
+                <instance type="tileset_Vaga" uid="2200">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -309,7 +309,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2201">
+                <instance type="tileset_Vaga" uid="2201">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -329,7 +329,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2202">
+                <instance type="tileset_Vaga" uid="2202">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -349,7 +349,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2203">
+                <instance type="tileset_Vaga" uid="2203">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -369,7 +369,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2204">
+                <instance type="tileset_Vaga" uid="2204">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -389,7 +389,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2205">
+                <instance type="tileset_Vaga" uid="2205">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -409,7 +409,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2206">
+                <instance type="tileset_Vaga" uid="2206">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -429,7 +429,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2207">
+                <instance type="tileset_Vaga" uid="2207">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -449,7 +449,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2992">
+                <instance type="tileset_Vaga" uid="2992">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -469,7 +469,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2993">
+                <instance type="tileset_Vaga" uid="2993">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -489,7 +489,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2994">
+                <instance type="tileset_Vaga" uid="2994">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -509,7 +509,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="marcaVaga1" uid="2995">
+                <instance type="tileset_Vaga" uid="2995">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -529,7 +529,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="calcada1" uid="3111">
+                <instance type="tileset_Calcada" uid="3111">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -549,54 +549,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carro" uid="56">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Car">
-                            <properties>
-                                <max-speed>350</max-speed>
-                                <acceleration>200</acceleration>
-                                <deceleration>300</deceleration>
-                                <steer-speed>225</steer-speed>
-                                <drift-recover>185</drift-recover>
-                                <friction>0.4</friction>
-                                <set-angle>Yes</set-angle>
-                                <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="BoundToLayout">
-                            <properties>
-                                <bound-by>Edge</bound-by>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="ScrollTo">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>608</x>
-                        <y>1856</y>
-                        <z>0</z>
-                        <width>52</width>
-                        <height>34</height>
-                        <depth>0</depth>
-                        <hotspotX>0.439635545</hotspotX>
-                        <hotspotY>-0.003731343</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Inimigos" uid="57">
+                <instance type="bot_Inimigo" uid="57">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -633,7 +586,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Gatilho_inimigo" uid="59">
+                <instance type="gatilho_Inimigo" uid="59">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -655,7 +608,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Gatilho_vitoria" uid="3115">
+                <instance type="gatilho_Vitoria" uid="3115">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -714,33 +667,6 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TextoTeste" uid="3124">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>352</x>
-                        <y>32</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

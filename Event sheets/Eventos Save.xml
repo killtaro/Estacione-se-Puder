@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<c2eventsheet>
-    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Eventos Save</name>
-    <events>
-        <comment>Event Sheet responsável pelo save dos status do personagem</comment>
-        <event-group description="" sid="581251223095908" title="GravaDados" />
-    </events>
-</c2eventsheet>

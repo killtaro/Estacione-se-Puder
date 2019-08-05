@@ -16,13 +16,13 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="214378199740151" type="Inimigos">
+                        <action id="5" name="Set frame" sid="214378199740151" type="bot_Inimigo">
                             <param id="0" name="Frame number">0</param>
                         </action>
-                        <action behavior="Car" id="4" name="Set max speed" sid="989378761270537" type="Inimigos">
+                        <action behavior="Car" id="4" name="Set max speed" sid="989378761270537" type="bot_Inimigo">
                             <param id="0" name="Max Speed">400</param>
                         </action>
-                        <action behavior="Car" id="5" name="Set acceleration" sid="805674246991679" type="Inimigos">
+                        <action behavior="Car" id="5" name="Set acceleration" sid="805674246991679" type="bot_Inimigo">
                             <param id="0" name="Acceleration">250</param>
                         </action>
                     </actions>
@@ -36,13 +36,13 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="249879796182977" type="Inimigos">
+                        <action id="5" name="Set frame" sid="249879796182977" type="bot_Inimigo">
                             <param id="0" name="Frame number">1</param>
                         </action>
-                        <action behavior="Car" id="4" name="Set max speed" sid="251755921711925" type="Inimigos">
+                        <action behavior="Car" id="4" name="Set max speed" sid="251755921711925" type="bot_Inimigo">
                             <param id="0" name="Max Speed">456</param>
                         </action>
-                        <action behavior="Car" id="5" name="Set acceleration" sid="302526116765282" type="Inimigos">
+                        <action behavior="Car" id="5" name="Set acceleration" sid="302526116765282" type="bot_Inimigo">
                             <param id="0" name="Acceleration">310</param>
                         </action>
                     </actions>
@@ -56,13 +56,13 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="380594266655660" type="Inimigos">
+                        <action id="5" name="Set frame" sid="380594266655660" type="bot_Inimigo">
                             <param id="0" name="Frame number">2</param>
                         </action>
-                        <action behavior="Car" id="4" name="Set max speed" sid="789346540049752" type="Inimigos">
+                        <action behavior="Car" id="4" name="Set max speed" sid="789346540049752" type="bot_Inimigo">
                             <param id="0" name="Max Speed">375</param>
                         </action>
-                        <action behavior="Car" id="5" name="Set acceleration" sid="159669711493372" type="Inimigos">
+                        <action behavior="Car" id="5" name="Set acceleration" sid="159669711493372" type="bot_Inimigo">
                             <param id="0" name="Acceleration">350</param>
                         </action>
                     </actions>
@@ -76,13 +76,13 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="143276215385426" type="Inimigos">
+                        <action id="5" name="Set frame" sid="143276215385426" type="bot_Inimigo">
                             <param id="0" name="Frame number">3</param>
                         </action>
-                        <action behavior="Car" id="4" name="Set max speed" sid="211035949862924" type="Inimigos">
+                        <action behavior="Car" id="4" name="Set max speed" sid="211035949862924" type="bot_Inimigo">
                             <param id="0" name="Max Speed">490</param>
                         </action>
-                        <action behavior="Car" id="5" name="Set acceleration" sid="484407680448363" type="Inimigos">
+                        <action behavior="Car" id="5" name="Set acceleration" sid="484407680448363" type="bot_Inimigo">
                             <param id="0" name="Acceleration">411</param>
                         </action>
                     </actions>
@@ -96,13 +96,13 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="554963699834757" type="Inimigos">
+                        <action id="5" name="Set frame" sid="554963699834757" type="bot_Inimigo">
                             <param id="0" name="Frame number">4</param>
                         </action>
-                        <action behavior="Car" id="4" name="Set max speed" sid="125195708031190" type="Inimigos">
+                        <action behavior="Car" id="4" name="Set max speed" sid="125195708031190" type="bot_Inimigo">
                             <param id="0" name="Max Speed">480</param>
                         </action>
-                        <action behavior="Car" id="5" name="Set acceleration" sid="359149824524099" type="Inimigos">
+                        <action behavior="Car" id="5" name="Set acceleration" sid="359149824524099" type="bot_Inimigo">
                             <param id="0" name="Acceleration">467</param>
                         </action>
                     </actions>
@@ -116,13 +116,13 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="566489506053014" type="Inimigos">
+                        <action id="5" name="Set frame" sid="566489506053014" type="bot_Inimigo">
                             <param id="0" name="Frame number">5</param>
                         </action>
-                        <action behavior="Car" id="4" name="Set max speed" sid="345396485678055" type="Inimigos">
+                        <action behavior="Car" id="4" name="Set max speed" sid="345396485678055" type="bot_Inimigo">
                             <param id="0" name="Max Speed">480</param>
                         </action>
-                        <action behavior="Car" id="5" name="Set acceleration" sid="627957963633242" type="Inimigos">
+                        <action behavior="Car" id="5" name="Set acceleration" sid="627957963633242" type="bot_Inimigo">
                             <param id="0" name="Acceleration">500</param>
                         </action>
                     </actions>
@@ -136,13 +136,13 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="861122941401049" type="Inimigos">
+                        <action id="5" name="Set frame" sid="861122941401049" type="bot_Inimigo">
                             <param id="0" name="Frame number">6</param>
                         </action>
-                        <action behavior="Car" id="4" name="Set max speed" sid="263498106173524" type="Inimigos">
+                        <action behavior="Car" id="4" name="Set max speed" sid="263498106173524" type="bot_Inimigo">
                             <param id="0" name="Max Speed">420</param>
                         </action>
-                        <action behavior="Car" id="5" name="Set acceleration" sid="483542755695533" type="Inimigos">
+                        <action behavior="Car" id="5" name="Set acceleration" sid="483542755695533" type="bot_Inimigo">
                             <param id="0" name="Acceleration">250</param>
                         </action>
                     </actions>
@@ -156,13 +156,13 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="492577391777906" type="Inimigos">
+                        <action id="5" name="Set frame" sid="492577391777906" type="bot_Inimigo">
                             <param id="0" name="Frame number">7</param>
                         </action>
-                        <action behavior="Car" id="4" name="Set max speed" sid="243422411660209" type="Inimigos">
+                        <action behavior="Car" id="4" name="Set max speed" sid="243422411660209" type="bot_Inimigo">
                             <param id="0" name="Max Speed">460</param>
                         </action>
-                        <action behavior="Car" id="5" name="Set acceleration" sid="121949443868365" type="Inimigos">
+                        <action behavior="Car" id="5" name="Set acceleration" sid="121949443868365" type="bot_Inimigo">
                             <param id="0" name="Acceleration">378</param>
                         </action>
                     </actions>
@@ -176,13 +176,13 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="369090059391911" type="Inimigos">
+                        <action id="5" name="Set frame" sid="369090059391911" type="bot_Inimigo">
                             <param id="0" name="Frame number">8</param>
                         </action>
-                        <action behavior="Car" id="4" name="Set max speed" sid="141139984224063" type="Inimigos">
+                        <action behavior="Car" id="4" name="Set max speed" sid="141139984224063" type="bot_Inimigo">
                             <param id="0" name="Max Speed">487</param>
                         </action>
-                        <action behavior="Car" id="5" name="Set acceleration" sid="431406820988653" type="Inimigos">
+                        <action behavior="Car" id="5" name="Set acceleration" sid="431406820988653" type="bot_Inimigo">
                             <param id="0" name="Acceleration">250</param>
                         </action>
                     </actions>
@@ -215,7 +215,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Car" id="7" name="Simulate control" sid="214922683405637" type="Inimigos">
+                        <action behavior="Car" id="7" name="Simulate control" sid="214922683405637" type="bot_Inimigo">
                             <param id="0" name="Control">2</param>
                         </action>
                     </actions>

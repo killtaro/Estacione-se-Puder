@@ -3,17 +3,11 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Prologo</name>
     <events>
-        <include>Eventos Controle Mobile</include>
-        <include>Eventos Carros</include>
         <event-block sid="889766820528050">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="655642554383467" type="carro">
-                    <param id="0" name="Object">Gatilho_layer</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-2" name="Go to layout" sid="772046510282951" type="System">
-                    <param id="0" name="Layout">Cap1 Fase1</param>
+                    <param id="0" name="Layout">Capítulo 2 - Fase 1</param>
                 </action>
             </actions>
         </event-block>

@@ -21,7 +21,7 @@
             <sub-events>
                 <event-block sid="359571866012735">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="324567083044407" type="Touch">
+                        <condition id="3" name="On touched object" sid="324567083044407" type="Toque">
                             <param id="0" name="Object">ConcluirCadastro</param>
                         </condition>
                     </conditions>

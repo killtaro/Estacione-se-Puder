@@ -6,9 +6,6 @@
         <comment>Troca o capitulo na tela</comment>
         <event-block sid="369115675269240">
             <conditions>
-                <condition id="3" name="On touched object" sid="629153507353633" type="Touch">
-                    <param id="0" name="Object">SetaDireita</param>
-                </condition>
                 <condition id="-9" name="Layer is visible" sid="244235371062965" type="System">
                     <param id="0" name="Layer">&quot;Rua&quot;</param>
                 </condition>
@@ -26,9 +23,6 @@
         </event-block>
         <event-block sid="622010936371318">
             <conditions>
-                <condition id="3" name="On touched object" sid="669594417492992" type="Touch">
-                    <param id="0" name="Object">SetaEsquerda</param>
-                </condition>
                 <condition id="-9" name="Layer is visible" sid="746485690575888" type="System">
                     <param id="0" name="Layer">&quot;Estacionamento&quot;</param>
                 </condition>
@@ -47,8 +41,8 @@
         <comment>Seleciona o capitulo a ser jogado</comment>
         <event-block sid="178781674346678">
             <conditions>
-                <condition id="3" name="On touched object" sid="947866917809429" type="Touch">
-                    <param id="0" name="Object">btnInicio</param>
+                <condition id="3" name="On touched object" sid="947866917809429" type="Toque">
+                    <param id="0" name="Object">textoImagem_ComecarCapitulo</param>
                 </condition>
                 <condition id="-9" name="Layer is visible" sid="671648685855450" type="System">
                     <param id="0" name="Layer">&quot;Rua&quot;</param>
@@ -56,14 +50,14 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="808900022091541" type="System">
-                    <param id="0" name="Layout">SelectFaseRua</param>
+                    <param id="0" name="Layout">Seleção de Fase do Capítulo 1</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="546380711034012">
             <conditions>
-                <condition id="3" name="On touched object" sid="752192878328208" type="Touch">
-                    <param id="0" name="Object">btnInicio</param>
+                <condition id="3" name="On touched object" sid="752192878328208" type="Toque">
+                    <param id="0" name="Object">textoImagem_ComecarCapitulo</param>
                 </condition>
                 <condition id="-9" name="Layer is visible" sid="912460335452870" type="System">
                     <param id="0" name="Layer">&quot;Estacionamento&quot;</param>
@@ -71,7 +65,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="838885423530014" type="System">
-                    <param id="0" name="Layout">SelectFaseEstaciona</param>
+                    <param id="0" name="Layout">Seleção de Fase do Capítulo 2</param>
                 </action>
             </actions>
         </event-block>

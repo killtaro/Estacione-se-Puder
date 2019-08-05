@@ -18,7 +18,7 @@
             <sub-events>
                 <event-block sid="733072197606715">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="260108903428214" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="260108903428214" type="array_FasesEstacionamento">
                             <param id="0" name="X">1</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
@@ -33,7 +33,7 @@
                 </event-block>
                 <event-block sid="206010512129424">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="880293104462312" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="880293104462312" type="array_FasesEstacionamento">
                             <param id="0" name="X">2</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">2</param>
@@ -48,7 +48,7 @@
                 </event-block>
                 <event-block sid="845275021561803">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="936751094983712" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="936751094983712" type="array_FasesEstacionamento">
                             <param id="0" name="X">3</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">3</param>
@@ -63,7 +63,7 @@
                 </event-block>
                 <event-block sid="100011414264484">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="333110650460079" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="333110650460079" type="array_FasesEstacionamento">
                             <param id="0" name="X">4</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">4</param>
@@ -78,7 +78,7 @@
                 </event-block>
                 <event-block sid="994610340354447">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="428699231525541" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="428699231525541" type="array_FasesEstacionamento">
                             <param id="0" name="X">5</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">5</param>
@@ -93,7 +93,7 @@
                 </event-block>
                 <event-block sid="805676157143247">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="619983472799208" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="619983472799208" type="array_FasesEstacionamento">
                             <param id="0" name="X">6</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">6</param>
@@ -108,7 +108,7 @@
                 </event-block>
                 <event-block sid="676854822154564">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="771749764058534" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="771749764058534" type="array_FasesEstacionamento">
                             <param id="0" name="X">7</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">7</param>
@@ -123,7 +123,7 @@
                 </event-block>
                 <event-block sid="800028800858785">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="748382087569052" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="748382087569052" type="array_FasesEstacionamento">
                             <param id="0" name="X">8</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">8</param>
@@ -138,7 +138,7 @@
                 </event-block>
                 <event-block sid="699455797615841">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="693063237623635" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="693063237623635" type="array_FasesEstacionamento">
                             <param id="0" name="X">9</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">9</param>
@@ -153,7 +153,7 @@
                 </event-block>
                 <event-block sid="745835445679828">
                     <conditions>
-                        <condition id="0" name="Compare at X" sid="654488002024794" type="FasesEstaciona">
+                        <condition id="0" name="Compare at X" sid="654488002024794" type="array_FasesEstacionamento">
                             <param id="0" name="X">10</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">10</param>
@@ -172,7 +172,7 @@
             <sub-events>
                 <event-block sid="904032836642651">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="600132961176323" type="Touch">
+                        <condition id="3" name="On touched object" sid="600132961176323" type="Toque">
                             <param id="0" name="Object">um</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="802733186384416" type="System">
@@ -189,13 +189,13 @@
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="702823915105805" type="System">
-                            <param id="0" name="Layout">Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="814923640143982">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="889119613854660" type="Touch">
+                        <condition id="3" name="On touched object" sid="889119613854660" type="Toque">
                             <param id="0" name="Object">dois</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="234164009952031" type="System">
@@ -212,13 +212,13 @@
                             <param id="1" name="Value">2</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="986590344578791" type="System">
-                            <param id="0" name="Layout">Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="922106162890393">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="900140943357247" type="Touch">
+                        <condition id="3" name="On touched object" sid="900140943357247" type="Toque">
                             <param id="0" name="Object">tres</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="499187045727725" type="System">
@@ -235,13 +235,13 @@
                             <param id="1" name="Value">3</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="610443694497304" type="System">
-                            <param id="0" name="Layout">Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="972422271888098">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="983915755711917" type="Touch">
+                        <condition id="3" name="On touched object" sid="983915755711917" type="Toque">
                             <param id="0" name="Object">quatro</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="907761279810630" type="System">
@@ -258,13 +258,13 @@
                             <param id="1" name="Value">4</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="467578872147558" type="System">
-                            <param id="0" name="Layout">Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="855820665992816">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="477694676004156" type="Touch">
+                        <condition id="3" name="On touched object" sid="477694676004156" type="Toque">
                             <param id="0" name="Object">cinco</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="851664536172527" type="System">
@@ -281,13 +281,13 @@
                             <param id="1" name="Value">5</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="153742723530995" type="System">
-                            <param id="0" name="Layout">Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="431024020659907">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="245512502197549" type="Touch">
+                        <condition id="3" name="On touched object" sid="245512502197549" type="Toque">
                             <param id="0" name="Object">seis</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="169969402897018" type="System">
@@ -304,13 +304,13 @@
                             <param id="1" name="Value">6</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="108803606614368" type="System">
-                            <param id="0" name="Layout">Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="891097374291235">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="472622377598401" type="Touch">
+                        <condition id="3" name="On touched object" sid="472622377598401" type="Toque">
                             <param id="0" name="Object">Sete</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="657949269307086" type="System">
@@ -327,13 +327,13 @@
                             <param id="1" name="Value">7</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="683355426799624" type="System">
-                            <param id="0" name="Layout">Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="427127480400225">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="485310604019395" type="Touch">
+                        <condition id="3" name="On touched object" sid="485310604019395" type="Toque">
                             <param id="0" name="Object">oito</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="242882460514432" type="System">
@@ -350,13 +350,13 @@
                             <param id="1" name="Value">8</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="358047083434698" type="System">
-                            <param id="0" name="Layout">Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="181440074700304">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="266148172294160" type="Touch">
+                        <condition id="3" name="On touched object" sid="266148172294160" type="Toque">
                             <param id="0" name="Object">nove</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="934287925787391" type="System">
@@ -373,13 +373,13 @@
                             <param id="1" name="Value">9</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="991100328079526" type="System">
-                            <param id="0" name="Layout">Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="547486977462213">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="510045849619668" type="Touch">
+                        <condition id="3" name="On touched object" sid="510045849619668" type="Toque">
                             <param id="0" name="Object">dez</param>
                         </condition>
                         <condition id="-9" name="Layer is visible" sid="414932492182912" type="System">
@@ -396,7 +396,7 @@
                             <param id="1" name="Value">10</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="193709521336844" type="System">
-                            <param id="0" name="Layout">Seleção de Carros</param>
+                            <param id="0" name="Layout">Menu de Seleção de Carros</param>
                         </action>
                     </actions>
                 </event-block>
