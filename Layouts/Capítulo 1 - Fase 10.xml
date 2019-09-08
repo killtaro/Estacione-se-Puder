@@ -7913,6 +7913,8 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances />
+    <nonworld-instances>
+        <instance type="XML" uid="2910" />
+    </nonworld-instances>
     <effects />
 </c2layout>

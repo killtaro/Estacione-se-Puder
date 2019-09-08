@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Novo Loading</name>
     <events>
+        <variable constant="0" name="TEMPO" sid="321397159902240" static="0" type="number">0</variable>
         <event-block sid="524330951288756">
             <conditions>
                 <condition id="-1" name="Every tick" sid="795932512281761" type="System" />
@@ -10,6 +11,19 @@
             <actions>
                 <action id="-18" name="Rotate clockwise" sid="244367195509681" type="detalhes_Volante">
                     <param id="0" name="Degrees">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="429718963912734">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="880064023452075" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="507687810542679" type="System">
+                    <param id="0" name="Variable">TEMPO</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
@@ -33,9 +47,10 @@
             <sub-events>
                 <event-block sid="564794658778424">
                     <conditions>
-                        <condition id="-7" name="Compare time" sid="499916084408481" type="System">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Time (seconds)">5</param>
+                        <condition id="-14" name="Compare variable" sid="499916084408481" type="System">
+                            <param id="0" name="Variable">TEMPO</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="599769071645696" type="System">
                             <param id="0" name="Variable">FaseSim</param>
@@ -56,9 +71,10 @@
             <sub-events>
                 <event-block sid="805503146577846">
                     <conditions>
-                        <condition id="-7" name="Compare time" sid="561907163773720" type="System">
-                            <param id="0" name="Comparison">0</param>
-                            <param id="1" name="Time (seconds)">9.5</param>
+                        <condition id="-14" name="Compare variable" sid="561907163773720" type="System">
+                            <param id="0" name="Variable">TEMPO</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="131029933737455" type="System">
                             <param id="0" name="Variable">FaseSim</param>

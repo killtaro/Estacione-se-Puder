@@ -12,13 +12,18 @@
     <used-plugins>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="NodeWebkit" version="1">NW.js</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="XML" version="1">XML</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Car" version="1">Car</behavior>
@@ -2399,6 +2404,21 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="SaveGames" sid="971913209287244">
+            <plugin id="LocalStorage" />
+        </object-type>
+        <object-type name="ElementosDesktop" sid="831430063268889">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type global="1" name="XML" sid="559476358989460">
+            <plugin id="XML" />
+        </object-type>
+        <object-type name="ElementosJs" sid="186853187194166">
+            <plugin id="NodeWebkit" />
+        </object-type>
+        <object-type name="btnSave" sid="910543920920140">
+            <plugin id="Button" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2443,6 +2463,9 @@
         <layout-folder name="Fases Extras">
             <layout>Modo Arrancada.xml</layout>
         </layout-folder>
+        <layout-folder name="Telas Teste">
+            <layout>Teste de save.xml</layout>
+        </layout-folder>
     </layout-folder>
     <event-folder>
         <event-folder name="Eventos Gerais">
@@ -2462,6 +2485,7 @@
             <event-sheet>PreLogo - Aviso.xml</event-sheet>
             <event-sheet>Eventos Seleção de capitulo.xml</event-sheet>
             <event-sheet>Eventos Novo Loading.xml</event-sheet>
+            <event-sheet>Eventos Save Games.xml</event-sheet>
         </event-folder>
         <event-folder name="Fases Extras">
             <event-sheet>Eventos Modo Arrancada.xml</event-sheet>
@@ -2491,6 +2515,9 @@
             <event-sheet>Eventos Capítulo 2 - Fase 9.xml</event-sheet>
             <event-sheet>Eventos Capítulo 2 - Fase 10.xml</event-sheet>
         </event-folder>
+        <event-folder name="Testes">
+            <event-sheet>Teste de Save.xml</event-sheet>
+        </event-folder>
     </event-folder>
     <global-instances>
         <global-instance type="Teclado" uid="2" />
@@ -2514,6 +2541,9 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
+        <global-instance type="SaveGames" uid="1932" />
+        <global-instance type="ElementosDesktop" uid="2556" />
+        <global-instance type="ElementosJs" uid="2997" />
     </global-instances>
     <sounds-folder>
         <sound-folder name="Musicas">

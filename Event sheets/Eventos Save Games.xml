@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Save Games</name>
+    <events>
+        <comment>EventSheet destinada a gravação do progresso feito em jogo. Usar apenas quando necessário</comment>
+        <event-group description="Grupo resposável pelo armanezamento de dados" sid="603944199214738" title="GravarDados">
+            <sub-events>
+                <comment>Mudar botão após implementação. btnSave é um botão para debug</comment>
+                <event-block sid="752758976649090">
+                    <conditions>
+                        <condition id="0" name="On clicked" sid="552851776517197" type="btnSave" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="308589771528354" type="SaveGames">
+                            <param id="0" name="Key">&quot;player&quot;</param>
+                            <param id="1" name="Value">Nome</param>
+                        </action>
+                        <action id="0" name="Set item" sid="956648509311557" type="SaveGames">
+                            <param id="0" name="Key">&quot;money&quot;</param>
+                            <param id="1" name="Value">dinheiroJogador</param>
+                        </action>
+                        <action id="0" name="Set item" sid="678876267985502" type="SaveGames">
+                            <param id="0" name="Key">&quot;Carros1Comprado&quot;</param>
+                            <param id="1" name="Value">array_CarrosComprados.At(1, 1)</param>
+                        </action>
+                        <action id="0" name="Set item" sid="586378081655999" type="SaveGames">
+                            <param id="0" name="Key">&quot;Carros2Comprado&quot;</param>
+                            <param id="1" name="Value">array_CarrosComprados.At(2, 2)</param>
+                        </action>
+                        <action id="0" name="Set item" sid="469857389926892" type="SaveGames">
+                            <param id="0" name="Key">&quot;Carros3Comprado&quot;</param>
+                            <param id="1" name="Value">array_CarrosComprados.At(3, 3)</param>
+                        </action>
+                        <action id="0" name="Set item" sid="263109566506607" type="SaveGames">
+                            <param id="0" name="Key">&quot;Carros4Comprado&quot;</param>
+                            <param id="1" name="Value">array_CarrosComprados.At(4, 4)</param>
+                        </action>
+                        <action id="0" name="Set item" sid="913882783395878" type="SaveGames">
+                            <param id="0" name="Key">&quot;Carros5Comprado&quot;</param>
+                            <param id="1" name="Value">array_CarrosComprados.At(5, 5)</param>
+                        </action>
+                        <action id="0" name="Set item" sid="466533840790934" type="SaveGames">
+                            <param id="0" name="Key">&quot;Carros6Comprado&quot;</param>
+                            <param id="1" name="Value">array_CarrosComprados.At(6, 6)</param>
+                        </action>
+                        <action id="0" name="Set item" sid="959388385903381" type="SaveGames">
+                            <param id="0" name="Key">&quot;Carros7Comprado&quot;</param>
+                            <param id="1" name="Value">array_CarrosComprados.At(7, 7)</param>
+                        </action>
+                        <action id="0" name="Set item" sid="722435463577617" type="SaveGames">
+                            <param id="0" name="Key">&quot;Carros8Comprado&quot;</param>
+                            <param id="1" name="Value">array_CarrosComprados.At(8, 8)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="Grupo responsável por localizar jogos salvos" sid="550189263041948" title="LocalizarSave">
+            <sub-events>
+                <event-block sid="292260025735446">
+                    <conditions>
+                        <condition id="4" name="On all key names loaded" sid="356363371215392" type="SaveGames" />
+                    </conditions>
+                    <actions />
+                </event-block>
+                <comment>Após essa comparação o jogo irá carregar a lista de jogos salvos em uma tela separada. Será implementado no futuro a função autoload</comment>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
