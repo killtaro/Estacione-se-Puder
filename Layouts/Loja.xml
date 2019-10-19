@@ -518,11 +518,11 @@
                         <x>194</x>
                         <y>177</y>
                         <z>0</z>
-                        <width>78</width>
-                        <height>75</height>
+                        <width>49.129871368</width>
+                        <height>37.012985229</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.501030922</hotspotX>
+                        <hotspotY>0.389473677</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

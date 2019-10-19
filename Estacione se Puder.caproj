@@ -564,37 +564,42 @@
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="8" loop="0" name="carro1" pingpong="0" repeatcount="1" repeatto="0" sid="842120541293018" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5128" hotspotY="0.476261" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.47377" />
-                        <frame duration="1" hotspotX="0.515123" hotspotY="0.51995" />
-                        <frame duration="1" hotspotX="0.52168" hotspotY="0.48005" />
-                        <frame duration="1" hotspotX="0.484877" hotspotY="0.51995" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.47377" />
-                        <frame duration="1" hotspotX="0.4872" hotspotY="0.476261" />
-                    </animation>
-                    <animation framecount="8" loop="0" name="carro2" pingpong="0" repeatcount="1" repeatto="0" sid="272524721696749" speed="5">
-                        <frame duration="1" hotspotX="0.570997" hotspotY="0.321203" original-source="C:\Users\pixel\Downloads\carro2(1).gif">
-                            <collision-poly>
-                                <point x="0.0468278" y="0.238924" />
-                                <point x="0.522659" y="0.00158228" />
-                                <point x="0.998489" y="0.238924" />
-                                <point x="0.998489" y="0.428797" />
-                                <point x="0.907855" y="0.523734" />
-                                <point x="0.522659" y="0.998418" />
-                                <point x="0.137462" y="0.523734" />
-                                <point x="0.00151057" y="0.428797" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.500846" hotspotY="0.43508" />
-                        <frame duration="1" hotspotX="0.516393" hotspotY="0.421488" />
-                        <frame duration="1" hotspotX="0.516393" hotspotY="0.428928" />
-                        <frame duration="1" hotspotX="0.501139" hotspotY="0.389535" />
-                        <frame duration="1" hotspotX="0.485246" hotspotY="0.428928" />
-                        <frame duration="1" hotspotX="0.485246" hotspotY="0.421488" />
-                        <frame duration="1" hotspotX="0.500846" hotspotY="0.43508" />
-                    </animation>
+                    <animation-folder name="carro1">
+                        <animation framecount="8" loop="0" name="carro1" pingpong="0" repeatcount="1" repeatto="0" sid="272524721696749" speed="5">
+                            <frame duration="1" hotspotX="0.501031" hotspotY="0.389474" />
+                            <frame duration="1" hotspotX="0.51632" hotspotY="0.428894" />
+                            <frame duration="1" hotspotX="0.51632" hotspotY="0.421446" />
+                            <frame duration="1" hotspotX="0.500766" hotspotY="0.435052" />
+                            <frame duration="1" hotspotX="0.523707" hotspotY="0.428894" />
+                            <frame duration="1" hotspotX="0.500766" hotspotY="0.435052" />
+                            <frame duration="1" hotspotX="0.485163" hotspotY="0.421446" />
+                            <frame duration="1" hotspotX="0.485163" hotspotY="0.428894" />
+                        </animation>
+                    </animation-folder>
+                    <animation-folder name="carro2">
+                        <animation framecount="8" loop="0" name="carro2" pingpong="0" repeatcount="1" repeatto="0" sid="867551162438671" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.519931" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.518459" />
+                            <frame duration="1" hotspotX="0.516084" hotspotY="0.521657" />
+                            <frame duration="1" hotspotX="0.516084" hotspotY="0.519931" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.518459" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.516084" hotspotY="0.521657" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                    <animation-folder name="carro3">
+                        <animation framecount="8" loop="0" name="carro3" pingpong="0" repeatcount="1" repeatto="0" sid="842120541293018" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5128" hotspotY="0.476261" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.47377" />
+                            <frame duration="1" hotspotX="0.515123" hotspotY="0.51995" />
+                            <frame duration="1" hotspotX="0.52168" hotspotY="0.48005" />
+                            <frame duration="1" hotspotX="0.484877" hotspotY="0.51995" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.47377" />
+                            <frame duration="1" hotspotX="0.4872" hotspotY="0.476261" />
+                        </animation>
+                    </animation-folder>
                 </animation-folder>
             </object-type>
         </object-folder>

@@ -7,7 +7,7 @@
         <variable constant="0" name="VolumeMusica" sid="928857954704063" static="0" type="number">0</variable>
         <variable constant="0" name="VolumeSons" sid="305847114524398" static="0" type="number">0</variable>
         <variable constant="0" name="dinheiroJogador" sid="556272596546668" static="0" type="number">0</variable>
-        <variable constant="0" name="idCarro" sid="395619423906324" static="0" type="number">0</variable>
+        <variable constant="0" name="idCarro" sid="395619423906324" static="0" type="number">3</variable>
         <event-group description="Responsável pela configuração dos controles da versão mobile." sid="724036570689435" title="Configurações dos controles Mobile">
             <sub-events>
                 <event-group description="Responsável pela configuração dos sprites do carro para que a impressão de dimensão seja passado ao jogador." sid="666418089755401" title="Configuração dos sprites do carro na versão mobile">
@@ -594,6 +594,7 @@
                                 <action behavior="ScrollTo" id="1" name="Set enabled" sid="736319071599263" type="player_Carro">
                                     <param id="0" name="State">1</param>
                                 </action>
+                                <action id="2" name="Stop" sid="615529166489352" type="player_Carro" />
                             </actions>
                             <sub-events>
                                 <event-block sid="928918408369740">
@@ -601,12 +602,12 @@
                                         <condition id="-14" name="Compare variable" sid="173826299375536" type="System">
                                             <param id="0" name="Variable">idCarro</param>
                                             <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">0</param>
+                                            <param id="2" name="Value">1</param>
                                         </condition>
                                     </conditions>
                                     <actions>
                                         <action id="4" name="Set animation" sid="577330319685187" type="player_Carro">
-                                            <param id="0" name="Animation">&quot;carrro1&quot;</param>
+                                            <param id="0" name="Animation">&quot;carro1&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
                                         <action behavior="8Direction" id="4" name="Set max speed" sid="363388753020014" type="player_Carro">
@@ -622,6 +623,13 @@
                                             <param id="0" name="Instance variable">Valor</param>
                                             <param id="1" name="Value">300</param>
                                         </action>
+                                        <action id="-7" name="Set size" sid="400908157542171" type="player_Carro">
+                                            <param id="0" name="Width">40</param>
+                                            <param id="1" name="Height">40</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="842978590074581" type="player_Carro">
+                                            <param id="0" name="Frame number">5</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="333662474880188">
@@ -629,12 +637,12 @@
                                         <condition id="-14" name="Compare variable" sid="703819822167553" type="System">
                                             <param id="0" name="Variable">idCarro</param>
                                             <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">1</param>
+                                            <param id="2" name="Value">2</param>
                                         </condition>
                                     </conditions>
                                     <actions>
                                         <action id="4" name="Set animation" sid="168823289491198" type="player_Carro">
-                                            <param id="0" name="Animation">&quot;carrro2&quot;</param>
+                                            <param id="0" name="Animation">&quot;carro2&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
                                         <action behavior="8Direction" id="4" name="Set max speed" sid="392448572884589" type="player_Carro">
@@ -650,28 +658,51 @@
                                             <param id="0" name="Instance variable">Valor</param>
                                             <param id="1" name="Value">900</param>
                                         </action>
+                                        <action id="-7" name="Set size" sid="911547474598547" type="player_Carro">
+                                            <param id="0" name="Width">40</param>
+                                            <param id="1" name="Height">40</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="126629343100199" type="player_Carro">
+                                            <param id="0" name="Frame number">5</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="704836583398729">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="427241245484674" type="System">
+                                            <param id="0" name="Variable">idCarro</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="385675885741945" type="player_Carro">
+                                            <param id="0" name="Animation">&quot;carro3&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action behavior="8Direction" id="4" name="Set max speed" sid="314733094228501" type="player_Carro">
+                                            <param id="0" name="Max Speed">600</param>
+                                        </action>
+                                        <action behavior="8Direction" id="5" name="Set acceleration" sid="970215285033109" type="player_Carro">
+                                            <param id="0" name="Acceleration">600</param>
+                                        </action>
+                                        <action behavior="8Direction" id="6" name="Set deceleration" sid="839550556109290" type="player_Carro">
+                                            <param id="0" name="Deceleration">600</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="247810144676036" type="player_Carro">
+                                            <param id="0" name="Instance variable">Valor</param>
+                                            <param id="1" name="Value">1800</param>
+                                        </action>
+                                        <action id="-7" name="Set size" sid="246469870777192" type="player_Carro">
+                                            <param id="0" name="Width">60</param>
+                                            <param id="1" name="Height">60</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="500073489104920" type="player_Carro">
+                                            <param id="0" name="Frame number">5</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
-                        </event-block>
-                    </sub-events>
-                </event-group>
-                <event-group description="Responsável por configurar o tamanho do carro e parar a animação" sid="764126182946788" title="Configurações de tamanho do carro">
-                    <sub-events>
-                        <event-block sid="277657764199673">
-                            <conditions>
-                                <condition id="-2" name="On start of layout" sid="129491579618250" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="-7" name="Set size" sid="109952657573243" type="player_Carro">
-                                    <param id="0" name="Width">40</param>
-                                    <param id="1" name="Height">40</param>
-                                </action>
-                                <action id="2" name="Stop" sid="321536113071159" type="player_Carro" />
-                                <action id="5" name="Set frame" sid="829445410199885" type="player_Carro">
-                                    <param id="0" name="Frame number">5</param>
-                                </action>
-                            </actions>
                         </event-block>
                     </sub-events>
                 </event-group>

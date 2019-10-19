@@ -2650,11 +2650,11 @@
                         <x>100</x>
                         <y>85</y>
                         <z>0</z>
-                        <width>40</width>
-                        <height>40</height>
+                        <width>25.194805145</width>
+                        <height>19.740259171</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.501030922</hotspotX>
+                        <hotspotY>0.389473677</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
