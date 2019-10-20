@@ -3488,6 +3488,13 @@
                                 <action id="0" name="Set text" sid="892956193517473" type="textoInfo_Pontos">
                                     <param id="0" name="Text">Pontos</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="207466224653981" type="System">
+                                    <param id="0" name="Variable">TEMPO</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action behavior="8Direction" id="8" name="Set enabled" sid="621593212669871" type="player_Carro">
+                                    <param id="0" name="State">0</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>

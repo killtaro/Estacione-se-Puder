@@ -10,8 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Capítulo 1 - Fase 1</layout>
-        <event-sheet order="1">Configurações</event-sheet>
+        <layout order="3">Menu de Introdução</layout>
+        <event-sheet order="0">Eventos Novo Loading</event-sheet>
+        <event-sheet order="1">Eventos Capítulo 1 - Fase 2</event-sheet>
+        <event-sheet order="2">Configurações</event-sheet>
+        <event-sheet active="1" order="4">Eventos Seleção de capitulo</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -48,7 +51,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Arrays/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Capítulo 1 - Rua/" />
-        <folder expanded="0" path="layout-folder/Capítulo 2 - Estacionamento/" />
+        <folder expanded="1" path="layout-folder/Capítulo 2 - Estacionamento/" />
         <folder expanded="1" path="layout-folder/Pré-fases/" />
         <folder expanded="0" path="layout-folder/Fases Extras/" />
         <folder expanded="0" path="layout-folder/Telas Teste/" />
@@ -56,7 +59,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="event-folder/Eventos Gerais/" />
         <folder expanded="1" path="event-folder/Pré-fases/" />
         <folder expanded="0" path="event-folder/Fases Extras/" />
-        <folder expanded="0" path="event-folder/Capítulo 1 - Rua/" />
+        <folder expanded="1" path="event-folder/Capítulo 1 - Rua/" />
         <folder expanded="0" path="event-folder/Capítulo 2 - Estacionamento/" />
         <folder expanded="1" path="event-folder/Testes/" />
         <folder expanded="0" path="file-folder/" />
