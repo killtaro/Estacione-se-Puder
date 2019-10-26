@@ -1525,6 +1525,9 @@
                 <object-type name="textoInfo_Versao" sid="537370718230961">
                     <plugin id="Text" />
                 </object-type>
+                <object-type name="textoSalvar" sid="934820132116768">
+                    <plugin id="Text" />
+                </object-type>
             </object-folder>
             <object-folder name="Pontos">
                 <object-type name="textoInfo_Pontos" sid="321832039001838">

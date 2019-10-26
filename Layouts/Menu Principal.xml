@@ -1852,7 +1852,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>200</x>
-                        <y>224</y>
+                        <y>195</y>
                         <z>0</z>
                         <width>400</width>
                         <height>48</height>
@@ -1909,7 +1909,7 @@
                 </instance>
                 <instance type="textoInfo_Versao" uid="381">
                     <properties>
-                        <text>Versão 0.11.7</text>
+                        <text>Versão 0.11.8</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Courier New,-16,400,1</font>
                         <color>255,255,255</color>
@@ -1967,6 +1967,33 @@
                         <depth>0</depth>
                         <hotspotX>0.507042229</hotspotX>
                         <hotspotY>0.551999986</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="textoSalvar" uid="3010">
+                    <properties>
+                        <text>Salvar Jogo</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Harlow Solid Italic,-39,400,1</font>
+                        <color>204,204,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>309.380126953</x>
+                        <y>256.661468506</y>
+                        <z>0</z>
+                        <width>195.61819458</width>
+                        <height>49.408615112</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

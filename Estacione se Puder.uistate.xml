@@ -10,11 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="3">Menu de Introdução</layout>
-        <event-sheet order="0">Eventos Novo Loading</event-sheet>
-        <event-sheet order="1">Eventos Capítulo 1 - Fase 2</event-sheet>
-        <event-sheet order="2">Configurações</event-sheet>
-        <event-sheet active="1" order="4">Eventos Seleção de capitulo</event-sheet>
+        <layout active="1" order="0">Capítulo 1 - Fase 9</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -34,11 +30,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/Player/" />
         <folder expanded="0" path="object-folder/Objetos/" />
         <folder expanded="0" path="object-folder/Detalhes/" />
-        <folder expanded="0" path="object-folder/Textos/" />
+        <folder expanded="1" path="object-folder/Textos/" />
         <folder expanded="0" path="object-folder/Textos/Números Separados/" />
         <folder expanded="0" path="object-folder/Textos/Loja/" />
         <folder expanded="0" path="object-folder/Textos/Detalhes/" />
-        <folder expanded="0" path="object-folder/Textos/Menu/" />
+        <folder expanded="1" path="object-folder/Textos/Menu/" />
         <folder expanded="0" path="object-folder/Textos/Pontos/" />
         <folder expanded="0" path="object-folder/Textos/Seleção de Capítulos/" />
         <folder expanded="0" path="object-folder/Textos/Seleção de Carros/" />
@@ -58,7 +54,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="event-folder/Eventos Gerais/" />
         <folder expanded="1" path="event-folder/Pré-fases/" />
-        <folder expanded="0" path="event-folder/Fases Extras/" />
+        <folder expanded="1" path="event-folder/Fases Extras/" />
         <folder expanded="1" path="event-folder/Capítulo 1 - Rua/" />
         <folder expanded="0" path="event-folder/Capítulo 2 - Estacionamento/" />
         <folder expanded="1" path="event-folder/Testes/" />
