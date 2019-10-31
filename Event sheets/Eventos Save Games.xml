@@ -57,7 +57,7 @@
                 <event-block sid="169326655690838">
                     <conditions>
                         <condition id="3" name="On touched object" sid="481543179844042" type="Toque">
-                            <param id="0" name="Object">textoSalvar</param>
+                            <param id="0" name="Object">btnSalvar</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -68,7 +68,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="Grupo responsável por localizar jogos salvos" sid="550189263041948" title="LocalizarSave">
+        <event-group description="Grupo responsável por localizar jogos salvos" inactive="1" sid="550189263041948" title="LocalizarSave">
             <sub-events>
                 <comment>Após essa comparação o jogo irá carregar a lista de jogos salvos em uma tela separada. Será implementado no futuro a função autoload</comment>
                 <event-block sid="260982641958230">

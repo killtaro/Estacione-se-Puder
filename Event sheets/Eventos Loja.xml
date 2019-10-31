@@ -33,10 +33,6 @@
                                 <action behavior="8Direction" id="6" name="Set deceleration" sid="979071284931439" type="player_Carro">
                                     <param id="0" name="Deceleration">600</param>
                                 </action>
-                                <action id="-10" name="Set value" sid="437978280155380" type="player_Carro">
-                                    <param id="0" name="Instance variable">Valor</param>
-                                    <param id="1" name="Value">300</param>
-                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="623221642002845">
@@ -60,10 +56,6 @@
                                 </action>
                                 <action behavior="8Direction" id="6" name="Set deceleration" sid="188594704017336" type="player_Carro">
                                     <param id="0" name="Deceleration">600</param>
-                                </action>
-                                <action id="-10" name="Set value" sid="344802886088705" type="player_Carro">
-                                    <param id="0" name="Instance variable">Valor</param>
-                                    <param id="1" name="Value">900</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -394,9 +386,6 @@
                         </action>
                         <action id="0" name="Set text" sid="478553720052237" type="textoInfoLoja_Desaceleracao">
                             <param id="0" name="Text">player_Carro.8Direction.Deceleration</param>
-                        </action>
-                        <action id="0" name="Set text" sid="742927171161107" type="textoInfoLoja_Valor">
-                            <param id="0" name="Text">player_Carro.Valor</param>
                         </action>
                     </actions>
                 </event-block>

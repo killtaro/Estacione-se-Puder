@@ -1782,87 +1782,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="textoSelecaoMenu_Jogar" uid="3128">
-                    <properties>
-                        <text>Jogar</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Harlow Solid Italic,-37.6,400,1</font>
-                        <color>255,153,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>200</x>
-                        <y>136</y>
-                        <z>0</z>
-                        <width>400</width>
-                        <height>48</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="textoSelecaoMenu_Opcoes" uid="3129">
-                    <properties>
-                        <text>Opções</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Harlow Solid Italic,-37.6,400,1</font>
-                        <color>255,51,204</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>200</x>
-                        <y>312</y>
-                        <z>0</z>
-                        <width>400</width>
-                        <height>48</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="textoSelecaoMenu_Loja" uid="3130">
-                    <properties>
-                        <text>Loja</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Harlow Solid Italic,-37.6,400,1</font>
-                        <color>204,204,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>200</x>
-                        <y>195</y>
-                        <z>0</z>
-                        <width>400</width>
-                        <height>48</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="obj_Arvore" uid="3208">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -1909,7 +1828,7 @@
                 </instance>
                 <instance type="textoInfo_Versao" uid="381">
                     <properties>
-                        <text>Versão 0.11.8</text>
+                        <text>Versão 0.11.9</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Courier New,-16,400,1</font>
                         <color>255,255,255</color>
@@ -1971,29 +1890,109 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="textoSalvar" uid="3010">
+            </instances>
+            <effects />
+        </layer>
+        <layer name="SaveCompleto" sid="991244365311229">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="btnJogar" uid="3010">
                     <properties>
-                        <text>Salvar Jogo</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Harlow Solid Italic,-39,400,1</font>
-                        <color>204,204,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>309.380126953</x>
-                        <y>256.661468506</y>
+                        <x>412</x>
+                        <y>163</y>
                         <z>0</z>
-                        <width>195.61819458</width>
-                        <height>49.408615112</height>
+                        <width>122</width>
+                        <height>42</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.55737704</hotspotX>
+                        <hotspotY>0.40476191</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="btnLoja" uid="3017">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>421</x>
+                        <y>224</y>
+                        <z>0</z>
+                        <width>93</width>
+                        <height>43</height>
+                        <depth>0</depth>
+                        <hotspotX>0.709677398</hotspotX>
+                        <hotspotY>0.395348847</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="btnSalvar" uid="3018">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>407</x>
+                        <y>291</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>43</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.488372087</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="btnOpções" uid="3019">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>404</x>
+                        <y>346</y>
+                        <z>0</z>
+                        <width>117</width>
+                        <height>41</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504273534</hotspotX>
+                        <hotspotY>0.414634138</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

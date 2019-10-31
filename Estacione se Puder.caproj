@@ -550,7 +550,7 @@
             <object-type name="player_Carro" sid="412215256106520">
                 <plugin id="Sprite" />
                 <instance-variables>
-                    <instance-variable name="Valor" sid="233050002968255" type="number" />
+                    <instance-variable name="PosicaoCorrida" sid="988349503752577" type="number" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="ScrollTo" sid="478294288842961">
@@ -590,6 +590,55 @@
                     </animation-folder>
                     <animation-folder name="carro3">
                         <animation framecount="8" loop="0" name="carro3" pingpong="0" repeatcount="1" repeatto="0" sid="842120541293018" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5128" hotspotY="0.476261" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.47377" />
+                            <frame duration="1" hotspotX="0.515123" hotspotY="0.51995" />
+                            <frame duration="1" hotspotX="0.52168" hotspotY="0.48005" />
+                            <frame duration="1" hotspotX="0.484877" hotspotY="0.51995" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.47377" />
+                            <frame duration="1" hotspotX="0.4872" hotspotY="0.476261" />
+                        </animation>
+                    </animation-folder>
+                </animation-folder>
+            </object-type>
+            <object-type name="player_Carro2" sid="772395939211199">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="PosicaoCorrida" sid="426172885567574" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="8Direction" sid="828732812015421">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation-folder name="carro1">
+                        <animation framecount="8" loop="0" name="carro1" pingpong="0" repeatcount="1" repeatto="0" sid="389699016671720" speed="5">
+                            <frame duration="1" hotspotX="0.501031" hotspotY="0.389474" />
+                            <frame duration="1" hotspotX="0.51632" hotspotY="0.428894" />
+                            <frame duration="1" hotspotX="0.51632" hotspotY="0.421446" />
+                            <frame duration="1" hotspotX="0.500766" hotspotY="0.435052" />
+                            <frame duration="1" hotspotX="0.523707" hotspotY="0.428894" />
+                            <frame duration="1" hotspotX="0.500766" hotspotY="0.435052" />
+                            <frame duration="1" hotspotX="0.485163" hotspotY="0.421446" />
+                            <frame duration="1" hotspotX="0.485163" hotspotY="0.428894" />
+                        </animation>
+                    </animation-folder>
+                    <animation-folder name="carro2">
+                        <animation framecount="8" loop="0" name="carro2" pingpong="0" repeatcount="1" repeatto="0" sid="768671459741102" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.519931" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.518459" />
+                            <frame duration="1" hotspotX="0.516084" hotspotY="0.521657" />
+                            <frame duration="1" hotspotX="0.516084" hotspotY="0.519931" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.518459" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.516084" hotspotY="0.521657" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                    <animation-folder name="carro3">
+                        <animation framecount="8" loop="0" name="carro3" pingpong="0" repeatcount="1" repeatto="0" sid="866105580393220" speed="5">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                             <frame duration="1" hotspotX="0.5128" hotspotY="0.476261" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.47377" />
@@ -2348,6 +2397,72 @@
                                 <point x="1" y="0" />
                                 <point x="0.986755" y="1" />
                                 <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnJogar" sid="413156656946997">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="583979084721133" speed="5">
+                        <frame duration="1" hotspotX="0.557377" hotspotY="0.404762" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnJogar.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="0.147541" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnLoja" sid="376676636554098">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="448137026137147" speed="5">
+                        <frame duration="1" hotspotX="0.709677" hotspotY="0.395349" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnLoja.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="0.44086" y="1" />
+                                <point x="0.989247" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnSalvar" sid="478088725634383">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="106912459024262" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.488372" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnSalvar.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.48" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.995" y="0.488372" />
+                                <point x="1" y="1" />
+                                <point x="0.42" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.674419" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnOpções" sid="293459505968438">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506302869191048" speed="5">
+                        <frame duration="1" hotspotX="0.504274" hotspotY="0.414634" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnOpções.png">
+                            <collision-poly>
+                                <point x="1" y="0" />
+                                <point x="0.991453" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0" />
                             </collision-poly>
                         </frame>
                     </animation>

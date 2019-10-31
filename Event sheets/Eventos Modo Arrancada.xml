@@ -3,9 +3,10 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Modo Arrancada</name>
     <events>
+        <include>Configurações</include>
+        <include>Eventos Seleção de Carros</include>
         <variable constant="0" name="TEMPOPLAYER" sid="893445910640661" static="0" type="number">0</variable>
         <variable constant="0" name="TEMPOINIMIGO" sid="287534256219386" static="0" type="number">0</variable>
-        <include>Eventos Dos Inimigos</include>
         <comment>Compara se o inimigo chegou antes na linha de chegada</comment>
         <event-block sid="805079961678627">
             <conditions>
@@ -16,86 +17,54 @@
                     <param id="0" name="Group name">&quot;ComparaVitoria&quot;</param>
                     <param id="1" name="State">1</param>
                 </action>
+                <action id="4" name="Set animation" sid="316779812132145" type="player_Carro2">
+                    <param id="0" name="Animation">&quot;carro2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="285988018537399" type="player_Carro2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="2" name="Stop" sid="803502266251368" type="player_Carro2" />
+                <action behavior="8Direction" id="5" name="Set acceleration" sid="901745529157302" type="player_Carro2">
+                    <param id="0" name="Acceleration">800</param>
+                </action>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="635796143642742" type="player_Carro2">
+                    <param id="0" name="Control">2</param>
+                </action>
             </actions>
         </event-block>
-        <event-group description="" sid="576188115872778" title="CalculaTempo">
-            <sub-events>
-                <event-block sid="874434285280757">
-                    <conditions>
-                        <condition id="-6" name="Every X seconds" sid="847548152422334" type="System">
-                            <param id="0" name="Interval (seconds)">1</param>
-                        </condition>
-                        <condition behavior="Car" id="0" name="Is moving" sid="803558896816039" type="bot_Inimigo" />
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Add to" sid="821291009368350" type="System">
-                            <param id="0" name="Variable">TEMPOINIMIGO</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="858673474205938">
-                    <conditions>
-                        <condition id="-6" name="Every X seconds" sid="274775273104551" type="System">
-                            <param id="0" name="Interval (seconds)">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Add to" sid="286623051473256" type="System">
-                            <param id="0" name="Variable">TEMPOPLAYER</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="387761870913109" title="AcabaCorridaInimigo">
-            <sub-events>
-                <event-block sid="532595749151531">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="218504693719769" type="bot_Inimigo">
-                            <param id="0" name="Object">gatilho_Inimigo</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Car" id="0" name="Stop" sid="824487597993851" type="bot_Inimigo" />
-                        <action id="-12" name="Set group active" sid="967923637354911" type="System">
-                            <param id="0" name="Group name">&quot;ComparaVitoria&quot;</param>
-                            <param id="1" name="State">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
         <event-group description="" sid="364992880395854" title="ComparaVitoria">
             <sub-events>
                 <event-block sid="752724385058013">
                     <conditions>
-                        <condition id="-14" name="Compare variable" sid="145994380838380" type="System">
-                            <param id="0" name="Variable">TEMPOINIMIGO</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">TEMPOPLAYER</param>
+                        <condition id="-2" name="Compare Y" sid="194417333747274" type="player_Carro2">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="Y co-ordinate">player_Carro.Y</param>
                         </condition>
                     </conditions>
-                    <actions />
-                </event-block>
-                <event-block sid="866386375144306">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="657770656619686" type="System" />
-                    </conditions>
-                    <actions />
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="604389850572806" title="AcabaCorridaPlayer">
-            <sub-events>
-                <event-block sid="740008401711245">
-                    <conditions />
                     <actions>
-                        <action behavior="Car" id="0" name="Stop" sid="527277204059327" type="bot_Inimigo" />
-                        <action id="-12" name="Set group active" sid="977482587576409" type="System">
-                            <param id="0" name="Group name">&quot;ComparaVitoria&quot;</param>
-                            <param id="1" name="State">1</param>
+                        <action id="-10" name="Set value" sid="433426882482031" type="player_Carro2">
+                            <param id="0" name="Instance variable">PosicaoCorrida</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="304662443001029" type="player_Carro">
+                            <param id="0" name="Instance variable">PosicaoCorrida</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="315945612477852">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="572246377892785" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="170027365557244" type="player_Carro2">
+                            <param id="0" name="Instance variable">PosicaoCorrida</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="561267460485652" type="player_Carro">
+                            <param id="0" name="Instance variable">PosicaoCorrida</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>

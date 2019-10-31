@@ -2262,7 +2262,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Valor>0</Valor>
+                        <PosicaoCorrida>0</PosicaoCorrida>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="ScrollTo">

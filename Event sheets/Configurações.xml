@@ -619,10 +619,6 @@
                                         <action behavior="8Direction" id="6" name="Set deceleration" sid="645470785000449" type="player_Carro">
                                             <param id="0" name="Deceleration">600</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="494819829064723" type="player_Carro">
-                                            <param id="0" name="Instance variable">Valor</param>
-                                            <param id="1" name="Value">300</param>
-                                        </action>
                                         <action id="-7" name="Set size" sid="400908157542171" type="player_Carro">
                                             <param id="0" name="Width">40</param>
                                             <param id="1" name="Height">40</param>
@@ -654,10 +650,6 @@
                                         <action behavior="8Direction" id="6" name="Set deceleration" sid="865456420376852" type="player_Carro">
                                             <param id="0" name="Deceleration">600</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="445764130330918" type="player_Carro">
-                                            <param id="0" name="Instance variable">Valor</param>
-                                            <param id="1" name="Value">900</param>
-                                        </action>
                                         <action id="-7" name="Set size" sid="911547474598547" type="player_Carro">
                                             <param id="0" name="Width">40</param>
                                             <param id="1" name="Height">40</param>
@@ -688,10 +680,6 @@
                                         </action>
                                         <action behavior="8Direction" id="6" name="Set deceleration" sid="839550556109290" type="player_Carro">
                                             <param id="0" name="Deceleration">600</param>
-                                        </action>
-                                        <action id="-10" name="Set value" sid="247810144676036" type="player_Carro">
-                                            <param id="0" name="Instance variable">Valor</param>
-                                            <param id="1" name="Value">1800</param>
                                         </action>
                                         <action id="-7" name="Set size" sid="246469870777192" type="player_Carro">
                                             <param id="0" name="Width">60</param>

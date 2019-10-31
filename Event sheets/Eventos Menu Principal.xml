@@ -7,7 +7,7 @@
         <event-block sid="516342097188608">
             <conditions>
                 <condition id="3" name="On touched object" sid="757110423251184" type="Toque">
-                    <param id="0" name="Object">textoSelecaoMenu_Loja</param>
+                    <param id="0" name="Object">btnLoja</param>
                 </condition>
             </conditions>
             <actions>
@@ -19,12 +19,23 @@
         <event-block sid="125491715180150">
             <conditions>
                 <condition id="3" name="On touched object" sid="347785333746638" type="Toque">
-                    <param id="0" name="Object">textoSelecaoMenu_Jogar</param>
+                    <param id="0" name="Object">btnJogar</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="388928725662735" type="System">
                     <param id="0" name="Layout">Menu de Modos de Jogo</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="454747731605149">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="307382533103697" type="System" />
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="942872132780774" type="System">
+                    <param id="0" name="Group name">&quot;LocalizarSave&quot;</param>
+                    <param id="1" name="State">0</param>
                 </action>
             </actions>
         </event-block>

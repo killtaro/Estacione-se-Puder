@@ -1670,7 +1670,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Valor>0</Valor>
+                        <PosicaoCorrida>0</PosicaoCorrida>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="ScrollTo">
@@ -1701,8 +1701,8 @@
                         <x>58.641235352</x>
                         <y>385.935577393</y>
                         <z>0</z>
-                        <width>60</width>
-                        <height>60</height>
+                        <width>39.641998291</width>
+                        <height>40.317001343</height>
                         <depth>0</depth>
                         <hotspotX>0.501030922</hotspotX>
                         <hotspotY>0.389473677</hotspotY>
