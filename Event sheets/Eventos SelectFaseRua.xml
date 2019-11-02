@@ -403,5 +403,17 @@
             </sub-events>
         </event-group>
         <comment>Compara as fases completas</comment>
+        <event-block sid="444654112167695">
+            <conditions>
+                <condition id="3" name="On touched object" sid="650427134039555" type="Toque">
+                    <param id="0" name="Object">detalhe_Seta</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="982830999775000" type="System">
+                    <param id="0" name="Layout">Seleção de Capitulos</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

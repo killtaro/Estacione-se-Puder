@@ -2,7 +2,7 @@
 <c2project>
     <name>Estacione se Puder</name>
     <description>Jogos de estacionar</description>
-    <version>0.11.7</version>
+    <version>0.11.10</version>
     <author>HitKillStudios</author>
     <author-email>zh.dubeslando@gmail.com</author-email>
     <author-website>www.google.com</author-website>
@@ -1496,6 +1496,9 @@
                         </animation>
                     </animation-folder>
                 </object-type>
+                <object-type name="Voltar" sid="312631785347768">
+                    <plugin id="Text" />
+                </object-type>
             </object-folder>
             <object-folder name="Menu">
                 <object-type name="textoSelecaoMenu_Arrancada" sid="690938526591072">
@@ -2463,6 +2466,29 @@
                                 <point x="0.991453" y="1" />
                                 <point x="0" y="1" />
                                 <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnCampanha" sid="231515678308992">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="530098197811248" speed="5">
+                        <frame duration="1" hotspotX="0.459016" hotspotY="0.483871" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnCampanha.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnVoltar" sid="194791555003864">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="922601589602309" speed="5">
+                        <frame duration="1" hotspotX="0.443038" hotspotY="0.714286" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnVoltar.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.962025" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>

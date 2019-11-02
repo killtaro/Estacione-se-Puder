@@ -4,71 +4,28 @@
     <name>Eventos Seleção de capitulo</name>
     <events>
         <comment>Troca o capitulo na tela</comment>
-        <event-block sid="369115675269240">
+        <event-block sid="996251083796659">
             <conditions>
-                <condition id="-9" name="Layer is visible" sid="244235371062965" type="System">
-                    <param id="0" name="Layer">&quot;Rua&quot;</param>
+                <condition id="3" name="On touched object" sid="885080941494662" type="Toque">
+                    <param id="0" name="Object">detalhes_SelecaoRua</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-4" name="Set layer visible" sid="972207864363362" type="System">
-                    <param id="0" name="Layer">&quot;Rua&quot;</param>
-                    <param id="1" name="Visibility">0</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="708587700241468" type="System">
-                    <param id="0" name="Layer">&quot;Estacionamento&quot;</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="622010936371318">
-            <conditions>
-                <condition id="-9" name="Layer is visible" sid="746485690575888" type="System">
-                    <param id="0" name="Layer">&quot;Estacionamento&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-4" name="Set layer visible" sid="844225779107454" type="System">
-                    <param id="0" name="Layer">&quot;Rua&quot;</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="324265346740036" type="System">
-                    <param id="0" name="Layer">&quot;Estacionamento&quot;</param>
-                    <param id="1" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <comment>Seleciona o capitulo a ser jogado</comment>
-        <event-block sid="178781674346678">
-            <conditions>
-                <condition id="3" name="On touched object" sid="947866917809429" type="Toque">
-                    <param id="0" name="Object">textoImagem_ComecarCapitulo</param>
-                </condition>
-                <condition id="-9" name="Layer is visible" sid="671648685855450" type="System">
-                    <param id="0" name="Layer">&quot;Rua&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="808900022091541" type="System">
+                <action id="-2" name="Go to layout" sid="669125021489058" type="System">
                     <param id="0" name="Layout">Seleção de Fase do Capítulo 1</param>
                 </action>
-                <action id="33" name="Stop all" sid="618359344854579" type="Musicas" />
             </actions>
         </event-block>
-        <event-block sid="546380711034012">
+        <event-block sid="310616249945817">
             <conditions>
-                <condition id="3" name="On touched object" sid="752192878328208" type="Toque">
-                    <param id="0" name="Object">textoImagem_ComecarCapitulo</param>
-                </condition>
-                <condition id="-9" name="Layer is visible" sid="912460335452870" type="System">
-                    <param id="0" name="Layer">&quot;Estacionamento&quot;</param>
+                <condition id="3" name="On touched object" sid="851869754441600" type="Toque">
+                    <param id="0" name="Object">detalhes_SelecaoEstacionamento</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="838885423530014" type="System">
+                <action id="-2" name="Go to layout" sid="998845659672173" type="System">
                     <param id="0" name="Layout">Seleção de Fase do Capítulo 2</param>
                 </action>
-                <action id="33" name="Stop all" sid="474871180344960" type="Musicas" />
             </actions>
         </event-block>
     </events>

@@ -3056,17 +3056,6 @@
             <sub-events>
                 <event-group description="Responsável por adicionar ou remover pontos do jogador dependendo das ações do mesmo" sid="653184289467640" title="Configuração das distribuições de pontos">
                     <sub-events>
-                        <event-block sid="366756090336560">
-                            <conditions>
-                                <condition behavior="8Direction" id="0" name="Is moving" sid="118772260849138" type="player_Carro" />
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Add to" sid="787361698472001" type="System">
-                                    <param id="0" name="Variable">Pontos</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
                         <event-block sid="696894142720781">
                             <conditions>
                                 <condition behavior="8Direction" id="1" name="Compare speed" sid="751617193035502" type="player_Carro">
@@ -3077,7 +3066,7 @@
                             <actions>
                                 <action id="-10" name="Add to" sid="279961386971990" type="System">
                                     <param id="0" name="Variable">Pontos</param>
-                                    <param id="1" name="Value">50</param>
+                                    <param id="1" name="Value">2</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -3091,7 +3080,7 @@
                             <actions>
                                 <action id="-10" name="Add to" sid="556423379693480" type="System">
                                     <param id="0" name="Variable">Pontos</param>
-                                    <param id="1" name="Value">75</param>
+                                    <param id="1" name="Value">5</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -3105,7 +3094,7 @@
                             <actions>
                                 <action id="-10" name="Add to" sid="288060102734836" type="System">
                                     <param id="0" name="Variable">Pontos</param>
-                                    <param id="1" name="Value">90</param>
+                                    <param id="1" name="Value">6</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -3119,7 +3108,7 @@
                             <actions>
                                 <action id="-10" name="Add to" sid="579325436836497" type="System">
                                     <param id="0" name="Variable">Pontos</param>
-                                    <param id="1" name="Value">100</param>
+                                    <param id="1" name="Value">7</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -3133,7 +3122,7 @@
                             <actions>
                                 <action id="-10" name="Add to" sid="713047747780151" type="System">
                                     <param id="0" name="Variable">Pontos</param>
-                                    <param id="1" name="Value">200</param>
+                                    <param id="1" name="Value">8</param>
                                 </action>
                             </actions>
                         </event-block>

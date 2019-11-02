@@ -519,6 +519,55 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="detalhe_Seta" uid="4303">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>58</x>
+                        <y>30</y>
+                        <z>0</z>
+                        <width>68.567825317</width>
+                        <height>37.230770111</height>
+                        <depth>0</depth>
+                        <hotspotX>0.218623489</hotspotX>
+                        <hotspotY>0.606060624</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Voltar" uid="4304">
+                    <properties>
+                        <text>Voltar</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Harlow Solid Italic,-21,400,1</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>80</x>
+                        <y>22</y>
+                        <z>0</z>
+                        <width>170</width>
+                        <height>28</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

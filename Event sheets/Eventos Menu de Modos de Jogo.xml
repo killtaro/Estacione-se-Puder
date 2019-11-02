@@ -12,7 +12,7 @@
         <event-block sid="778442425061132">
             <conditions>
                 <condition id="3" name="On touched object" sid="538099324377868" type="Toque">
-                    <param id="0" name="Object">textoSelecaoMenu_Campanha</param>
+                    <param id="0" name="Object">btnCampanha</param>
                 </condition>
             </conditions>
             <actions>
@@ -24,7 +24,7 @@
         <event-block sid="203061081323607">
             <conditions>
                 <condition id="3" name="On touched object" sid="482112135966930" type="Toque">
-                    <param id="0" name="Object">textoSelecaoMenu_Volta</param>
+                    <param id="0" name="Object">btnVoltar</param>
                 </condition>
             </conditions>
             <actions>
@@ -32,14 +32,6 @@
                     <param id="0" name="Layout">Menu Principal</param>
                 </action>
             </actions>
-        </event-block>
-        <event-block sid="416697354833901">
-            <conditions>
-                <condition id="3" name="On touched object" sid="159557485632826" type="Toque">
-                    <param id="0" name="Object">textoSelecaoMenu_Arrancada</param>
-                </condition>
-            </conditions>
-            <actions />
         </event-block>
     </events>
 </c2eventsheet>

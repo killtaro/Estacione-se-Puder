@@ -143,87 +143,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="textoSelecaoMenu_Arrancada" uid="1566">
-                    <properties>
-                        <text>Arrancada</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Harlow Solid Italic,-37.6,400,1</font>
-                        <color>102,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>216</x>
-                        <y>248</y>
-                        <z>0</z>
-                        <width>368</width>
-                        <height>48</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="textoSelecaoMenu_Campanha" uid="1567">
-                    <properties>
-                        <text>Campanha</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Harlow Solid Italic,-37.6,400,1</font>
-                        <color>102,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>216</x>
-                        <y>160</y>
-                        <z>0</z>
-                        <width>368</width>
-                        <height>48</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="textoSelecaoMenu_Volta" uid="1568">
-                    <properties>
-                        <text>Voltar</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Harlow Solid Italic,-37.6,400,1</font>
-                        <color>204,0,51</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>216</x>
-                        <y>328</y>
-                        <z>0</z>
-                        <width>368</width>
-                        <height>48</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="obj_Arvore" uid="1572">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -2259,6 +2178,50 @@
                         <depth>0</depth>
                         <hotspotX>0.507042229</hotspotX>
                         <hotspotY>0.551999986</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="btnCampanha" uid="1567">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>393.865539551</x>
+                        <y>195.253829956</y>
+                        <z>0</z>
+                        <width>162.433441162</width>
+                        <height>43.911026001</height>
+                        <depth>0</depth>
+                        <hotspotX>0.459016383</hotspotX>
+                        <hotspotY>0.483870953</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="btnVoltar" uid="1566">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>393.04510498</x>
+                        <y>351.937286377</y>
+                        <z>0</z>
+                        <width>99.490844727</width>
+                        <height>30.835418701</height>
+                        <depth>0</depth>
+                        <hotspotX>0.443037987</hotspotX>
+                        <hotspotY>0.714285731</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

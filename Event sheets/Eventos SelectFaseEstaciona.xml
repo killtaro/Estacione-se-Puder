@@ -403,5 +403,17 @@
             </sub-events>
         </event-group>
         <comment>Movimentação do Carrinho na tela</comment>
+        <event-block sid="117148604284030">
+            <conditions>
+                <condition id="3" name="On touched object" sid="702995075182909" type="Toque">
+                    <param id="0" name="Object">detalhe_Seta</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="392719608570583" type="System">
+                    <param id="0" name="Layout">Seleção de Capitulos</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
