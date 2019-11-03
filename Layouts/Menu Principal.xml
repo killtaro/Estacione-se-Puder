@@ -1975,7 +1975,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="btnOpções" uid="3019">
+                <instance type="btnOpcoes" uid="3019">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1988,11 +1988,11 @@
                         <x>404</x>
                         <y>346</y>
                         <z>0</z>
-                        <width>117</width>
-                        <height>41</height>
+                        <width>200</width>
+                        <height>50</height>
                         <depth>0</depth>
-                        <hotspotX>0.504273534</hotspotX>
-                        <hotspotY>0.414634138</hotspotY>
+                        <hotspotX>0.504999995</hotspotX>
+                        <hotspotY>0.419999987</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

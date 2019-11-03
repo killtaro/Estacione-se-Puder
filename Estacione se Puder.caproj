@@ -5,7 +5,7 @@
     <version>0.11.10</version>
     <author>HitKillStudios</author>
     <author-email>zh.dubeslando@gmail.com</author-email>
-    <author-website>www.google.com</author-website>
+    <author-website>www.hitkillstudios.com.br</author-website>
     <app-id>br.hitkillstudios.com</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>26500</saved-with-version>
@@ -53,7 +53,7 @@
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Letterbox scale</prop>
         <prop name="Fullscreen scaling">High quality</prop>
-        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Loader style">Progress bar only</prop>
         <prop name="Orientations">Landscape</prop>
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
@@ -2456,11 +2456,11 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="btnOpções" sid="293459505968438">
+            <object-type name="btnOpcoes" sid="293459505968438">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506302869191048" speed="5">
-                        <frame duration="1" hotspotX="0.504274" hotspotY="0.414634" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnOpções.png">
+                        <frame duration="1" hotspotX="0.505" hotspotY="0.42" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnOpcoes.png">
                             <collision-poly>
                                 <point x="1" y="0" />
                                 <point x="0.991453" y="1" />

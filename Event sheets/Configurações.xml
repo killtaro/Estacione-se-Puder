@@ -3054,6 +3054,85 @@
         </event-group>
         <event-group description="Responsável pela configuração dos pontos." sid="469206792864259" title="Configurações dos pontos">
             <sub-events>
+                <event-group description="Responsável por controlar o dinheiro ganho ao término de uma fase" sid="464329868037355" title="Configuração da distribuição do dinheiro">
+                    <sub-events>
+                        <event-block sid="553789284856583">
+                            <conditions>
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="202850232766472" type="player_Carro">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Speed">50</param>
+                                </condition>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="552344413747052" type="player_Carro" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="915684813911888" type="System">
+                                    <param id="0" name="Variable">dinheiroJogador</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="739191082114309">
+                            <conditions>
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="364685635353153" type="player_Carro">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Speed">75</param>
+                                </condition>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="951924491360349" type="player_Carro" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="990319472066804" type="System">
+                                    <param id="0" name="Variable">dinheiroJogador</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="526686619098514">
+                            <conditions>
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="192110565535392" type="player_Carro">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Speed">90</param>
+                                </condition>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="888446204873441" type="player_Carro" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="863284646499455" type="System">
+                                    <param id="0" name="Variable">dinheiroJogador</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="920267019769915">
+                            <conditions>
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="878993054541154" type="player_Carro">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Speed">100</param>
+                                </condition>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="516420922762752" type="player_Carro" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="843738179777868" type="System">
+                                    <param id="0" name="Variable">dinheiroJogador</param>
+                                    <param id="1" name="Value">4</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="208692351657231">
+                            <conditions>
+                                <condition behavior="8Direction" id="1" name="Compare speed" sid="828118655446298" type="player_Carro">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Speed">200</param>
+                                </condition>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="133643587215700" type="player_Carro" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="966461476017203" type="System">
+                                    <param id="0" name="Variable">dinheiroJogador</param>
+                                    <param id="1" name="Value">5</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
                 <event-group description="Responsável por adicionar ou remover pontos do jogador dependendo das ações do mesmo" sid="653184289467640" title="Configuração das distribuições de pontos">
                     <sub-events>
                         <event-block sid="696894142720781">
@@ -3062,6 +3141,7 @@
                                     <param id="0" name="Comparison">0</param>
                                     <param id="1" name="Speed">50</param>
                                 </condition>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="930098205410396" type="player_Carro" />
                             </conditions>
                             <actions>
                                 <action id="-10" name="Add to" sid="279961386971990" type="System">
@@ -3076,6 +3156,7 @@
                                     <param id="0" name="Comparison">0</param>
                                     <param id="1" name="Speed">75</param>
                                 </condition>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="126166806538260" type="player_Carro" />
                             </conditions>
                             <actions>
                                 <action id="-10" name="Add to" sid="556423379693480" type="System">
@@ -3090,6 +3171,7 @@
                                     <param id="0" name="Comparison">0</param>
                                     <param id="1" name="Speed">90</param>
                                 </condition>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="878881550402505" type="player_Carro" />
                             </conditions>
                             <actions>
                                 <action id="-10" name="Add to" sid="288060102734836" type="System">
@@ -3104,6 +3186,7 @@
                                     <param id="0" name="Comparison">0</param>
                                     <param id="1" name="Speed">100</param>
                                 </condition>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="971723622909294" type="player_Carro" />
                             </conditions>
                             <actions>
                                 <action id="-10" name="Add to" sid="579325436836497" type="System">
@@ -3118,6 +3201,7 @@
                                     <param id="0" name="Comparison">0</param>
                                     <param id="1" name="Speed">200</param>
                                 </condition>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="361867548597873" type="player_Carro" />
                             </conditions>
                             <actions>
                                 <action id="-10" name="Add to" sid="713047747780151" type="System">

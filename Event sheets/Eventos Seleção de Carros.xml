@@ -15,6 +15,13 @@
                     <param id="0" name="Group name">&quot;EscolhaFase&quot;</param>
                     <param id="1" name="State">0</param>
                 </action>
+                <action behavior="8Direction" id="8" name="Set enabled" sid="681306645283084" type="player_Carro">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="2" name="Stop" sid="460047282022798" type="player_Carro" />
+                <action id="5" name="Set frame" sid="896376759897754" type="player_Carro">
+                    <param id="0" name="Frame number">6</param>
+                </action>
             </actions>
         </event-block>
         <comment>Compara com o Array de carros comprados</comment>
@@ -149,7 +156,7 @@
                 <event-block sid="478224541574168">
                     <conditions>
                         <condition id="3" name="On touched object" sid="590737595489262" type="Toque">
-                            <param id="0" name="Object">Carro0</param>
+                            <param id="0" name="Object">player_Carro</param>
                         </condition>
                     </conditions>
                     <actions>

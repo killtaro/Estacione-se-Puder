@@ -418,6 +418,16 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="794868600172719">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="366931023767354" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="853338578252444" type="textoInfoLoja_Dinheiro">
+                            <param id="0" name="Text">dinheiroJogador</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
     </events>
