@@ -12,8 +12,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">Menu de Seleção de Carros</layout>
         <layout order="2">Menu de Introdução</layout>
-        <event-sheet active="1" order="1">Eventos Seleção de Carros</event-sheet>
+        <layout order="4">Menu Principal</layout>
+        <layout order="5">Loja</layout>
+        <event-sheet order="1">Eventos Seleção de Carros</event-sheet>
         <event-sheet order="3">Configurações</event-sheet>
+        <event-sheet active="1" order="6">Eventos Loja</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
