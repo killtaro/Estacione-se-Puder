@@ -11,12 +11,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Menu de Seleção de Carros</layout>
-        <layout order="2">Menu de Introdução</layout>
+        <layout active="1" order="2">Menu de Introdução</layout>
         <layout order="4">Menu Principal</layout>
         <layout order="5">Loja</layout>
+        <layout order="7">Capítulo 1 - Fase 1</layout>
         <event-sheet order="1">Eventos Seleção de Carros</event-sheet>
         <event-sheet order="3">Configurações</event-sheet>
-        <event-sheet active="1" order="6">Eventos Loja</event-sheet>
+        <event-sheet order="6">Eventos Loja</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -35,7 +36,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/Controles/Menu de pausa/" />
         <folder expanded="1" path="object-folder/Player/" />
         <folder expanded="0" path="object-folder/Objetos/" />
-        <folder expanded="0" path="object-folder/Detalhes/" />
+        <folder expanded="1" path="object-folder/Detalhes/" />
         <folder expanded="1" path="object-folder/Textos/" />
         <folder expanded="0" path="object-folder/Textos/Números Separados/" />
         <folder expanded="0" path="object-folder/Textos/Loja/" />
@@ -191,5 +192,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/btnVoltar/" />
         <folder expanded="1" path="animation-folder/Renderiza_controle/" />
         <folder expanded="1" path="animation-folder/infoCarga/" />
+        <folder expanded="1" path="animation-folder/imagemTexto_Selecionar/" />
+        <folder expanded="1" path="animation-folder/imagemTexto_NaoPossui/" />
     </folders-expanded>
 </c2uistate>

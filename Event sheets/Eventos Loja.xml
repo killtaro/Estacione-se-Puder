@@ -87,60 +87,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="Responsável por gerenciar o array da compra de carros e realizar as alterações quando um novo carro é comprado." sid="941661470079396" title="Configuração da compra de carros">
-            <sub-events>
-                <event-block sid="881512241394707">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="785516014649885" type="System">
-                            <param id="0" name="Variable">idCarro</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="676011465920936" type="System">
-                            <param id="0" name="Variable">dinheiroJogador</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="10" name="Insert" sid="841008806255134" type="array_CarrosComprados">
-                            <param id="0" name="Value">0</param>
-                            <param id="1" name="Index">0</param>
-                            <param id="2" name="Axis">0</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="778048665253342" type="System">
-                            <param id="0" name="Variable">dinheiroJogador</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="680994651246678">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="533704633616867" type="System">
-                            <param id="0" name="Variable">idCarro</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">8</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="324340210394535" type="System">
-                            <param id="0" name="Variable">dinheiroJogador</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">2028</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="10" name="Insert" sid="375332640294282" type="array_CarrosComprados">
-                            <param id="0" name="Value">8</param>
-                            <param id="1" name="Index">8</param>
-                            <param id="2" name="Axis">0</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="894353805568942" type="System">
-                            <param id="0" name="Variable">dinheiroJogador</param>
-                            <param id="1" name="Value">2028</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
+        <event-group description="Responsável por gerenciar o array da compra de carros e realizar as alterações quando um novo carro é comprado." sid="941661470079396" title="Configuração da compra de carros" />
         <event-group description="Responsável por realizar a alteração no valor idCarro para a representação do carro na hora da compra." sid="601426273540510" title="Configuração da alteração dos carros para compra">
             <sub-events>
                 <event-block any="1" sid="548742513187140">
@@ -164,7 +111,7 @@
                                 <condition id="-14" name="Compare variable" sid="532682001797956" type="System">
                                     <param id="0" name="Variable">idCarro</param>
                                     <param id="1" name="Comparison">3</param>
-                                    <param id="2" name="Value">3</param>
+                                    <param id="2" name="Value">2</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -179,7 +126,7 @@
                                 <condition id="-14" name="Compare variable" sid="851435471054289" type="System">
                                     <param id="0" name="Variable">idCarro</param>
                                     <param id="1" name="Comparison">4</param>
-                                    <param id="2" name="Value">3</param>
+                                    <param id="2" name="Value">2</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -234,7 +181,7 @@
             <sub-events>
                 <event-block sid="868039298548260">
                     <conditions>
-                        <condition id="-2" name="On start of layout" sid="389282926964374" type="System" />
+                        <condition id="-1" name="Every tick" sid="389282926964374" type="System" />
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="517120347357608" type="textoInfoLoja_VelocidadeMaxima">
@@ -279,7 +226,7 @@
                 </event-block>
                 <event-block sid="794868600172719">
                     <conditions>
-                        <condition id="-2" name="On start of layout" sid="366931023767354" type="System" />
+                        <condition id="-1" name="Every tick" sid="366931023767354" type="System" />
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="853338578252444" type="textoInfoLoja_Dinheiro">
@@ -289,5 +236,65 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="101502879050058">
+            <conditions>
+                <condition id="3" name="On touched object" sid="507000732557494" type="Toque">
+                    <param id="0" name="Object">imagemTexto_Comprar</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="680994651246678">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="533704633616867" type="System">
+                            <param id="0" name="Variable">idCarro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="324340210394535" type="System">
+                            <param id="0" name="Variable">dinheiroJogador</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">600</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Insert" sid="375332640294282" type="array_CarrosComprados">
+                            <param id="0" name="Value">1</param>
+                            <param id="1" name="Index">1</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="894353805568942" type="System">
+                            <param id="0" name="Variable">dinheiroJogador</param>
+                            <param id="1" name="Value">600</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="637325229964342">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="652165371020424" type="System">
+                            <param id="0" name="Variable">idCarro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="135567438788343" type="System">
+                            <param id="0" name="Variable">dinheiroJogador</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1000</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Insert" sid="488669828117677" type="array_CarrosComprados">
+                            <param id="0" name="Value">2</param>
+                            <param id="1" name="Index">2</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="614878057853095" type="System">
+                            <param id="0" name="Variable">dinheiroJogador</param>
+                            <param id="1" name="Value">600</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>

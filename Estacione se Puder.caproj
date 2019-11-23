@@ -2568,6 +2568,51 @@
         <object-type name="btnSave" sid="910543920920140">
             <plugin id="Button" />
         </object-type>
+        <object-type name="imagemTexto_Selecionar" sid="271614431816926">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="676302314401979">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="743213720414448" speed="5">
+                    <frame duration="1" hotspotX="0.500482" hotspotY="0.5" original-source="C:\Users\twata\Pictures\Selecionar.png">
+                        <collision-poly>
+                            <point x="0.0703954" y="0.280769" />
+                            <point x="0.875603" y="0.496154" />
+                            <point x="0.932498" y="0.5" />
+                            <point x="0.917068" y="0.669231" />
+                            <point x="0.0607522" y="0.757692" />
+                            <point x="0.132112" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="imagemTexto_NaoPossui" sid="902662832674169">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="868896976165921">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="341314485445785" speed="5">
+                    <frame duration="1" hotspotX="0.500621" hotspotY="0.502564" original-source="C:\Users\twata\Pictures\NPOSSUIE.png">
+                        <collision-poly>
+                            <point x="0.047205" y="0.194872" />
+                            <point x="0.499379" y="0.241026" />
+                            <point x="0.952795" y="0.194872" />
+                            <point x="0.962733" y="0.846154" />
+                            <point x="0.499379" y="0.8" />
+                            <point x="0.0372671" y="0.846154" />
+                            <point x="0.0322981" y="0.497436" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

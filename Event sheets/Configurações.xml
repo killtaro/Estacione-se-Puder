@@ -6,8 +6,8 @@
         <variable constant="0" name="TipoControle" sid="356691581770519" static="0" type="number">0</variable>
         <variable constant="0" name="VolumeMusica" sid="928857954704063" static="0" type="number">0</variable>
         <variable constant="0" name="VolumeSons" sid="305847114524398" static="0" type="number">0</variable>
-        <variable constant="0" name="dinheiroJogador" sid="556272596546668" static="0" type="number">0</variable>
-        <variable constant="0" name="idCarro" sid="395619423906324" static="0" type="number">3</variable>
+        <variable constant="0" name="dinheiroJogador" sid="556272596546668" static="0" type="number">100000</variable>
+        <variable constant="0" name="idCarro" sid="395619423906324" static="0" type="number">0</variable>
         <event-group description="Responsável pela configuração dos controles da versão mobile." sid="724036570689435" title="Configurações dos controles Mobile">
             <sub-events>
                 <event-group description="Responsável pela configuração dos sprites do carro para que a impressão de dimensão seja passado ao jogador." sid="666418089755401" title="Configuração dos sprites do carro na versão mobile">
@@ -595,6 +595,17 @@
                                     <param id="0" name="State">1</param>
                                 </action>
                                 <action id="2" name="Stop" sid="615529166489352" type="player_Carro" />
+                                <action id="-12" name="Set group active" sid="672806084427629" type="System">
+                                    <param id="0" name="Group name">&quot;Configurações dos controles Desktop&quot;</param>
+                                    <param id="1" name="State">1</param>
+                                </action>
+                                <action id="-12" name="Set group active" sid="571317310931408" type="System">
+                                    <param id="0" name="Group name">&quot;Configurações dos controles Mobile&quot;</param>
+                                    <param id="1" name="State">1</param>
+                                </action>
+                                <action behavior="8Direction" id="8" name="Set enabled" sid="668590814736606" type="player_Carro">
+                                    <param id="0" name="State">1</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="928918408369740">
@@ -3553,7 +3564,15 @@
                                     <param id="0" name="Variable">TEMPO</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action behavior="8Direction" id="8" name="Set enabled" sid="621593212669871" type="player_Carro">
+                                <action id="-12" name="Set group active" sid="504276497063087" type="System">
+                                    <param id="0" name="Group name">&quot;Configurações dos controles Desktop&quot;</param>
+                                    <param id="1" name="State">0</param>
+                                </action>
+                                <action id="-12" name="Set group active" sid="296387750035023" type="System">
+                                    <param id="0" name="Group name">&quot;Configurações dos controles Mobile&quot;</param>
+                                    <param id="1" name="State">0</param>
+                                </action>
+                                <action behavior="8Direction" id="8" name="Set enabled" sid="975842289944967" type="player_Carro">
                                     <param id="0" name="State">0</param>
                                 </action>
                             </actions>
