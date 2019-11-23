@@ -290,7 +290,7 @@
                         </action>
                         <action id="-11" name="Subtract from" sid="614878057853095" type="System">
                             <param id="0" name="Variable">dinheiroJogador</param>
-                            <param id="1" name="Value">600</param>
+                            <param id="1" name="Value">1000</param>
                         </action>
                     </actions>
                 </event-block>

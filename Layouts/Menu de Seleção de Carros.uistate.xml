@@ -28,13 +28,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layer locked="0" name="LayerFundo" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Detalhes" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Carro 1" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Carro 2" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Carro 3" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Carro 4" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Carro 5" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Carro 6" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Carro 7" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Carro 8" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="NaoPossui" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Selecionar" parallax-in-editor="0" visible="1" />
     </layers>
