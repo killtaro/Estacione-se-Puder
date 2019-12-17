@@ -3760,6 +3760,18 @@
                         <action behavior="Sine" id="2" name="Set magnitude" sid="578969840814940" type="detalhe_Final">
                             <param id="0" name="Magnitude">10</param>
                         </action>
+                        <action id="-4" name="Set layer visible" sid="949933420808412" type="System">
+                            <param id="0" name="Layer">&quot;Controles&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="975153050649145" type="System">
+                            <param id="0" name="Group name">&quot;Configurações dos controles Desktop&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="323066126357446" type="System">
+                            <param id="0" name="Group name">&quot;Configurações dos controles Mobile&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="168639431905358">
@@ -3778,7 +3790,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="516447660274167" title="LoadConfiguraControle">
+        <event-group description="" inactive="1" sid="516447660274167" title="LoadConfiguraControle">
             <sub-events>
                 <event-block sid="869062633235432">
                     <conditions>
@@ -3825,7 +3837,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="432073235157751" title="LoadConfiguracaoGeral">
+        <event-group description="" inactive="1" sid="432073235157751" title="LoadConfiguracaoGeral">
             <sub-events>
                 <comment>Define o tipo de controle</comment>
                 <event-block sid="335984416960902">
