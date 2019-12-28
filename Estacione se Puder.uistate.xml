@@ -10,14 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="2">Loja</layout>
-        <layout order="3">Capítulo 1 - Fase 1</layout>
-        <layout order="4">Menu de Introdução</layout>
-        <layout order="5">Capítulo 1 - Fase 2</layout>
-        <layout order="6">Capítulo 1 - Fase 3</layout>
-        <event-sheet order="0">Eventos Seleção de Carros</event-sheet>
-        <event-sheet active="1" order="1">Configurações</event-sheet>
-        <event-sheet order="7">Eventos Capítulo 1 - Fase 2</event-sheet>
+        <layout order="0">Menu de Seleção de Carros</layout>
+        <layout order="3">Menu Principal</layout>
+        <event-sheet order="1">Eventos Seleção de Carros</event-sheet>
+        <event-sheet order="2">Eventos Capítulo 2 - Fase 1</event-sheet>
+        <event-sheet active="1" order="4">Configurações</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -64,7 +61,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="event-folder/Fases Extras/" />
         <folder expanded="1" path="event-folder/Capítulo 1 - Rua/" />
         <folder expanded="1" path="event-folder/Capítulo 2 - Estacionamento/" />
-        <folder expanded="1" path="event-folder/Testes/" />
+        <folder expanded="0" path="event-folder/Testes/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
