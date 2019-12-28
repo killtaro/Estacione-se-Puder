@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Estacione se Puder</name>
-    <description>Jogos de estacionar</description>
-    <version>0.11.10</version>
-    <author>HitKillStudios</author>
+    <description>Estacionar nunca foi tão emocionante</description>
+    <version>0.11.11</version>
+    <author>HitKill Studios</author>
     <author-email>zh.dubeslando@gmail.com</author-email>
     <author-website>www.hitkillstudios.com.br</author-website>
     <app-id>br.hitkillstudios.com</app-id>

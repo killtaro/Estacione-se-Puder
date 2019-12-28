@@ -1828,7 +1828,7 @@
                 </instance>
                 <instance type="textoInfo_Versao" uid="381">
                     <properties>
-                        <text>Versão 0.11.10</text>
+                        <text>Versão 0.11.11</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Courier New,-16,400,1</font>
                         <color>255,255,255</color>
