@@ -518,6 +518,12 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="400107740166654">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="989920050253485" type="System" />
+                            </conditions>
+                            <actions />
+                        </event-block>
                         <event-block sid="518464182084468">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="705028642534196" type="System">
@@ -576,7 +582,7 @@
                                         </action>
                                         <action id="4" name="Set animation" sid="553047193768112" type="player_Carro">
                                             <param id="0" name="Animation">&quot;carro2&quot;</param>
-                                            <param id="1" name="From">1</param>
+                                            <param id="1" name="From">0</param>
                                         </action>
                                         <action id="-12" name="Set group active" sid="389898043950133" type="System">
                                             <param id="0" name="Group name">&quot;SelecionaCarroFase&quot;</param>
@@ -588,6 +594,7 @@
                         </event-block>
                         <event-block sid="304426468885416">
                             <conditions>
+                                <condition id="-22" name="Else" sid="293944119356445" type="System" />
                                 <condition id="-14" name="Compare variable" sid="756565932314306" type="System">
                                     <param id="0" name="Variable">idCarro</param>
                                     <param id="1" name="Comparison">0</param>
@@ -644,7 +651,7 @@
                                         </action>
                                         <action id="4" name="Set animation" sid="563153509009574" type="player_Carro">
                                             <param id="0" name="Animation">&quot;carro3&quot;</param>
-                                            <param id="1" name="From">1</param>
+                                            <param id="1" name="From">0</param>
                                         </action>
                                         <action id="-12" name="Set group active" sid="782256416332950" type="System">
                                             <param id="0" name="Group name">&quot;SelecionaCarroFase&quot;</param>

@@ -3857,5 +3857,54 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="893611554624766" title="ConfiguraçõesDeCarros">
+            <sub-events>
+                <event-block sid="131689736830677">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="562949394598534" type="System">
+                            <param id="0" name="Variable">idCarro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="876439767158601" type="player_Carro">
+                            <param id="0" name="Animation">&quot;carro1&quot;</param>
+                            <param id="1" name="From">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="273082137297950">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="303298999420767" type="System">
+                            <param id="0" name="Variable">idCarro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="480155705467197" type="player_Carro">
+                            <param id="0" name="Animation">&quot;carro2&quot;</param>
+                            <param id="1" name="From">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="501286561208680">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="589121071690312" type="System">
+                            <param id="0" name="Variable">idCarro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="454300251782676" type="player_Carro">
+                            <param id="0" name="Animation">&quot;carro3&quot;</param>
+                            <param id="1" name="From">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

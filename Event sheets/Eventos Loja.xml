@@ -258,10 +258,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="375332640294282" type="array_CarrosComprados">
-                            <param id="0" name="Value">1</param>
-                            <param id="1" name="Index">1</param>
-                            <param id="2" name="Axis">0</param>
+                        <action id="2" name="Set at X" sid="375332640294282" type="array_CarrosComprados">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="894353805568942" type="System">
                             <param id="0" name="Variable">dinheiroJogador</param>
@@ -283,10 +282,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="10" name="Insert" sid="488669828117677" type="array_CarrosComprados">
-                            <param id="0" name="Value">2</param>
-                            <param id="1" name="Index">2</param>
-                            <param id="2" name="Axis">0</param>
+                        <action id="2" name="Set at X" sid="488669828117677" type="array_CarrosComprados">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Value">2</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="614878057853095" type="System">
                             <param id="0" name="Variable">dinheiroJogador</param>
