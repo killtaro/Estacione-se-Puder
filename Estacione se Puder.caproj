@@ -2510,6 +2510,59 @@
                 <plugin id="Arr" />
             </object-type>
         </object-folder>
+        <object-folder name="Opções">
+            <object-type name="btnControles" sid="596700418908305">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="316372211566145" speed="5">
+                        <frame duration="1" hotspotX="0.51462" hotspotY="0.717949" original-source="C:\Projetos\Estacione-se-Puder\Textures\Configurações\btnConfiguracoes.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.654971" y="0" />
+                                <point x="0.988304" y="0" />
+                                <point x="0.988304" y="0.692308" />
+                                <point x="1" y="1" />
+                                <point x="0.502924" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.564103" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnVideo" sid="397813879974069">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="108317856708845" speed="5">
+                        <frame duration="1" hotspotX="0.5625" hotspotY="0.676471" original-source="C:\Projetos\Estacione-se-Puder\Textures\Configurações\btnVideo.png">
+                            <collision-poly>
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.544643" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnSom" sid="510918112377467">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363235565641826" speed="5">
+                        <frame duration="1" hotspotX="0.747126" hotspotY="0.522727" original-source="C:\Projetos\Estacione-se-Puder\Textures\Configurações\btnSom.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="0.448275" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0.0114942" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Renderiza_controle" sid="683361431227565">
             <plugin id="Sprite" />
             <animation-folder>
@@ -2654,6 +2707,7 @@
             <layout>Menu de Aviso.xml</layout>
             <layout>Seleção de Capitulos.xml</layout>
             <layout>Novo Loading.xml</layout>
+            <layout>Configurações.xml</layout>
         </layout-folder>
         <layout-folder name="Fases Extras">
             <layout>Modo Arrancada.xml</layout>
@@ -2681,6 +2735,7 @@
             <event-sheet>Eventos Seleção de capitulo.xml</event-sheet>
             <event-sheet>Eventos Novo Loading.xml</event-sheet>
             <event-sheet>Eventos Save Games.xml</event-sheet>
+            <event-sheet>Eventos de opções.xml</event-sheet>
         </event-folder>
         <event-folder name="Fases Extras">
             <event-sheet>Eventos Modo Arrancada.xml</event-sheet>
