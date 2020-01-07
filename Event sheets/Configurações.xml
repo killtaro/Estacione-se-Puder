@@ -345,6 +345,10 @@
                                 <action id="5" name="Set frame" sid="288388130686019" type="player_Carro">
                                     <param id="0" name="Frame number">0</param>
                                 </action>
+                                <action id="3" name="Start" sid="507482597111704" type="player_Carro">
+                                    <param id="0" name="From">0</param>
+                                </action>
+                                <action id="2" name="Stop" sid="137875227768541" type="player_Carro" />
                             </actions>
                         </event-block>
                         <event-block sid="373452662728675">
@@ -357,6 +361,10 @@
                                 <action id="5" name="Set frame" sid="837579288315154" type="player_Carro">
                                     <param id="0" name="Frame number">4</param>
                                 </action>
+                                <action id="3" name="Start" sid="606611530922626" type="player_Carro">
+                                    <param id="0" name="From">0</param>
+                                </action>
+                                <action id="2" name="Stop" sid="690029384128248" type="player_Carro" />
                             </actions>
                         </event-block>
                         <event-block sid="914305985333490">
@@ -369,6 +377,10 @@
                                 <action id="5" name="Set frame" sid="704875127619221" type="player_Carro">
                                     <param id="0" name="Frame number">6</param>
                                 </action>
+                                <action id="3" name="Start" sid="335605123659714" type="player_Carro">
+                                    <param id="0" name="From">0</param>
+                                </action>
+                                <action id="2" name="Stop" sid="608053549252479" type="player_Carro" />
                             </actions>
                         </event-block>
                         <event-block sid="320096110686541">
@@ -381,6 +393,10 @@
                                 <action id="5" name="Set frame" sid="132876130972774" type="player_Carro">
                                     <param id="0" name="Frame number">2</param>
                                 </action>
+                                <action id="3" name="Start" sid="912878284601989" type="player_Carro">
+                                    <param id="0" name="From">0</param>
+                                </action>
+                                <action id="2" name="Stop" sid="112846225540357" type="player_Carro" />
                             </actions>
                         </event-block>
                         <event-block sid="672750664621128">
@@ -396,6 +412,10 @@
                                 <action id="5" name="Set frame" sid="521269064721886" type="player_Carro">
                                     <param id="0" name="Frame number">7</param>
                                 </action>
+                                <action id="3" name="Start" sid="539837547371609" type="player_Carro">
+                                    <param id="0" name="From">0</param>
+                                </action>
+                                <action id="2" name="Stop" sid="940479092153423" type="player_Carro" />
                             </actions>
                         </event-block>
                         <event-block sid="117719090166498">
@@ -411,6 +431,10 @@
                                 <action id="5" name="Set frame" sid="561701861237813" type="player_Carro">
                                     <param id="0" name="Frame number">1</param>
                                 </action>
+                                <action id="3" name="Start" sid="450520296910207" type="player_Carro">
+                                    <param id="0" name="From">0</param>
+                                </action>
+                                <action id="2" name="Stop" sid="126034932346168" type="player_Carro" />
                             </actions>
                         </event-block>
                         <event-block sid="284619686689361">
@@ -426,6 +450,10 @@
                                 <action id="5" name="Set frame" sid="980965206855120" type="player_Carro">
                                     <param id="0" name="Frame number">5</param>
                                 </action>
+                                <action id="3" name="Start" sid="274618621910514" type="player_Carro">
+                                    <param id="0" name="From">0</param>
+                                </action>
+                                <action id="2" name="Stop" sid="510330054660240" type="player_Carro" />
                             </actions>
                         </event-block>
                         <event-block sid="694823381641863">
@@ -441,6 +469,10 @@
                                 <action id="5" name="Set frame" sid="383921686155502" type="player_Carro">
                                     <param id="0" name="Frame number">3</param>
                                 </action>
+                                <action id="3" name="Start" sid="670457932418483" type="player_Carro">
+                                    <param id="0" name="From">0</param>
+                                </action>
+                                <action id="2" name="Stop" sid="613861073999840" type="player_Carro" />
                             </actions>
                         </event-block>
                     </sub-events>
@@ -3872,6 +3904,7 @@
                             <param id="0" name="Animation">&quot;carro1&quot;</param>
                             <param id="1" name="From">0</param>
                         </action>
+                        <action id="2" name="Stop" sid="764254293619838" type="player_Carro" />
                     </actions>
                 </event-block>
                 <event-block sid="273082137297950">
@@ -3887,6 +3920,7 @@
                             <param id="0" name="Animation">&quot;carro2&quot;</param>
                             <param id="1" name="From">0</param>
                         </action>
+                        <action id="2" name="Stop" sid="139947378398153" type="player_Carro" />
                     </actions>
                 </event-block>
                 <event-block sid="501286561208680">
@@ -3902,6 +3936,7 @@
                             <param id="0" name="Animation">&quot;carro3&quot;</param>
                             <param id="1" name="From">0</param>
                         </action>
+                        <action id="2" name="Stop" sid="130294550882971" type="player_Carro" />
                     </actions>
                 </event-block>
             </sub-events>

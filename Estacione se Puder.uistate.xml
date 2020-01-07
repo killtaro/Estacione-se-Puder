@@ -14,6 +14,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="2">Loja</layout>
         <event-sheet order="0">Eventos Loja</event-sheet>
         <event-sheet active="1" order="3">Configurações</event-sheet>
+        <event-sheet order="4">Eventos Capítulo 1 - Fase 1</event-sheet>
+        <event-sheet order="5">Eventos Seleção de Carros</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
