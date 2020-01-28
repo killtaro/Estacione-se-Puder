@@ -1599,6 +1599,690 @@
                             </conditions>
                             <actions />
                             <sub-events>
+                                <event-block sid="592384998813906">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="111856876859082" type="obj_Roadblock">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="883502748075547" type="obj_Roadblock">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="868862394104451">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="452994247407207" type="obj_Roadblock">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="808439889810414" type="obj_Roadblock">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="405688040069435">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="561167173446782" type="obj_Roadblock">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="602222599224252" type="obj_Roadblock">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="874242635339825">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="272768541937866" type="obj_Carro1">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="106458344622924" type="obj_Carro1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="362479040229555">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="303836610211814" type="obj_Carro1">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="924428968063872" type="obj_Carro1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="898355116021171">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="871795616060473" type="obj_Carro1">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="383371183570172" type="obj_Carro1">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="448057986718237">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="924518735382242" type="obj_Carro2">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="920385391184039" type="obj_Carro2">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="273232322433344">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="424152226977253" type="obj_Carro2">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="923742811179826" type="obj_Carro2">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="979826074855495">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="769051172386953" type="obj_Carro2">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="744781956650061" type="obj_Carro2">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="704761067658693">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="121491154451184" type="obj_Carro3">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="924201312411879" type="obj_Carro3">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="648997984570373">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="114947257408421" type="obj_Carro3">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="965864267351921" type="obj_Carro3">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="594454468777764">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="593576586566845" type="obj_Carro3">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="654901211250527" type="obj_Carro3">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="986293006874624">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="506777611947003" type="obj_Carro4">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="849464723482087" type="obj_Carro4">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="223674416477303">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="637062632393761" type="obj_Carro4">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="557307145921627" type="obj_Carro4">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="123952777048902">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="356197427414145" type="obj_Carro4">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="400044850077175" type="obj_Carro4">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="432256746974281">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="261071125178644" type="obj_Carro5">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="379708336799519" type="obj_Carro5">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="396164985142645">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="127504308558847" type="obj_Carro5">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="926552573781372" type="obj_Carro5">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="801586226820454">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="484838817746833" type="obj_Carro5">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="952528891476586" type="obj_Carro5">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="793801684105357">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="611657358935748" type="obj_Carro6">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="708902466045450" type="obj_Carro6">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="655888587672304">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="127333196746979" type="obj_Carro6">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="692303535861417" type="obj_Carro6">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="624216935168710">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="815506058789395" type="obj_Carro6">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="573586415961354" type="obj_Carro6">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="508295476655178">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="381943335966307" type="obj_Carro7">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="619211737999846" type="obj_Carro7">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="739953734068851">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="447783988057936" type="obj_Carro7">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="155760981554685" type="obj_Carro7">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="451794511225188">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="998155940214140" type="obj_Carro7">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="500338785760894" type="obj_Carro7">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="836523917434002">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="244388525138503" type="obj_Carro8">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="787879380922701" type="obj_Carro8">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="150962705993066">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="444703421314581" type="obj_Carro8">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="831745870005428" type="obj_Carro8">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="304646864731947">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="449521171945947" type="obj_Carro8">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="806093688226671" type="obj_Carro8">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="206075361587456">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="436238121316333" type="obj_Carro9">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="938315413273055" type="obj_Carro9">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="425694012658215">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="280026997915868" type="obj_Carro9">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="402929743017076" type="obj_Carro9">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="301231004247259">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="774555207276190" type="obj_Carro9">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="164802503264225" type="obj_Carro9">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="931104782321422">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="965001944013775" type="obj_Carro10">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="521394509794504" type="obj_Carro10">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="713628875994252">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="835615619537574" type="obj_Carro10">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="706398510554055" type="obj_Carro10">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="433612291521892">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="958526017284798" type="obj_Carro10">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="279719370405492" type="obj_Carro10">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="321019991743509">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="417641753243646" type="obj_Carro11">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="261252816953502" type="obj_Carro11">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="117282869836006">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="461979813370538" type="obj_Carro11">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="734794565320628" type="obj_Carro11">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="471578849537325">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="936103337875744" type="obj_Carro11">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="228592093442161" type="obj_Carro11">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="213452862098722">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="288092581698160" type="obj_Carro12">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="532374696226467" type="obj_Carro12">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="742576256593628">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="344059272931360" type="obj_Carro12">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="282661860410151" type="obj_Carro12">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="504441498200611">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="511114413566219" type="obj_Carro12">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="976232641771406" type="obj_Carro12">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="633661941920497">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="338167598857284" type="obj_Carro13">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="544501032163850" type="obj_Carro13">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="771405641929389">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="132864758120763" type="obj_Carro13">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="197104850258148" type="obj_Carro13">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="242473163042380">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="100401206068608" type="obj_Carro13">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="752417186791933" type="obj_Carro13">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="571933709846819">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="499726447620278" type="obj_Carro14">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="405631413479343" type="obj_Carro14">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="763385130638417">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="154047075687175" type="obj_Carro14">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="305587672017837" type="obj_Carro14">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="506723531309111">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="479847907576979" type="obj_Carro14">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="243309586741291" type="obj_Carro14">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="431302033998233">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="162719930622896" type="bordaCalcada1">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="835831046278645" type="bordaCalcada1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="419521124514719">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="775913707203989" type="bordaCalcada1">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="758352792308943" type="bordaCalcada1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="105429902263687">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="791539909747955" type="bordaCalcada1">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="333231060401953" type="bordaCalcada1">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="983057974513210">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="706051614782137" type="detalhe_Final">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="11" name="Set collisions enabled" sid="949192979760900" type="detalhe_Final">
+                                            <param id="0" name="Collisions">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="682517215145811">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="381208101278105" type="detalhe_Final">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="11" name="Set collisions enabled" sid="923313507835705" type="detalhe_Final">
+                                            <param id="0" name="Collisions">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="735374160399258">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="753003586185485" type="detalhe_Final">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="11" name="Set collisions enabled" sid="534633142357874" type="detalhe_Final">
+                                            <param id="0" name="Collisions">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="611713287388378">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="252081690063129" type="obj_parede1Cima">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="173268112382927" type="bordaCalcada1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="637454656835329">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="168371707761483" type="obj_parede1Cima">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="685109713531989" type="bordaCalcada1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="821414874749892">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="468145543542257" type="obj_parede1Cima">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="539847035137633" type="bordaCalcada1">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="715387643792524">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="964728782758294" type="obj_parede1Frente">
+                                            <param id="0" name="Layer">&quot;Terreo&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="303874379156877" type="bordaCalcada1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="944110499756468">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="427057321300588" type="obj_parede1Frente">
+                                            <param id="0" name="Layer">&quot;1Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="451395163159034" type="bordaCalcada1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="585860847131131">
+                                    <conditions>
+                                        <condition id="-16" name="Is on layer" sid="889837780070747" type="obj_parede1Frente">
+                                            <param id="0" name="Layer">&quot;2Andar&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Solid" id="0" name="Set enabled" sid="861839385960311" type="bordaCalcada1">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
                                 <event-block sid="605796750050053">
                                     <conditions>
                                         <condition id="-16" name="Is on layer" sid="504540484242096" type="obj_Roadblock">

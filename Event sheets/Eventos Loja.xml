@@ -256,6 +256,11 @@
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">600</param>
                         </condition>
+                        <condition id="0" name="Compare at X" sid="660401466644877" type="array_CarrosComprados">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="2" name="Set at X" sid="375332640294282" type="array_CarrosComprados">
@@ -279,6 +284,11 @@
                             <param id="0" name="Variable">dinheiroJogador</param>
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Value">1000</param>
+                        </condition>
+                        <condition id="0" name="Compare at X" sid="336556014407870" type="array_CarrosComprados">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">2</param>
                         </condition>
                     </conditions>
                     <actions>

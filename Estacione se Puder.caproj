@@ -2,7 +2,7 @@
 <c2project>
     <name>Estacione se Puder</name>
     <description>Estacionar nunca foi tão emocionante</description>
-    <version>0.11.11</version>
+    <version>0.11.13</version>
     <author>HitKill Studios</author>
     <author-email>zh.dubeslando@gmail.com</author-email>
     <author-website>www.hitkillstudios.com.br</author-website>
@@ -28,6 +28,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Car" version="1">Car</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="NoSave" version="1">No Save</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
@@ -1577,6 +1578,11 @@
                 </object-type>
                 <object-type name="textoInfo_Versao" sid="537370718230961">
                     <plugin id="Text" />
+                    <behaviors>
+                        <behavior-type name="NoSave" sid="641598429240095">
+                            <behavior id="NoSave" />
+                        </behavior-type>
+                    </behaviors>
                 </object-type>
                 <object-type name="textoSalvar" sid="934820132116768">
                     <plugin id="Text" />
@@ -2459,6 +2465,11 @@
             </object-type>
             <object-type name="btnOpcoes" sid="293459505968438">
                 <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="NoSave" sid="366933489601844">
+                        <behavior id="NoSave" />
+                    </behavior-type>
+                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506302869191048" speed="5">
                         <frame duration="1" hotspotX="0.505" hotspotY="0.42" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnOpcoes.png">
@@ -2708,6 +2719,7 @@
             <layout>Seleção de Capitulos.xml</layout>
             <layout>Novo Loading.xml</layout>
             <layout>Configurações.xml</layout>
+            <layout>Configurações de video.xml</layout>
         </layout-folder>
         <layout-folder name="Fases Extras">
             <layout>Modo Arrancada.xml</layout>
@@ -2768,6 +2780,7 @@
         <event-folder name="Testes">
             <event-sheet>Teste de Save.xml</event-sheet>
         </event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Teclado" uid="2" />

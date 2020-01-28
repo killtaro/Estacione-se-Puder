@@ -16,5 +16,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="203078339289657">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="260863764675469" type="System" />
+            </conditions>
+            <actions>
+                <action id="10" name="Request fullscreen" sid="487047699031893" type="ElementosDesktop">
+                    <param id="0" name="Mode">2</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

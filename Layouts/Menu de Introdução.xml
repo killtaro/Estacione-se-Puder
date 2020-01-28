@@ -3261,7 +3261,7 @@
                 </instance>
                 <instance type="textoInfo_Versao" uid="392">
                     <properties>
-                        <text>Versão 0.11.10</text>
+                        <text>Versão 0.11.13</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Courier New,-16,400,1</font>
                         <color>255,255,255</color>
@@ -3271,6 +3271,9 @@
                         <wrapping>Word</wrapping>
                         <line-height>0</line-height>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="NoSave" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
