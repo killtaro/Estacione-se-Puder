@@ -567,12 +567,70 @@
                 <animation-folder>
                     <animation-folder name="carro1">
                         <animation framecount="8" loop="0" name="carro1" pingpong="0" repeatcount="1" repeatto="0" sid="272524721696749" speed="5">
-                            <frame duration="1" hotspotX="0.501031" hotspotY="0.389474" />
-                            <frame duration="1" hotspotX="0.51632" hotspotY="0.428894" />
-                            <frame duration="1" hotspotX="0.51632" hotspotY="0.421446" />
-                            <frame duration="1" hotspotX="0.500766" hotspotY="0.435052" />
-                            <frame duration="1" hotspotX="0.523707" hotspotY="0.428894" />
-                            <frame duration="1" hotspotX="0.500766" hotspotY="0.435052" />
+                            <frame duration="1" hotspotX="0.501031" hotspotY="0.389474">
+                                <collision-poly>
+                                    <point x="0.189691" y="0" />
+                                    <point x="0.85567" y="0" />
+                                    <point x="0.872165" y="0.542105" />
+                                    <point x="1" y="0.547369" />
+                                    <point x="0.996907" y="0.989474" />
+                                    <point x="0.0206186" y="0.968421" />
+                                    <point x="0.0185567" y="0.552632" />
+                                    <point x="0.178351" y="0.55" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.51632" hotspotY="0.428894">
+                                <collision-poly>
+                                    <point x="4.65661e-009" y="0.284424" />
+                                    <point x="0.148368" y="0.0880361" />
+                                    <point x="0.551929" y="0" />
+                                    <point x="0.738131" y="0.164221" />
+                                    <point x="0.757048" y="0.332111" />
+                                    <point x="0.894659" y="0.382619" />
+                                    <point x="0.994065" y="0.65237" />
+                                    <point x="0.302671" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.51632" hotspotY="0.421446">
+                                <collision-poly>
+                                    <point x="0.0118694" y="0.354115" />
+                                    <point x="0.433235" y="0.0548628" />
+                                    <point x="0.830861" y="0.0162095" />
+                                    <point x="0.991098" y="0.336658" />
+                                    <point x="0.894659" y="0.990025" />
+                                    <point x="0.545252" y="0.725685" />
+                                    <point x="0.0949555" y="0.946384" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.500766" hotspotY="0.435052">
+                                <collision-poly>
+                                    <point x="0.502297" y="0.0123711" />
+                                    <point x="0.877489" y="0.164948" />
+                                    <point x="0.513017" y="0.987629" />
+                                    <point x="0" y="0.736082" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.523707" hotspotY="0.428894">
+                                <collision-poly>
+                                    <point x="0.00862069" y="0.234763" />
+                                    <point x="0.31681" y="0" />
+                                    <point x="0.685345" y="0" />
+                                    <point x="1" y="0.215576" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.500766" hotspotY="0.435052">
+                                <collision-poly>
+                                    <point x="0" y="0.437114" />
+                                    <point x="0.21363" y="0.0989692" />
+                                    <point x="0.464013" y="0" />
+                                    <point x="0.745789" y="0.318557" />
+                                    <point x="1" y="0.637113" />
+                                    <point x="0.988514" y="0.8" />
+                                    <point x="0.465544" y="1" />
+                                </collision-poly>
+                            </frame>
                             <frame duration="1" hotspotX="0.485163" hotspotY="0.421446" />
                             <frame duration="1" hotspotX="0.485163" hotspotY="0.428894" />
                         </animation>
@@ -690,7 +748,7 @@
                                 <point x="0.738154" y="0.608241" />
                                 <point x="0.914816" y="0.872621" />
                                 <point x="0.584937" y="0.980245" />
-                                <point x="0.408617" y="0.874383" />
+                                <point x="0.415196" y="0.825603" />
                                 <point x="0.113763" y="0.942038" />
                                 <point x="0.208321" y="0.717221" />
                                 <point x="0.00825217" y="0.539282" />
@@ -2720,6 +2778,7 @@
             <layout>Novo Loading.xml</layout>
             <layout>Configurações.xml</layout>
             <layout>Configurações de video.xml</layout>
+            <layout>Configurações de controles.xml</layout>
         </layout-folder>
         <layout-folder name="Fases Extras">
             <layout>Modo Arrancada.xml</layout>
@@ -2748,6 +2807,7 @@
             <event-sheet>Eventos Novo Loading.xml</event-sheet>
             <event-sheet>Eventos Save Games.xml</event-sheet>
             <event-sheet>Eventos de opções.xml</event-sheet>
+            <event-sheet>Eventos de configuracoes de controles.xml</event-sheet>
         </event-folder>
         <event-folder name="Fases Extras">
             <event-sheet>Eventos Modo Arrancada.xml</event-sheet>

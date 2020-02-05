@@ -10,9 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">Menu de Introdução</layout>
-        <event-sheet active="1" order="2">Eventos Capítulo 2 - Fase 2</event-sheet>
-        <event-sheet order="3">Configurações</event-sheet>
+        <layout order="0">Menu de Introdução</layout>
+        <layout order="3">Configurações</layout>
+        <layout order="5">Configurações de controles</layout>
+        <layout active="1" order="6">Menu de Aviso</layout>
+        <event-sheet order="1">Eventos Capítulo 2 - Fase 2</event-sheet>
+        <event-sheet order="2">Configurações</event-sheet>
+        <event-sheet order="4">Eventos de opções</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,7 +33,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Controles/" />
         <folder expanded="1" path="object-folder/Controles/Controles Mobile/" />
         <folder expanded="1" path="object-folder/Controles/Menu de pausa/" />
-        <folder expanded="0" path="object-folder/Player/" />
+        <folder expanded="1" path="object-folder/Player/" />
         <folder expanded="0" path="object-folder/Objetos/" />
         <folder expanded="0" path="object-folder/Detalhes/" />
         <folder expanded="0" path="object-folder/Textos/" />

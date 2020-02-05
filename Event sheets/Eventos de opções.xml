@@ -4,5 +4,57 @@
     <name>Eventos de opções</name>
     <events>
         <include>Configurações</include>
+        <event-group description="" sid="792273624673382" title="FuncoesMenu">
+            <sub-events>
+                <event-block sid="401793043251377">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="291838350855942" type="Toque">
+                            <param id="0" name="Object">btnVoltar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="869225636591766" type="System">
+                            <param id="0" name="Layout">Menu Principal</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="738905956640248">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="344906631029025" type="Toque">
+                            <param id="0" name="Object">btnControles</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="404524315289590" type="System">
+                            <param id="0" name="Layout">Menu Principal</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="436908957340653">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="296658592853281" type="Toque">
+                            <param id="0" name="Object">btnSom</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="836817469378362" type="System">
+                            <param id="0" name="Layout">Menu Principal</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="290893130074873">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="606114350635715" type="Toque">
+                            <param id="0" name="Object">btnVideo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="932806007930390" type="System">
+                            <param id="0" name="Layout">Configurações de video</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
