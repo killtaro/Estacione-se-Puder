@@ -8,9 +8,9 @@
         <variable constant="0" name="VolumeSons" sid="305847114524398" static="0" type="number">0</variable>
         <variable constant="0" name="dinheiroJogador" sid="556272596546668" static="0" type="number">100000</variable>
         <variable constant="0" name="idCarro" sid="395619423906324" static="0" type="number">0</variable>
-        <event-group description="Responsável pela configuração dos controles da versão mobile." sid="724036570689435" title="Configurações dos controles Mobile">
+        <event-group description="" sid="724036570689435" title="ConfiguraControlesMobile">
             <sub-events>
-                <event-group description="Responsável pela configuração dos sprites do carro para que a impressão de dimensão seja passado ao jogador." sid="666418089755401" title="Configuração dos sprites do carro na versão mobile">
+                <event-group description="" sid="666418089755401" title="ConfiguraSpritesDoJogadorMobile">
                     <sub-events>
                         <event-block sid="571354319211694">
                             <conditions>
@@ -122,7 +122,7 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description="Responsável pela configuração de posicionamento dos botões e afins responsáveis pelo controle do veículo na versão mobile." sid="729716894933304" title="Configuração do posicionamento dos controles mobile">
+                <event-group description="" sid="729716894933304" title="PosicionaControlesMobile">
                     <sub-events>
                         <event-block sid="155063406645652">
                             <conditions>
@@ -265,7 +265,7 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description="Responsável pela configuração das ações de resposta das interações com os controles mobiles. Basicamente responsável pelo funcionamento dos controles mobile em questão da jogabilidade." sid="282267967445234" title="Configuração das ações dos controles mobile">
+                <event-group description="" sid="282267967445234" title="ControleMobile">
                     <sub-events>
                         <event-block sid="272520260382402">
                             <conditions>
@@ -331,9 +331,9 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-group description="Responsável pela configuração dos controles da versão desktop" sid="565725417021203" title="Configurações dos controles Desktop">
+        <event-group description="" sid="565725417021203" title="ConfiguraControlesDesktop">
             <sub-events>
-                <event-group description="Responsável pela configuração dos sprites do carro para que a impressão de dimensão seja passado ao jogador." sid="571414557267362" title="Configuração dos sprites do carro na versão desktop">
+                <event-group description="" sid="571414557267362" title="ControleDesktop">
                     <sub-events>
                         <event-block sid="630764304853021">
                             <conditions>
@@ -479,9 +479,9 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-group description="Responsável pela configuração carros que servem como obstáculos." sid="804616829539500" title="Configurações dos carros obstáculos">
+        <event-group description="" sid="804616829539500" title="ConfiguraCarrosDeObstaculos">
             <sub-events>
-                <event-group description="Responsável por garantir que no início do layout as animações dos frames dos carros obstáculos sejam parados." sid="927576397786457" title="Configuração do encerramento das animações">
+                <event-group description="" sid="927576397786457" title="PararAnimacoesDosCarros">
                     <sub-events>
                         <event-block sid="861982962106545">
                             <conditions>
@@ -506,7 +506,7 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description="Responsável por garantir o ângulo 0 para a configuração correta do frame do carro obstáculo." sid="319682011516107" title="Configuração do ângulo para a definição dos frames">
+                <event-group description="" sid="319682011516107" title="ZerarAnguloCarrosObstaculos">
                     <sub-events>
                         <event-block sid="212698118412226">
                             <conditions>
@@ -559,7 +559,7 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description="Responsável por definir o frame do sprite do carro obstáculo para aquele definido em sua váriavel local." sid="987525733830423" title="Configuração para definição do sprite com o frame especificado">
+                <event-group description="" sid="987525733830423" title="DefinirSpritesDosCarrosObstaculos">
                     <sub-events>
                         <event-block sid="163916494110650">
                             <conditions>
@@ -614,9 +614,9 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-group description="Responsável pelas configurações a respeito do jogador e de seu carro." sid="697067470717023" title="Configurações do jogador">
+        <event-group description="" sid="697067470717023" title="ConfiguraJogador">
             <sub-events>
-                <event-group description="Responsável por definir os atributos do carro, como, aceleração, velocidade máxima, dentre outros." sid="417433723502524" title="Configuração de atributos do carro">
+                <event-group description="" sid="417433723502524" title="ConfiguraAtributosJogador">
                     <sub-events>
                         <event-block sid="301234269139388">
                             <conditions>
@@ -739,9 +739,9 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-group description="Responsável por gerenciar as configurações de funcionamento dos andares." sid="615254690861179" title="Configurações dos andares">
+        <event-group description="" sid="615254690861179" title="ConfiguraAndares">
             <sub-events>
-                <event-group description="Responsável por gerenciar o funcionamento das trocas dos andares quando o jogador aciona o gatilho." sid="604687268744570" title="Configuração das transições de andares">
+                <event-group description="" sid="604687268744570" title="ConfiguraTransicaoAndares">
                     <sub-events>
                         <event-block sid="188064644114505">
                             <conditions>
@@ -783,7 +783,7 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description='Responsável por gerenciar as colisões dos objetos quando o jogador se encontra no andar térreo. Ou seja, quando a layer definida fora a &quot;Terreo&quot;.' sid="621584362265667" title="Configuração de colisão no layer do térreo">
+                <event-group description="" sid="621584362265667" title="ConfiguraColisaoTerreo">
                     <sub-events>
                         <event-block sid="713562579525318">
                             <conditions>
@@ -1589,7 +1589,7 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description='Responsável por gerenciar as colisões dos objetos quando o jogador se encontra no andar térreo. Ou seja, quando a layer definida fora a &quot;Terreo&quot;.' sid="155012453950500" title="Configuração de colisão no layer do primeiro andar">
+                <event-group description="" sid="155012453950500" title="ConfiguraColisaoPrimeiroAndar">
                     <sub-events>
                         <event-block sid="919886648330183">
                             <conditions>
@@ -3079,7 +3079,7 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description='Responsável por gerenciar as colisões dos objetos quando o jogador se encontra no andar térreo. Ou seja, quando a layer definida fora a &quot;Terreo&quot;.' sid="933452799984617" title="Configuração de colisão no layer do terceiro andar">
+                <event-group description="" sid="933452799984617" title="ConfiguraColisaoSegundoAndar">
                     <sub-events>
                         <event-block sid="181246994708853">
                             <conditions>
@@ -3779,9 +3779,9 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-group description="Responsável pela configuração dos pontos." sid="469206792864259" title="Configurações dos pontos">
+        <event-group description="" sid="469206792864259" title="ConfiguraPontos">
             <sub-events>
-                <event-group description="Responsável por controlar o dinheiro ganho ao término de uma fase" sid="464329868037355" title="Configuração da distribuição do dinheiro">
+                <event-group description="" sid="464329868037355" title="DistribuiDinheiro">
                     <sub-events>
                         <event-block sid="553789284856583">
                             <conditions>
@@ -3860,7 +3860,7 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description="Responsável por adicionar ou remover pontos do jogador dependendo das ações do mesmo" sid="653184289467640" title="Configuração das distribuições de pontos">
+                <event-group description="" sid="653184289467640" title="DistribuiPontos">
                     <sub-events>
                         <event-block sid="696894142720781">
                             <conditions>
@@ -4160,7 +4160,7 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description="Responsável por definir o menu no fim de cada fase exibindo os pontos feitos pelo jogador." sid="193443569107820" title="Configuração de exibição dos pontos ">
+                <event-group description="" sid="193443569107820" title="ExibePontos">
                     <sub-events>
                         <event-block sid="616238280975779">
                             <conditions>
@@ -4289,7 +4289,7 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-group description="Responsável pela configuração do menu de pausa." sid="685964664817630" title="Configurações do menu de pausa">
+        <event-group description="" sid="685964664817630" title="ConfiguraMenuDePausa">
             <sub-events>
                 <event-group description="" sid="162987314150006" title="CriaMenu">
                     <sub-events>
@@ -4449,7 +4449,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="Responsável por configurar elementos gerais presentes em todas as fases." sid="162777596372367" title="Configurações gerais das fases">
+        <event-group description="" sid="162777596372367" title="ConfiguraFases">
             <sub-events>
                 <event-block sid="212461961386705">
                     <conditions>

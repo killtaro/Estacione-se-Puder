@@ -11,12 +11,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Menu de Introdução</layout>
-        <layout order="3">Configurações</layout>
-        <layout order="5">Configurações de controles</layout>
-        <layout active="1" order="6">Menu de Aviso</layout>
-        <event-sheet order="1">Eventos Capítulo 2 - Fase 2</event-sheet>
-        <event-sheet order="2">Configurações</event-sheet>
-        <event-sheet order="4">Eventos de opções</event-sheet>
+        <event-sheet order="1">Configurações</event-sheet>
+        <event-sheet active="1" order="2">Eventos de Sons</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -44,7 +40,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Textos/Pontos/" />
         <folder expanded="0" path="object-folder/Textos/Seleção de Capítulos/" />
         <folder expanded="0" path="object-folder/Textos/Seleção de Carros/" />
-        <folder expanded="0" path="object-folder/Carros Estacionados/" />
+        <folder expanded="1" path="object-folder/Carros Estacionados/" />
         <folder expanded="0" path="object-folder/Seleção de Carros (Antigo)/" />
         <folder expanded="0" path="object-folder/Gatilhos/" />
         <folder expanded="0" path="object-folder/Cadastro Player/" />
@@ -54,16 +50,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/Opções/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="0" path="layout-folder/Capítulo 1 - Rua/" />
-        <folder expanded="1" path="layout-folder/Capítulo 2 - Estacionamento/" />
-        <folder expanded="1" path="layout-folder/Pré-fases/" />
+        <folder expanded="0" path="layout-folder/Capítulo 2 - Estacionamento/" />
+        <folder expanded="0" path="layout-folder/Pré-fases/" />
         <folder expanded="1" path="layout-folder/Fases Extras/" />
         <folder expanded="0" path="layout-folder/Telas Teste/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="event-folder/Eventos Gerais/" />
         <folder expanded="1" path="event-folder/Pré-fases/" />
         <folder expanded="1" path="event-folder/Fases Extras/" />
-        <folder expanded="1" path="event-folder/Capítulo 1 - Rua/" />
-        <folder expanded="1" path="event-folder/Capítulo 2 - Estacionamento/" />
+        <folder expanded="0" path="event-folder/Capítulo 1 - Rua/" />
+        <folder expanded="0" path="event-folder/Capítulo 2 - Estacionamento/" />
         <folder expanded="0" path="event-folder/Testes/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
