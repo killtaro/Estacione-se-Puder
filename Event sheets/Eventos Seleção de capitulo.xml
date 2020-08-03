@@ -28,5 +28,16 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="809634628091145">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="257638047855126" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="774834503736209" type="btnTexto">
+                    <param id="0" name="Family name">&quot;vcr_osd_monoregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;vcr.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

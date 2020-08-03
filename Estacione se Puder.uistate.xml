@@ -10,16 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Menu de Introdução</layout>
-        <layout order="4">Menu Principal</layout>
-        <layout order="6">Menu de Modos</layout>
-        <layout order="8">Seleção de Capitulos</layout>
-        <event-sheet order="1">Configurações</event-sheet>
-        <event-sheet order="2">Eventos de Sons</event-sheet>
-        <event-sheet order="3">Eventos Menu Intro</event-sheet>
-        <event-sheet order="5">Eventos Menu Principal</event-sheet>
-        <event-sheet order="7">Eventos Menu de Modos de Jogo</event-sheet>
-        <event-sheet order="9">Eventos Seleção de capitulo</event-sheet>
+        <layout order="0">Menu de Introdução</layout>
+        <layout active="1" order="1">Menu Principal</layout>
+        <layout order="3">Menu de Modos</layout>
+        <layout order="4">Seleção de Capitulos</layout>
+        <event-sheet order="2">Eventos Menu Principal</event-sheet>
+        <event-sheet order="6">Eventos Menu de Modos de Jogo</event-sheet>
+        <event-sheet order="5">Eventos Seleção de capitulo</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
