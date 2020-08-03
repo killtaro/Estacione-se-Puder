@@ -7,11 +7,7 @@
         <event-group description="" sid="792273624673382" title="FuncoesMenu">
             <sub-events>
                 <event-block sid="401793043251377">
-                    <conditions>
-                        <condition id="3" name="On touched object" sid="291838350855942" type="Toque">
-                            <param id="0" name="Object">btnVoltar</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
                         <action id="-2" name="Go to layout" sid="869225636591766" type="System">
                             <param id="0" name="Layout">Menu Principal</param>
