@@ -3993,22 +3993,14 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506302869191048" speed="5">
-                        <frame duration="1" hotspotX="0.505" hotspotY="0.42" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnOpcoes.png">
+                        <frame duration="1" hotspotX="0.512821" hotspotY="0.317073" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnOpcoes.png">
                             <collision-poly>
                                 <point x="1" y="0" />
-                                <point x="0.991453" y="1" />
+                                <point x="1" y="1" />
                                 <point x="0" y="1" />
                                 <point x="0" y="0" />
                             </collision-poly>
                         </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="btnCampanha" sid="231515678308992">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="530098197811248" speed="5">
-                        <frame duration="1" hotspotX="0.459016" hotspotY="0.483871" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnCampanha.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -4199,6 +4191,31 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="logo" sid="328992653595549">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421916722899649" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thiago L. Watambak\Downloads\dfdsfdsfs(1).png">
+                        <collision-poly>
+                            <point x="0.0503597" y="0.116667" />
+                            <point x="0.5" y="0.2" />
+                            <point x="0.913669" y="0.2" />
+                            <point x="0.992806" y="0.5" />
+                            <point x="0.920863" y="0.816667" />
+                            <point x="0.5" y="0.733333" />
+                            <point x="0.057554" y="0.866667" />
+                            <point x="0.00719424" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnTexto" sid="652494445237879">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="ID" sid="527200125476587" type="number" />
+            </instance-variables>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -4231,11 +4248,11 @@
             <layout>Fase Teste.xml</layout>
             <layout>Menu de Introdução.xml</layout>
             <layout>Menu Principal.xml</layout>
+            <layout>Menu de Modos.xml</layout>
             <layout>Loja.xml</layout>
             <layout>Seleção de Fase do Capítulo 1.xml</layout>
             <layout>Seleção de Fase do Capítulo 2.xml</layout>
             <layout>Cadastro Player (Não Funcional).xml</layout>
-            <layout>Menu de Modos de Jogo.xml</layout>
             <layout>Menu de Aviso.xml</layout>
             <layout>Seleção de Capitulos.xml</layout>
             <layout>Novo Loading.xml</layout>
@@ -4346,5 +4363,8 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
+        <file name="vcr.css" />
+        <file name="vcr_osd_mono_1.001-webfont.woff" />
+        <file name="vcr_osd_mono_1.001-webfont.woff2" />
     </files-folder>
 </c2project>

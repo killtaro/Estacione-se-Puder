@@ -4,30 +4,6 @@
     <name>Eventos Menu Principal</name>
     <events>
         <include>Eventos Save Games</include>
-        <event-block sid="516342097188608">
-            <conditions>
-                <condition id="3" name="On touched object" sid="757110423251184" type="Toque">
-                    <param id="0" name="Object">btnLoja</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="859071523673784" type="System">
-                    <param id="0" name="Layout">Loja</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="125491715180150">
-            <conditions>
-                <condition id="3" name="On touched object" sid="347785333746638" type="Toque">
-                    <param id="0" name="Object">btnJogar</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="388928725662735" type="System">
-                    <param id="0" name="Layout">Menu de Modos de Jogo</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="454747731605149">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="307382533103697" type="System" />
@@ -37,23 +13,77 @@
                     <param id="0" name="Group name">&quot;LocalizarSave&quot;</param>
                     <param id="1" name="State">0</param>
                 </action>
+                <action id="5" name="Set web font" sid="328501231636999" type="btnTexto">
+                    <param id="0" name="Family name">&quot;vcr_osd_monoregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;vcr.css&quot;</param>
+                </action>
             </actions>
         </event-block>
-        <event-group description="" sid="602243948519390" title="AcionaConfigurações">
+        <event-block sid="485483421434111">
+            <conditions>
+                <condition id="3" name="On touched object" sid="551244438919993" type="Toque">
+                    <param id="0" name="Object">btnTexto</param>
+                </condition>
+            </conditions>
+            <actions />
             <sub-events>
-                <event-block sid="194355725093954">
+                <event-block sid="962097774750153">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="467108512358730" type="Toque">
-                            <param id="0" name="Object">btnOpcoes</param>
+                        <condition id="-7" name="Compare instance variable" sid="557394805981003" type="btnTexto">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-2" name="Go to layout" sid="520327495267845" type="System">
+                        <action id="-2" name="Go to layout" sid="134204301034826" type="System">
+                            <param id="0" name="Layout">Menu de Modos</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="480808403110975">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="901015266789683" type="btnTexto">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="123952030081588" type="System">
+                            <param id="0" name="Layout">Loja</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="619270835380845">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="167437847559626" type="btnTexto">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="847090871571922" type="System">
+                            <param id="0" name="Layout">Loja</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="458108846424697">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="491955944799200" type="btnTexto">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="521585984166977" type="System">
                             <param id="0" name="Layout">Configurações</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
-        </event-group>
+        </event-block>
     </events>
 </c2eventsheet>
