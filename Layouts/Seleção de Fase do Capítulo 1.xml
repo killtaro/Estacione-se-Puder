@@ -49,28 +49,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="um" uid="3070">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>16</x>
-                        <y>-304</y>
-                        <z>0</z>
-                        <width>18</width>
-                        <height>71</height>
-                        <depth>0</depth>
-                        <hotspotX>0.865546227</hotspotX>
-                        <hotspotY>0.586538434</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
             <effects />
         </layer>
@@ -177,8 +155,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-40</x>
-                        <y>-368</y>
+                        <x>144</x>
+                        <y>32</y>
                         <z>0</z>
                         <width>8</width>
                         <height>110.594955444</height>
@@ -197,8 +175,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>56</x>
-                        <y>-368</y>
+                        <x>264</x>
+                        <y>32</y>
                         <z>0</z>
                         <width>8</width>
                         <height>110.594955444</height>
@@ -209,7 +187,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="tileset_Vaga" uid="3061">
+                <instance type="tileset_Vaga" uid="1723">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -217,11 +195,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>200</x>
-                        <y>-248</y>
+                        <x>144</x>
+                        <y>32</y>
                         <z>0</z>
-                        <width>4.826000214</width>
-                        <height>101.135002136</height>
+                        <width>608</width>
+                        <height>8</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -229,7 +207,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="tileset_Vaga" uid="3062">
+                <instance type="tileset_Vaga" uid="2991">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -237,90 +215,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>200</x>
-                        <y>-128</y>
+                        <x>384</x>
+                        <y>32</y>
                         <z>0</z>
-                        <width>4.825561523</width>
-                        <height>101.134613037</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Vaga" uid="3063">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>296</x>
-                        <y>-128</y>
-                        <z>0</z>
-                        <width>4.826000214</width>
-                        <height>101.135002136</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Vaga" uid="3064">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>400</x>
-                        <y>-136</y>
-                        <z>0</z>
-                        <width>4.826000214</width>
-                        <height>101.135002136</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Vaga" uid="3065">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>504</x>
-                        <y>-136</y>
-                        <z>0</z>
-                        <width>4.826000214</width>
-                        <height>101.135002136</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Vaga" uid="3066">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>504</x>
-                        <y>-248</y>
-                        <z>0</z>
-                        <width>4.825561523</width>
+                        <width>8</width>
                         <height>110.594955444</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -329,107 +227,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="tileset_Vaga" uid="3068">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>616</x>
-                        <y>-248</y>
-                        <z>0</z>
-                        <width>4.825561523</width>
-                        <height>110.594955444</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Vaga" uid="3069">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>728</x>
-                        <y>-248</y>
-                        <z>0</z>
-                        <width>4.825561523</width>
-                        <height>110.594955444</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Vaga" uid="3078">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>200</x>
-                        <y>-368</y>
-                        <z>0</z>
-                        <width>4.826000214</width>
-                        <height>101.135002136</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Vaga" uid="3079">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>296</x>
-                        <y>-368</y>
-                        <z>0</z>
-                        <width>4.826000214</width>
-                        <height>101.135002136</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Vaga" uid="3080">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>400</x>
-                        <y>-368</y>
-                        <z>0</z>
-                        <width>4.826000214</width>
-                        <height>101.135002136</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Vaga" uid="3081">
+                <instance type="tileset_Vaga" uid="2996">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -438,10 +236,190 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>504</x>
-                        <y>-368</y>
+                        <y>32</y>
                         <z>0</z>
-                        <width>4.826000214</width>
-                        <height>101.135002136</height>
+                        <width>8</width>
+                        <height>110.594955444</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Vaga" uid="3000">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>624</x>
+                        <y>32</y>
+                        <z>0</z>
+                        <width>8</width>
+                        <height>110.594955444</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Vaga" uid="3010">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>744</x>
+                        <y>32</y>
+                        <z>0</z>
+                        <width>8</width>
+                        <height>110.594955444</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Vaga" uid="2990">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>144</x>
+                        <y>256</y>
+                        <z>0</z>
+                        <width>8</width>
+                        <height>110.594955444</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Vaga" uid="3017">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>264</x>
+                        <y>256</y>
+                        <z>0</z>
+                        <width>8</width>
+                        <height>110.594955444</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Vaga" uid="3053">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>384</x>
+                        <y>256</y>
+                        <z>0</z>
+                        <width>8</width>
+                        <height>110.594955444</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Vaga" uid="3055">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>504</x>
+                        <y>256</y>
+                        <z>0</z>
+                        <width>8</width>
+                        <height>110.594955444</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Vaga" uid="3058">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>624</x>
+                        <y>256</y>
+                        <z>0</z>
+                        <width>8</width>
+                        <height>110.594955444</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Vaga" uid="3077">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>744</x>
+                        <y>256</y>
+                        <z>0</z>
+                        <width>8</width>
+                        <height>110.594955444</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tileset_Vaga" uid="3018">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>144</x>
+                        <y>360</y>
+                        <z>0</z>
+                        <width>608</width>
+                        <height>8</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -576,6 +554,60 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="bordaCalcada2" uid="1928">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>48</x>
+                        <y>288</y>
+                        <z>0</z>
+                        <width>8</width>
+                        <height>176</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="bordaCalcada2" uid="1930">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>760</x>
+                        <y>376</y>
+                        <z>0</z>
+                        <width>8</width>
+                        <height>344</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -594,7 +626,30 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="um" uid="3070">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>208</x>
+                        <y>96</y>
+                        <z>0</z>
+                        <width>18</width>
+                        <height>71</height>
+                        <depth>0</depth>
+                        <hotspotX>0.865546227</hotspotX>
+                        <hotspotY>0.586538434</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
         <layer name="Fase2" sid="505562804400916">
@@ -623,8 +678,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>104</x>
-                        <y>-304</y>
+                        <x>320</x>
+                        <y>96</y>
                         <z>0</z>
                         <width>18</width>
                         <height>71</height>
@@ -664,8 +719,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>248</x>
-                        <y>-64</y>
+                        <x>440</x>
+                        <y>96</y>
                         <z>0</z>
                         <width>18</width>
                         <height>71</height>
@@ -705,8 +760,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>344</x>
-                        <y>-64</y>
+                        <x>560</x>
+                        <y>96</y>
                         <z>0</z>
                         <width>18</width>
                         <height>71</height>
@@ -746,8 +801,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>456</x>
-                        <y>-64</y>
+                        <x>688</x>
+                        <y>96</y>
                         <z>0</z>
                         <width>18</width>
                         <height>71</height>
@@ -787,8 +842,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>248</x>
-                        <y>-320</y>
+                        <x>200</x>
+                        <y>312</y>
                         <z>0</z>
                         <width>18</width>
                         <height>71</height>
@@ -828,8 +883,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>344</x>
-                        <y>-320</y>
+                        <x>320</x>
+                        <y>312</y>
                         <z>0</z>
                         <width>18</width>
                         <height>71</height>
@@ -870,7 +925,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>448</x>
-                        <y>-328</y>
+                        <y>304</y>
                         <z>0</z>
                         <width>18</width>
                         <height>71</height>
@@ -910,8 +965,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>560</x>
-                        <y>-192</y>
+                        <x>568</x>
+                        <y>312</y>
                         <z>0</z>
                         <width>18</width>
                         <height>71</height>
@@ -951,8 +1006,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>664</x>
-                        <y>-192</y>
+                        <x>680</x>
+                        <y>312</y>
                         <z>0</z>
                         <width>34</width>
                         <height>71</height>
@@ -986,73 +1041,41 @@
                     <properties>
                         <text>Voltar</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Harlow Solid Italic,-21,400,1</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
+                        <font>Arial,-26.4,400,0</font>
+                        <color>255,153,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
                         <line-height>0</line-height>
                     </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-24</x>
-                        <y>-64</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>28</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tileset_Vaga" uid="1723">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>152</x>
-                        <y>-368</y>
-                        <z>0</z>
-                        <width>8</width>
-                        <height>110.594955444</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="bordaCalcada2" uid="1928">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid">
+                        <behavior-instance type="Sine">
                             <properties>
-                                <initial-state>Enabled</initial-state>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>10</magnitude>
+                                <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>48</x>
-                        <y>288</y>
+                        <x>8</x>
+                        <y>296</y>
                         <z>0</z>
-                        <width>8</width>
-                        <height>176</height>
+                        <width>136</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -1073,33 +1096,6 @@
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                         <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="bordaCalcada2" uid="1930">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>760</x>
-                        <y>376</y>
-                        <z>0</z>
-                        <width>8</width>
-                        <height>344</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

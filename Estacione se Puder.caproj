@@ -2010,6 +2010,11 @@
                 </object-type>
                 <object-type name="Voltar" sid="312631785347768">
                     <plugin id="Text" />
+                    <behaviors>
+                        <behavior-type name="Sine" sid="124094794129789">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
                 </object-type>
             </object-folder>
             <object-folder name="Menu">
