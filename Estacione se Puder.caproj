@@ -3933,6 +3933,92 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="btnJogar" sid="413156656946997">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="583979084721133" speed="5">
+                        <frame duration="1" hotspotX="0.557377" hotspotY="0.404762" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnJogar.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="0.409836" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnLoja" sid="376676636554098">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="448137026137147" speed="5">
+                        <frame duration="1" hotspotX="0.709677" hotspotY="0.395349" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnLoja.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="0.44086" y="1" />
+                                <point x="0.989247" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnSalvar" sid="478088725634383">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="106912459024262" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.488372" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnSalvar.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.48" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.995" y="0.488372" />
+                                <point x="1" y="1" />
+                                <point x="0.42" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.674419" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnOpcoes" sid="293459505968438">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="NoSave" sid="366933489601844">
+                        <behavior id="NoSave" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506302869191048" speed="5">
+                        <frame duration="1" hotspotX="0.512821" hotspotY="0.317073" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnOpcoes.png">
+                            <collision-poly>
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnVoltar" sid="194791555003864">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="922601589602309" speed="5">
+                        <frame duration="1" hotspotX="0.443038" hotspotY="0.714286" original-source="C:\Projetos\Estacione-se-Puder\Textures\Menu\Novos menus\btnVoltar.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.962025" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Arrays">
             <object-type global="1" name="array_CarrosComprados" sid="737290395242474">

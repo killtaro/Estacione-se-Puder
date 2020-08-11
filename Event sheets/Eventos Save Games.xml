@@ -55,7 +55,11 @@
                     </actions>
                 </event-block>
                 <event-block sid="169326655690838">
-                    <conditions />
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="481543179844042" type="Toque">
+                            <param id="0" name="Object">btnSalvar</param>
+                        </condition>
+                    </conditions>
                     <actions>
                         <action id="-36" name="Save" sid="571205775247639" type="System">
                             <param id="0" name="Slot">&quot;mysave&quot;</param>

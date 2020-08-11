@@ -10,13 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Menu de Introdução</layout>
-        <layout active="1" order="1">Menu Principal</layout>
-        <layout order="3">Menu de Modos</layout>
-        <layout order="4">Seleção de Capitulos</layout>
-        <event-sheet order="2">Eventos Menu Principal</event-sheet>
-        <event-sheet order="6">Eventos Menu de Modos de Jogo</event-sheet>
+        <layout order="0">Menu Principal</layout>
+        <layout order="2">Menu de Modos</layout>
+        <layout active="1" order="4">Seleção de Capitulos</layout>
+        <event-sheet order="1">Eventos Menu Principal</event-sheet>
         <event-sheet order="5">Eventos Seleção de capitulo</event-sheet>
+        <event-sheet order="3">Eventos Menu de Modos de Jogo</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -184,6 +183,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/SalvarPausa/" />
         <folder expanded="1" path="animation-folder/OpcoesPausa/" />
         <folder expanded="1" path="animation-folder/VoltarAoMenu/" />
+        <folder expanded="1" path="animation-folder/btnJogar/" />
+        <folder expanded="1" path="animation-folder/btnLoja/" />
+        <folder expanded="1" path="animation-folder/btnSalvar/" />
+        <folder expanded="1" path="animation-folder/btnOpcoes/" />
+        <folder expanded="1" path="animation-folder/btnVoltar/" />
         <folder expanded="1" path="animation-folder/btnControles/" />
         <folder expanded="1" path="animation-folder/btnVideo/" />
         <folder expanded="1" path="animation-folder/btnSom/" />
