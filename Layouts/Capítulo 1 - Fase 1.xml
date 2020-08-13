@@ -5,7 +5,7 @@
     <event-sheet>Eventos Capítulo 1 - Fase 1</event-sheet>
     <size>
         <width>1280</width>
-        <height>720</height>
+        <height>750</height>
     </size>
     <margins>
         <horizontal>800</horizontal>
@@ -3228,18 +3228,6 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <effect-instances>
-                        <effect-instance type="GlowHorizontal">
-                            <parameters>
-                                <intensity>1</intensity>
-                            </parameters>
-                        </effect-instance>
-                        <effect-instance type="GlowVertical">
-                            <parameters>
-                                <intensity>1</intensity>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>

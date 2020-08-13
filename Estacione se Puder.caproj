@@ -463,7 +463,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="724248943137833" speed="5">
-                            <frame duration="1" hotspotX="0.148515" hotspotY="0.211268" original-source="C:\Users\pixel\Downloads\New Piskel(2).png">
+                            <frame duration="1" hotspotX="0.420792" hotspotY="0.478873" original-source="C:\Users\pixel\Downloads\New Piskel(2).png">
                                 <collision-poly>
                                     <point x="1" y="0.5" />
                                     <point x="1" y="1" />
@@ -1567,14 +1567,6 @@
             </object-type>
             <object-type name="detalhes_MenuPontos" sid="431554027259985">
                 <plugin id="Sprite" />
-                <effects>
-                    <effect-type name="GlowHorizontal">
-                        <effect id="glowhorizontal" />
-                    </effect-type>
-                    <effect-type name="GlowVertical">
-                        <effect id="glowvertical" />
-                    </effect-type>
-                </effects>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="244848774598693" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\pixel\Downloads\New Piskel clone.png" />

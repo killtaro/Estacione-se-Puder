@@ -143,12 +143,12 @@
                                 <action id="-3" name="Create object" sid="968252740452081" type="System">
                                     <param id="0" name="Object to create">controle_SetaEsquerda</param>
                                     <param id="1" name="Layer">&quot;Controles&quot;</param>
-                                    <param id="2" name="X">57.923</param>
-                                    <param id="3" name="Y">310</param>
+                                    <param id="2" name="X">53.6</param>
+                                    <param id="3" name="Y">288</param>
                                 </action>
                                 <action id="-7" name="Set size" sid="887376379132909" type="controle_SetaEsquerda">
-                                    <param id="0" name="Width">42</param>
-                                    <param id="1" name="Height">32</param>
+                                    <param id="0" name="Width">64</param>
+                                    <param id="1" name="Height">48</param>
                                 </action>
                                 <action id="-16" name="Set opacity" sid="814925436164425" type="controle_SetaEsquerda">
                                     <param id="0" name="Opacity">50</param>
@@ -156,12 +156,12 @@
                                 <action id="-3" name="Create object" sid="487167104785757" type="System">
                                     <param id="0" name="Object to create">controle_SetaDireita</param>
                                     <param id="1" name="Layer">&quot;Controles&quot;</param>
-                                    <param id="2" name="X">134.638</param>
-                                    <param id="3" name="Y">320</param>
+                                    <param id="2" name="X">138.48</param>
+                                    <param id="3" name="Y">288</param>
                                 </action>
                                 <action id="-7" name="Set size" sid="630026332961921" type="controle_SetaDireita">
-                                    <param id="0" name="Width">42</param>
-                                    <param id="1" name="Height">32</param>
+                                    <param id="0" name="Width">64</param>
+                                    <param id="1" name="Height">48</param>
                                 </action>
                                 <action id="-16" name="Set opacity" sid="357199890475959" type="controle_SetaDireita">
                                     <param id="0" name="Opacity">50</param>
@@ -169,12 +169,12 @@
                                 <action id="-3" name="Create object" sid="750707868425393" type="System">
                                     <param id="0" name="Object to create">controle_SetaCima</param>
                                     <param id="1" name="Layer">&quot;Controles&quot;</param>
-                                    <param id="2" name="X">102</param>
-                                    <param id="3" name="Y">290</param>
+                                    <param id="2" name="X">99</param>
+                                    <param id="3" name="Y">242.31</param>
                                 </action>
                                 <action id="-7" name="Set size" sid="229105315635519" type="controle_SetaCima">
-                                    <param id="0" name="Width">32</param>
-                                    <param id="1" name="Height">42</param>
+                                    <param id="0" name="Width">48</param>
+                                    <param id="1" name="Height">64</param>
                                 </action>
                                 <action id="-16" name="Set opacity" sid="762217222368903" type="controle_SetaCima">
                                     <param id="0" name="Opacity">50</param>
@@ -182,12 +182,12 @@
                                 <action id="-3" name="Create object" sid="568163736648508" type="System">
                                     <param id="0" name="Object to create">controle_SetaBaixo</param>
                                     <param id="1" name="Layer">&quot;Controles&quot;</param>
-                                    <param id="2" name="X">102</param>
-                                    <param id="3" name="Y">348</param>
+                                    <param id="2" name="X">99</param>
+                                    <param id="3" name="Y">328.257</param>
                                 </action>
                                 <action id="-7" name="Set size" sid="696524446052314" type="controle_SetaBaixo">
-                                    <param id="0" name="Width">32</param>
-                                    <param id="1" name="Height">42</param>
+                                    <param id="0" name="Width">48</param>
+                                    <param id="1" name="Height">64</param>
                                 </action>
                                 <action id="-16" name="Set opacity" sid="421154590209317" type="controle_SetaBaixo">
                                     <param id="0" name="Opacity">50</param>
