@@ -196,7 +196,7 @@
                                     <param id="0" name="Object to create">controle_Freio</param>
                                     <param id="1" name="Layer">&quot;Controles&quot;</param>
                                     <param id="2" name="X">623</param>
-                                    <param id="3" name="Y">350</param>
+                                    <param id="3" name="Y">327</param>
                                 </action>
                                 <action id="-7" name="Set size" sid="268891632969629" type="controle_Freio">
                                     <param id="0" name="Width">70</param>
@@ -209,7 +209,7 @@
                                     <param id="0" name="Object to create">controle_Acelerador</param>
                                     <param id="1" name="Layer">&quot;Controles&quot;</param>
                                     <param id="2" name="X">740</param>
-                                    <param id="3" name="Y">327</param>
+                                    <param id="3" name="Y">304</param>
                                 </action>
                                 <action id="-7" name="Set size" sid="853939573139831" type="controle_Acelerador">
                                     <param id="0" name="Width">47</param>

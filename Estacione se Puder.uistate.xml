@@ -11,10 +11,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Menu Principal</layout>
-        <layout active="1" order="2">Capítulo 1 - Fase 1</layout>
+        <layout active="1" order="1">Capítulo 1 - Fase 1</layout>
         <event-sheet order="1">Eventos Menu Principal</event-sheet>
         <event-sheet order="0">Configurações</event-sheet>
-        <event-sheet order="3">Eventos Capítulo 1 - Fase 1</event-sheet>
+        <event-sheet order="2">Eventos Capítulo 1 - Fase 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
